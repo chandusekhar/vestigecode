@@ -1,0 +1,78 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+@model ResendActivationEmailViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #toast-container {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+
+@*Redirected from Sign-in page*@
+
+    @if (ViewBag.WizardId != null && ViewBag.WizardId == "First")
+    {
+
+        if (Model.IsResendAvtivationMailSent)
+        {
+            <h3>@Resources.ResendActivationView_Index_Activation_Email_Resent</h3>
+            <div class="container">
+                
+                <div class="row top-buffer" style="font-size: 1.2em;">
+                 @Resources.ResendActivationView_Index_Success_An_activation_email_has_been_sent_to_your_email_address @Model.EmailAddress
+                </div>
+                @if (Model.AttemptsLeft < 3)
+                {
+                <div class="row top-buffer">
+                   @Html.ValidationMessageFor(model => model.AttemptsLeft)               
+                </div>
+                }
+
+                <div class="row top-buffer col-lg-7">
+                     
+                          @Resources.ResendActivationView_Index__Please_check_your_email_The_new_link_will_expire_in_48_hours
+                </div>
+
+                @*//<div class="row">
+                        //<br /><br />
+                        //<div class="col-sm-12 col-md-10 col-lg-1 col-md-offset-1 col-lg-offset-2  form-group form-inline">
+                            //  <button type="submit" id="OK" name="OK" class="btn btn-primary pull-right">OK</button>
+                            //  @*<a href=@Url.Action("Index", "Home")>Home</a>
+                            //
+                        </div>
+                        //
+                    </div>*@
+            </div>
+        }
+        else
+        {
+            using (Html.BeginForm("ActivationEmail", "ResendActivation"))
+            {
+                <h3>@Resources.ResendActivationView_Index_Resend_Your_Activation_Email</h3>
+                <div class="container">
+                    <div class="row top-buffer">
+                        @Resources.ResendActivationView_Index_Enter_the_email_you_used_to_register_your_Self_Service_Account
+                    </div>
+                    <div class="row top-buffer">
+                        @Html.TextBoxFor(model => model.EmailAddress, new { @class = "form-control pull-left", placeholder = Resources.Index_cshtml_Execute_Email_Address, @style = "width:260px", data_toggle = "popover", data_content = Resources.Index_cshtml_Execute_The_email_address_you_used_to_register_your_Self_Service_Account, data_trigger = "focus", data_placement = "auto top" })
+                        <div class="visible-lg visible-md col-sm-1"></div>
+                        <div class="visible-sm visible-xs col-sm-12" style="height: 50px;"></div>
+
+                        <button type="submit" id="ForgotPasswordNext" name="Next" class="btn btn-primary" title="@Resources.ResendActivationView_Index_Resend_Activation_Email">@Resources.ResendActivationView_Index_Resend_Activation_Email <i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    <div class="row">
+                        <div>
+                            @Html.ValidationMessageFor(model => model.EmailAddress)
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        @Resources.ResendActivationView_Index_Click_the_link_in_your_activation_email_within_48_hours_of_registration
+                    </div>
+                </div>
+            }
+        }
+    }

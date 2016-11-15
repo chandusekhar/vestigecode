@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CarBonusReport" targetNamespace="http://tempuri.org/CarBonusReport.xsd" xmlns:mstns="http://tempuri.org/CarBonusReport.xsd" xmlns="http://tempuri.org/CarBonusReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CarBonusReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CarBonusReport" msprop:Generator_DataSetName="CarBonusReport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CarBonus" msprop:Generator_UserTableName="CarBonus" msprop:Generator_RowDeletedName="CarBonusRowDeleted" msprop:Generator_RowChangedName="CarBonusRowChanged" msprop:Generator_RowClassName="CarBonusRow" msprop:Generator_RowChangingName="CarBonusRowChanging" msprop:Generator_RowEvArgName="CarBonusRowChangeEvent" msprop:Generator_RowEvHandlerName="CarBonusRowChangeEventHandler" msprop:Generator_TableClassName="CarBonusDataTable" msprop:Generator_TableVarName="tableCarBonus" msprop:Generator_RowDeletingName="CarBonusRowDeleting" msprop:Generator_TablePropName="CarBonus">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CarValue" msprop:Generator_UserColumnName="CarValue" msprop:Generator_ColumnPropNameInRow="CarValue" msprop:Generator_ColumnVarNameInTable="columnCarValue" msprop:Generator_ColumnPropNameInTable="CarValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaximumCarValue" msprop:Generator_UserColumnName="MaximumCarValue" msprop:Generator_ColumnPropNameInRow="MaximumCarValue" msprop:Generator_ColumnVarNameInTable="columnMaximumCarValue" msprop:Generator_ColumnPropNameInTable="MaximumCarValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CarPurchaseDate" msprop:Generator_UserColumnName="CarPurchaseDate" msprop:Generator_ColumnPropNameInRow="CarPurchaseDate" msprop:Generator_ColumnVarNameInTable="columnCarPurchaseDate" msprop:Generator_ColumnPropNameInTable="CarPurchaseDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstPayoutValue" msprop:Generator_UserColumnName="FirstPayoutValue" msprop:Generator_ColumnPropNameInRow="FirstPayoutValue" msprop:Generator_ColumnVarNameInTable="columnFirstPayoutValue" msprop:Generator_ColumnPropNameInTable="FirstPayoutValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FirstPayoutBusinessMonth" msprop:Generator_UserColumnName="FirstPayoutBusinessMonth" msprop:Generator_ColumnPropNameInRow="FirstPayoutBusinessMonth" msprop:Generator_ColumnVarNameInTable="columnFirstPayoutBusinessMonth" msprop:Generator_ColumnPropNameInTable="FirstPayoutBusinessMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CarNumber" msprop:Generator_UserColumnName="CarNumber" msprop:Generator_ColumnVarNameInTable="columnCarNumber" msprop:Generator_ColumnPropNameInRow="CarNumber" msprop:Generator_ColumnPropNameInTable="CarNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Opening" msprop:Generator_UserColumnName="Opening" msprop:Generator_ColumnVarNameInTable="columnOpening" msprop:Generator_ColumnPropNameInRow="Opening" msprop:Generator_ColumnPropNameInTable="OpeningColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_UserColumnName="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_UserColumnName="PaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OpeningBusinessMonth" msprop:Generator_UserColumnName="OpeningBusinessMonth" msprop:Generator_ColumnPropNameInRow="OpeningBusinessMonth" msprop:Generator_ColumnVarNameInTable="columnOpeningBusinessMonth" msprop:Generator_ColumnPropNameInTable="OpeningBusinessMonthColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CarBonusPartPayment" msprop:Generator_UserTableName="CarBonusPartPayment" msprop:Generator_RowDeletedName="CarBonusPartPaymentRowDeleted" msprop:Generator_RowChangedName="CarBonusPartPaymentRowChanged" msprop:Generator_RowClassName="CarBonusPartPaymentRow" msprop:Generator_RowChangingName="CarBonusPartPaymentRowChanging" msprop:Generator_RowEvArgName="CarBonusPartPaymentRowChangeEvent" msprop:Generator_RowEvHandlerName="CarBonusPartPaymentRowChangeEventHandler" msprop:Generator_TableClassName="CarBonusPartPaymentDataTable" msprop:Generator_TableVarName="tableCarBonusPartPayment" msprop:Generator_RowDeletingName="CarBonusPartPaymentRowDeleting" msprop:Generator_TablePropName="CarBonusPartPayment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorID" msprop:Generator_UserColumnName="DistributorID" msprop:Generator_ColumnPropNameInRow="DistributorID" msprop:Generator_ColumnVarNameInTable="columnDistributorID" msprop:Generator_ColumnPropNameInTable="DistributorIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PartPaymentAmount" msprop:Generator_UserColumnName="PartPaymentAmount" msprop:Generator_ColumnPropNameInRow="PartPaymentAmount" msprop:Generator_ColumnVarNameInTable="columnPartPaymentAmount" msprop:Generator_ColumnPropNameInTable="PartPaymentAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentMode" msprop:Generator_UserColumnName="PaymentMode" msprop:Generator_ColumnPropNameInRow="PaymentMode" msprop:Generator_ColumnVarNameInTable="columnPaymentMode" msprop:Generator_ColumnPropNameInTable="PaymentModeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_UserColumnName="Remarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PartPaymentDate" msprop:Generator_UserColumnName="PartPaymentDate" msprop:Generator_ColumnPropNameInRow="PartPaymentDate" msprop:Generator_ColumnVarNameInTable="columnPartPaymentDate" msprop:Generator_ColumnPropNameInTable="PartPaymentDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_UserColumnName="CreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedDate" msprop:Generator_UserColumnName="CreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistributorCarMaxAllowedAmount" msprop:Generator_UserTableName="DistributorCarMaxAllowedAmount" msprop:Generator_RowDeletedName="DistributorCarMaxAllowedAmountRowDeleted" msprop:Generator_RowChangedName="DistributorCarMaxAllowedAmountRowChanged" msprop:Generator_RowClassName="DistributorCarMaxAllowedAmountRow" msprop:Generator_RowChangingName="DistributorCarMaxAllowedAmountRowChanging" msprop:Generator_RowEvArgName="DistributorCarMaxAllowedAmountRowChangeEvent" msprop:Generator_RowEvHandlerName="DistributorCarMaxAllowedAmountRowChangeEventHandler" msprop:Generator_TableClassName="DistributorCarMaxAllowedAmountDataTable" msprop:Generator_TableVarName="tableDistributorCarMaxAllowedAmount" msprop:Generator_RowDeletingName="DistributorCarMaxAllowedAmountRowDeleting" msprop:Generator_TablePropName="DistributorCarMaxAllowedAmount">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CarRegistrationNo" msprop:Generator_UserColumnName="CarRegistrationNo" msprop:Generator_ColumnPropNameInRow="CarRegistrationNo" msprop:Generator_ColumnVarNameInTable="columnCarRegistrationNo" msprop:Generator_ColumnPropNameInTable="CarRegistrationNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxAllowedAmount" msprop:Generator_UserColumnName="MaxAllowedAmount" msprop:Generator_ColumnPropNameInRow="MaxAllowedAmount" msprop:Generator_ColumnVarNameInTable="columnMaxAllowedAmount" msprop:Generator_ColumnPropNameInTable="MaxAllowedAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CarPurchaseDate" msprop:Generator_UserColumnName="CarPurchaseDate" msprop:Generator_ColumnPropNameInRow="CarPurchaseDate" msprop:Generator_ColumnVarNameInTable="columnCarPurchaseDate" msprop:Generator_ColumnPropNameInTable="CarPurchaseDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistriCarFund" msprop:Generator_UserTableName="DistriCarFund" msprop:Generator_RowDeletedName="DistriCarFundRowDeleted" msprop:Generator_RowChangedName="DistriCarFundRowChanged" msprop:Generator_RowClassName="DistriCarFundRow" msprop:Generator_RowChangingName="DistriCarFundRowChanging" msprop:Generator_RowEvArgName="DistriCarFundRowChangeEvent" msprop:Generator_RowEvHandlerName="DistriCarFundRowChangeEventHandler" msprop:Generator_TableClassName="DistriCarFundDataTable" msprop:Generator_TableVarName="tableDistriCarFund" msprop:Generator_RowDeletingName="DistriCarFundRowDeleting" msprop:Generator_TablePropName="DistriCarFund">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CumulativeCarFund" msprop:Generator_UserColumnName="CumulativeCarFund" msprop:Generator_ColumnPropNameInRow="CumulativeCarFund" msprop:Generator_ColumnVarNameInTable="columnCumulativeCarFund" msprop:Generator_ColumnPropNameInTable="CumulativeCarFundColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BusinessMonth" msprop:Generator_UserColumnName="BusinessMonth" msprop:Generator_ColumnPropNameInRow="BusinessMonth" msprop:Generator_ColumnVarNameInTable="columnBusinessMonth" msprop:Generator_ColumnPropNameInTable="BusinessMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BalanceAmount" msprop:Generator_UserColumnName="BalanceAmount" msprop:Generator_ColumnPropNameInRow="BalanceAmount" msprop:Generator_ColumnVarNameInTable="columnBalanceAmount" msprop:Generator_ColumnPropNameInTable="BalanceAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_UserColumnName="PaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

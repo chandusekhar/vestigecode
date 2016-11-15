@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>ba1853e8-1d7b-4828-95b4-bcb71e94b0d1</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <rd:ReportID>56eeee40-df52-43f3-8c7f-d3f587c1eae1</rd:ReportID>
+  <PageWidth>8.27in</PageWidth>
+  <DataSets>
+    <DataSet Name="DistributorAddressLabelPrint_DistributorAddressLabelPrint_DataTable">
+      <Fields>
+        <Field Name="AddressCol1">
+          <DataField>AddressCol1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AddressCol2">
+          <DataField>AddressCol2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DistributorAddressLabelPrint</rd:DataSetName>
+        <rd:TableName>DistributorAddressLabelPrint_DataTable</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Code />
+  <Width>8.27in</Width>
+  <Body>
+    <ReportItems>
+      <Textbox Name="AddressCol1">
+        <rd:DefaultName>AddressCol1</rd:DefaultName>
+        <Top>4.4375in</Top>
+        <Width>5.75in</Width>
+        <Style>
+          <FontSize>15pt</FontSize>
+          <FontWeight>700</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>1.875in</Left>
+        <Height>2.5625in</Height>
+        <Value>=First(Fields!AddressCol1.Value)</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>11in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageHeight>11.69in</PageHeight>
+</Report>

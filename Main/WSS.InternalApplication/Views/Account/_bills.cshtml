@@ -1,0 +1,89 @@
+﻿@using WSS.InternalApplication.Models
+@using PagedList.Mvc
+@model PagedList.IPagedList<DocumentListViewModel>
+
+<section id="Account-Bill-List">
+    <br />
+
+    @*Show Alert on no documents*@
+    @if (Model.Count == 0)
+    {
+        <br />
+        <div class="alert alert-info" role="alert">No documents are available for this account.</div>
+    }
+    <input type="hidden" value="@ViewBag.BillsQuery" id="hdnBillsUtilityAccountId" />
+    @*Results Table*@
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-hover table-striped">
+            <thead class="account-bill-table">
+                <tr>
+                    <th class="DocumentDate" data-sortorder="Date" data-sortdir="Change" style="cursor:pointer;">@Html.DisplayNameFor(x => x[0].DocumentDate) <i class="fa fa-sort"></i></th>
+                    <th class="Amount">@Html.DisplayNameFor(x => x[0].AmountDue)</th>
+                    <th class="Link text-center">@Html.DisplayNameFor(x => x[0].DocumentType)</th>
+                    <th class="Status text-center">@Html.DisplayNameFor(x => x[0].Status)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="account-bill-table document-link" href="@Url.Action("GetDocumentDetailFile", "Account", new {id = item.DocumentHeaderId})" style="cursor: pointer;">
+                        <td class="DocumentDate">@item.DocumentDate.ToString("MMM dd, yyyy")</td>
+                        <td class="Amount">@item.AmountDue.ToString("C")</td>
+                        <td class="Link text-center">@item.DocumentType</td>
+                        <td class="Status text-center">@item.Status</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <section id="pager">
+        @if (Model != null && Model.Any())
+        {
+            <input type="hidden" id="hdnPageNumber" value="@ViewBag.PageNumber" />
+            <input type="hidden" id="hdnPageSize" value="@ViewBag.PageSize" />
+            <input type="hidden" id="hdnCurrentSort" value="@ViewBag.CurrentSort" />
+            <input type="hidden" id="hdnCurrentDir" value="@ViewBag.CurrentDir" />
+
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-md-offset-3 col-md-6" style="cursor:pointer;">
+                        @Html.PagedListPager(Model,
+                                page => Url.Action("_bills", "Account", new { page, sortOrder = @Session["BillsSortorder"], sortDir = @Session["BillsSortDirection"], id = @ViewBag.Query }),
+                                new PagedListRenderOptions { DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded, DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded, DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded, DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded, MaximumPageNumbersToDisplay = 6 })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-1 control-label text-right small">Show:</label>
+                    <div class="col-md-1">
+                        @Html.DropDownList("noRowsPerPage", (IEnumerable<SelectListItem>)ViewBag.RowsPerPageSelectList, new Dictionary<string, object> { { "onchange", "GetBillsRecordPageWise(this)" }, { "data-pagesize", ViewBag.PageSize }, { "data-page", ViewBag.PageNumber } })
+                    </div>
+                    <label class="control-label text-left small">Rows per Page.</label>
+                </div>
+            </div>
+        }
+    </section>
+</section>
+
+<script type="text/javascript">
+    $(document).ready(function ($) {
+        $("tbody > tr.document-link").click(function () {
+            window.open($(this).attr("href"));
+        });
+
+        $('div.pagination-container li:not(".active") >a').each(function (i, ele) {
+            var aPath = ele.getAttribute('href');
+            ele.onclick = function () { showBillRecords(aPath); };
+        });
+        $('div.pagination-container a').removeAttr('href');
+    });
+
+    $('thead > tr > th.DocumentDate').click(function () {
+        SortBillRecords(this);
+    });
+
+    function changePageize(parameters) {
+        var pageSize = $('#noRowsPerPage option:selected').val();
+
+    }
+</script>

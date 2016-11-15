@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  
+   VAL0001	-  VAL2000: Validation messages
+   2001 -  5000  : Error messages
+   5001 -  8000  : Confirmation Message
+   8001 - 10000  : Information message 
+  10001          : Message Box Header, Application Title, Application Level Common Messages, Version no., etc.
+  INF0001 -      : Login specific messages.
+-->
+
+<messages>
+  <!--Message box Header -->
+  <message id="10001" text="VestigeMLM BOS" />
+  <message id="10002" text="An unexpected error has ocurred. Please contact your system administrator for support." />
+  <message id="10003" text="VestigeMLM Back Office System" />
+  <message id="10004" text="VestigeMLM POS" />
+  <message id ="10005" text="Welcome: {0}" />
+  
+  <!--Validation messages -->
+  <message id="VAL0001" text="Please enter {0}." />
+  <message id="VAL0002" text="Please select {0}." />
+  <message id="VAL0003" text="Please select {0} and {1}." />
+  <message id="VAL0004" text="Please add one primary contact" />
+  <message id="VAL0005" text="Please select organization level" />
+  <message id="VAL0006" text="Please select valid {0}." />
+  <message id="VAL0007" text="{0} is Duplicated." />
+  <message id="VAL0008" text="User can not add more than one primary {0}." />
+  <message id="VAL0009" text="Please enter valid {0}." />
+  <message id="VAL0010" text="Can not remove already added {0}." />
+  <message id="VAL0011" text="Please select Location." />
+  <message id="VAL0012" text="Please select at least one Role from the List." />
+  <message id="VAL0013" text="This Role has already been assigned to this User for selected Location." />
+  <message id="VAL0014" text="Password should be consist of {0} to {1} characters." />
+  <message id="VAL0015" text="At least one row should be selected to remove." />
+  <message id="VAL0016" text="Only alphabets, numbers and hyphen allowed for {0}." />
+  <message id="VAL0017" text="Only alphabets and space are allowed for {0}." />
+  <message id="VAL0018" text="Only alphabets and numbers are allowed for {0}." />
+  <message id="VAL0019" text="Please checked at least one valid {0}." />
+  <message id="VAL0020" text="Can not insert status-deleted record." />
+  <message id="VAL0021" text="Only numbers are allowed for {0}" />
+  <message id="VAL0022" text="Quantity should be less than available quantity in bucket." />
+  <message id="VAL0023" text="Item can't be removed after {0}." />
+  <message id="VAL0024" text="At least one {0} should be added before saving." />
+  <message id="VAL0025" text="Item(s) {0} are not matching with their TO quantity." />
+  <message id="VAL0026" text="Are you sure you want to continue without saving the data? The record is still in Edit mode." />
+  <message id="VAL0027" text="Total quantity in TOI item(s) is greater than item(s) quantity at current location." />
+  <message id="VAL0028" text="Item(s) are not exists." />
+  <message id="VAL0029" text="TOI number is not confirmed or TOI number is not allocated to this location." />
+  <message id="VAL0030" text="Can not consolidate records. Each item-allocation should be done completely." />
+  <message id="VAL0031" text="TO Status should be Shipped or Transfered." />
+  <message id="VAL0032" text="Duplicate {0} for {1}." />
+  <message id="VAL0033" text="{0} should be greater-than zero." />
+  <message id="VAL0034" text="No record exists for consolidation." />
+  <message id="VAL0035" text="Atleast one Primary Purchase Unit of Measurement required." />
+  <message id="VAL0036" text="Only one Primary Purchase Unit of Measurement allowed." />
+  <message id="VAL0037" text="Only one Primary Sell Unit of Measurement allowed." />
+  <message id="VAL0038" text="Duplicate {0} exists. Please select valid {0} using F4 key." />
+  <message id="VAL0039" text="{0} status is {1}." />
+  <message id="VAL0040" text="Item code not exists for current bucket or batch." />
+  <message id="VAL0041" text="Atleast one Primary Sell Unit of Measurement required." />
+  <message id="VAL0042" text="TI is already {0} corresspond to ToNumber -{1}" />
+  <message id="VAL0043" text="Atleast 2 items should be selected to make a composite product." />
+  <message id="VAL0044" text="Composite Product must contain atleast 1 tradable item." />
+  <message id="VAL0045" text="Item can't be removed after confirmation." />
+  <message id="VAL0046" text="Please select items for consolidation." />
+  <message id="VAL0047" text="{0} should be Greater Than or Equal To {1}." />
+  <message id="VAL0048" text="HO user can not add items in {0}" />
+  <message id="VAL0049" text="Item can't be removed after Initiation." />
+  <message id="VAL0050" text="From Bucket and To Bucket should be different." />
+  <message id="VAL0051" text="Approved qty should be less than total quantity allocated in bucket." />
+  <message id="VAL0052" text="Allocated qty should be less than equal to total available quantity in bucket." />
+  <message id="VAL0053" text="Please select source location for {0}." />
+  <message id="VAL0054" text="Balance Qty is 0. You can not recieve more for this item." />
+  <message id="VAL0055" text="Invalid Recieve Qty. Maximum recieve Qty is {0}." />
+  <message id="VAL0056" text="Please select item before editing batch." />
+  <message id="VAL0057" text="Total quantity to pack is greater than item(s) quantity at current location." />
+  <message id="VAL0058" text="Total quantity to Upack is greater than item(s) quantity at current location." />
+  <message id="VAL0059" text="Upack product is not found at current location." />
+  <message id="VAL0060" text="{0} should be less than or equal to {1}." />
+  <message id="VAL0061" text="You are already on the {0}." />
+  <!-- This is written from SP-->
+  <message id="VAL0061" text="Promotion Code is duplicated." />
+  <message id="VAL0062" text="Define {0} with {1} promotion." />
+  <message id="VAL0063" text="{0} already exists in list." />
+  <message id="VAL0064" text="{0} already exists in list for {1}." />
+  <message id="VAL0065" text="Indentise items can not be edited/removed." />
+  <message id="VAL0065" text="Available quantity of items  has modified by the other user." />
+  <message id="VAL0066" text="Terminal can not be added for {0} location." />
+  <message id="VAL0067" text="TOI can be confirmed, if PO Status is at least received." />
+  <message id="VAL0068" text="{0} date should be greater than {1} date." />
+  <message id="VAL0619" text="Please enter Valid distributor id." />
+
+  <!--Message for Return to Vendor-->
+  <message id ="VAL0069" text="Record(s) with Approved/Closed status can not be deleted." />
+  <message id ="VAL0070" text="Please specify a valid Item-Code." />
+  <message id ="VAL0071" text="Please check {0}." />
+  <message id ="VAL0072" text="{0} cannot be less than {1}." />
+  <message id ="VAL0073" text="Can not remove already saved {0}." />
+
+  <!--Message for DistributorSearch Module-->
+  <message id ="VAL0074" text="No Upline-Distributor exists for this Distributor." />
+  <message id ="VAL0075" text="No Downline(s) exist for this Distributor." />
+
+  <message id ="VAL0076" text="If item is composite then it will not be available for gift."/>
+
+  <!--Message for 'Selective Interface Push' Module-->
+  <message id ="VAL0077" text="{0} row(s) affected with {1} flag."/>
+
+  <message id ="VAL0078" text="BO/WH user can not Create/Initiate the Stock Count Process. "/>
+
+  <!--Message for Item-Mgmt Module-->
+  <message id ="VAL0079" text="Distributor-Price can not be greater than MRP."/>
+  <message id ="VAL0080" text="{0} can not be less than {1}."/>
+
+  <!--Common for all modules: Valid input message-->
+  <message id="VAL0081" text="Please input a valid {0}." />
+
+  <message id="VAL0082" text="{0} should be without space."/>
+  <message id="VAL0083" text="Upline line distributor is not active."/>
+
+  <!--Message for Indent Consolidation-->
+  <message id="VAL0084" text="Either Sufficient-Inventory not found in Warehouse(s) Or Item(s) not kept in Warehouse Locations.\nMake sure Warehouse(s) stock in inventory." />
+  <message id="VAL0085" text="TI Quantity should be less than equal to TO quantity." />
+  <message id="VAL0086" text="Please select/enter the following fields: " />
+
+  <!--Message for Promotion-->
+  <message id="VAL0087" text="Invalid Item." />
+  <message id="VAL0088" text="Volume Promotion can not be applied with Product-Group/Hierarchy.\nChoose 'Product' as CategoryOn." />
+  <message id="VAL0089" text="Approved qty should be less than equal to allocated quantity in bucket." />
+  <message id="VAL0090" text="Unit qty should be less than equal to available quantity in bucket." />
+  <message id="VAL0091" text="Line promotion can not have any free item in its condition(s)." />
+  <message id="VAL0092" text="Free-Item discount type can only be availed for Product." />
+  <message id="VAL0093" text="Buy Condition needs to be on a Product, in case of Get Condition(s) having a free-item." />
+  <message id="VAL0094" text="PO Information for the selected item is not present. Please select any other record." />
+  <message id="VAL0095" text="{0} can not have more than {1}." />
+  <message id="VAL0096" text="Duplicate Record." />
+
+  <message id="VAL0097" text="Source location and destination location should be different." />
+
+  <!--Message for DistributorSearch Module -->
+  <message id="VAL0098" text="No Distributor has been selected. Do you wish to select a Distributor, for which Upline-Distributor may be searched?" />
+  <message id="VAL0099" text="Upline-Distributor for this Distributor does not have any master-information. Please contact your system/database administrator for support." />
+
+  <!-- Message for Promotion-->
+  <message id="VAL0100" text="In case of Bill-Buster promotion, a tier can have Get-condition as Product with Discount-type only as free item." />
+  <message id="VAL0101" text="For Discount-type to be free-item, please select a Condition-On value." />
+  <message id="VAL0102" text="All the selected locations are already present." />
+  <message id="VAL0103" text="Following {0} are duplicated:\n{1}" />
+  <message id="VAL0104" text="{0} can not be less-than/equal-to {1}." />
+  <message id="VAL0105" text="{0} can not be greater-than/equal-to {1}." />
+  <message id="VAL0106" text="{0} is duplicated at Database-Level." />
+
+  <message id="VAL0107" text="Approved qty should be less than equal to available qty in bucket-batch." />
+
+  <!--Common for all modules-->
+  <message id="VAL0108" text="Can not {0} already {1}." />
+  <message id="VAL0109" text="Distributor is not Active." />
+  <message id="VAL0110" text="Please enter Distributor Id." />
+
+  <!-- Message for Item-Master-->
+  <message id="VAL0111" text="Can not {0} {1} since {2}." />
+
+  <message id="VAL0112" text="Cheque No. is not linked to this Distributor." />
+  <message id="VAL0113" text="This Cheque No. cannot be used in this Team Order." />
+  <message id="VAL0114" text="Cheque No. is Invalid." />
+  <message id="VAL0115" text="Cheque has expired." />
+  <message id="VAL0116" text="You must select Assign Levels if you select DistributorPV/BV and Calculate Bonus Points." />
+  <message id="VAL0117" text="You can't process with these selected options. Please change your selection." />
+  <message id="VAL0118" text="Please select atleast one process option." />
+  <message id="VAL0119" text="You cannot create {0} at HO Location." />
+  <message id="VAL0120" text="Group name already exists." />
+  <message id="VAL0121" text="Can not modify this PO.Vendor : {0} has been deactivated." />
+  <message id="VAL0122" text= "Can not modify this PO.Destination location {0} is now not bind with Vendor: {1}." />
+  <message id="VAL0123" text= "Item is not likned at destination location." />
+  <message id="VAL0124" text= "Expiry Duration should be atleast {0} Months." />
+  <message id="VAL0125" text= "Item is not available for gift."/>
+  <message id="VAL0126" text= "Primary vendor does not exists for item {0}."/>
+  <message id="VAL0127" text= "Constituent item(s) not exists."/>
+  <message id="VAL0128" text= "You cannot initiate this adjustment. Available quantity for some items's has been already allocated."/>
+  <message id="VAL0129" text= "Cannot add same item in its constituents list."/>
+  <message id="VAL0130" text= "Email Id is duplicated."/>
+  <message id="VAL0131" text= "Cheque has already been used." />
+  <message id="VAL0132" text="Please update your application version." />
+  <message id="VAL0133" text="Total quantity in TOI item(s) is greater than item(s) quantity at current location." />
+  <message id="VAL0134" text="Item(s) {0} are not matching with their TO quantity." />
+  <message id="VAL0135" text="TOI number is not confirmed or TOI number is not allocated to this location." />
+  <message id="VAL0136" text="Invalid file format,please select 'bmp , png, jpeg, jpg, gif' file format" />
+  <message id="VAL0137" text="Invalid image" />
+  
+  <!--Messages for POS Validations starting from VAL0500 till VAL 0600 -->
+  <message id ="VAL0500" text="Distributor Number {0} already exists."/>
+  <message id ="VAL0501" text="{0} is not a valid Kit Order."/>
+  <message id ="VAL0502" text="{0} number has already been used for registration."/>
+  <message id ="VAL0503" text="Upline Number {0} does not exist."/>
+  <message id ="VAL0504" text="Kit Number {0} is not valid for registration."/>
+  <message id ="VAL0505" text="The order could not be saved as an order with the same order number already exists."/>
+  <message id ="VAL0506" text="The minimum amount for the order should be {0}."/>
+  <message id ="VAL0507" text="Order cannot be confirmed due to insufficient payments."/>
+  <message id ="VAL0508" text="There are orders yet to be confirmed. You would lose all unsaved order if you continue. Do you wish to continue?"/>
+  <message id ="VAL0509" text="Cannot confirm the order. The gift voucher(s) availed has already been used."/>
+  <message id ="VAL0510" text="Kit Order not found. Please verify the kit order number."/>
+  <message id ="VAL0511" text="Order cannot be saved. Current Order Amount {0} is less than Minumum Order Amount {1}."/>
+  <message id ="VAL0600" text="Error fetching Tax Details. Please contact system administrator."/>
+  <message id ="VAL0601" text="Orders can not be added in Log, for different pickup center."/>
+  <message id ="VAL0602" text="Log successfully updated."/>
+  <message id ="VAL0603" text="City not found."/>
+  <message id ="VAL0604" text="Invalid Date {0}"/>
+  <message id ="VAL0605" text="Distributor ID and Upline ID cannot be same."/>
+  <message id ="VAL0606" text="You have not selected Log No. \nAre you sure you want to save ?"/>
+  <message id ="VAL0607" text="This order has already been confirmed."/>
+  <message id ="VAL0608" text="Order cannot be cancelled. A distributor has already been registered with this Kit Order."/>
+  <message id ="VAL0609" text="You have not selected any order to invoice."/>
+  <message id="VAL0610" text= "Cannot Mapped same item."/>
+  <message id="VAL0611" text="Please enter Item Code/Item Name." />
+  <message id="VAL0612" text="Item(s) already mapped." />
+  <message id="VAL0613" text="Please select either {0} or {1}." />
+  <message id="VAL0614" text="Please enter Transaction No." />
+  <message id="VAL0615" text="Please enter Valid Amount." />
+  <message id="VAL0616" text="Item can't be removed for invoice return" />
+  <message id="VAL0617" text="Repurchase scheme can not be given. \nThe total invoice amount for the current distributor is - {0} but it should be - {1}" />
+  <message id="VAL0618" text="Item barcode can not be save while the distributor price is zero" />
+  <message id="VAL0620" text="Please enter Courier Amount." />
+  <message id="VAL0621" text="Please make order payment before choosing courier option."/>
+  <message id="VAL0622" text="Invalid payment option."/>
+  <message id="VAL0623" text="Courier amount has been paid in order no - {0}"/>
+  <message id="VAL0624" text="RTGS/IFSC Code length should have 11 digit." />
+  <message id="VAL0625" text="Max length of {0} bank account No is {1}. Are you sure this is valid number?" /> 
+  <!--Error Messages -->
+  <message id="2001" text="Error...Loading Module Function master data." />
+  <message id="2002" text="Error...Loading details and assigned right(s) of the role." />
+  <message id="2003" text="30001: Database error." />
+  <message id="2004" text="Error...Loading Roles list." />
+  <message id="2005" text="There is no module associated with the selected menu item. Please contact your system administrator." />
+  <message id="2006" text="Error in Application Configuration. Please contact System Administrator" />
+
+  <message id="30001" text="The system database has thrown an exception. Please contact system administrator or try again after some time." />
+  <message id="30007" text="System Exception" />
+  <message id="30008" text="Some Internal exception has occured.Try Again or contact your system administrator" />
+  <message id="30009" text="Some Internal exception has occured.Cannot {0}" />
+  <message id="30010" text="{0} Not Found For {1}" />
+
+  <!-- Error Messages for POS from 40000 till 41000-->
+  <message id ="40000" text="An unexpected error has ocurred. Please contact your system administrator for support."/>
+  <message id ="40001" text="{0} is not a valid Kit Order."/>
+  <message id ="40002" text="{0} number has already been used for registration."/>
+  <message id ="40003" text="Upline Number {0} does not exist."/>
+  <message id ="40004" text="Kit Number {0} is not valid for registration."/>
+  <message id ="40005" text="{0} Should be Minimum 18 Years old."/>
+  <message id ="40006" text="Invoice Can not Be Saved.All Items of Order Not Found in Invoice Detail." />
+  <message id ="40007" text="Invoice Qty is not equal to Order Qty." />
+  <message id ="40008" text="Required Batch Qty Not Available." />
+  <message id ="40009" text="Order Details Not Found." />
+  <message id ="40010" text="Order And Log No. Not Found." />
+  <message id ="40011" text="No Confirmed Order Found for this Log." />
+  <message id ="40012" text="Invalid Log." />
+  <message id ="40013" text="Invoice already exists for this Order No." />
+  <message id ="40014" text="The Price for the selected item could not be retrieved. Please contact your system administrator." />
+  <message id ="40015" text="The order {0} successfully." />
+  <message id ="40016" text="The order could not be saved due to: {0}." />
+  <message id ="40017" text="The order could not be saved due to some errors. Please contact system administrator." />
+  <message id ="40018" text="Distributor could not be found." />
+  <message id ="40019" text="Can not Invoice First Order.Invoice Kit Order first." />
+  <message id ="40020" text="Can not Invoice this Order.Distributor has been Deactivated." />
+  <message id ="40021" text="Can not Invoice Re-Order.Distributor is not Active.Invoice First Order for this Distributor." />
+  <message id ="40022" text="Select Order of Same Pickup Center." />
+  <message id ="40023" text="The location code {0} and/or the terminal code {1} does not exist or is not active. Please contact the system administrator." />
+  <message id ="40024" text="Available Qty should be greater than 0." />
+  <message id ="40025" text="Select Item to add" />
+  <message id ="40026" text="Wrong Batch No." />
+  <message id ="40027" text="Expired Batch No Can not be used." />
+  <message id ="40028" text="Can not use this VoucherCode.Min Buy Amount for this Voucher is {0}." />
+  <message id ="40029" text="Can not Invoice Order{0}.Try again." />
+  <message id ="40030" text="Cheque Can be Reused only with {0} Team Order" />
+  <message id ="40031" text="Use Amount Can not be greater than balance Amount" />
+  <message id ="40032" text="{0} Voucher Code is already added." />
+  <message id ="40033" text="Voucher Code has already been availed." />
+  <message id ="40034" text="Data is not in sync with Head office database. Please contact system administrator." />
+  <message id ="40035" text="Same Item Code Can't be Export" />
+  <message id ="40036" text="Bucket Should be Same Type." />
+  <message id ="40037" text="For Item : {0}, Ordered Quantity is {2} and Available Quantity is {1}. So Invoice for Order Number {3} cannot be Generated." />
+  <message id ="40038" text="Do You want to Negate the PV/BV also." />
+  <message id ="40039" text="Log Order is in Open Mode, So you will not be able to take out the Printout." />
+  <message id ="40040" text="Car registration number already exists" />
+
+
+  <!--<message id ="INF0102" text="Invoice Can not Be Saved.All Items of Order Not Found in Invoice Detail." />
+  <message id ="INF0103" text="Invoice Qty is not equal to Order Qty." />
+  <message id ="INF0104" text="Invoice already exists for this Order No." />
+  <message id ="INF0105" text="Required Batch Qty Not Available." />
+  <message id ="INF0106" text="Order Details Not Found." />
+  <message id ="INF0107" text="Order And Log No. Not Found." />
+  <message id ="INF0108" text="No Open Order Found for this Log." />
+  
+  <message id ="INF0111" text="LogNo Not Valid." />-->
+
+
+  <!--Confirmation Messages -->
+  <message id="5001" text="Do you want to confirm this transaction?" />
+  <message id="5002" text="The current action would close the open window. Would you like to continue?"/>
+  <message id="5003" text="Do you want to exit?"/>
+  <message id="5004" text="Are you sure to delete, selected 'Location-Role' for current User?"/>
+  <message id="5005" text="Do you want to cancel the transaction?"/>
+  <message id="5006" text="Do you want to reset the window?"/>
+  <message id="5007" text="Missing Information."/>
+  <message id="5008" text="Authentication Failed."/>
+  <message id="5009" text="Are you sure to Save Zero Approve Quantity?"/>
+  <message id="5010" text="Are you sure you want to {0}?" />
+  <message id="5011" text="Do you want to exit without saving the record?" />
+  <message id="5012" text="Do you want to delete the record?" />
+  <message id="5013" text="Are you sure you want to Save All Zero Requested Quantity?"/>
+  <message id="5014" text="Primary Vendor for this Item already exist.Do you want to change the Primary Vendor??"/>
+  <message id="5015" text="Distributor upload failed, Do you want to upload Invoice data? \nIt may create problems if you click Yes."/>
+  <message id="5016" text="Do you want to terminate the distributor?"/>
+  <!--Information Messages -->
+  <message id="8001" text="Record(s) saved successfully."/>
+  <message id="8002" text="No record(s) found."/>
+  <message id="8003" text="Record(s) saved successfully.{0} is {1}" />
+  <message id="8004" text="Record(s) cancelled successfully" />
+  <message id="8005" text="Record(s) consolidated successfully" />
+  <message id="8006" text="Record(s) confirmed successfully.{0} is {1}" />
+  <message id="8007" text="Pack Quantity  saved successfully." />
+  <message id="8008" text="Unpack Quantity  saved successfully" />
+  <message id="8009" text="Record cannot be saved" />
+  <message id="8010" text="Password cannot be same as password history" />
+  <message id="8011" text="Invoice Saved Successfully." />
+  <message id="8012" text="Record(s) {0} successfully."/>
+  <message id="8013" text="Record(s) {0} successfully for {1}"/>
+  <message id ="8014" text="File is already in use." />
+  <message id ="8015" text="Already Created or Approved." />
+
+
+  <message id ="INF0001" text="{0} cannot be blank." />
+  <message id ="INF0002" text="{0} is incorrect." />
+  <message id ="INF0003" text="{0} and {1} do not match." />
+  <message id ="INF0004" text="Password Changed Successfully." />
+  <message id ="INF0005" text="Username/Old Password is incorrect." />
+  <message id ="INF0006" text="The new password does not confirm to security guidelines." />
+  <message id ="INF0007" text="The new password cannot be the same as old password." />
+  <message id ="INF0008" text="The new password cannot be the same as Password history." />
+  <message id ="INF0009" text="Username can only contain numbers." />
+  <message id ="INF0010" text="Invalid {0}." />
+  <message id ="INF0011" text="The user account has been deleted. Please contact system administrator." />
+  <message id ="INF0012" text="The user account is currently inactive. Please contact system administrator." />
+  <message id ="INF0012" text="The user account is locked. Please contact system administrator." />
+  <message id ="INF0014" text="The user account has expired. Please contact system administrator." />
+  <message id ="INF0015" text="The password has expired. Please change your password now to continue." />
+  <message id ="INF0016" text="Login Successful." />
+  <message id ="INF0017" text="Password Expired." />
+  <message id ="INF0018" text="User Authentication failed. Please check username and/or password." />
+
+  <message id ="INF0019" text="Please enter {0}" />
+  <message id ="INF0020" text="Duplicate {0} or {1}." />
+  <message id ="INF0021" text="Record already exists at first level." />
+  <message id ="INF0022" text="Record is modified by another user." />
+  <message id ="INF0023" text="Record Can not be deleted, any one of record is active/inactive in downline.  " />
+  <message id ="INF0024" text="Record Can not be inactived, any one of record is active in downline.  " />
+  <message id ="INF0025" text="Record Can not be actived, parent is not active." />
+  <message id ="INF0026" text="Please select {0}" />
+  <message id ="INF0027" text="Are you sure you want to save the data?" />
+  <message id ="INF0028" text="Are you sure to delete this record?" />
+  <message id ="INF0029" text="Record Has been modified By Some Body Else." />
+  <message id ="INF0030" text="Records are added successfully but some of the contacts {0} have be modified, please refresh." />
+
+  <message id ="INF0031" text="Records aleady exists." />
+  <message id ="INF0032" text="Records are added successfully but some of the {0} are already exists, please refresh." />
+  <message id ="INF0033" text="Records can not be added. {0} are already exists, please refresh" />
+  <message id ="INF0034" text="{0} can not be greater than {1}. " />
+  <message id ="INF0035" text="{0} can not be negative. " />
+
+  <message id ="INF0036" text="Item can not be added/updated in Confirmed/Rejected/Cancel Status" />
+  <message id ="INF0037" text="Item can not be deleted, any one user modified item." />
+  <message id ="INF0038" text="Item can not be modified, any other user modified item." />
+
+
+  <message id ="INF0040" text="The Location Type is not active." />
+  <message id ="INF0041" text="The Location specified is not currently active." />
+  <message id ="INF0042" text="Vendor Details have been Modified, Please confirm and Save Your Record Again." />
+  <message id ="INF0043" text="Destination Details have been Modified, Please confirm and Save Your Record Again." />
+  <message id ="INF0044" text="Item Details have been Modified, Please confirm and Save Your Record Again." />
+  <message id ="INF0045" text="New Amendment has been done by some body else,Please confirm and Save Your Record Again." />
+  <message id ="INF0046" text="Status has been changed, cannot modify now." />
+  <message id ="INF0050" text="Please enter a username." />
+  <message id ="INF0051" text="Please enter a password." />
+
+  <message id ="INF0053" text="User access is denied for this screen. Please contact your system administrator for support." />
+  <message id ="INF0054" text="Quanity should be atleast {0}, and multiple of {1}" />
+  <message id ="INF0055" text="{0} {1} Successfully." />
+  <message id ="INF0056" text="Approved PO and TO Qty Should be equal to Total Approved Ho Qty." />
+  <message id ="INF0057" text="Above Role(s) are already assigned to this User for selected Location." />
+  <message id ="INF0058" text="Item Price or taxes are latest. It might be changed after last PO saved." />
+  <message id ="INF0059" text="{0} can not be less than {1}. " />
+  <message id ="INF0060" text="Middle level tiers can not be deleted." />
+  <message id ="INF0061" text="There is an unsaved record left for {0}. Do you want to save the record?" />
+  <message id ="INF0062" text="Unpack batch quantity should be less/equal to total UnPack quantity. " />
+  <message id ="INF0063" text="Duplicate record found.Do you want to add new record in place of that?" />
+  <message id ="INF0064" text="Are you sure want to exit? Total unpack quantity not equal to requested quantity.  " />
+  <message id ="INF0065" text="Total unpack quantity not equal to requested quantity." />
+  <message id ="INF0066" text="Cannot Create New GRN. Another GRN is already open for this PO." />
+  <message id ="INF0067" text="No Item Available for receiving in this PO." />
+  <message id ="INF0068" text="Please process again." />
+  <message id ="INF0069" text="Pack quantity should not be greater than available quantity." />
+  <message id ="INF0070" text="UnPack quantity should not be greater than available quantity." />
+  <message id ="INF0071" text="Expire date should be greater than Manufacture date." />
+  <message id ="INF0072" text="Atleast one Item should have receive Qty More than 0." />
+  <message id ="INF0073" text="Return quantity should not be greater than available quantity.." />
+  <message id ="INF0074" text="Shipment date should be greater than Manufacture date." />
+  <message id ="INF0075" text="Please add at least one item before saving." />
+  <message id ="INF0076" text="Shipment date should be greater than Return date." />
+  <message id ="INF0077" text="Already saved record can not be deleted." />
+  <message id ="INF0078" text="Both Password Should be same." />
+  <message id ="INF0079" text="Can not complete this action, No Logged in User Found!" />
+  <message id ="INF0080" text="Atleast one Item should have Approved Qty More than 0." />
+  <message id ="INF0081" text="Menu Name already exists."/>
+  <message id ="INF0082" text="Sequence No. already exists."/>
+  <message id ="INF0083" text="Selected Module is already assigned at Selected Application and Location."/>
+  <message id ="INF0084" text="Available quantity is modified by another user ."/>
+  <message id ="INF0085" text="Voucher No. for given Series already exists."/>
+  <message id ="INF0086" text="Tax Code Already Exists."/>
+  <message id ="INF0087" text="Group Order already exists in this Tax Group."/>
+  <message id ="INF0088" text="Tax Group already exists."/>
+  <message id ="INF0089" text="TaxCode '{0}' is associated with any Tax Group. Please deassociate it from respective Tax Group."/>
+  <message id ="INF0090" text="Group Code already exists."/>
+  <message id ="INF0091" text="Tax Code is not Active."/>
+  <message id ="INF0092" text="Tax Cannot be applied on this price."/>
+  <message id ="INF0093" text="Tax Group is associated in Tax Application."/>
+  <message id ="INF0094" text="{0} already exists" />
+  <message id ="INF0095" text="Record cannot be saved, Some Barcodes are already in use." />
+  <message id ="INF0096" text="{0} cannot be older than last barcode's startdate." />
+  <message id ="INF0097" text="Select Atleast One Record to add." />
+  <message id ="INF0098" text="{0} should be greater than {1}. " />
+  <message id ="INF0099" text="Can not use this Item.Primary UOM not found for this Item."/>
+  <message id ="INF0100" text="Record cannot be saved, Item-Code already exists." />
+  <message id ="INF0101" text="Cannot print until {0} status is {1}." />
+
+  <message id ="INF0110" text="Stock Count is in progress." />
+  <message id ="INF0112" text="Record Already exists. If You want to make change, select from the list and then Edit." />
+  <message id ="INF0113" text="No Primay {0} Exists for this Item.You need to first enter a Primary {0} for this Item." />
+  <message id ="INF0114" text="Can not Inactive/Delete Record with Primary {0}." />
+  <message id ="INF0115" text="Consolidation can not be completed due to the following reason(s):\n{0} is not tagged with {1} AND/OR\n{2}'s UOM is not Sellable." />
+  <message id ="INF0116" text="TO can not be initiated due to shortage of inventory of item(s) at the chosen warehouse(s).\nFollowing are the details:\n{0}\n\nPlease select any other warehouse(s).\nTransaction has been rolled-back." />
+  <message id ="INF0117" text="Atleast one {0} {1} should be in Active status." />
+  <message id ="INF0118" text="Atleast one {0} condition and one {1} condition should be in Active status." />
+  <message id ="INF0119" text="Atleast one {0} {1} {2}." />
+  <message id ="INF0120" text="Sequence-number could not be generated, hence record(s) could not be inserted/updated." />
+  <message id ="INF0121" text="TO could not be due to the following reasons:\nItem does not have its UOM as 'sellable'.\nFollowing are the details for item and location:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0122" text="Resultant {0} is {1}, which can not be greater than {2}." />
+  <message id ="INF0123" text="\nFollowing document(s) were generated:\n{0}\n{1}." />
+  <message id ="INF0124" text="No UOM has been defined for the Item.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0125" text="Item has not been linked to Transfer-From-Location.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0126" text="Zero or Negative Avail-Qty present at Location for Item.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0127" text="Purchase-UOM has not been defined for Item.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0128" text="Item has not been tagged with Vendor and Location.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0129" text="Item's inventory not tagged with Location.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0130" text="Item's bucket has not been made 'Sellable'.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0131" text="Delivery-Location has not been tagged with Item and Vendor.\nFollowing are the details:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0132" text="TO could not be initiated due to the following reasons:\nItem's bucket is not sellable.\nFollowing are the details for item and location:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0133" text="Summed-up Req. Qty is less than the Min.-Order Qty for the following items:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0134" text="Summed-up Req. Qty is not according to the Purchase-Unit-Factor defined for the following items:\n{0}\n\nTransaction has been rolled-back." />
+  <message id ="INF0135" text="Record cannot be saved, Item-Codes are associated with any other active group." />
+  <message id ="INF0136" text="Record cannot be saved, Item is associated with any active Item group." />
+  <message id ="INF0137" text="Merchandise cannot be Non-Tradable,\nIt is associated with any active Item group." />
+  <message id ="INF0138" text="Merchandise cannot be Inactivated / Deleted,\nIt is associated with any active Item." />
+  <message id ="INF0139" text="Org. Hierarchy cannot be Inactivated / Deleted,\nIt is associated with any active Location." />
+  <message id ="INF0140" text="Tax Category cannot be Inactivated / Deleted,\nIt is associated with any active Item." />
+  <message id ="INF0141" text="Vendor cannot be Inactivated / Deleted,\nIt is associated with any active Item." />
+  <message id ="INF0142" text="Vendor cannot be Inactivated / Deleted,\nIt is associated with any active Purchase Order." />
+  <message id ="INF0143" text="Item cannot be Inactivated / Deleted,\nItem Code {0}." />
+  <message id ="INF0144" text="Deposit Entry cannot be saved. Transaction No. already exists." />
+  <message id ="INF0145" text="Available amount for PUC is less than Invoice Amount.\nAvailable Amt. : {0}\nRequired Amt. : {1}" />
+  <message id ="INF0146" text="PUC has not deposited any Amount." />
+  <message id ="INF0147" text="Location cost cannot be greater than Item's distributor price." />
+  <message id ="INF0148" text="Item does not have its UOM as 'sellable'. Transaction has been rolled-back." />
+  <message id ="INF0149" text="Transaction date can not be less than today's date" />
+
+  <message id="INF0200" text="A user must have atleast one role assigned." />
+  <message id="INF0201" text="Min Order Should be mulitple of Purchase Unit factor." />
+  <message id="INF0202" text="Total Return Quantity should be less than equal to quantity available for GRN/Invoice No." />
+  <message id="INF0203" text="No Item Available for Consolidation." />
+  <message id="INF0204" text="Item has already been returned-to-vendor, and present Return-Quantity can be upto {0}." />
+  <message id="INF0205" text="Batch Details Already Exist.If You want to Edit, Select From the list." />
+  <message id="INF0206" text="Batch Processed Successfully." />
+  <message id="INF0207" text="You cannot return expired items." />
+  <message id="INF0208" text="You cannot return Kit." />
+  <message id="INF0209" text="{0} Executed Successfully." />
+  <message id="INF0210" text="Failed to Execute {0}." />
+  <message id="INF0211" text="Distributor not exists for business month {0}." />
+  <message id="INF0212" text="In BM.DBF file BoId is blank for some records, Please provide BoId for all records." />
+  <message id="INF0213" text="Some distributor files are missing. Please add appropriate files for incremental data upload." />
+  <message id="INF0214" text="Some required files are missing. Please add appropriate files for incremental data upload." />
+  <message id="INF0215" text="Please provide payment mode files for customer invoice.\n e.g. - CASH1.DBF, CCARD.DBF,CHEQUE.DBF,BANK.DBF." />
+  <message id="INF0216" text="No file for export." />
+  <message id="INF0217" text="Directory {0} cannot be deleted. Please close all files which exist in this directory." />
+  <message id="INF0218" text="{0} {1} failed." />
+  <message id="INF0219" text="Cannot insert invoices because some locations not found in Location Master." />
+  <message id="INF0220" text="Distributor updated successfully." />
+  <message id="INF0221" text="Distributor registered successfully.\nSerial No. is - {0}.\n\nDo you want to clear screen ?" />
+  <message id="INF0222" text="Please select invoice(s) to print." />
+  <message id="INF0223" text="{0} invoice(s) printed successfully." />
+  <message id="INF0224" text="No invoice found in this Log/Teamorder." />
+  <message id="INF0224" text="No invoice found in this Log/Teamorder." />
+  <message id="INF0225" text="This is first order for this distributor." />
+  <message id="INF0226" text="TO exists against this TOI" />
+  <message id="INF0227" text="One batch is already exists for this Item Code" />
+  <message id="INF0228" text="Please select distinct transaction nos." />
+  <message id="INF0229" text="Duplicate Items {0} in Inventory Batch." />
+  <message id="INF0230" text="TO is already created on this TOI number." />
+  <message id="INF0231" text="TI is already created on this TO number." />
+  <message id="INF0232" text="To Batch no. is null, Please contact to system administrator." />
+  <message id="INF0233" text="Is Running." />
+  <message id="INF0234" text="Data is not in sync with Head office database. Please contact system administrator,Service not Running,Do you want to start it now." />
+  <message id="INF0235" text="Invoice no. is already returned. Please enter different invoice no." />
+  <message id="INF0236" text="Could Not Start Service/contact to system administrator" />
+  <message id="INF0237" text="Please Enter the valid credentials" />
+  <message id="INF0238" text="Please Enter the *Mandatory values" />
+  <message id="INF0239" text="At least one Record must be added before Saving" />
+  <message id="INF0240" text="Distributor does not Exist" />
+  <message id="INF0241" text="Please select Distribututor(s) to print report." />
+  <message id="INF0242" text="{0} Distribututor(s)Bonus Report(s) printed successfully." />
+  <message id="INF0243" text="At least one {0} should be added before Saving/Confirming." />
+  <message id="INF0244" text="At least 1 item should be there with approved quantity greater than zero." />
+  <message id="INF0245" text="Are you sure you want to approve quantity greater than Requested Quantity." />
+  <message id="INF0246" text="{0} Distribututor(s)Bonus Report(s) Saved successfully." />
+  <message id="INF0247" text="Please select Distribututor(s) to save report." />
+  <message id="INF0248" text="Are you want to save report in a single file ?" />
+  <message id="INF0249" text="Distributor name has been changed, Please verify Pan/Bank Information. Click on Save button to save the details." />
+  <message id="INF0250" text="Distributor terminated successfully." />
+  <message id="INF0251" text="Distributor is already terminated." />
+  
+  <message id="INF0252" text="Dear Distributor ({0}), Your Bank and PAN details have been updated in our record.Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0253" text="Dear Distributor ({0}), Only Your Bank received and the same has been updated. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0254" text="Dear Distributor ({0}), Only Your PAN received and the same has been updated. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <!-- <message id="INF0255" text="Dear Distributor ({0}), Your Profile details have been updated  in our record.Wish you Wellth Vestige Marketing Pvt Ltd."/>-->
+  <message id="INF0256" text="Dear Distributor ({0}), Your Bank rejected. Please call us/send mail to find out the reason. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0257" text="Dear Distributor ({0}), Your PAN rejected. Please call us/send mail to find out the reason. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0258" text="Dear Distributor ({0}), Your PAN detail has been updated and BANK details are not correct. Please call us/send mail to find out the reason. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0259" text="Dear Distributor ({0}), Your Bank details have been updated and PAN is not legible. Please resend. Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0260" text="Dear Distributor ({0}), Your Bank and PAN are rejected. Please call us/send mail to find out the reason.Wish You Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0261" text="Dear Distributor ({0}), You have been terminated in our record.Wish you Wellth Vestige Marketing Pvt Ltd"/>
+  <message id="INF0262" text="http://push1.maccesssmspush.com/servlet/com.aclwireless.pushconnectivity.listeners.TextListener?userId=vesalt&amp;pass=vesalt&amp;appid=vesalt&amp;subappid=vesalt&amp;contenttype=1&amp;to=91{0}&amp;from=VESTIG&amp;text={1}&amp;selfid=true&amp;alert=1&amp;dlrreq=true"/>
+  <message id="INF0263" text="FTP process has not executed sucessfully. Please check internet connection and try again."/>
+  <message id="INF0264" text="FTP process has been executed sucessfully."/>
+  <message id="INF0265" text="FTP process is running. Please wait."/>
+  <message id="INF0266" text="Please configure FTP service."/>
+  <message id="INF0267" text="Invalid transaction date, Please verify the system date."/>
+
+
+</messages>

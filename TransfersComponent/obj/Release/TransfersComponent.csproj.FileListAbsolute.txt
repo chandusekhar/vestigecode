@@ -1,0 +1,16 @@
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmExportInvoice.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTI.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTO.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTOI.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.Progress.resources
+D:\Bikram\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\TransfersComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.Properties.Resources.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmExportInvoice.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTI.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTO.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.frmTOI.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.UI.Progress.resources
+D:\Dev - Copy\TransfersComponent\obj\Release\TransfersComponent.csproj.GenerateResource.Cache

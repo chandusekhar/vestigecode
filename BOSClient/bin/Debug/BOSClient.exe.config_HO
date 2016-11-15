@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="loggingConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.LoggingSettings, Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+    <section name="dataConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.DatabaseSettings, Microsoft.Practices.EnterpriseLibrary.Data, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+    <section name="securityCryptographyConfiguration" type="Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.Configuration.CryptographySettings, Microsoft.Practices.EnterpriseLibrary.Security.Cryptography, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+  </configSections>
+  <loggingConfiguration name="Logging Application Block" tracingEnabled="true"
+    defaultCategory="General" logWarningsWhenNoCategoriesMatch="true">
+    <listeners>
+      <add fileName="C:\VestigeLog\VestigeBOS_Log.txt" header="----------------------------------------"
+           footer="----------------------------------------" formatter="Text Formatter"
+           listenerDataType="Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.FlatFileTraceListenerData, Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"
+           traceOutputOptions="None" type="Microsoft.Practices.EnterpriseLibrary.Logging.TraceListeners.FlatFileTraceListener, Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"
+           name="FlatFile TraceListener"/>
+    </listeners>
+    <formatters>
+      <add template="Timestamp: {timestamp}&#xA;Message: {message}&#xA;Category: {category}&#xA;Priority: {priority}&#xA;EventId: {eventid}&#xA;Severity: {severity}&#xA;Title:{title}&#xA;Machine: {machine}&#xA;Application Domain: {appDomain}&#xA;Process Id: {processId}&#xA;Process Name: {processName}&#xA;Win32 Thread Id: {win32ThreadId}&#xA;Thread Name: {threadName}&#xA;Extended Properties: {dictionary({key} - {value}&#xA;)}"
+           type="Microsoft.Practices.EnterpriseLibrary.Logging.Formatters.TextFormatter, Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null"
+           name="Text Formatter"/>
+    </formatters>
+    <categorySources>
+      <add switchValue="All" name="General"/>
+    </categorySources>
+    <specialSources>
+      <allEvents switchValue="All" name="All Events"/>
+      <notProcessed switchValue="All" name="Unprocessed Category"/>
+      <errors switchValue="All" name="Logging Errors &amp; Warnings">
+        <listeners>
+          <add name="FlatFile TraceListener"/>
+        </listeners>
+      </errors>
+    </specialSources>
+  </loggingConfiguration>
+  <dataConfiguration defaultDatabase="BOSDB"/>
+  <connectionStrings>
+    <add name="HODB" connectionString="Data Source=.;Initial Catalog=VestigeIndiaHO2012_5_14;User ID=sa;Password=india@123" providerName="System.Data.SqlClient"/>
+    <add name="BOSDB" connectionString="Data Source=.;Initial Catalog=VestigeIndiaHO2012_5_14;User ID=sa;Password=india@123" providerName="System.Data.SqlClient"/>
+    <add name="POSDB" connectionString="Data Source=.  1;Initial Catalog=VestigeIndiaHO2012_5_14;User ID=sa;Password=india@123" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <securityCryptographyConfiguration defaultSymmetricCryptoInstance="RijndaelManaged">
+    <symmetricCryptoProviders>
+      <add algorithmType="System.Security.Cryptography.RijndaelManaged, mscorlib, 
+           Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+           protectedKeyFilename="C:\Vinculum\Key\Vestige.key"
+           protectedKeyProtectionScope="LocalMachine"
+           type="Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.SymmetricAlgorithmProvider, 
+           Microsoft.Practices.EnterpriseLibrary.Security.Cryptography, Version=3.0.0.0,  
+           Culture=neutral, PublicKeyToken=null"
+           name="RijndaelManaged"/>
+    </symmetricCryptoProviders>
+  </securityCryptographyConfiguration>
+  <appSettings>
+    <add key="LocationCode" value="HO"/>
+    <add key="TerminalCode" value="T01"/>
+    <add key="AppType" value="1"/>
+    <add key ="LoginModuleCode" value="LGN01"/>
+    <add key ="LogoutModuleCode" value="LGN02"/>
+    <add key="DefaultPassword" value="admin"/>
+  </appSettings>
+</configuration>
+ 

@@ -1,0 +1,63 @@
+﻿@using WSS.CustomerApplication.Models
+@using WSS.CustomerApplication.Properties
+@model PagedList.IPagedList<AdditionalEmailAddressViewModel>
+
+@*Additional Email*@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title header-as-link" onClick="AccordionHeaderClick('additionalEmailForm', '$(\'#additionalEmailPanelLink\').click();');" style="cursor: pointer;">Additional E-mail Addresses</h3>
+        <a id="additionalEmailPanelLink" data-toggle="collapse" data-target="#additionalEmailPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);"></a>
+    </div>
+    <div class="panel-body panel-collapse collapse" id="additionalEmailPanelBody">
+
+        <form id="additionalEmailForm">
+            @if (Model.Count > 0)
+            {
+                <div class="row" style="padding: 0 20px;">
+                    <table class="table table-hover">
+                        <tbody id="additionalEmailTableBody">
+                            @foreach (var item in Model)
+                            {
+                                <tr data-EmailId="@item.AdditionalEmailAddressId">
+                                    <td class="col-sm-6 email-address">@item.EmailAddress</td>
+                                    <td class="col-sm-6" style="text-align: left;">
+                                        <button class="btn btn-default btn-delete-additional-email" data-EmailId="@item.AdditionalEmailAddressId" data-WssAccountId="@item.WssAccountId" title="Remove the email"><i class="fa fa-trash"></i> &nbsp;Remove</button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+            <div class="row">
+                <div class="col-sm-6">
+                    <input type="text" id="additionalEmail" name="additionalEmail" class="form-control" placeholder="@Resources.AccountView_additionalEmailAddresses_additionalEmailPanelBody_Enter_additional_Email_address" title="@Resources.AccountView_additionalEmailAddresses_additionalEmailPanelBody_Enter_additional_Email_address" value="@ViewBag.AdditionalEmail" />
+                </div>
+                <div class="col-sm-6">
+                    <button class="btn btn-primary btn-Additional-Email" value="additionalEmail" title="Additional E-mail" id="btnAdditionalEmail"><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountView_additionalEmailAddresses_additionalEmailPanelBody_Add</button>
+                </div>
+            </div>
+            <div class="row col-sm-10 text-center">
+                <label id="lbladditionalEmailErrorMsg" class="has-error" style="color: red"></label>
+            </div>
+        </form>
+        <div class="row col-lg-12">
+            @Resources.additionalEmailAddresses_cshtml_You_may_add_up_to_5_additional_email_addresses
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        setupAdditionalEmailFunctionality('@Url.Action("AdditionalEmail", "Account")');
+        setupRemoveAdditionalEmailFunctionality('@Url.Action("DeleteAdditionalEmailAddresses", "Account")');
+        @*if(("@ViewBag.EmailErrorMessage"!=="")) {
+            showNotification("@ViewBag.EmailErrorMessage.ToString()", @Resources.additionalEmailAddresses_cshtml_Execute_Warning_Message, @Resources.additionalEmailAddresses_cshtml_Execute_Warning);
+        }*@
+
+    });
+
+
+</script>

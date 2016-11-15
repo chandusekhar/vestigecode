@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="InventoryAdjScreen" targetNamespace="http://tempuri.org/InventoryAdjScreen.xsd" xmlns:mstns="http://tempuri.org/InventoryAdjScreen.xsd" xmlns="http://tempuri.org/InventoryAdjScreen.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="InventoryAdjScreen" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="InventoryAdjScreen" msprop:Generator_UserDSName="InventoryAdjScreen" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InventoryAdjScreenHeaderDataTable" msprop:Generator_UserTableName="InventoryAdjScreenHeaderDataTable" msprop:Generator_RowDeletedName="InventoryAdjScreenHeaderDataTableRowDeleted" msprop:Generator_TableClassName="InventoryAdjScreenHeaderDataTableDataTable" msprop:Generator_RowChangedName="InventoryAdjScreenHeaderDataTableRowChanged" msprop:Generator_RowClassName="InventoryAdjScreenHeaderDataTableRow" msprop:Generator_RowChangingName="InventoryAdjScreenHeaderDataTableRowChanging" msprop:Generator_RowEvArgName="InventoryAdjScreenHeaderDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="InventoryAdjScreenHeaderDataTableRowChangeEventHandler" msprop:Generator_TablePropName="InventoryAdjScreenHeaderDataTable" msprop:Generator_TableVarName="tableInventoryAdjScreenHeaderDataTable" msprop:Generator_RowDeletingName="InventoryAdjScreenHeaderDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Location" msprop:Generator_UserColumnName="Location" msprop:Generator_ColumnPropNameInRow="Location" msprop:Generator_ColumnVarNameInTable="columnLocation" msprop:Generator_ColumnPropNameInTable="LocationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationName" msprop:Generator_UserColumnName="LocationName" msprop:Generator_ColumnPropNameInRow="LocationName" msprop:Generator_ColumnVarNameInTable="columnLocationName" msprop:Generator_ColumnPropNameInTable="LocationNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationAddress" msprop:Generator_UserColumnName="LocationAddress" msprop:Generator_ColumnPropNameInRow="LocationAddress" msprop:Generator_ColumnVarNameInTable="columnLocationAddress" msprop:Generator_ColumnPropNameInTable="LocationAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InitiatedDate" msprop:Generator_UserColumnName="InitiatedDate" msprop:Generator_ColumnPropNameInRow="InitiatedDate" msprop:Generator_ColumnVarNameInTable="columnInitiatedDate" msprop:Generator_ColumnPropNameInTable="InitiatedDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InitiatedBy" msprop:Generator_UserColumnName="InitiatedBy" msprop:Generator_ColumnPropNameInRow="InitiatedBy" msprop:Generator_ColumnVarNameInTable="columnInitiatedBy" msprop:Generator_ColumnPropNameInTable="InitiatedByColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ApprovedRejectedBy" msprop:Generator_UserColumnName="ApprovedRejectedBy" msprop:Generator_ColumnPropNameInRow="ApprovedRejectedBy" msprop:Generator_ColumnVarNameInTable="columnApprovedRejectedBy" msprop:Generator_ColumnPropNameInTable="ApprovedRejectedByColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InventoryAdjScreenDetailDataTable" msprop:Generator_UserTableName="InventoryAdjScreenDetailDataTable" msprop:Generator_RowDeletedName="InventoryAdjScreenDetailDataTableRowDeleted" msprop:Generator_TableClassName="InventoryAdjScreenDetailDataTableDataTable" msprop:Generator_RowChangedName="InventoryAdjScreenDetailDataTableRowChanged" msprop:Generator_RowClassName="InventoryAdjScreenDetailDataTableRow" msprop:Generator_RowChangingName="InventoryAdjScreenDetailDataTableRowChanging" msprop:Generator_RowEvArgName="InventoryAdjScreenDetailDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="InventoryAdjScreenDetailDataTableRowChangeEventHandler" msprop:Generator_TablePropName="InventoryAdjScreenDetailDataTable" msprop:Generator_TableVarName="tableInventoryAdjScreenDetailDataTable" msprop:Generator_RowDeletingName="InventoryAdjScreenDetailDataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AdjustmentNo" msprop:Generator_UserColumnName="AdjustmentNo" msprop:Generator_ColumnPropNameInRow="AdjustmentNo" msprop:Generator_ColumnVarNameInTable="columnAdjustmentNo" msprop:Generator_ColumnPropNameInTable="AdjustmentNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCode" msprop:Generator_UserColumnName="ItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemName" msprop:Generator_UserColumnName="ItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UOMName" msprop:Generator_UserColumnName="UOMName" msprop:Generator_ColumnPropNameInRow="UOMName" msprop:Generator_ColumnVarNameInTable="columnUOMName" msprop:Generator_ColumnPropNameInTable="UOMNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromBucketName" msprop:Generator_UserColumnName="FromBucketName" msprop:Generator_ColumnPropNameInRow="FromBucketName" msprop:Generator_ColumnVarNameInTable="columnFromBucketName" msprop:Generator_ColumnPropNameInTable="FromBucketNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToBucketName" msprop:Generator_UserColumnName="ToBucketName" msprop:Generator_ColumnPropNameInRow="ToBucketName" msprop:Generator_ColumnVarNameInTable="columnToBucketName" msprop:Generator_ColumnPropNameInTable="ToBucketNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Quantity" msprop:Generator_UserColumnName="Quantity" msprop:Generator_ColumnPropNameInRow="Quantity" msprop:Generator_ColumnVarNameInTable="columnQuantity" msprop:Generator_ColumnPropNameInTable="QuantityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReasonCodeDescription" msprop:Generator_UserColumnName="ReasonCodeDescription" msprop:Generator_ColumnPropNameInRow="ReasonCodeDescription" msprop:Generator_ColumnVarNameInTable="columnReasonCodeDescription" msprop:Generator_ColumnPropNameInTable="ReasonCodeDescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ApprovedQty" msprop:Generator_UserColumnName="ApprovedQty" msprop:Generator_ColumnPropNameInRow="ApprovedQty" msprop:Generator_ColumnVarNameInTable="columnApprovedQty" msprop:Generator_ColumnPropNameInTable="ApprovedQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BatchNo" msprop:Generator_UserColumnName="BatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

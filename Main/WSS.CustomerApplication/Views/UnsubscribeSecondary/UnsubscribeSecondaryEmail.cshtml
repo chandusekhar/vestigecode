@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Unsubscribe Secondary Email Action";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using WSS.CustomerApplication.Models
+@model UnsubscribeViewModel
+<h2>Unsubscribe Secondary Email Action</h2>
+@if (ViewBag.UnsubscriptionSecondaryEmailMessage != null)
+{
+    <div>
+        @ViewBag.UnsubscriptionSecondaryEmailMessage
+    </div>
+}
+else
+{
+    <div>
+        @using (Html.BeginForm("UnsubscribeSecondaryEmail", "UnsubscribeSecondary", FormMethod.Post))
+        {
+            @Html.HiddenFor(m => m.WssAdditionalEmailId)
+            <div>
+
+                <div class="row">
+                    <div class="col-sm-1">
+                        <label for="changeEmail1">Email id:</label>
+                    </div>
+                    <div class="col-sm-3">
+                        <div>
+                            <div class="row">
+                                <div class="col-sm-1">
+                                    @Html.LabelFor(m => m.EmailAddress)
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="text" class="form-control" id="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class='row'>
+                            <div class="col-md-5">
+                                <p>Are you sure you want to unsubscribe this email.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <button class="btn btn-link pull-left" type="submit" name="submit" value="YES" title="Yes"><i class="fa fa-times-circle"></i> &nbsp;Yes</button>
+                            <button class="btn btn-link" type="submit" name="submit" value="No" title="No"><i class="fa fa-times-circle"></i> &nbsp;No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

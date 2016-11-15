@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div style="padding: 170px;">
+    <a href="@Url.Action("Index", "Account")"> Go to user account</a>
+    <br/>
+    <br /><a href="@Url.Action("Index", "AccountActivation", new {key="DC07ECBC5DD74410A244F2D46D97E165"})"> Go to user activate account id=1</a>
+    <br /><a href="@Url.Action("Index", "AccountActivation", new {key="D4DCD7BFCDD242BBA80EF57E4E11807D"})"> Go to user activate account id=7</a>
+    <br /><br />
+</div>

@@ -1,0 +1,16 @@
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmGRN.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmGRNBatch.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmIndent.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmIndentConsolidation.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmPurchaseOrder.resources
+D:\Bikram\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\PurchaseComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.Properties.Resources.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmGRN.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmGRNBatch.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmIndent.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmIndentConsolidation.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.UI.frmPurchaseOrder.resources
+D:\Dev - Copy\PurchaseComponent\obj\Release\PurchaseComponent.csproj.GenerateResource.Cache

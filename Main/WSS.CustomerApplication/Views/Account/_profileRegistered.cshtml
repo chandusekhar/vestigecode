@@ -1,0 +1,296 @@
+﻿@using WSS.CustomerApplication.Models
+@using WSS.CustomerApplication.Properties
+@model AccountViewModel
+
+<br />
+<div class="row">
+    <p class="col-md-3" id="primaryEmailAddress"><strong>Profile:</strong>&nbsp;@Model.PrimaryEmailAddress</p>
+</div>
+
+<div class="panel-group" id="profilePanelGroup">
+
+    @*Unsubscribe*@
+    @if (Model.ShowUnSubscribe)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title header-as-link" onClick="AccordionHeaderClick('', '$(\'#unsubscribePanelLink\').click();');" style="cursor: pointer;">Unsubscribe</h3>
+                <a id="unsubscribePanelLink" data-toggle="collapse" data-target="#unsubscribePanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);"></a>
+            </div>
+            <div class="panel-body panel-collapse collapse" id="unsubscribePanelBody">
+                <form id="unsubscribeForm">
+                    @*<div class="form-group">*@
+                    <div class="row col-md-12">
+                        @Html.HiddenFor(model => model.WssAccountId)
+                        <p>@Resources.AccountView_profileRegistered_unsubscribePanelBody_This_will_prevent_you_from_being_able_to_access_selfservice_until_you_reregister_for_the_service</p>
+                    </div>
+                    <div class="row col-md-12">
+                        <b>@Resources.AccountView_profileRegistered_unsubscribePanelBody_Are_you_moving</b>
+                        <p>@Resources.AccountView_profileRegistered_unsubscribePanelBody_If_you_are_moving_within_Winnipeg_your_utility_account_may_be_the_same_after_you_move</p>
+                    </div>
+                    <div class="row col-md-12">
+                        @Html.LabelFor(x => x.UnsubscribeReasonSelected)
+                        <div class="radio col-md-8">
+                            @Html.RadioButtonFor(x => Model.UnsubscribeReasonSelected, AccountViewModel.UnsubscribeReason.NoLongerResponsible) @Resources.AccountView_profileRegistered_unsubscribePanelBody_No_longer_responsible_for_utility_billing
+                        </div>
+                        <div class="radio col-md-8">
+                            @Html.RadioButtonFor(x => Model.UnsubscribeReasonSelected, AccountViewModel.UnsubscribeReason.UnhappyWithService) @Resources.AccountView_profileRegistered_unsubscribePanelBody_Unhappy_with_online_services
+                        </div>
+                        <div class="radio col-md-8">
+                            @Html.RadioButtonFor(x => Model.UnsubscribeReasonSelected, AccountViewModel.UnsubscribeReason.PreferNotToSay) @Resources.AccountView_profileRegistered_unsubscribePanelBody_Prefer_not_to_say
+                        </div>
+                        <div class="radio form-inline col-md-8">
+                            @Html.RadioButtonFor(x => Model.UnsubscribeReasonSelected, AccountViewModel.UnsubscribeReason.Other, new { @class = "form-control-valign-middle" }) Other @Html.TextBoxFor(x => Model.UnsubscribeReasonOtherText, new { @class = "form-control", placeholder = Resources._profileRegistered_cshtml_Execute_Please_specify })
+                        </div>
+                    </div>
+
+                    <div class="row col-md-12">
+                        @Html.LabelFor(x => x.UnsubscribeComments, new { @class = "form-label" })
+                        @Html.TextAreaFor(x => x.UnsubscribeComments, new { @class = "form-control", @style = "-moz-min-width: 100%;-ms-min-width: 100%;-o-min-width: 100%;-webkit-min-width: 100%;min-width: 100%" })
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6  top-buffer">
+                            <button class="btn btn-link" type="reset" value="Cancel" title="Cancel" id="btnCancelUnsubscribe"><i class="fa fa-times-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_unsubscribePanelBody_Cancel</button>
+                        </div>
+                        <div class="col-sm-6  top-buffer">
+                            <button class="btn btn-primary btn-unsubscribe" title="Unsubscribe" id="btnUnsubscribe"><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_unsubscribePanelBody_Unsubscribe</button>
+                        </div>
+                    </div>
+                    <div class="field-validation-error text-center" style="font-weight: 700;">
+                        @Html.ValidationMessageFor(model => model.UnsubscribeComments)
+                        @Html.ValidationMessageFor(model => model.UnsubscribeReasonOtherText)
+                        @Html.ValidationMessageFor(model => model.UnsubscribeReasonSelected)
+                    </div>
+                    @*</div>*@
+                </form>
+            </div>
+        </div>
+    }
+
+    @*Reset Password*@@if (Model.ShowResetPassword)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title header-as-link" onClick="AccordionHeaderClick('resetPasswordForm', '$(\'#passwordPanelLink\').click();');" style="cursor: pointer;">
+                    Reset Password
+                </h3>
+                <a id="passwordPanelLink" data-toggle="collapse" data-target="#changePasswordPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);"></a>
+            </div>
+            <div class="panel-body panel-collapse collapse" id="changePasswordPanelBody">
+                <form id="resetPasswordForm">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="password" id="currentPassword" name="currentPassword" class="form-control" placeholder="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Enter_your_current_password" title="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Enter_your_current_password" />
+                            @Html.HiddenFor(model => model.WssAccountId)
+                        </div>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-sm-6 ">
+
+                            <input type="password" id="newPassword1" name="newPassword1" class="form-control" placeholder="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Enter_your_new_password" title="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Enter_your_new_password" data-toggle="popover" data-content="@Resources.AccountController_ChangePassword_Popover_Text" data-trigger="focus" data-placement="auto top" />
+                        </div>
+                        <div class="visible-sm visible-xs col-sm-6 top-buffer"></div>
+                        <div class="col-sm-6">
+                            <input type="password" id="newPassword2" name="newPassword2" class="form-control" placeholder="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Confirm_your_new_password" title="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Confirm_your_new_password" />
+                        </div>
+                    </div>
+                    <div class="row col-sm-10 text-center">
+                        <label id="lblPasswordResetMsg" class="has-error" style="color: red"></label>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-sm-6">
+                            <button class="btn btn-link" type="reset" value="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Cancel" title="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Cancel" id="btnCancelResetPassword"><i class="fa fa-times-circle"></i> &nbsp;Cancel</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="btn btn-primary btn-change-password" value="changePassword" title="@Resources.AccountView_profileRegistered_changePasswordPanelBody_Send_Change_Password_form" id="btnChangePassword"><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_changePasswordPanelBody_Change_Password</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }@*Change Email*@
+    @if (Model.ShowChangeEmail)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title header-as-link" onClick="AccordionHeaderClick('resetEmailForm', '$(\'#emaildPanelLink\').click();');" style="cursor: pointer;">Change E-mail</h3>
+                <a id="emaildPanelLink" data-toggle="collapse" data-target="#changeEmailPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);"></a>
+            </div>
+
+            <div class="panel-body panel-collapse collapse" id="changeEmailPanelBody">
+                <p>@Resources.ChangeEmail_cshtml_Execute_setupChangeEmail_Please_note_you_are_about_to_Logged_out_of_your_Account_Please_note_Upon_successful_change_of_the_email_address_you_will_be_logged_out_On_next_log_in_you_will_need_to_log_in_using_the_new_email_address</p>
+                <form id="resetEmailForm">
+                    <div class="row top-buffer">
+                        <div class="col-sm-6">
+                            <input type="text" id="changeEmail1" name="changeEmail1" class="form-control" placeholder="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Enter_new_email_address" title="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Enter_new_email_address" onfocus="$('#lblEmailErrorMsg').text('');" value="@Model.ChangeEmailAddress1" />
+                            @Html.HiddenFor(model => model.WssAccountId)
+                        </div>
+                        <div class="visible-xs col-sm-6 top-buffer"></div>
+                        <div class="col-sm-6">
+                            <input type="text" id="changeEmail2" name="changeEmail2" class="form-control" placeholder="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Confirm_new_email_address" title="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Confirm_new_email_address" onfocus="$('#lblEmailErrorMsg').text('');" value="@Model.ChangeEmailAddress2" />
+                        </div>
+                    </div>
+                    <div class="row col-sm-10 text-center">
+                        <label id="lblEmailErrorMsg" class="has-error" style="color: red">error label</label>
+                    </div>
+                    <div class="row top-buffer">
+                        <div class="col-sm-6">
+                            <button class="btn btn-link" type="reset" value="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Cancel" title="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Cancel" id="btnCancelChangeemail"><i class="fa fa-times-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_changeEmailPanelBody_Cancel</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="btn btn-primary btn-change-email" value="changeEmail" title="@Resources.AccountView_profileRegistered_changeEmailPanelBody_Send_Change_Email_form" id="btnChangeEmail"><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_changeEmailPanelBody_Change_Email</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }@*Change Security Settings*@
+    @if (Model.ShowSecuritySettings)
+    {
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title header-as-link" onClick="AccordionHeaderClick('securitysettingsForm', '$(\'#securitysettingsPanelLink\').click();');" style="cursor: pointer;">
+                    Change Security Settings
+                </h3>
+                <a id="securitysettingsPanelLink" data-toggle="collapse" data-target="#changeSecuritySettingsPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);"></a>
+            </div>
+            <div class="panel-body panel-collapse collapse" id="changeSecuritySettingsPanelBody">
+                <form id="changeSecuritySettingsForm" class="dirtylisten">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            @Html.DropDownListFor(model => model.SecurityQuestion, new SelectList(ViewBag.Questions, "Key", "Value", Model.SecurityQuestion), Resources._profileRegistered_cshtml_Execute_Select_a_Security_Question_, new { id = "Questions", @class = "form-control col-sm-6" })
+                            @Html.HiddenFor(model => model.WssAccountId)
+                        </div>
+                        <div class="visible-sm visible-xs col-sm-5 top-buffer"></div>
+                        <div class="col-sm-6">
+                            @Html.TextBoxFor(model => model.SecurityQuestionAnswer, null, new { id = "SecurityQuestionAnswer", @class = "form-control col-sm-6", placeholder = Resources._profileRegistered_cshtml_Execute_Your_security_question_answer, data_toggle = "popover", data_content = Resources._profileRegistered_cshtml_Execute_Letters__numbers_and_punctuation_only, data_trigger = "focus", data_placement = "auto top" })
+                        </div>
+                    </div>
+                    <div class="row col-sm-10 text-center" style="height: 35px;">
+                        <label id="lblSecuritySettingsErrorMsg" class="has-error field-validation-error" style="color: red"></label>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button class="btn btn-link" type="reset" value="Cancel" title="Cancel" id="btnCancelChangeSecuritySettings"><i class="fa fa-times-circle"></i> &nbsp;Cancel</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <button class="btn btn-primary btn-change-security-settings" value="changeSecuritySettings" title="@Resources.AccountView_profileRegistered_changeSecuritySettingsPanelBody_Send_Change_Security_Settings_form" id="btnChangeSecuritySettings"><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountView_profileRegistered_changeSecuritySettingsPanelBody_Change_Security_Question</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    }@*Additional Email*@
+    @if (Model.ShowAdditionalEmail)
+    {
+        <div class="panel panel-primary">
+            <input type="hidden" id="hidAccountId" name="hidAccountId" value="@Model.WssAccountId" />
+            <div id="divAdditionalEmaillAddresses">
+                @Html.Partial("_additionalEmailAddresses", (PagedList.IPagedList<WSS.CustomerApplication.Models.AdditionalEmailAddressViewModel>)ViewBag.additionalEmailAddressRecords)
+            </div>
+        </div>
+    }
+</div>
+
+<script type="text/javascript">
+
+    var ResourceKeys = {
+        EmailAlreadyExist: '@Resources.CustomerAppScipts_cshtml_Execute_Email_Already_Exists',
+        PleaseEnterCurrentPassword: '@Resources.CustomerAppScipts_cshtml_Execute_Please_enter_current_password',
+        Emailaddresswaschangedsuccessfully: '@Resources.CustomerAppScipts_cshtml_Execute_Email_address_was_changed_successfully',
+        SuccessMessage: '@Resources.CustomerAppScipts_cshtml_Execute_Success_Message',
+        Success: '@Resources.CustomerAppScipts_cshtml_Execute_Success',
+        Error: '@Resources.CustomerAppScipts_cshtml_Execute_Error',
+        EmailAlreadyExists: '@Resources.AccountController_ChangeEmail_Email_Already_Exists',
+        PleaseEnterNewPassword: '@Resources.CustomerAppScipts_cshtml_Execute_Please_enter_new_password',
+        PleaseConfirmYourNewPassword: '@Resources.CustomerAppScipts_cshtml_Execute_Please_confirm_your_new_password',
+        NewPasswordAndConfirmNewPasswordDoNotMatch: '@Resources.CustomerAppScipts_cshtml_Execute_New_password_and_Confirm_New_password_do_not_match',
+        NewPasswordDoesNotFulfillTheSpecifications: '@Resources.CustomerAppScipts_cshtml_Execute_New_Password_does_not_fulfill_the_specifications',
+        YourPasswordWasChangedSuccessfully: '@Resources.CustomerAppScipts_cshtml_Execute_Your_password_was_changed_successfully',
+        ErrorMessage: '@Resources.CustomerAppScipts_cshtml_Execute_Error_Message',
+        PleaseSelectaReasonToUnsubscribe: '@Resources.CustomerAppScipts_cshtml_Execute_sendUnsubscribe_Please_select_a_reason_to_unsubscribe',
+        PleaseSpecifyWhatisTheReasonToUnsubscribe: '@Resources.CustomerAppScipts_cshtml_Execute_sendUnsubscribe_Please_specify_what_is_the_reason_to_unsubscribe',
+        PleaseEnterEmailAddress: '@Resources.CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Please_enter_email_address',
+        PleaseEnterValidEmailAddress: '@Resources.CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Please_enter_valid_email_address',
+        AdditionalEmailAddressWasAddedSuccessfully: '@Resources.CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Additional_Email_address_was_added_successfully',
+        ThereIsSomeDataFilledInAndNotSubmitted: '@Resources.CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_There_is_some_data_filled_in_and_not_submitted',
+        AreYouSureYouWantToLeaveThePage: '@Resources.CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_Are_you_sure_you_want_to_leave_the_page',
+        AreYouSureYouWantToContinue: '@Resources.CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_Are_You_Sure_you_Want_To_Continue',
+        YouHaveToAcceptTheTermsAndConditions: '@Resources.CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_You_have_to_accept_the_terms_and_conditions',
+        SorryAnErrorOccured: '@Resources.CustomerAppScipts_cshtml_Execute_RemoveLinkedAccount_Sorry_an_error_occured',
+        DeletedTheAccount: '@Resources.CustomerAppScipts_cshtml_Execute_RemoveLinkedAccount_Deleted_the_account',
+        PleaseConfirmYourEmailAddress: '@Resources.CustomerAppScipts_cshtml_Execute_setupChangeEmail_Please_confirm_your_email_address',
+        EmailAddressAndConfirmEmailAddressDoNotMatch: '@Resources.CustomerAppScipts_cshtml_Execute_setupChangeEmail_Email_address_and_Confirm_Email_address_do_not_match',
+        PleaseNoteYouAreAboutToLoggedOutOfYourAccount: '@Resources.ChangeEmail_cshtml_Execute_setupChangeEmail_Please_note_you_are_about_to_Logged_out_of_your_Account_Please_note_Upon_successful_change_of_the_email_address_you_will_be_logged_out_On_next_log_in_you_will_need_to_log_in_using_the_new_email_address',
+        ClickAgainToConfirm: '@Resources.CustomerAppScipts_cshtml_Execute_Click_again_to_confirm',
+        UpdatedTheAccount: '@Resources.CustomerAppScipts_cshtml_Execute_UpdateLinkedUtilityAccount_Updated_the_account',
+        AdditionalEmailAddressWasDeletedSuccessfully: '@Resources.CustomerAppScipts_cshtml_Execute_setupRemoveAdditionalEmail_Additional_Email_address_was_deleted_successfully',
+        EnterAnswerForSecurityQuestion: '@Resources.profileRegistered_cshtml_Execute_please_enter_answer_for_security_question',
+        AnswerNotWalid: '@Resources.profileRegistered_cshtml_Execute_please_enter_valid_answer',
+        SelectAQuestion: '@Resources.profileRegistered_cshtml_Execute_please_select_question',
+        QuestionChangedSuccessfully: '@Resources.profileRegistered_cshtml_Execute_Security_Question_changed_successfully',
+        AnswerChangeSuccessMessage: '@Resources.profileRegistered_cshtml_Execute_Success_Message',
+        AnswerChangeSuccess: '@Resources.profileRegistered_cshtml_Execute_Success'
+    }
+
+
+    $(document).ready(function () {
+
+        $('[data-toggle="popover"]').popover();
+        $("#lblEmailErrorMsg").text("").addClass("hidden");
+        setupChangeEmailButtonFunctionality('@Url.Action("ChangeEmail", "Account")');
+        setupChangePasswordButtonFunctionality('@Url.Action("ChangePassword", "Account")');
+        setupUnsubscribeButtonFunctionality('@Url.Action("Unsubscribe", "Account")', '@Url.Action("Thankyou", "Account")');
+        setupChangeSecuritySettingsButtonFunctionality('@Url.Action("ChangeSecuritySettings", "Account")');
+
+        $('form').dirtyForms('rescan');
+        $('#btnCancelUnsubscribe').click(function () {
+            var divUnsubscribe = $('div#unsubscribePanelBody');
+            if (divUnsubscribe != undefined) {
+                divUnsubscribe.attr('class', 'panel-body panel-collapse collapse');
+                divUnsubscribe.attr('aria-expanded', 'false');
+                divUnsubscribe[0].style.height = '30px';
+            }
+        });
+
+        $('#btnCancelChangeemail').click(function () {
+
+            $("#changeEmail1").val("");
+            $("#changeEmail2").val("");
+            var divUnsubscribe = $('div#changeEmailPanelBody');
+            if (divUnsubscribe != undefined) {
+                divUnsubscribe.attr('class', 'panel-body panel-collapse collapse');
+                divUnsubscribe.attr('aria-expanded', 'false');
+                divUnsubscribe[0].style.height = '30px';
+            }
+        });
+
+        $('#btnCancelResetPassword').click(function () {
+
+            $("#currentPassword").val("");
+            $("#newPassword1").val("");
+            $("#newPassword2").val("");
+
+            var divUnsubscribe = $('div#changePasswordPanelBody');
+            if (divUnsubscribe != undefined) {
+                divUnsubscribe.attr('class', 'panel-body panel-collapse collapse');
+                divUnsubscribe.attr('aria-expanded', 'false');
+                divUnsubscribe[0].style.height = '30px';
+            }
+        });
+
+        $('#btnCancelChangeSecuritySettings').click(function () {
+            var divUnsubscribe = $('div#changeSecuritySettingsPanelBody');
+            if (divUnsubscribe != undefined) {
+                divUnsubscribe.attr('class', 'panel-body panel-collapse collapse');
+                divUnsubscribe.attr('aria-expanded', 'false');
+                divUnsubscribe[0].style.height = '30px';
+            }
+        });
+
+    });
+
+
+
+</script>

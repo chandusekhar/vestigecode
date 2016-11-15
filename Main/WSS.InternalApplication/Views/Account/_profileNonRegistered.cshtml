@@ -1,0 +1,15 @@
+﻿@using WSS.InternalApplication.Models
+@model WSS.InternalApplication.Models.AccountViewModel
+
+<div class="container top-buffer">
+    <div class="row">
+        <p class=""><strong>Profile:</strong>&nbsp;N/A</p>
+    </div>
+    <div class="row">
+        <p class=""><strong>Account Status:</strong>&nbsp;@Model.StatusDescription</p>
+    </div>
+    <div class="row">
+        @* TODO Replace the CCB Account ID with actual CCB Account number value once we have it in the model *@
+        @Html.ActionLink("Register Account", "Index", "register", new { ccbAccountNumber = @Model.CcbAccountNumber, customerName = @Model.PrimaryAccountHolderName }, new { @class = "btn btn-primary", })
+    </div>
+</div>

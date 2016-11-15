@@ -1,0 +1,553 @@
+﻿<!DOCTYPE html>
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" ng-app="app">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City of Winnipeg - Waste and Water Department - </title>
+
+    <link href="Content/site.css" rel="stylesheet">
+    <link href="Content/bootstrap.css" rel="stylesheet">
+    <link href="Content/bootstrap-theme.css" rel="stylesheet">
+    <link href="Content/font-awesome.css" rel="stylesheet">
+
+    <link href="Content/toastr.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="description" content="Web Self service">
+</head>
+<body>
+
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="Scripts/respond.js"></script>
+    <script src="Scripts/toastr.js"></script>
+    <script src="Scripts/UserNotifications.js"></script>
+
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+
+    <script type="text/javascript">
+        function GetAuditRecordsPageWise(ctrl) {
+            var page = ctrl.dataset.page;
+            var pageSize = $('select#rowsPerPage').val(); //ctrl.dataset.pagesize;
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var wssAccountId = $('#hdnWssAccountId').val();
+            var url = '/Account/_audit';
+            $.get(url, { wssAccountId: wssAccountId, page: page, rowsPerPage: pageSize, sortOrder: sortOrder, sortDir: sortDir }, function (result) {
+                if (result != undefined && result != null) {
+                    $('#auditRecords').html(result);
+                }
+            });
+        }
+        function GetAuditRecordsByPageNumber(ctrl) {
+            var page = ctrl.innerText;
+            var pageSize = $('#hdnPageSize').val();
+            var sortDir = $('#hdnCurrentDir').val();
+            var sortOrder = $('#hdnCurrentSort').val();
+            var wssAccountId = $('#hdnWssAccountId').val();
+            var url = '/Account/_audit';
+            $.get(url, { wssAccountId: wssAccountId, page: page, rowsPerPage: pageSize, sortOrder: sortOrder, sortDir: sortDir }, function (result) {
+                if (result != undefined && result != null) {
+                    $('#auditRecords').html(result);
+                }
+            });
+        }
+        function SortBillRecords(ctrl) {
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var utilityAccountId = $('#hdnBillsUtilityAccountId').val();
+            var url = '/Account/_bills';
+            $.get(url, { id: utilityAccountId, sortOrder: sortOrder, sortDir: sortDir }, function (result) {
+                if (result != undefined && result != null) {
+                    $('#Account-Bill-List').html(result);
+                }
+            });
+        }
+    </script>
+
+    <style type="text/css">
+        .nav-tabs li a {
+            font-size: 16px;
+        }
+
+        @media only screen and (max-width: 390px) {
+            #sign_out_link {
+                color: #2A6496;
+            }
+        }
+    </style>
+
+    <div class="body-content container-fluid">
+        <div class="body-content-inner">
+            <div class="navbar navbar-static-top">
+                <div class="header row">
+                    <a href="http://localhost:34175/">
+                        <img id="logo-horizontal" alt="City of Winnipeg Logo" class="img-fluid" style="max-width: 100%;" src="Content/Images/logo-hor_1.png">
+                        <img id="logo-horizontal-text" alt="Water and Waste Online Billing" class="img-fluid" style="max-width: 100%; height: auto;" src="Content/Images/logo-hor_2.png">
+                    </a>
+                    <!--<ul class="nav navbar-right">
+                        <li>
+                            <span class="small label">Sign Out</span>
+                        </li>
+                    </ul>-->
+                    <ul class="nav pull-right">
+                        <li>
+                            <span id="sign_out_link" class="small label">Sign Out</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <section id="account-edit" class="col-sm-9">
+                <div class="">
+                    <!--  tabs  -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="active">
+                            <a href="#Profile" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs"><i class="fa fa-user"></i>&nbsp;Profile</span>
+                                <span class="visible-sm visible-xs"><i class="fa fa-user"></i></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#Bills" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs"><i class="fa fa-tint"></i>&nbsp;Bills</span>
+                                <span class="visible-sm visible-xs"><i class="fa fa-tint"></i></span>
+                            </a>
+                        </li>
+                        <li class="enabled">
+                            <a href="#ManageAccounts" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs"><i class="fa fa-wrench"></i>&nbsp;Manage Utility Accounts</span>
+                                <span class="visible-sm visible-xs"><i class="fa fa-wrench"></i></span>
+                            </a>
+                        </li>
+                        <li class="enabled">
+                            <a href="#Questions" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs"><i class="fa fa-question-circle"></i>&nbsp;Questions</span>
+                                <span class="visible-sm visible-xs"><i class="fa fa-question-circle"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade active in" id="Profile">
+                            <br>
+                            <div class="row">
+                                <p class="col-sm-9"><strong>My Profile:</strong>&nbsp;nsmith@gmail.com</p>
+                            </div>
+
+                            <!--    accordion    -->
+                            <div class="panel-group" id="profilePanelGroup">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#changeEmailPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Change my E-mail Address</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="changeEmailPanelBody">
+                                        <h4>New Email:</h4>
+                                        <div class="row">
+                                            <div class="col-sm-5 col-sm-offset-1">
+                                                <input id="hidAccountId" name="hidAccountId" value="1" type="hidden">
+                                                <input id="changeEmail1" name="changeEmail1" class="form-control" placeholder="New e-mail address" title="Enter new e-mail address" type="text">
+                                                <label id="lblEmailErrorMsg" class="has-error" style="color:red"></label>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <input id="changeEmail2" name="changeEmail2" class="form-control" placeholder="Confirm new e-mail address" title="Confirm new e-mail address" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="row top-buffer">
+                                            <div class="col-sm-5 col-sm-offset-1">
+                                                <button class="btn btn-link" type="reset" value="Cancel" title="Cancel"><i class="fa fa-times-circle"></i> &nbsp;Cancel</button>
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <button class="btn btn-primary" type="submit" value="changeEmail" title="Change E-mail" id="btnChangeEmail"><i class="fa fa-check-circle"></i> &nbsp;Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#changePasswordPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Change my Password</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="changePasswordPanelBody">
+                                        <form action="/Account/ChangePassword" method="post" role="form">
+                                            <div class="form-group">
+                                                <div class="row">
+                                                    <div class="col-sm-5 col-sm-offset-1">
+                                                        <label for="currentPassword">Enter your current password</label>
+                                                        <input id="currentPassword" name="currentPassword" class="form-control" title="Enter your current password" type="password">
+                                                    </div>
+                                                </div>
+                                                <div class="row top-buffer">
+                                                    <div class="col-sm-5 col-sm-offset-1">
+                                                        <label for="newPassword1">Enter your new password</label>
+                                                        <input id="newPassword1" name="newPassword1" class="form-control" title="Enter your new password" type="password">
+                                                    </div>
+                                                    <div class="col-sm-5">
+                                                        <label for="newPassword2">Confirm your new password</label>
+                                                        <input id="newPassword2" name="newPassword2" class="form-control" title="Confirm your new password" type="password">
+                                                    </div>
+                                                </div>
+                                                <div class="row top-buffer">
+                                                    <div class="col-sm-5 col-sm-offset-1">
+                                                        <button class="btn btn-link" type="reset" value="Cancel" title="Cancel"><i class="fa fa-times-circle"></i> &nbsp;Cancel</button>
+                                                    </div>
+                                                    <div class="col-sm-5">
+                                                        <button class="btn btn-primary" type="submit" value="changePassword" title="Change Password"><i class="fa fa-check-circle"></i> &nbsp;Change Password</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#unlockAccount" data-parent="#profilePanelGroup" href="javascript:void(0);">Change my Security Settings</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="unlockAccount">
+                                        Change my Security Settings Content
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#addEmailPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Add Additional E-mail Addresses</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="addEmailPanelBody">
+                                        Content
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#unsubscribePanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Unsubscribe</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="unsubscribePanelBody">
+                                        Content
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">
+                                            <a data-toggle="collapse" data-target="#resendAcivationPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Terms and Conditions</a>
+                                        </h3>
+                                    </div>
+                                    <div class="panel-body panel-collapse collapse" id="resendAcivationPanelBody">
+                                        Content
+                                    </div>
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                        $(document).ready(function () {
+                                            $("#btnChangeEmail").click(function () {
+                                                if ($("#changeEmail1").val() == "" || $("#changeEmail2").val() == "") {
+                                                    $("#lblEmailErrorMsg").text("please enter email address");
+                                                }
+                                                else if ($("#changeEmail1").val() != $("#changeEmail2").val()) {
+                                                    $("#lblEmailErrorMsg").text(" Email address and Confirm Email address doesnot match");
+                                                }
+                                                else if (!isEmail($("#changeEmail1").val())) {
+                                                    $("#lblEmailErrorMsg").text("please enter valid email address");
+                                                }
+                                                else {
+                                                    $("#lblEmailErrorMsg").text("");
+                                                }
+                                                if ($("#lblEmailErrorMsg").text() == "") {
+                                                    var id = 1;
+                                                    $.ajax({
+                                                        type: "POST",
+                                                        url: '/Account/ChangeEmail',
+                                                        data: { strEmail: $("#changeEmail1").val(), Acountid: id },
+                                                        success: function (data) {
+                                                            debugger;
+                                                        },
+                                                        error: function (data) {
+                                                            debugger;
+                                                        }
+                                                    });
+                                                }
+                                            });
+
+                                            function isEmail(email) {
+                                                var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                                                return regex.test(email);
+                                            }
+                                        })
+                            </script>
+                        </div>
+
+                        <div class="tab-pane fade" id="Bills">
+                            <section id="Account-Bill-List">
+                                <br>
+
+                                <input value="1" id="hdnBillsUtilityAccountId" type="hidden">
+
+                                <div class="form-horizontal">
+                                    <label for="accountNickname">Nickname</label>
+                                    <select name="accountNickname" id="accountNickname" class="form-control" onchange="SwitchAccounts();">
+                                        <option>Kush</option>
+                                        <option>David</option>
+                                    </select>
+                                </div>
+
+                                <div id="accountKush" style="display:block;" class="billstable">
+                                    <table class="table table-hover table-striped">
+                                        <thead class="account-bill-table">
+                                            <tr>
+                                                <th class="DocumentDate" data-sortorder="Date" data-sortdir="Change" style="cursor:pointer;">Date <i class="fa fa-sort"></i></th>
+                                                <th class="Amount">Amount</th>
+                                                <th class="Link">Type</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/1" style="cursor: pointer;">
+                                                <td class="DocumentDate">Apr 30, 2015</td>
+                                                <td class="Amount">$10.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/2" style="cursor: pointer;">
+                                                <td class="DocumentDate">Jul 31, 2015</td>
+                                                <td class="Amount">$60.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Reminder</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/3" style="cursor: pointer;">
+                                                <td class="DocumentDate">Oct 31, 2015</td>
+                                                <td class="Amount">$110.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/4" style="cursor: pointer;">
+                                                <td class="DocumentDate">Jan 31, 2016</td>
+                                                <td class="Amount">$160.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div id="accountDavid" style="display:none;" class="billstable">
+                                    <table class="table table-hover table-striped">
+                                        <thead class="account-bill-table">
+                                            <tr>
+                                                <th class="DocumentDate" data-sortorder="Date" data-sortdir="Change" style="cursor:pointer;">Date <i class="fa fa-sort"></i></th>
+                                                <th class="Amount">Amount</th>
+                                                <th class="Link">Type</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/1" style="cursor: pointer;">
+                                                <td class="DocumentDate">Apr 28, 2015</td>
+                                                <td class="Amount">$15.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/2" style="cursor: pointer;">
+                                                <td class="DocumentDate">Jul 28, 2015</td>
+                                                <td class="Amount">$100.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/3" style="cursor: pointer;">
+                                                <td class="DocumentDate">Oct 28, 2015</td>
+                                                <td class="Amount">$145.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                            <tr class="account-bill-table document-link" href="/Account/GetDocumentDetailFile/4" style="cursor: pointer;">
+                                                <td class="DocumentDate">Jan 29, 2016</td>
+                                                <td class="Amount">$99.00</td>
+                                                <td class="Link"><a href="javascript:void(0);">Bill</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+                            <script type="text/javascript">
+                                        $(document).ready(function ($) {
+                                            $("tbody > tr.document-link").click(function () {
+                                                window.open($(this).attr("href"));
+                                            });
+                                        });
+
+                                        $('thead > tr > th.DocumentDate').click(function () {
+                                            SortBillRecords(this);
+                                        });
+                            </script>
+                        </div>
+
+                        <div class="tab-pane fade" id="ManageAccounts">
+                            <section id="Manage-Utility-Account">
+                                <br>
+
+                                <div class="panel-heading">
+                                    <h3 class="panel-title pull-right">
+                                        <a data-toggle="collapse" data-target="#addUtilityAccount" data-parent="#profilePanelGroup" href="javascript:void(0);">
+                                            Add Utility Account&nbsp;<i class="fa fa-plus"></i>
+                                        </a>
+                                    </h3>
+                                </div>
+                                <table class="table table-hover table-striped">
+                                    <thead class="manage-utility-account">
+
+                                        <tr>
+                                            <th class="NickName">Nickname </th>
+                                            <th class="AccountNumber">Account Number </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+
+                                        <tr data-toggle="collapse" data-target="#12345678">
+                                            <td>
+                                                <div id="accordion" class="NickName">Kush</div>
+                                            </td>
+                                            <td>
+                                                <div id="AccountNumber" class="AccountNumber">12345678</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="collapse out" id="12345678">
+                                                    <div class="row">
+                                                        <div class="col-sm-2">
+                                                            <p> <span class="glyphicon glyphicon-ok-sign"> Default</span></p>
+                                                        </div>
+                                                        <div class="col-sm-offset-3 col-sm-9">
+                                                            <label for="nameOnAccount">Is my name on Utility Bill Account</label>
+                                                            <input id="nameOnAccount" name="nameOnAccount" class="form-control" title="Is my name on Utility Bill Account" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-offset-3 col-sm-9">
+                                                            <label for="nicknameOnAccount">Edit Nickname for Account:</label>
+                                                            <input id="nicknameOnAccount" name="nicknameOnAccount" class="form-control" title="Edit Nickname for Account:" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-2">
+                                                            <button type="button" class="btn btn-link">cancel</button>
+                                                        </div>
+                                                        <div class="col-sm-offset-7 col-sm-7 ">
+                                                            <button type="button" class="btn btn-info">Save Change</button>
+                                                            <button type="button" class="btn btn-link"><i class="fa fa-trash"></i>Remove Account</button>
+                                                        </div>
+                                                        <div class="col-sm-2">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr data-toggle="collapse" data-target="#12345678">
+                                            <td>
+                                                <div id="accordion" class="NickName">David</div>
+                                            </td>
+                                            <td>
+                                                <div id="AccountNumber" class="AccountNumber">12345678</div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <div class="collapse out" id="12345678">
+                                                    <div class="row">
+                                                        <div class="col-sm-2">
+                                                            <p> <span class="glyphicon glyphicon-ok-sign"> Default</span></p>
+                                                        </div>
+                                                        <div class="col-sm-offset-3 col-sm-9">
+                                                            <label for="nameOnAccount">Is my name on Utility Bill Account</label>
+                                                            <input id="nameOnAccount" name="nameOnAccount" class="form-control" title="Is my name on Utility Bill Account" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-offset-3 col-sm-9">
+                                                            <label for="nicknameOnAccount">Edit Nickname for Account:</label>
+                                                            <input id="nicknameOnAccount" name="nicknameOnAccount" class="form-control" title="Edit Nickname for Account:" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        &nbsp;
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-2">
+                                                            <button type="button" class="btn btn-link">cancel</button>
+                                                        </div>
+                                                        <div class="col-sm-offset-7 col-sm-7 ">
+                                                            <button type="button" class="btn btn-info">Save Change</button>
+                                                            <button type="button" class="btn btn-link"><i class="fa fa-trash"></i>Remove Account</button>
+                                                        </div>
+                                                        <div class="col-sm-2">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                            <script>
+                                        $("[data-toggle=myCollapse]").click(function (ev) {
+                                            ev.preventDefault();
+                                            var target;
+                                            if (this.hasAttribute('data-target')) {
+                                                target = $(this.getAttribute('data-target'));
+                                            } else {
+                                                target = $(this.getAttribute('href'));
+                                            };
+                                            target.toggleClass("in");
+                                        });
+                            </script>
+                        </div>
+
+                        <div class="tab-pane fade" id="Questions">
+                            <br>
+                            <div class="row">
+                                <p class="col-sm-9">Tab content goes here </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div id="banner" class="col-sm-3 top-buffer text-center">
+                <br /><br /><img src="Content/images/banner1.gif" alt="Slow the flow banner" style="width:90%;padding:0 5%; max-width:280px;" />
+            </div>
+        </div>
+
+        <footer>
+            <div class="text-center">
+                Copyright 2016, City of Winnipeg Water and Waste Department.
+                <br />Build 1.0.1.0
+            </div>
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            {
+
+            }
+        });
+
+        function SwitchAccounts()
+        {
+            $(".billstable").each (function(){
+                $(this).css('display', 'none');
+                $('#account'+ $("#accountNickname").val()).css('display', 'block');
+            });
+        }
+    </script>
+</body>
+</html>

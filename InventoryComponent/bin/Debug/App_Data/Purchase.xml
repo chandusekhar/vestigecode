@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grids>
+  
+  <GridView Name="dgvSearchGRN" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="View" HeaderText="View" Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="view"/>
+    <Column Name="GrnNo" HeaderText="GRN No" Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GRNNo" DataSource="" DisplayMember="" ValueMember=""/> 
+    <Column Name="GrnDate" HeaderText="GRN Date" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayGRNDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="PONo" HeaderText="PO No" Font="" Visible="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="PONumber" DataSource="" DisplayMember="" ValueMember=""/>    
+    <Column Name="PODate" HeaderText="PO Date" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayPODate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ChallanNo" HeaderText="Challan No" Font="" Visible="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ChallanNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="InvoiceNo" HeaderText="Invoice No" Font="" Visible="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="InvoiceNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="LocationCode" HeaderText="Location Code" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DestinationLocationCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="VendorCode" HeaderText="Vendor Code" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="VendorCode" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+  
+  <GridView Name="dgvGRNItems" RowHeadersVisible ="false" SelectionMode ="CellSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">    
+    <Column Name="AddBatch" HeaderText="Batch Detail" Font="" Visible ="true" Width="100" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="uparrow"/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemDescription" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="POQty" HeaderText="PO Qty" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="DisplayPOQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AlreadyReceivedQty" HeaderText="Already Received Qty" Font="" Visible ="true" Width="170" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAlreadyReceivedQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BalanceQty" HeaderText="Balance Qty" Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayBalanceQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ReceivedQty" HeaderText="Received Qty" Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayReceivedQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ChallanQty" HeaderText="Challan Qty" Font="" Visible ="true" Width="120" Readonly="false" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayChallanQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="InvoiceQty" HeaderText="Invoice Qty" Font="" Visible ="true" Width="120" Readonly="false" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayInvoiceQty" DataSource="" DisplayMember="" ValueMember=""/>
+  
+  </GridView>
+  <GridView Name="dgvBatchDetails" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText="Remove" Font="" Visible ="true" Width="80" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="MRP" HeaderText="MRP" Font="" Visible="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayMRP" DataSource="" DisplayMember="" ValueMember=""/>    
+    <Column Name="ManuBatchNo" HeaderText="Manufacturer Batch No." Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ManufacturerBatchNumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ManuDate" HeaderText="Manufacturing Date" Font="" Visible="true" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayManufacturingDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ExpiryDate" HeaderText="Expiry Date" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="DisplayExpiryDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ReceivedQty" HeaderText="Received Qty" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayReceivedQty" DataSource="" DisplayMember="" ValueMember=""/>  
+  </GridView>
+
+</Grids>

@@ -1,0 +1,10 @@
+D:\Bikram\Dev - Copy\ReturnsComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.UI.frmCustomerReturn.resources
+D:\Bikram\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.UI.frmVendorReturn.resources
+D:\Bikram\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\ReturnsComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.Properties.Resources.resources
+D:\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.UI.frmCustomerReturn.resources
+D:\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.UI.frmVendorReturn.resources
+D:\Dev - Copy\ReturnsComponent\obj\Release\ReturnsComponent.csproj.GenerateResource.Cache

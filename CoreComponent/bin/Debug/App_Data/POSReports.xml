@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Reports>
+  <Report Id="rpt01" Index="01" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="1" Name="Stockist Sales Report" Path="\Reports\StockSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidatePOSStockSalesReport" DataSourceFunction="POSStockInvoiceSearch" Subreport="" IsPosVisible ="true" IsMiniBranchVisible ="true">
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicBOwithPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="0"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="logNo" MaxLength="20" Caption="Log No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report type" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="SALESREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt02" Index="02" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="2" Name="Sales Collection Report" Path="\Reports\SalesCollection.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidatePOSSalesCollectionReport" DataSourceFunction="POSSalesCollectionSearch" Subreport="" IsPosVisible ="true" IsMiniBranchVisible ="true">
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicBOwithPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="UserId" MaxLength="0" Caption="User Name" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptUserNameLocationwise" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt03" Index="03" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="3" Name="Stockist Sales Log" Path="\Reports\StockistLogReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidatePOSStockistLog" DataSourceFunction="POSStockistLogSearch" Subreport="" IsPosVisible ="true" IsMiniBranchVisible ="true">
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicBOwithPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="LogNo" MaxLength="20" Caption="Log No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  
+  <Report Id="rpt04" Index="04" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="6" Name="Distributor Business Report" Path="\Reports\DistributorBusiness.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorBusiness" DataSourceFunction="DistributorBusinessReport" Subreport="" IsPosVisible ="true" IsMiniBranchVisible ="true">
+    <Parameter Name="DistributorId" MaxLength="0" Caption="Distributor Id" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Downlines From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Downlines To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="period" MaxLength="0" Caption="Period*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="MONTHSELECTION" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report Type*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="BUSINESSREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+
+  <Report Id="rpt05" Index="05" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="4" Name="Distributor Address Label Report" Path="\Reports\DistributorAddressLabel.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorAddressLabel" DataSourceFunction="PrintDistributorAddressLabel" Subreport="" IsPosVisible ="true" IsMiniBranchVisible ="false">
+    <Parameter Name="fromDistributorId" MaxLength="20" Caption="From Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="toDistributorId" MaxLength="20" Caption="To Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt06" Index="6" ReportCategory="RCAT02" LocationTypeId="3" SortOrder="5" Name="Distributor Single Address Print" Path="\Reports\DistributorSingleAddressLabel.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorSingleAddressLabel" DataSourceFunction="PrintDistributorSingleAddressLabel" Subreport="" IsPosVisible ="true"  IsMiniBranchVisible ="false">
+    <Parameter Name="fromDistributorId" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>
+  <!--<Report Id="rpt07" Index="7" ReportCategory="RCAT02" LocationTypeId="3,4" SortOrder="7" Name="Distributor Business Cheque Report" Path="\Reports\DistributorBusinessCheque.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorBusinessCheque" DataSourceFunction="DistributorBusinessChequeReport" Subreport="" IsPosVisible ="true">
+    <Parameter Name="DistributorId" MaxLength="0" Caption="Distributor Id" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="cheqNo" MaxLength="0" Caption="Cheque No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="status" MaxLength="0" Caption="Status" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="DISTBONSTATUS" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt08" Index="8" ReportCategory="RCAT02" LocationTypeId="3,4" SortOrder="8" Name="Distributor Gift Voucher Report" Path="\Reports\DistributorGiftVoucher.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorGiftVoucher" DataSourceFunction="DistributorGiftVoucher" Subreport="" IsPosVisible ="true">
+    <Parameter Name="VoucherNo" MaxLength="0" Caption="Voucher No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="DistributorId" MaxLength="0" Caption="Distributor Id" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="ItemCode" MaxLength="0" Caption="Item Code" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From (Issued)" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To (Issued)" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>-->
+</Reports>

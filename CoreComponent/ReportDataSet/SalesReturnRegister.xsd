@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SalesReturnRegister" targetNamespace="http://tempuri.org/SalesReturnRegister.xsd" xmlns:mstns="http://tempuri.org/SalesReturnRegister.xsd" xmlns="http://tempuri.org/SalesReturnRegister.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SalesReturnRegister" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="SalesReturnRegister" msprop:Generator_UserDSName="SalesReturnRegister" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SalesReturnRegister" msprop:Generator_UserTableName="SalesReturnRegister" msprop:Generator_RowDeletedName="SalesReturnRegisterRowDeleted" msprop:Generator_TableClassName="SalesReturnRegisterDataTable" msprop:Generator_RowChangedName="SalesReturnRegisterRowChanged" msprop:Generator_RowClassName="SalesReturnRegisterRow" msprop:Generator_RowChangingName="SalesReturnRegisterRowChanging" msprop:Generator_RowEvArgName="SalesReturnRegisterRowChangeEvent" msprop:Generator_RowEvHandlerName="SalesReturnRegisterRowChangeEventHandler" msprop:Generator_TablePropName="_SalesReturnRegister" msprop:Generator_TableVarName="tableSalesReturnRegister" msprop:Generator_RowDeletingName="SalesReturnRegisterRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InvoiceDate" msprop:Generator_UserColumnName="InvoiceDate" msprop:Generator_ColumnPropNameInRow="InvoiceDate" msprop:Generator_ColumnVarNameInTable="columnInvoiceDate" msprop:Generator_ColumnPropNameInTable="InvoiceDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="InvoiceNo" msprop:Generator_UserColumnName="InvoiceNo" msprop:Generator_ColumnPropNameInRow="InvoiceNo" msprop:Generator_ColumnVarNameInTable="columnInvoiceNo" msprop:Generator_ColumnPropNameInTable="InvoiceNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PartyName" msprop:Generator_UserColumnName="PartyName" msprop:Generator_ColumnPropNameInRow="PartyName" msprop:Generator_ColumnVarNameInTable="columnPartyName" msprop:Generator_ColumnPropNameInTable="PartyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxAmount" msprop:Generator_UserColumnName="TaxAmount" msprop:Generator_ColumnPropNameInRow="TaxAmount" msprop:Generator_ColumnVarNameInTable="columnTaxAmount" msprop:Generator_ColumnPropNameInTable="TaxAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sale" msprop:Generator_UserColumnName="Sale" msprop:Generator_ColumnPropNameInRow="Sale" msprop:Generator_ColumnVarNameInTable="columnSale" msprop:Generator_ColumnPropNameInTable="SaleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxPercent" msprop:Generator_UserColumnName="TaxPercent" msprop:Generator_ColumnPropNameInRow="TaxPercent" msprop:Generator_ColumnVarNameInTable="columnTaxPercent" msprop:Generator_ColumnPropNameInTable="TaxPercentColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HeaderAddress" msprop:Generator_UserColumnName="HeaderAddress" msprop:Generator_ColumnPropNameInRow="HeaderAddress" msprop:Generator_ColumnVarNameInTable="columnHeaderAddress" msprop:Generator_ColumnPropNameInTable="HeaderAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressText" msprop:Generator_UserColumnName="AddressText" msprop:Generator_ColumnPropNameInRow="AddressText" msprop:Generator_ColumnVarNameInTable="columnAddressText" msprop:Generator_ColumnPropNameInTable="AddressTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDateText" msprop:Generator_UserColumnName="FromDateText" msprop:Generator_ColumnPropNameInRow="FromDateText" msprop:Generator_ColumnVarNameInTable="columnFromDateText" msprop:Generator_ColumnPropNameInTable="FromDateTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDateText" msprop:Generator_UserColumnName="ToDateText" msprop:Generator_ColumnPropNameInRow="ToDateText" msprop:Generator_ColumnVarNameInTable="columnToDateText" msprop:Generator_ColumnPropNameInTable="ToDateTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationName" msprop:Generator_UserColumnName="LocationName" msprop:Generator_ColumnPropNameInRow="LocationName" msprop:Generator_ColumnVarNameInTable="columnLocationName" msprop:Generator_ColumnPropNameInTable="LocationNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

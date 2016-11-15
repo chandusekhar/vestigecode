@@ -1,0 +1,224 @@
+﻿html,
+body {
+    height: 100%;
+    font-family: 'Verdana';
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-content {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+    .body-content .body-content-inner {
+        /*min-height: calc(100% - 315px);*/
+    display: block;
+    padding-bottom: 100px;
+    }
+
+    .body-content .body-content-wide {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .body-content .body-content-centered {
+        width: 500px;
+        margin: 0 auto;
+        padding-top: 70px;
+        overflow-x: visible;
+    }
+
+        .body-content .body-content-centered div,
+.body-content .body-content-centered span { white-space: nowrap; }
+
+    .body-content .hilighted-section {
+        background-color: #F1F1F1;
+        margin: 0 -30px;
+        padding: 30px;
+    }
+
+.hidden {
+    display:none;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+
+.dl-horizontal dt { white-space: normal; }
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea { max-width: 280px; }
+
+/* The next two blocks fix an issue with bootstrap laying out inline forms with input-groups*/
+.form-inline .input-group {
+    display: inline-table !important;
+    vertical-align: middle;
+}
+
+    
+.input-group-addon,
+.input-group-btn,
+.form-control {
+    width: auto !important;
+}
+
+/* This class is used to add spacing to the bottom -- mainly for input fields in bootstrap forms */
+.margin-bottom {
+margin-bottom:15px;}
+
+.form-label {
+    margin-top: 7px;
+}
+
+.form-control-valign-middle {
+    height: 26px;
+}
+
+.field-validation-error {
+    color: #b94a48;
+    display: block;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+select.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+a.btn.btn-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header {
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('images/Background.png');
+    background-position: top right;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    font-size: 15px;
+}
+
+    .header a {
+        color: #ffffff;
+        float: left;
+    }
+
+.header anot:hover { text-decoration: underline !important; }
+
+    .header .navbar-actions {
+        position: absolute;
+        right: 5%;
+        top: 0;
+    }
+
+        .header .navbar-actions li {
+            display: inline-block;
+            list-style: none;
+            padding-left: 45px;
+        }
+
+footer {
+    font-size: 12px;
+    padding: 2px 0%;
+    margin-top: 10px;
+    background-color: #e8f0f7;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+}
+
+footer .table-cell { text-align: center; }
+
+    footer li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+footer li a { text-decoration: underline; }
+
+footer li a:hover { text-decoration: none; }
+
+.top-buffer { margin-top: 20px; }
+
+.pagination { margin: 0 !important; }
+
+.navbar {
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+.navbar-right {
+    margin-top: 0;
+}
+
+.navbar-right li .label{
+   line-height: 80px;
+   vertical-align: middle;
+}
+
+.back-link {
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  padding-left: 5%;
+  padding-right: 10px;
+  background-color: #e8f0f7;
+}
+.back-link-arrow {
+  margin-top: -26px;
+  position: relative;
+  top: 17px;
+  left: -5px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 22px solid #e8f0f7;
+}
+
+.wss-profile-header-label {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.wss-profile-header-data {
+    padding-bottom: 15px;
+}
+
+.page-header {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wizard-header {
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}

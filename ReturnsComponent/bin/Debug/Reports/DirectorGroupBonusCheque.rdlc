@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DummyDataSource">
+      <rd:DataSourceID>4f58d419-afe3-433c-939d-f6f8f2a3bd6f</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>11in</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>8.5in</InteractiveWidth>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>1in</RightMargin>
+  <LeftMargin>1in</LeftMargin>
+  <BottomMargin>1in</BottomMargin>
+  <rd:ReportID>7933ab5b-d1c3-4432-94bd-49b55fde88b6</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="index">
+      <MIMEType>image/jpeg</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <DataSets>
+    <DataSet Name="DirectorGroupBonusCheque_DirectorGroupBonusCheque">
+      <Fields>
+        <Field Name="SerialNo">
+          <DataField>SerialNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DistributorId">
+          <DataField>DistributorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="UplineDistributorId">
+          <DataField>UplineDistributorId</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DistributorName">
+          <DataField>DistributorName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PrevCumPV">
+          <DataField>PrevCumPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="SelfPV">
+          <DataField>SelfPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GruopPV">
+          <DataField>GruopPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalPV">
+          <DataField>TotalPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="TotalCumPV">
+          <DataField>TotalCumPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Level">
+          <DataField>Level</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DistributorTeleNumber">
+          <DataField>DistributorTeleNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HeaderAddress">
+          <DataField>HeaderAddress</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="AddressText">
+          <DataField>AddressText</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ChequeNumber">
+          <DataField>ChequeNumber</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Amount">
+          <DataField>Amount</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GroupPV">
+          <DataField>GroupPV</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DummyDataSource</DataSourceName>
+        <CommandText />
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DirectorGroupBonusCheque</rd:DataSetName>
+        <rd:TableName>DirectorGroupBonusCheque</rd:TableName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>6.44251in</Width>
+  <Body>
+    <ReportItems>
+      <Line Name="line2">
+        <Top>1.20833in</Top>
+        <Width>3.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>8</ZIndex>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line4">
+        <Top>1.1875in</Top>
+        <Width>0.25003in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+        </Style>
+        <ZIndex>7</ZIndex>
+        <Left>6in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Line Name="line1">
+        <Top>1.125in</Top>
+        <Width>0.25003in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>2pt</Default>
+          </BorderWidth>
+        </Style>
+        <ZIndex>6</ZIndex>
+        <Left>6in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox44">
+        <Top>0.1875in</Top>
+        <Width>3.92708in</Width>
+        <Style>
+          <FontFamily>Verdana</FontFamily>
+          <FontSize>16pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>5</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1in</Left>
+        <Height>0.32292in</Height>
+        <Value>=First(Fields!HeaderAddress.Value, "DirectorGroupBonusCheque_DirectorGroupBonusCheque")</Value>
+      </Textbox>
+      <Textbox Name="AddressText_1">
+        <rd:DefaultName>AddressText_1</rd:DefaultName>
+        <Top>0.51875in</Top>
+        <Width>2.66667in</Width>
+        <Style>
+          <FontFamily>Verdana</FontFamily>
+          <FontSize>8pt</FontSize>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>4</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>1in</Left>
+        <Height>0.4625in</Height>
+        <Value>=First(Fields!AddressText.Value)</Value>
+      </Textbox>
+      <Table Name="table1">
+        <ZIndex>3</ZIndex>
+        <DataSetName>DirectorGroupBonusCheque_DirectorGroupBonusCheque</DataSetName>
+        <Top>1.625in</Top>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox4">
+                      <rd:DefaultName>textbox4</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>11</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=RowNumber(Nothing)</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="DistributorId">
+                      <rd:DefaultName>DistributorId</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>10</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!DistributorId.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="UplineDistributorId">
+                      <rd:DefaultName>UplineDistributorId</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>9</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!UplineDistributorId.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="DistributorName">
+                      <rd:DefaultName>DistributorName</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>8</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!DistributorName.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="PrevCumPV">
+                      <rd:DefaultName>PrevCumPV</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>7</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!PrevCumPV.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="SelfPV">
+                      <rd:DefaultName>SelfPV</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>6</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!SelfPV.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="GroupPV">
+                      <rd:DefaultName>GroupPV</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>5</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!GroupPV.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="TotalPV">
+                      <rd:DefaultName>TotalPV</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>4</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!TotalPV.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="TotalCumPV">
+                      <rd:DefaultName>TotalCumPV</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>3</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!TotalCumPV.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Level">
+                      <rd:DefaultName>Level</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>2</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Level.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="ChequeNumber">
+                      <rd:DefaultName>ChequeNumber</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>1</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!ChequeNumber.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="Amount">
+                      <rd:DefaultName>Amount</rd:DefaultName>
+                      <Style>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>6pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <CanGrow>true</CanGrow>
+                      <Value>=Fields!Amount.Value</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.09375in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <Header>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox1">
+                      <rd:DefaultName>textbox1</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>35</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Sr. No.</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox2">
+                      <rd:DefaultName>textbox2</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>34</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Dist. Id</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>33</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Upline</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox10">
+                      <rd:DefaultName>textbox10</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>32</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Dist Name</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox13">
+                      <rd:DefaultName>textbox13</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>31</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Prev Cum PV</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox16">
+                      <rd:DefaultName>textbox16</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>30</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Self PV</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox19">
+                      <rd:DefaultName>textbox19</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>29</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Grp. PV</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox22">
+                      <rd:DefaultName>textbox22</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>28</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Total PV</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox25">
+                      <rd:DefaultName>textbox25</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>27</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Total Cum PV</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox5">
+                      <rd:DefaultName>textbox5</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>26</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>% Lvl</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox6">
+                      <rd:DefaultName>textbox6</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>25</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Cheque Number</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox20">
+                      <rd:DefaultName>textbox20</rd:DefaultName>
+                      <Style>
+                        <BackgroundColor>Gainsboro</BackgroundColor>
+                        <FontFamily>Verdana</FontFamily>
+                        <FontSize>7pt</FontSize>
+                        <FontWeight>700</FontWeight>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>24</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value>Amount</Value>
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.25in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <TableColumns>
+          <TableColumn>
+            <Width>0.25in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.69554in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.59618in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.625in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.59618in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.49681in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.59618in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.59618in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.59618in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.39745in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.5in</Width>
+          </TableColumn>
+          <TableColumn>
+            <Width>0.49681in</Width>
+          </TableColumn>
+        </TableColumns>
+        <Height>0.53125in</Height>
+        <Footer>
+          <TableRows>
+            <TableRow>
+              <TableCells>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox7">
+                      <rd:DefaultName>textbox7</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>23</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox8">
+                      <rd:DefaultName>textbox8</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>22</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox9">
+                      <rd:DefaultName>textbox9</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>21</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox12">
+                      <rd:DefaultName>textbox12</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>20</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox15">
+                      <rd:DefaultName>textbox15</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>19</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox18">
+                      <rd:DefaultName>textbox18</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>18</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox21">
+                      <rd:DefaultName>textbox21</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>17</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox24">
+                      <rd:DefaultName>textbox24</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>16</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox27">
+                      <rd:DefaultName>textbox27</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>15</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox11">
+                      <rd:DefaultName>textbox11</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>14</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox17">
+                      <rd:DefaultName>textbox17</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>13</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+                <TableCell>
+                  <ReportItems>
+                    <Textbox Name="textbox26">
+                      <rd:DefaultName>textbox26</rd:DefaultName>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <ZIndex>12</ZIndex>
+                      <CanGrow>true</CanGrow>
+                      <Value />
+                    </Textbox>
+                  </ReportItems>
+                </TableCell>
+              </TableCells>
+              <Height>0.1875in</Height>
+            </TableRow>
+          </TableRows>
+        </Footer>
+      </Table>
+      <Image Name="image1">
+        <Sizing>Fit</Sizing>
+        <Top>0.13542in</Top>
+        <Width>0.82292in</Width>
+        <MIMEType>image/jpeg</MIMEType>
+        <Source>Embedded</Source>
+        <Style />
+        <ZIndex>2</ZIndex>
+        <Left>0.10417in</Left>
+        <Height>0.86458in</Height>
+        <Value>index</Value>
+      </Image>
+      <Line Name="line3">
+        <Top>1.14021in</Top>
+        <Width>-3.25in</Width>
+        <Style>
+          <BorderStyle>
+            <Default>Solid</Default>
+          </BorderStyle>
+          <BorderWidth>
+            <Default>2pt</Default>
+          </BorderWidth>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <Left>3.25in</Left>
+        <Height>0in</Height>
+      </Line>
+      <Textbox Name="textbox48">
+        <Top>1.02562in</Top>
+        <Width>2.75in</Width>
+        <Style>
+          <FontStyle>Italic</FontStyle>
+          <FontFamily>Verdana</FontFamily>
+          <FontWeight>700</FontWeight>
+          <TextAlign>Center</TextAlign>
+          <VerticalAlign>Middle</VerticalAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>3.25in</Left>
+        <Height>0.28583in</Height>
+        <Value>DISTRIBUTOR GROUP BONUS CHEQUE REPORT</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>2.75in</Height>
+  </Body>
+  <Language>en-US</Language>
+  <PageFooter>
+    <PrintOnFirstPage>true</PrintOnFirstPage>
+    <ReportItems>
+      <Textbox Name="textbox14">
+        <Width>2.375in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Right</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <ZIndex>1</ZIndex>
+        <CanGrow>true</CanGrow>
+        <Left>4in</Left>
+        <Value>="Printed On : " + Format(Globals!ExecutionTime,"dd-MM-yyyy hh:mm:ss tt")</Value>
+      </Textbox>
+      <Textbox Name="textbox46">
+        <rd:DefaultName>textbox46</rd:DefaultName>
+        <Width>1.625in</Width>
+        <Style>
+          <FontSize>8pt</FontSize>
+          <TextAlign>Center</TextAlign>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <CanGrow>true</CanGrow>
+        <Left>0.975in</Left>
+        <Value>="Page " &amp; Globals!PageNumber &amp; " of "  &amp; Globals!TotalPages</Value>
+      </Textbox>
+    </ReportItems>
+    <Height>0.25in</Height>
+    <PrintOnLastPage>true</PrintOnLastPage>
+  </PageFooter>
+  <TopMargin>1in</TopMargin>
+</Report>

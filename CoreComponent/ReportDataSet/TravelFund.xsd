@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TravelFund" targetNamespace="http://tempuri.org/TravelFund.xsd" xmlns:mstns="http://tempuri.org/TravelFund.xsd" xmlns="http://tempuri.org/TravelFund.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TravelFund" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TravelFund" msprop:Generator_DataSetName="TravelFund" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TravelFund" msprop:Generator_UserTableName="TravelFund" msprop:Generator_RowDeletedName="TravelFundRowDeleted" msprop:Generator_RowChangedName="TravelFundRowChanged" msprop:Generator_RowClassName="TravelFundRow" msprop:Generator_RowChangingName="TravelFundRowChanging" msprop:Generator_RowEvArgName="TravelFundRowChangeEvent" msprop:Generator_RowEvHandlerName="TravelFundRowChangeEventHandler" msprop:Generator_TableClassName="TravelFundDataTable" msprop:Generator_TableVarName="tableTravelFund" msprop:Generator_RowDeletingName="TravelFundRowDeleting" msprop:Generator_TablePropName="_TravelFund">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Opening" msprop:Generator_UserColumnName="Opening" msprop:Generator_ColumnPropNameInRow="Opening" msprop:Generator_ColumnVarNameInTable="columnOpening" msprop:Generator_ColumnPropNameInTable="OpeningColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Balance" msprop:Generator_UserColumnName="Balance" msprop:Generator_ColumnPropNameInRow="Balance" msprop:Generator_ColumnVarNameInTable="columnBalance" msprop:Generator_ColumnPropNameInTable="BalanceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_UserColumnName="PaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="OpeningBusinessMonth" msprop:Generator_UserColumnName="OpeningBusinessMonth" msprop:Generator_ColumnPropNameInRow="OpeningBusinessMonth" msprop:Generator_ColumnVarNameInTable="columnOpeningBusinessMonth" msprop:Generator_ColumnPropNameInTable="OpeningBusinessMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistriTravelFund" msprop:Generator_UserTableName="DistriTravelFund" msprop:Generator_RowDeletedName="DistriTravelFundRowDeleted" msprop:Generator_RowChangedName="DistriTravelFundRowChanged" msprop:Generator_RowClassName="DistriTravelFundRow" msprop:Generator_RowChangingName="DistriTravelFundRowChanging" msprop:Generator_RowEvArgName="DistriTravelFundRowChangeEvent" msprop:Generator_RowEvHandlerName="DistriTravelFundRowChangeEventHandler" msprop:Generator_TableClassName="DistriTravelFundDataTable" msprop:Generator_TableVarName="tableDistriTravelFund" msprop:Generator_RowDeletingName="DistriTravelFundRowDeleting" msprop:Generator_TablePropName="DistriTravelFund">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CumulativeAmount" msprop:Generator_UserColumnName="CumulativeAmount" msprop:Generator_ColumnPropNameInRow="CumulativeAmount" msprop:Generator_ColumnVarNameInTable="columnCumulativeAmount" msprop:Generator_ColumnPropNameInTable="CumulativeAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BusinessMonth" msprop:Generator_UserColumnName="BusinessMonth" msprop:Generator_ColumnPropNameInRow="BusinessMonth" msprop:Generator_ColumnVarNameInTable="columnBusinessMonth" msprop:Generator_ColumnPropNameInTable="BusinessMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BalanceAmount" msprop:Generator_UserColumnName="BalanceAmount" msprop:Generator_ColumnPropNameInRow="BalanceAmount" msprop:Generator_ColumnVarNameInTable="columnBalanceAmount" msprop:Generator_ColumnPropNameInTable="BalanceAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PaidAmount" msprop:Generator_UserColumnName="PaidAmount" msprop:Generator_ColumnPropNameInRow="PaidAmount" msprop:Generator_ColumnVarNameInTable="columnPaidAmount" msprop:Generator_ColumnPropNameInTable="PaidAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Opening" msprop:Generator_UserColumnName="Opening" msprop:Generator_ColumnPropNameInRow="Opening" msprop:Generator_ColumnVarNameInTable="columnOpening" msprop:Generator_ColumnPropNameInTable="OpeningColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remarks" msprop:Generator_UserColumnName="Remarks" msprop:Generator_ColumnPropNameInRow="Remarks" msprop:Generator_ColumnVarNameInTable="columnRemarks" msprop:Generator_ColumnPropNameInTable="RemarksColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

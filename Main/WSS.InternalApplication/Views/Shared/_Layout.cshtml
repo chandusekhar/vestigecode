@@ -1,0 +1,76 @@
+﻿@using WSS.InternalApplication.Models
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City of Winnipeg - Waste and Water Department - @ViewBag.Title</title>
+    @*Style Bundles defined in BundleConfig*@
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/toastr.css")
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    @RenderSection("styles", false) @*Extra styles in a script section on the page*@
+    <meta name="description" content="Web Self service" />
+</head>
+<body>
+    @*Script Bundles Defined in BundleConfig*@
+    @Scripts.Render("~/bundles/ISTBaseBundle")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts", false)
+
+    <div class="body-content">
+        <div class="body-content-inner">
+            @Html.Partial("_Menu")
+            @*<toaster-container toaster-options="{'time-out':0}"></toaster-container>*@
+            @RenderBody()
+        </div>
+
+        <footer>
+            @Html.Partial("_Footer")
+            @*<div class="table">
+                    <div class="table-row">
+                        <div class="table-cell">
+                            <h3>City of Winnipeg Water and Waste</h3>
+                            <div class="bold">Utility Billing Centre</div>
+                            <div>Phone: 204-986-2455 (204-986-BILL) &nbsp; &nbsp; TTY: 204-986-2149</div>
+                            <ul>
+                                <li>
+                                    <a href="http://www.winnipeg.ca/interhom/conditions_of_use/PrivacyStatement.stm">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.winnipeg.ca/waterandwaste/dept/contactus.stm">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="http://winnipeg.ca/waterandwaste/billing/centre.stm">Hours</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.winnipeg.ca/">Winnipeg.ca</a>
+                                </li>
+                            </ul>
+                            <div>©1996 - @DateTime.Today.Year, City of Winnipeg</div>
+                        </div>
+                    </div>
+                </div>*@
+        </footer>
+    </div>
+    <script>
+        $(function () {
+            {
+                @if (TempData["Notifications"] != null)
+                {
+                    var messages = (List<UserMessageModel>)TempData["Notifications"];
+
+                    foreach (var note in messages)
+                    {
+                        <text>showNotification("@note.Message", "@note.Title", "@note.Type");</text>
+                    }
+                }
+
+                @{
+                    ViewBag.Notifications = string.Empty;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

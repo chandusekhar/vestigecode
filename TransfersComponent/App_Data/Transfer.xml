@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grids>
+  <!-- Search TOI -->
+  <GridView Name="dgvSearchTOI"  SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="TOINumber" HeaderText="TOI Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TNumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="SourceLocation" HeaderText="Source Address" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="SourceAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="DestinationAddress" HeaderText="Destination Address" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DestinationAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOICreationDate" HeaderText="TOI Creation Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayCreationDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOIDate" HeaderText="TOI Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTOIDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIQuantity" HeaderText="Total TOI Quantity" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOIQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIAmount" HeaderText="Total TOI Amount" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOIAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="TOI Status" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="PONumber" HeaderText="PO Number" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="PONumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="POStatus" HeaderText="PO Status" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="POStatusName" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="CreatedBy" HeaderText="Created By" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TOICreatedBY" DataSource="" DisplayMember="" ValueMember=""/>  
+  </GridView>
+
+  <!-- Item TOI -->
+  <GridView Name="dgvTOIItem" SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UOM" HeaderText="UOM" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="UOMName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UnitPrice" HeaderText="Unit Price" Font="" Visible ="true" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemUnitPrice" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Bucket" HeaderText="Bucket" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty" Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UnitQty" HeaderText="Unit Qty" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayUnitQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemTotalAmount" HeaderText="Total Amount" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemTotalAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <!--<Column Name="IndentNo" HeaderText="Indent No" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="IndentNo" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <Column Name="RowNo" HeaderText="RowNo" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="RowNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketId" HeaderText="BucketId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketId" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- Search TO -->
+  <GridView Name="dgvSearchTO"  SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="TONumber" HeaderText="TO Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TNumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOINumber" HeaderText="TOI Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TOINumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="SourceLocation" HeaderText="Source Address" Font="" Visible ="true" Width="160" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="SourceAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="DestinationAddress" HeaderText="Destination Address" Font="" Visible ="true" Width="160" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DestinationAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TODate" HeaderText="TO Creation Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayCreationDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ShipDate" HeaderText="TO Ship Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayShipDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIQuantity" HeaderText="Total TOI Quantity" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIAmount" HeaderText="Total TOI Amount" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- Item TO -->
+  <GridView Name="dgvTOItem" SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="225" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UnitPrice" HeaderText="Unit Price" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemUnitPrice" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketName" HeaderText="Bucket Name" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="MgfBatchNo" HeaderText="Mfg. Batch No" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ManufactureBatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty" Font="" Visible ="false" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AfterAdjustQty" HeaderText="Adjustable Qty" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAfterAdjustQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemTotalAmount" HeaderText="Total Amount" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemTotalAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <!--<Column Name="IndentNo" HeaderText="Indent No" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="IndentNo" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <!--Add coulum for Export Invoice-->
+    <!--<Column Name="EachCartonQty" HeaderText="Each Carton Qty" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="EachCartonQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ContainerNOFromTo" HeaderText="ContainerNO (From-To)" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ContainerNOFromTo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="GrossWeight" HeaderText="Gross Weight" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GrossWeightItem" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <Column Name="RowNo" HeaderText="RowNo" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="RowNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BatchNo" HeaderText="Batch No" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemBatchId" HeaderText="ItemBatchId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemBatchId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketId" HeaderText="BucketId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketId" DataSource="" DisplayMember="" ValueMember=""/>
+    
+  </GridView>
+  <!-- Item EO -->
+  <GridView Name="dgvEOItem" SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UnitPrice" HeaderText="Unit Price" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemUnitPrice" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketName" HeaderText="Bucket Name" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="MgfBatchNo" HeaderText="Mfg. Batch No" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ManufactureBatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty" Font="" Visible ="false" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AfterAdjustQty" HeaderText="Adjustable Qty" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAfterAdjustQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemTotalAmount" HeaderText="Total Amount" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemTotalAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <!--<Column Name="IndentNo" HeaderText="Indent No" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="IndentNo" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <!--Add coulum for Export Invoice-->
+    <Column Name="EachCartonQty" HeaderText="Each Carton Qty" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="EachCartonQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ContainerNOFromTo" HeaderText="ContainerNO (From-To)" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ContainerNOFromTo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="GrossWeight" HeaderText="Gross Weight" Font="" Visible ="true" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GrossWeightItem" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="RowNo" HeaderText="RowNo" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="RowNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BatchNo" HeaderText="Batch No" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemBatchId" HeaderText="ItemBatchId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemBatchId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketId" HeaderText="BucketId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketId" DataSource="" DisplayMember="" ValueMember=""/>
+
+  </GridView>
+
+  <!-- Search TI -->
+  <GridView Name="dgvSearchTI"  SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="TINumber" HeaderText="TI Number" Font="" Visible ="true" Width="140" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TNumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TONumber" HeaderText="TO Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TONumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOINumber" HeaderText="TOI Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TOINumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="SourceLocation" HeaderText="Source Address" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="SourceAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="DestinationAddress" HeaderText="Destination Address" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DestinationAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOShippingDate" HeaderText="TO Shipping Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTOShippingDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ReceivedDate" HeaderText="Received Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayReceivedDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOQuantity" HeaderText="Total TO Quantity" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOAmount" HeaderText="Total TO Amount" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTIQuantity" HeaderText="Total TI Quantity" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTIQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTIAmount" HeaderText="Total TI Amount" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTIAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- Item TI -->
+  <GridView Name="dgvTIItem" SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UnitPrice" HeaderText="Unit Price" Font="" Visible ="true" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemUnitPrice" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketName" HeaderText="Bucket Name" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="MgfBatchNo" HeaderText="Mfg. Batch No" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ManufactureBatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty" Font="" Visible ="false" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AfterAdjustQty" HeaderText="Adjustable Qty" Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayAfterAdjustQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemTotalAmount" HeaderText="Total Amount" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayItemTotalAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <!--<Column Name="IndentNo" HeaderText="Indent No" Font="" Visible ="true" Width="110" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="IndentNo" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <Column Name="RowNo" HeaderText="RowNo" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="RowNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BatchNo" HeaderText="Batch No" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemBatchId" HeaderText="ItemBatchId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemBatchId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BucketId" HeaderText="BucketId" Font="" Visible ="false" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="BucketId" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+  <!-- Search TO_Export -->
+  <GridView Name="dgvSearchTOExport"  SelectionMode="FULLROWSELECT" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="TONumber" HeaderText="Exp. Inv. Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TNumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TOINumber" HeaderText="EOI Number" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TOINumber" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="SourceLocation" HeaderText="Source Address" Font="" Visible ="true" Width="160" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="SourceAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="DestinationAddress" HeaderText="Destination Address" Font="" Visible ="true" Width="160" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DestinationAddress" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TODate" HeaderText="Exp. Inv. Creation Date" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayCreationDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIQuantity" HeaderText="Total EOI Quantity" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalTOIAmount" HeaderText="Total EOI Amount" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayTotalTOAmount" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+</Grids>

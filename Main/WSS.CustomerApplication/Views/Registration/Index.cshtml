@@ -1,0 +1,29 @@
+﻿@using WSS.CustomerApplication.Properties
+@model WSS.CustomerApplication.Models.RegisterViewModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="register-account">
+    <div class="container">
+        <div class="row"><h3>@Resources.RegistrationView_Index_Register_My_Utility_account_for_Self_Serivce</h3></div>
+
+            @if (ViewBag.TabId == 1)
+            {
+                using (Html.BeginForm("RegisterMyProfile", "Registration"))
+                {
+                    @Html.Partial("_RegisterMyProfile", Model)
+                }
+            }
+
+            else if (ViewBag.TabId == 2)
+            {
+                using (Html.BeginForm("Register", "Registration"))
+                {
+                    @Html.Partial("_RegisterInformation", Model)
+                }
+            }
+        </div>
+</section>

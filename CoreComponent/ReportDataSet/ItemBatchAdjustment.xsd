@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ItemBatchAdjustment" targetNamespace="http://tempuri.org/ItemBatchAdjustment.xsd" xmlns:mstns="http://tempuri.org/ItemBatchAdjustment.xsd" xmlns="http://tempuri.org/ItemBatchAdjustment.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ItemBatchAdjustment" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ItemBatchAdjustment" msprop:Generator_DataSetName="ItemBatchAdjustment" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ItemBatch" msprop:Generator_UserTableName="ItemBatch" msprop:Generator_RowDeletedName="ItemBatchRowDeleted" msprop:Generator_RowChangedName="ItemBatchRowChanged" msprop:Generator_RowClassName="ItemBatchRow" msprop:Generator_RowChangingName="ItemBatchRowChanging" msprop:Generator_RowEvArgName="ItemBatchRowChangeEvent" msprop:Generator_RowEvHandlerName="ItemBatchRowChangeEventHandler" msprop:Generator_TableClassName="ItemBatchDataTable" msprop:Generator_TableVarName="tableItemBatch" msprop:Generator_RowDeletingName="ItemBatchRowDeleting" msprop:Generator_TablePropName="ItemBatch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HeaderAddress" msprop:Generator_UserColumnName="HeaderAddress" msprop:Generator_ColumnVarNameInTable="columnHeaderAddress" msprop:Generator_ColumnPropNameInRow="HeaderAddress" msprop:Generator_ColumnPropNameInTable="HeaderAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressText" msprop:Generator_UserColumnName="AddressText" msprop:Generator_ColumnVarNameInTable="columnAddressText" msprop:Generator_ColumnPropNameInRow="AddressText" msprop:Generator_ColumnPropNameInTable="AddressTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dtFrom" msprop:Generator_UserColumnName="dtFrom" msprop:Generator_ColumnVarNameInTable="columndtFrom" msprop:Generator_ColumnPropNameInRow="dtFrom" msprop:Generator_ColumnPropNameInTable="dtFromColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="dtTo" msprop:Generator_UserColumnName="dtTo" msprop:Generator_ColumnVarNameInTable="columndtTo" msprop:Generator_ColumnPropNameInRow="dtTo" msprop:Generator_ColumnPropNameInTable="dtToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AdjustmentNumber" msprop:Generator_UserColumnName="AdjustmentNumber" msprop:Generator_ColumnVarNameInTable="columnAdjustmentNumber" msprop:Generator_ColumnPropNameInRow="AdjustmentNumber" msprop:Generator_ColumnPropNameInTable="AdjustmentNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemName" msprop:Generator_UserColumnName="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCode" msprop:Generator_UserColumnName="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TransQty" msprop:Generator_UserColumnName="TransQty" msprop:Generator_ColumnVarNameInTable="columnTransQty" msprop:Generator_ColumnPropNameInRow="TransQty" msprop:Generator_ColumnPropNameInTable="TransQtyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromBatchNumber" msprop:Generator_UserColumnName="FromBatchNumber" msprop:Generator_ColumnVarNameInTable="columnFromBatchNumber" msprop:Generator_ColumnPropNameInRow="FromBatchNumber" msprop:Generator_ColumnPropNameInTable="FromBatchNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToBatchNumber" msprop:Generator_UserColumnName="ToBatchNumber" msprop:Generator_ColumnVarNameInTable="columnToBatchNumber" msprop:Generator_ColumnPropNameInRow="ToBatchNumber" msprop:Generator_ColumnPropNameInTable="ToBatchNumberColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

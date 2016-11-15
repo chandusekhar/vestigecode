@@ -1,0 +1,152 @@
+﻿@using System.Web.UI.WebControls
+@using WSS.CustomerApplication.Models
+@using WSS.CustomerApplication.Properties
+@model List<WSS.CustomerApplication.Models.ManageUtilityAccountListViewModel>
+<section id="Manage-Utility-Account">
+
+
+    <div class="panel-heading"></div>
+   
+    @{
+        var rowColor = "";
+        var i = 0;
+    }
+
+    <table class="table" style="border-bottom:1px solid #ddd">
+        <thead>
+        <tr>
+            <th>Default</th>
+            <th style="width: 250px !important;">
+                @Html.DisplayNameFor(x => x[0].NickName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => x[0].UtilityAccountNumber)
+            </th>
+            <th style="width: 250px !important;"></th>
+        </tr>
+        </thead>
+
+        <tbody>
+        @foreach (var item in Model)
+        {
+            if (i%2 == 0)
+            {
+                rowColor = "#F5F5F5";
+            }
+            else
+            {
+                rowColor = "";
+            }
+            i++;
+
+            <tr data-target="@item.UtilityAccountId" style="background: @rowColor;">
+                <td>
+                    @if (item.DefaultAccount)
+                    {
+                        <i class="fa fa-check" id="defaultAccountCheckmark" data-utilityAccId="@item.UtilityAccountId"></i>
+                    }
+                </td>
+
+                <td>
+                    @item.NickName
+                </td>
+
+                <td>
+                    @item.UtilityAccountNumber
+                </td>
+
+                <td>
+                    <button type="button" class="btn btn-link"><i class="fa fa-edit"></i></button>
+                </td>
+            </tr>
+
+            <tr data-customId="@item.UtilityAccountId" style="background: @rowColor;">
+                <td>
+                    @if (item.DefaultAccount)
+                    {
+                        <i class="fa fa-check defaccount initial_default_account" id="defaultAccountCheckmark" data-utilityAccId="@item.UtilityAccountId"></i>
+                    <br/>
+                        @Html.CheckBoxFor(m => item.DefaultAccount, new { @checked = "checked", @class = "defaccount initial_default_account", @style = "visibility: hidden;", id = "EditDefault-" + item.UtilityAccountId, onclick = "SwitchDefaultAccount( this);" })
+                    }
+
+                    else
+                    {
+                        @Html.CheckBoxFor(m => item.DefaultAccount, new { @class = "defaccount", id = "EditDefault-" + item.UtilityAccountId, onclick = "SwitchDefaultAccount( this);" })
+                    }
+                </td>
+
+                <td>
+                    @Html.TextBoxFor(m => item.EditNickname, new {@class = "form-control", id = "EditNickname-" + item.UtilityAccountId, placeholder = Resources._manage_cshtml_Execute_Edit_Nickname})
+                </td>
+
+                <td>
+                    @item.UtilityAccountNumber
+                </td>
+
+                <td>
+                    @if (!item.DefaultAccount)
+                    {
+                        <button class="btn btn-default btn-remove-linked-account" title="Remove Account" data-utilityAccId="@item.UtilityAccountId" data-formpath="@Url.Action("DeleteLinkedUtilityAccount", "Account", new {id=""})"><i class="fa fa-trash"></i>&nbsp;@Resources.AccountView_manage_ManageUtilityAccount_Remove_Account</button>
+                    }
+                </td>
+            </tr>
+
+
+            <tr data-customId="@item.UtilityAccountId" style="background: @rowColor;">
+                <td style="border-top: none;" colspan="2">
+                    <a href="javascript: void(0);" onclick="LoadLinkedAccounts( '@Url.Action("Manage", "Account")'); return false;"><i class="fa fa-times-circle">&nbsp;</i>@Resources.AccountView_manage_ManageUtilityAccount_Cancel</a>
+                </td>
+                <td style="border-top: none;"></td>
+                <td style="border-top: none;">
+                    <button type="button" class="btn btn-primary" data-accId="@item.UtilityAccountId" onclick="UpdateLinkedUtilityAccount(@item.UtilityAccountId, '@Url.Action("UpdateLinkedUtilityAccount", "Account", new {id=""})');">@Resources.AccountView_manage_ManageUtilityAccount_Save_Changes</button>
+                </td>
+            </tr>
+        }
+
+        </tbody>
+    </table>
+
+ 
+
+    <div class="">
+        <a class="btn btn-default" data-target="#addUtilityAccount" data-parent="#profilePanelGroup" href="@Url.Action("Index","LinkedUtilityAccount")">
+            <i class="fa fa-plus"></i>&nbsp;@Resources.AccountView_manage_ManageUtilityAccount_Add_Utility_Account
+        </a>
+    </div>
+</section>
+
+
+<script>
+    $(document).ready(function () {
+        $('tr[data-customId]').hide();
+       
+    });
+
+    $('tr[data-target]').click(function () {
+        $('.defaccount').prop('checked', false);
+        $('.initial_default_account').prop('checked', true);
+        $('#defaultAccountCheckmark').show();
+
+        var id = this.getAttribute('data-target');
+
+        $('tr[data-target]').show();
+        $('tr[data-customId]').hide();
+       
+        $('tr[data-customId="' + id + '"]').show();
+        $('tr[data-target="' + id + '"]').hide();
+    });
+
+
+    function SwitchDefaultAccount(mycheckbox) {
+        if (mycheckbox.checked) {
+            $('#defaultAccountCheckmark').hide();
+            $('.defaccount').prop('checked', false);
+            mycheckbox.checked = true;
+        } else {
+            $('#defaultAccountCheckmark').show(); 
+        }
+    }
+ 
+
+    AddDeleteAccountFunctionality();
+</script>

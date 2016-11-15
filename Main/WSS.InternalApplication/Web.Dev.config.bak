@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- For more information on using web.config transformation visit http://go.microsoft.com/fwlink/?LinkId=125889 -->
+
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <connectionStrings>
+    <add name="WssApplication" connectionString="data source=cowsvdsdb104\wwdsqld04;initial catalog=WssApplicationDev;User Id=WSSDevUser; Password=PassForTheDevBox;Pooling=False;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" xdt:Transform="SetAttributes" xdt:Locator="Match(name)" />
+    <add name="WDDCommonDB" connectionString="data source=cowsvdsdb104\wwdsqld04;initial catalog=WWDCommonDev;User Id=WSSDevUser; Password=PassForTheDevBox;Pooling=False;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" xdt:Transform="SetAttributes" xdt:Locator="Match(name)" />
+    <add name="UtilityBillingDB" connectionString="data source=cowsvdsdb104\wwdsqld04;initial catalog=UtilityBillingDev;User Id=WSSDevUser; Password=PassForTheDevBox;Pooling=False;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" xdt:Transform="SetAttributes" xdt:Locator="Match(name)" />
+  </connectionStrings>
+  <system.web>
+    <compilation targetFramework="4.5" xdt:Transform="Replace" />
+    <httpRuntime targetFramework="4.5" xdt:Transform="Replace" />
+    <customErrors mode="Off" xdt:Transform="Replace" />
+  </system.web>
+</configuration>

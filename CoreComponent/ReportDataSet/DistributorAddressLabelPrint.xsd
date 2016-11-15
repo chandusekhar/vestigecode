@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DistributorAddressLabelPrint" targetNamespace="http://tempuri.org/DistributorAddressLabelPrint.xsd" xmlns:mstns="http://tempuri.org/DistributorAddressLabelPrint.xsd" xmlns="http://tempuri.org/DistributorAddressLabelPrint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DistributorAddressLabelPrint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DistributorAddressLabelPrint" msprop:Generator_UserDSName="DistributorAddressLabelPrint" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DistributorAddressLabelPrint_DataTable" msprop:Generator_UserTableName="DistributorAddressLabelPrint_DataTable" msprop:Generator_RowDeletedName="DistributorAddressLabelPrint_DataTableRowDeleted" msprop:Generator_TableClassName="DistributorAddressLabelPrint_DataTableDataTable" msprop:Generator_RowChangedName="DistributorAddressLabelPrint_DataTableRowChanged" msprop:Generator_RowClassName="DistributorAddressLabelPrint_DataTableRow" msprop:Generator_RowChangingName="DistributorAddressLabelPrint_DataTableRowChanging" msprop:Generator_RowEvArgName="DistributorAddressLabelPrint_DataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DistributorAddressLabelPrint_DataTableRowChangeEventHandler" msprop:Generator_TablePropName="DistributorAddressLabelPrint_DataTable" msprop:Generator_TableVarName="tableDistributorAddressLabelPrint_DataTable" msprop:Generator_RowDeletingName="DistributorAddressLabelPrint_DataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AddressCol1" msprop:Generator_UserColumnName="AddressCol1" msprop:Generator_ColumnPropNameInRow="AddressCol1" msprop:Generator_ColumnVarNameInTable="columnAddressCol1" msprop:Generator_ColumnPropNameInTable="AddressCol1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressCol2" msprop:Generator_UserColumnName="AddressCol2" msprop:Generator_ColumnPropNameInRow="AddressCol2" msprop:Generator_ColumnVarNameInTable="columnAddressCol2" msprop:Generator_ColumnPropNameInTable="AddressCol2Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

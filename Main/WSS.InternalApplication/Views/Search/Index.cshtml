@@ -1,0 +1,168 @@
+﻿@using PagedList.Mvc
+@using WSS.InternalApplication.Models
+@model PagedList.IPagedList<SearchViewModel>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+           <div class="page-header">Find an Account</div>
+        </div>
+    </div>
+    <div class="row">
+        @*blank row*@
+        &nbsp;
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <b>Utility Account Number / Main Customer Name</b>
+        </div>
+    </div>
+    @using (Html.BeginForm("Index", "Search", FormMethod.Post, new { role = "form"}))
+    {
+        <div class="row">
+            <div class="form-group form-inline col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <input type="text" name="query" id="txtquery" class="form-control" title="Search for property address." value="@ViewBag.Query" />
+
+                <button class="btn btn-primary" value="Search" title="Click to perform a search" id="btnSubmit">
+                    <i class='fa fa-search'></i> &nbsp;Search
+                </button>
+                @Html.ValidationMessage("query")
+            </div>
+        </div>
+    }
+    <div class="row">
+        @*blank row*@
+        &nbsp;
+    </div>
+    @*Search Results - List Table*@
+    <div class="row">
+        <div class="col-sm-12 col-lg-9 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            @if (Model != null && Model.Any())
+            {
+                <table class="table table-hover table-bordered table-striped">
+                    <thead>
+                        <tr class="property-address" href='@Url.Action("Edit", new { id = 0 })'>
+                            <th class="customer-name" title="Sort by Customer Name" style="vertical-align: top;">
+                                <a href='@Url.Action("Index", new {query = @ViewBag.Query, sortOrder = "MainCustomerName", sortDir = "Change" })'>
+                                    @Html.DisplayNameFor(x => x.FirstOrDefault().MainCustomerName)&nbsp;<i class="@ViewBag.MainCustomerName"></i>
+                                    <i class="ViewBag.MainCustomerName"></i>
+                                </a>
+                            </th>
+                            <th class="account-number" title="Sort by Account Number" style="vertical-align: top;">
+                                <a href='@Url.Action("Index", new { query = @ViewBag.Query,sortOrder = "AccountNumber", sortDir = "Change" })'>
+                                    @Html.DisplayNameFor(x => x.FirstOrDefault().ccbAccountNumber)&nbsp;<i class="@ViewBag.AccountNumber"></i>
+                                    <i class="ViewBag.AccountNumber"></i>
+                                </a>
+                            </th>
+                            <th class="email-address" title="Sort by Email Address" style="vertical-align: top;">
+                                <a href='@Url.Action("Index", new {query = @ViewBag.Query, sortOrder = "PrimaryEmailAddress", sortDir = "Change" })'>
+                                    @Html.DisplayNameFor(x => x.FirstOrDefault().EmailAddress)&nbsp;<i class="@ViewBag.PrimaryEmailAddress"></i>
+                                    <i class="ViewBag.PrimaryEmailAddress"></i>
+                                </a>
+                            </th>
+                            <th class="status" title="Sort by Status" style="vertical-align: top;">
+                                <a href='@Url.Action("Index", new {query = @ViewBag.Query, sortOrder = "Status", sortDir = "Change" })'>
+                                    @Html.DisplayNameFor(x => x.FirstOrDefault().Status)&nbsp;<i class="@ViewBag.Status"></i>
+                                    <i class="ViewBag.Status"></i>
+                                </a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                       {
+                            <tr class='property-address' href="@Url.Action("Index","Account", new {id=item.UtilityAccountId })" style="cursor:pointer;">
+                                <td class="customer-name">@item.MainCustomerName
+                                <input type="hidden" value="@item.UtilityAccountId" />
+                                </td>
+                                <td class="account-number">@item.ccbAccountNumber</td>
+                                <td class="email-address">@item.EmailAddress</td>
+                                <td class="account-status">@item.Status</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            @*Warn if no records found*@
+            else
+            {
+                if (ViewBag.Query == null)
+                {
+                    <div>Enter all or a portion of a utility account number, customer name or WSS email address to display search results</div>
+                }
+                else
+                {
+                    if (ViewBag.IsDigitOnly != null && ViewBag.IsDigitOnly == true)
+                    {
+                        <div class="alert alert-info">
+                            No results found for (@ViewBag.Query). Click <a href="@Url.Action("Index", "register", new {CcbAccountNumber = ViewBag.Query})"><ins>New</ins></a> to create a new WSS profile if this is new CCB customer
+                        </div>
+                    }
+                    else
+                    {
+                       <div class="alert alert-info">No results found for (@ViewBag.Query). </div>
+                    }
+                }
+            }
+        </div>
+    </div>
+    <section id="pager">
+        @if (Model != null && Model.Any())
+            {
+            <div class="row">
+                @using (Html.BeginForm("Index", "Search", FormMethod.Get))
+                {
+                    @Html.Hidden("query", Request["query"])
+
+                    <div class="col-sm-7 col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-2 form-group form-inline">
+                        @Html.PagedListPager(Model,
+                                page => Url.Action("Index", "Search", new { page, sortOrder = @Session["UtilityAccountListSort"], sortDir = @Session["UtilityAccountListSortDirection"], query = Url.Encode(ViewBag.Query) }),
+                                new PagedListRenderOptions { DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded, DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded, DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded, DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded, MaximumPageNumbersToDisplay = 6 })
+                    </div>
+                    <div class="col-sm-5 col-md-4 col-lg-3 form-group form-inline" id="divNoOfRecords">
+                        <label class="control-label text-right small">Show:</label>
+                        @Html.DropDownList("rowsPerPage", (IEnumerable<SelectListItem>)ViewBag.RowsPerPageSelectList, new { onchange = "this.form.submit();" })
+                        <label class="control-label text-left small">Rows per Page.</label>
+                    </div>
+                }
+            </div>
+        }
+    </section>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".property-address").click(function() {
+                window.document.location = $(this).attr("href");
+            });
+            $("#btnSubmit").click(function() {
+                var text = $('#txtquery').val().trim();
+                if (!text) {
+                    var ctrl = $(".field-validation-valid");
+                    if (ctrl != undefined) {
+                        $(".field-validation-valid").text('Please input an account number or customer name to search');
+                        $(".field-validation-valid").removeClass('field-validation-valid').addClass('field-validation-error');
+                        $('table.table-striped').remove();
+                        $('section#pager').remove();
+                        $('div.alert-info').remove();
+                    }
+                    return false;
+                } else if ((isNaN(text) && text.length < 2) || (!isNaN(text) && text.length < 5)) {
+                    $(".field-validation-valid").text('Please input at least 5 digits for an account number or 2 letters for a customer name to search');
+                    $(".field-validation-valid").removeClass('field-validation-valid').addClass('field-validation-error');
+                    $('table.table-striped').remove();
+                    $('section#pager').remove();
+                    $('div.alert-info').remove();
+                    return false;
+                } else {
+                    var ctrl = $(".field-validation-error");
+                    if (ctrl != undefined) {
+                        $(".field-validation-error").text('');
+                        $(".field-validation-error").removeClass('field-validation-error').addClass('field-validation-valid');
+                    }
+                    return true;
+                }
+            });
+        });
+    </script>
+}

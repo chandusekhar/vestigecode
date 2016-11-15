@@ -1,0 +1,12 @@
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmStockCount.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\InventoryComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.Properties.Resources.resources
+D:\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmStockCount.resources
+D:\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Dev - Copy\InventoryComponent\obj\Release\InventoryComponent.csproj.GenerateResource.Cache

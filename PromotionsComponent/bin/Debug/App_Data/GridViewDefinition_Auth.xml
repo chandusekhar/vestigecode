@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- All the grids used in  AuthenticationComponent, their structure should be defined here only-->
+<Grids>
+  <!-- 'Location-Role' grid on  frmUserRegistration's Create mode-->
+  <GridView Name="dgvCreateLocationRoles"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <!--<Column Name="Remove" HeaderText="Remove" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="0" ColumnType="Button" DataPropertyName="" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <Column Name="Remove" HeaderText="Remove" Font="" Visible ="true" Width="60" Readonly="false" Sortable="" Index="0" ColumnType="CheckBox" DataPropertyName="" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="LocationId" HeaderText="LocationId" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="LocationId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="LocationName" HeaderText="Location" Font="" Visible ="true" Width="180" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="LocationName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="RoleId" HeaderText="RoleId" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="RoleId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="RoleName" HeaderText="Role" Font="" Visible ="true" Width="179" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="RoleName" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- 'Search Result' grid on  frmRole's Search mode-->
+  <GridView Name="dgvSearchRoles"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="RoleId" HeaderText="Role Id" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="RoleId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="RoleCode" HeaderText="Role Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="RoleCode" DataSource="" DisplayMember="" ValueMember=""/>    
+    <Column Name="RoleName" HeaderText="Role Name" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="RoleName" DataSource="" DisplayMember="" ValueMember=""/>    
+    <Column Name="Description" HeaderText="Description" Font="" Visible ="true" Width="300" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="Description" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="StatusValue" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- 'Search Result' grid on  frmUserRegistration's Search mode-->
+  <GridView Name="dgvSearchUsers"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Edit" HeaderText="Edit" Font="" Visible ="true" Width="50" Readonly="true" Sortable="" Index="0" ColumnType="Image" DataPropertyName="" DataSource="" DisplayMember="" ValueMember="edit"/>
+    <Column Name="UserId" HeaderText="User Id" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="UserId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="UserName" HeaderText="User Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="UserName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="FirstName" HeaderText="First Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="FirstName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="LastName" HeaderText="Last Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="LastName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Address1" HeaderText="Address Line1" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="5" ColumnType="TextBox" DataPropertyName="Address1" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Mobile1" HeaderText="Mobile No." Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="Mobile1" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Pincode" HeaderText="Pin Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="7" ColumnType="TextBox" DataPropertyName="Pincode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="City" HeaderText="City" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="8" ColumnType="TextBox" DataPropertyName="City" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="State" HeaderText="State" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="9" ColumnType="TextBox" DataPropertyName="State" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Country" HeaderText="Country" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="10" ColumnType="TextBox" DataPropertyName="Country" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="11" ColumnType="TextBox" DataPropertyName="StatusValue" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+</Grids>

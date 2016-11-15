@@ -1,0 +1,215 @@
+﻿@model WSS.InternalApplication.Models.AccountViewModel
+
+
+<section id="account-edit">
+    <div class="container top-buffer">
+        <div class="body-content-wide">
+
+            <style type="text/css">
+                .nav-tabs li a {
+                    font-size: 16px;
+                }
+            </style>
+
+            <div class="row">
+                <div class="col-sm-3 wss-profile-header-label">
+                    CCB Utility Account Number:
+                </div>
+                <div class="col-sm-3 wss-profile-header-data">
+                    @Model.CcbAccountNumber
+                </div>
+                <div class="col-sm-3 wss-profile-header-label">
+                    WSS User ID (e-mail):
+                </div>
+                <div class="col-sm-3 wss-profile-header-data">
+                    @Model.PrimaryEmailAddress
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 wss-profile-header-label">
+                    CCB Main Customer Name:
+                </div>
+                <div class="col-sm-3 wss-profile-header-data">
+                    @Model.PrimaryAccountHolderName
+                </div>
+            </div>
+            @if (ViewBag.AllLinkedAccounts != null && ViewBag.AllLinkedAccounts.Count > 1)
+            {
+                <div class="row">
+                    <div class="col-sm-3 wss-profile-header-label">
+                        Selected Linked Account :
+                    </div>
+                    <div class="col-sm-3 wss-profile-header-data">
+                        @*@Html.DropDownListFor(n => n.CcbAccountNumber, new SelectList(ViewBag.AllLinkedAccounts, "Key", "Value", Model.UtilityAccountId), new {id = "ddlLinkedAccount"})*@
+                        @Html.DropDownListFor(n => n.UtilityAccountId, new SelectList(ViewBag.AllLinkedAccounts, "Key", "Value", Model.UtilityAccountId), new { id = "ddlLinkedAccount" })
+                    </div>
+                </div>
+            }
+
+            <div class="row">
+                @*Nav Tabs*@
+                <ul id="account-tab-list" class="nav nav-tabs wss-profile-tabs" role="tablist">
+                    <li id="ProfileTab" class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 1)?"active" :"")'>
+
+                        <a href="#Profile" role="tab" data-toggle="tab">
+                            <span class="hidden-sm hidden-xs"><i class="fa fa-user"></i>&nbsp;Profile</span>
+                            <span class="visible-sm visible-xs"><i class="fa fa-user"></i></span>
+                        </a>
+                    </li>
+                    <li id="BillsTab" class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 2)?"active" :"")'>
+                        <a href="#Bills" role="tab" data-toggle="tab">
+                            <span class="hidden-sm hidden-xs"><i class="fa fa-tint"></i>&nbsp;Bills</span>
+                            <span class="visible-sm visible-xs"><i class="fa fa-tint"></i></span>
+                        </a>
+                    </li>
+                    <li id="ManageUtilityAccountsTab" class="@(Model.StatusId == 1 ? "disabled" :((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 3)?"active enabled":"enabled"))">
+                        <a href="#ManageAccounts" role="tab" @(Model.StatusId == 1 ? "" : "data-toggle=tab")>
+                            <span class="hidden-sm hidden-xs"><i class="fa fa-wrench"></i>&nbsp;Manage Utility Accounts</span>
+                            <span class="visible-sm visible-xs"><i class="fa fa-wrench"></i></span>
+                        </a>
+                    </li>
+                    <li id="AuditTab" class="@(Model.StatusId == 1 ? "disabled" : ((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 4)?"active enabled":"enabled"))">
+                        <a href="#Audit" role="tab" @(Model.StatusId == 1 ? "" : "data-toggle=tab") onclick='SortAuditRecords("@Url.Action("_audit", new {sortOrder = "DateTime", sortDir = "Desc", id =  @Model.WssAccountId})"); return false; '>
+                            <span class="hidden-sm hidden-xs"><i class="fa fa-history"></i>&nbsp;Audit Records</span>
+                            <span class="visible-sm visible-xs"><i class="fa fa-history"></i></span>
+                        </a>
+                    </li>
+                </ul>
+                @*Tab Panes*@
+                <div class="tab-content">
+                    <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 1) ? "tab-pane fade active in" : "tab-pane fade")' id="Profile">
+                        @(Model.StatusId == 1 ? Html.Partial("_profileNonRegistered") : Html.Partial("_profileRegistered"))
+                    </div>
+
+                    <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 2) ? "tab-pane fade active in" : "tab-pane fade")' id="Bills">
+                        <input type="hidden" value="@Model.UtilityAccountId" id="hdnBillsUtilityAccountId" />
+                        <div id="bills_records"></div>
+                        @*@Html.Action("_bills", "Account", new {id = Model.UtilityAccountId})*@
+                    </div>
+
+                    <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 3) ? "tab-pane fade active in" : "tab-pane fade")' id="ManageAccounts">
+                        @Html.Action("_manage", "Account", new { id = Model.WssAccountId })
+                    </div>
+
+                    <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 4) ? "tab-pane fade active in" : "tab-pane fade")' id="Audit">
+                        <input type="hidden" value="@ViewBag.Query" id="hdnWssAccountId" />
+                        <div id="audit_records"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-md-3">
+                    <a class="btn btn-link" type="reset" value="backtoSearch" title="Back to Search" href=@Url.Action("Index", "Search")><i class="fa fa-reply"></i> &nbsp;Back to Search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    <script type="text/javascript">
+        function GetAuditRecordsPageWise(ctrl) {
+            var page = ctrl.dataset.page;
+            var pageSize = $('select#rowsPerPage').val(); //ctrl.dataset.pagesize;
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var wssAccountId = $('#hdnWssAccountId').val();
+            var url = '@Url.Action("_audit", "Account")';
+            $.get(url,
+                { id: wssAccountId, page: page, rowsPerPage: pageSize, sortOrder: sortOrder, sortDir: sortDir },
+                function(result) {
+                    if (result != undefined && result != null) {
+                        $('#auditRecords').html(result);
+                    }
+                });
+        }
+
+        function GetBillsRecordPageWise(ctrl) {
+            var page = ctrl.dataset.page;
+            var pageSize = $('select#noRowsPerPage').val(); //ctrl.dataset.pagesize;
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var utilityAccountId = $('#hdnBillsUtilityAccountId').val();
+            var url = '@Url.Action("_bills", "Account")';
+            $.get(url,
+                { id: utilityAccountId, page: page, noRowsPerPage: pageSize, sortOrder: sortOrder, sortDir: sortDir },
+                function(result) {
+                    if (result != undefined && result != null) {
+                        $('#Account-Bill-List').html(result);
+                    }
+                });
+        }
+
+        function SortBillRecords(ctrl) {
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var utilityAccountId = $('#hdnBillsUtilityAccountId').val();
+            var url = '@Url.Action("_bills", "Account")';
+            $.get(url,
+                { id: utilityAccountId, sortOrder: sortOrder, sortDir: sortDir },
+                function(result) {
+                    if (result != undefined && result != null) {
+                        $('#Account-Bill-List').html(result);
+                    }
+                });
+        }
+
+        function showBillRecords(billUrl) {
+            $.ajax({
+                type: "GET",
+                url: billUrl,
+                success: function(data) {
+                    $("#bills_records").html(data);
+                }
+            });
+        }
+
+        function SortAuditRecords(myurl) {
+            $.ajax({
+                type: "POST",
+                url: myurl,
+                success: function(data) {
+                    $("#audit_records").html(data);
+                }
+            });
+            return false;
+        }
+
+        $(document)
+            .ready(function() {
+
+                $('select#ddlLinkedAccount')
+                    .change(function() {
+                        var selId = $("select#ddlLinkedAccount option:selected").val();
+                        var fromWhere = $('.wss-profile-tabs .active').text().trim();
+                        var path = selId + "?TabId=" + fromWhere;
+                        window.location = path;
+                    });
+                SortAuditRecords('@Url.Action("_audit", new {sortOrder = "DateTime", sortDir = "Desc", id = @Model.WssAccountId, page = 1, rowsPerPage = 10})');
+                showBillRecords('@Url.Action("_bills", new {sortOrder = "DateTime", sortDir = "Desc", id = @Model.UtilityAccountId})');
+
+                $(".tab-pane fade active in");
+
+                $('#account-tab-list a')
+                    .click(function(e) {
+                        e.preventDefault();
+                        $(this).tab('show');
+                    });
+
+                // store the currently selected tab in the hash value
+                $("ul.nav-tabs > li > a")
+                    .on("shown.bs.tab",
+                        function(e) {
+                            var id = $(e.target).attr("href").substr(1);
+                            window.location.hash = id;
+                        });
+
+                // on load of the page: switch to the currently selected tab
+                var hash = window.location.hash;
+                $('#account-tab-list a[href="' + hash + '"]').tab('show');
+
+
+            });
+    </script>
+}

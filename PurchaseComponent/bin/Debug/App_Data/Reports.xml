@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Reports>
+  <Report Id="01" Index="-1" ReportCategory="-1" LocationTypeId="1,2,3" SortOrder="1" Name="Select" Path="NoFunction" Assembly="NoFunction" Class="NoFunction" ValidatorFunction="NoFunction" DataSourceFunction="NoFunction" Subreport="" IsPosVisible ="false"/>
+  <Report Id="rpt01" Index="1" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="2" Name="Stockist Sales Report" Path="\Reports\StockSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateStockSalesReport" DataSourceFunction="StockInvoiceSearch" Subreport="" IsPosVisible ="true">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="4" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="logNo" MaxLength="20" Caption="Log No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report type" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="SALESREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt02" Index="2" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="2" Name="Stockist Sales Log" Path="\Reports\StockistLogReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateStockistLog" DataSourceFunction="StockistLogSearch" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="LogNo" MaxLength="20" Caption="Log No" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt03" Index="3" ReportCategory="RCAT02" LocationTypeId="1" SortOrder="3" Name="Distributor Address Report" Path="\Reports\DistributorAddressReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorAddress" DataSourceFunction="SearchDistributorAddress" Subreport="" IsPosVisible ="false">
+    <Parameter Name="Distributor ID" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Downlines From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Downlines To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report Type*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="BUSINESSREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt04" Index="4" ReportCategory="RCAT02"  LocationTypeId="1,3" SortOrder="4" Name="Cheque Payment Report" Path="\Reports\ChequeReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.DistributorPayment" ValidatorFunction="ValidatePaymentReport" DataSourceFunction="ChequePayment" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt18" Index="18" ReportCategory="RCAT02"  LocationTypeId="1,3" SortOrder="18" Name="CreditCard Payment Report" Path="\Reports\CreditCardReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.DistributorPayment" ValidatorFunction="ValidatePaymentReport" DataSourceFunction="CreditCardPayment" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt19" Index="19" ReportCategory="RCAT02"  LocationTypeId="1,3" SortOrder="19" Name="Cash Book Payment Report" Path="\Reports\CashBookReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.DistributorPayment" ValidatorFunction="ValidateCashBookReport" DataSourceFunction="CashBookPayment" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt05" Index="5" ReportCategory="RCAT02" LocationTypeId="1,2" SortOrder="5" Name="GRN Register Report" Path="\Reports\GRNRegisterProductwise.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.GRNReports" ValidatorFunction="ValidateGRNReport" DataSourceFunction="GRNRegisterProductwiseSearch" Subreport="" IsPosVisible ="false">
+    <Parameter Name="itemCode" MaxLength="0" Caption="ItemCode" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="PONo" MaxLength="0" Caption="PO No." ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="GRN" MaxLength="0" Caption="GRN" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="dtfrom" MaxLength="0" Caption="GRN Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="GRN Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="2" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt06" Index="6" ReportCategory="RCAT02" LocationTypeId="1" SortOrder="6" Name="Distributor Business Report" Path="\Reports\DistributorBusiness.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorBusiness" DataSourceFunction="DistributorBusinessReport" Subreport="" IsPosVisible ="false">
+    <Parameter Name="DistributorId" MaxLength="0" Caption="Distributor Id" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Downlines From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Downlines To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="period" MaxLength="0" Caption="Period*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="MONTHSELECTION" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report Type*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="BUSINESSREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt07" Index="7" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="7" Name="STN Item Wise" Path="\Reports\STNItemWise.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateSTNItemWise" DataSourceFunction="STNItemWise" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="From" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="to" MaxLength="0" Caption="To" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Locations" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+  <Report Id="rpt08" Index="8" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="8" Name="Received Item Wise" Path="\Reports\ReceivedItemWise.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateReceievdItemWise" DataSourceFunction="ReceivedItemWise" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt09" Index="9" ReportCategory="RCAT03" LocationTypeId="1,3" SortOrder="9" Name="Product-Wise Sales" Path="\Reports\ProductWiseSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateProductWiseSales" DataSourceFunction="ProductWiseSales" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="itemCode" MaxLength="0" Caption="Code" ControlType="Text" DataSourceFunction="Test" />
+  </Report>
+  <Report Id="rpt10" Index="10" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="10" Name="Stock Summary" Path="\Reports\StockSummary.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateStockSummary" DataSourceFunction="StockSummary" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="bucket" MaxLength="0" Caption="Bucket" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllBucketReport" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt11" Index="11" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="11" Name="BO wise Stock Position" Path="\Reports\BOWiseStockPosition.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateStockPosition" DataSourceFunction="BOStockPosition" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtTo" MaxLength="0" Caption="Date" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt12" Index="12" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="12" Name="WH wise Stock Position" Path="\Reports\WHWiseStockPosition.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateStockPosition" DataSourceFunction="WHStockPosition" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtTo" MaxLength="0" Caption="Date" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt13" Index="13" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="13" Name="BO wise Sales report" Path="\Reports\BOWiseSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateBOWiseSales" DataSourceFunction="BOWiseSalesReport" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt14" Index="14" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="14" Name="Form C Report" Path="\Reports\PurchaseAgtFormC.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidatePurchaseAgtFormC" DataSourceFunction="PurchaseAgtFormC" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt15" Index="15" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="15" Name="Sales Tax Report" Path="\Reports\SalesTax.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateSalesTax" DataSourceFunction="SalesTax" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt16" Index="16" ReportCategory="RCAT01" LocationTypeId="1,2,3" SortOrder="16" Name="STN Report" Path="\Reports\STNFinance.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateSTNFinance" DataSourceFunction="STNFinance" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="From" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="to" MaxLength="0" Caption="To" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Locations" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt17" Index="17" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="17" Name="Product-Wise Tax Report" Path="\Reports\VATCST.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateVATCST" DataSourceFunction="VATCST" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="From" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt20" Index="20" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="20" Name="Sales Collection Report" Path="\Reports\SalesCollection.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateSalesCollectionReport" DataSourceFunction="SalesCollectionSearch" Subreport="" IsPosVisible ="true">
+	<Parameter Name="BOState" MaxLength="0" Caption="BO State" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicState" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="DLCP" MaxLength="0" Caption="Incl/Excl DLCP" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="InclExclDlcp" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptStatewiseBO" ParameterCode="" Key1="-1" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="UserId" MaxLength="0" Caption="User Name" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptUserNameLocationwise" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+	<Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt21" Index="21" ReportCategory="RCAT04" LocationTypeId="1,3" SortOrder="21" Name="Distributor Address Label Report" Path="\Reports\DistributorAddressLabel.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorAddressLabel" DataSourceFunction="PrintDistributorAddressLabel" Subreport="" IsPosVisible ="false">
+    <Parameter Name="fromDistributorId" MaxLength="20" Caption="From Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="toDistributorId" MaxLength="20" Caption="To Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt22" Index="22" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="22" Name="PUC Accounts Summary" Path="\Reports\PUCAccounts.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidatePUCAccountsSummary" DataSourceFunction="PUCAccountsSummary" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="1" Key3="-1" ShowBaseLocation ="False"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt23" Index="23" ReportCategory="RCAT02"  LocationTypeId="1,3" SortOrder="23" Name="Bank Book Payment Report" Path="\Reports\BankBookReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.DistributorPayment" ValidatorFunction="ValidatePaymentReport" DataSourceFunction="BankBookPayment" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt24" Index="24" ReportCategory="RCAT04" LocationTypeId="1,3" SortOrder="24" Name="Distributor Single Address Print" Path="\Reports\DistributorSingleAddressLabel.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorSingleAddressLabel" DataSourceFunction="PrintDistributorSingleAddressLabel" Subreport="" IsPosVisible ="false">
+    <Parameter Name="fromDistributorId" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt25" Index="25" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="25" Name="PUC Accounts Deposit" Path="\Reports\PUCDeposit.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidatePUCAccountDeposit" DataSourceFunction="PUCAccountDeposit" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="1" Key3="-1" ShowBaseLocation ="False"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt26" Index="26" ReportCategory="RCAT05" LocationTypeId="1" SortOrder="26" Name="Regionwise Sales Report" Path="\Reports\RegionWiseSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateToDate" DataSourceFunction="GetRegionSalesData" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt27" Index="27" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="27" Name="Tax Register" Path="\Reports\TaxRegister.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateTaxRegister" DataSourceFunction="TaxRegister" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+  <Report Id="rpt28" Index="28" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="28" Name="Credit Tax Register" Path="\Reports\CreditTaxRegister.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateCreditTaxRegister" DataSourceFunction="CreditTaxRegister" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report type" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="TAXREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt29" Index="29" ReportCategory="RCAT02" LocationTypeId="1" SortOrder="29" Name="Monthwise Item Sales Report" Path="\Reports\MonthwiseItemSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateMonthToDate" DataSourceFunction="GetMonthItemSalesData" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="Location" MaxLength="0" Caption="Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="itemCode" MaxLength="0" Caption="Code" ControlType="Text" DataSourceFunction="Test" />
+  </Report>
+  <!--<Report Id="rpt30" Index="30" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="30" Name="Item Batch Adjustment" Path="\Reports\ItemBatchAdjustment.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateItemBatchAdjustment" DataSourceFunction="ItemBatchAdjustment" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="ItemCode" MaxLength="0" Caption="ItemCode" ControlType="Text" DataSourceFunction="Test" />
+  </Report>
+
+  <Report Id="rpt31" Index="31" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="31" Name="Order Collection Report" Path="\Reports\OrderCollection.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateOrderCollectionReport" DataSourceFunction="OrderCollectionSearch" Subreport="" IsPosVisible ="true">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="UserId" MaxLength="0" Caption="User Name" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptUserNameLocationwise" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>-->
+
+  <Report Id="rpt32" Index="32" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="32" Name="Bonus Statement Directors" Path="\Reports\BonusStatementDirectors.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateBonusStatementDirectors" DataSourceFunction="BonusStatementDirectors" Subreport="" IsPosVisible ="false">
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="DistributorID" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>
+<!-- Bikram Car bonus report-->
+  <!--<Report Id="rpt40" Index="40" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="40" Name="Car Bonus Report" Path="\Reports\CarBonusReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateBonusStatementDirectors" DataSourceFunction="BonusStatementDirectors" Subreport="" IsPosVisible ="false">
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="DistributorID" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+  </Report>-->
+
+  <!--<Report Id="rpt33" Index="33" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="33" Name="DCC BO Report" Path="\Reports\DccBoReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateMonthYear" DataSourceFunction="DccBoRegister" Subreport="" IsPosVisible ="false">
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+
+
+  <Report Id="rpt34" Index="34" ReportCategory="RCAT04" LocationTypeId="1" SortOrder="34" Name="Pickup Centre Report" Path="\Reports\PickupCentre.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidatePickupCentre" DataSourceFunction="PickupCentre" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="4" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+  </Report>
+
+  <Report Id="rpt35" Index="35" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="35" Name="Free Items Report" Path="\Reports\FreeItemsSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateFreeItemsSales" DataSourceFunction="FreeItemsSales" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BoLocationId" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="ItemCode" MaxLength="0" Caption="ItemCode" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="IsFree" MaxLength="0" Caption="Is Free" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="FREEITEMsREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>-->
+
+  <Report Id="rpt36" Index="36" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="7" Name="Goods In Transit" Path="\Reports\GoodsInTransit.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateGoodsInTransit" DataSourceFunction="GoodsInTransit" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="from" MaxLength="0" Caption="From Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="to" MaxLength="0" Caption="To Location"  ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Locations" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+
+
+  <!--<Report Id="rpt36" Index="37" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="37" Name="Goods In Transit" Path="\Reports\GoodsInTransit1.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateGoodsInTransit1" DataSourceFunction="GoodsInTransit1" Subreport="" IsPosVisible ="false">
+    <Parameter Name="month" MaxLength="0" Caption="Business Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="from" MaxLength="0" Caption="From Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptLocationBOAndWH" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="to" MaxLength="0" Caption="To Location"  ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Locations" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="itemCode" MaxLength="0" Caption="ItemCode" ControlType="Text" DataSourceFunction="Test" />
+
+  </Report>
+
+  <Report Id="rpt37" Index="38" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="38" Name="2BReport" Path="\Reports\2BReport.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateCreditTaxRegister" DataSourceFunction="2BReport" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report type" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="TAXREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>-->
+
+  <Report Id="rpt38" Index="39" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="38" Name="PO Item Wise" Path="\Reports\POItemWise.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidatePOItemWise" DataSourceFunction="POItemWise" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="PONumber" MaxLength="0" Caption="PONumber" ControlType="Text" DataSourceFunction="Test" />
+  </Report>
+
+  <Report Id="rpt44" Index="44" ReportCategory="RCAT05" LocationTypeId="1" SortOrder="39" Name="Statewise Sales Report" Path="\Reports\StateZoneWiseSales.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateToDate" DataSourceFunction="GetStateWiseSalesData" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+
+  <Report Id="rpt45" Index="45" ReportCategory="RCAT05" LocationTypeId="1" SortOrder="40" Name="Regionwise Sales Report(Mini Branch)" Path="\Reports\RegionWiseSales_MB.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateToDate" DataSourceFunction="GetRegionSalesDataMiniBranch" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+
+  <Report Id="rpt46" Index="46" ReportCategory="RCAT02" LocationTypeId="1,3" SortOrder="30" Name="Consolidated Sales Collection Report" Path="\Reports\ConsolidatedSalesCollection.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Stock" ValidatorFunction="ValidateSalesCollectionReport" DataSourceFunction="ConsolidatedSalesCollectionSearch" Subreport="" IsPosVisible="true">
+	<Parameter Name="BOState" MaxLength="0" Caption="BO State" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicState" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="DLCP" MaxLength="0" Caption="Incl/Excl DLCP" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="InclExclDlcp" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation ="True"/>
+	<Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptStatewiseBO" ParameterCode="" Key1="-1" Key2="0" Key3="-1" ShowBaseLocation="True" />
+    <Parameter Name="PCLocation" MaxLength="0" Caption="PC Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicPCLocation" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation="True" />
+    <Parameter Name="UserId" MaxLength="0" Caption="User Name" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptUserNameLocationwise" ParameterCode="" Key1="0" Key2="0" Key3="-1" ShowBaseLocation="True" />
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Date From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Date To" ControlType="Date" DataSourceFunction="Test" />
+  </Report>
+
+  <!--<Report Id="rpt39" Index="40" ReportCategory="RCAT03" LocationTypeId="1,2,3" SortOrder="39" Name="Vendor Item Wise" Path="\Reports\VendorItemWise.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateVendorItemWise" DataSourceFunction="VendorItemWise" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="PONumber" MaxLength="0" Caption="PONumber" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="VendorLocation" MaxLength="0" Caption="Vendor" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="ItemVendor" ParameterCode="VendorLocation" Key1="-1" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+
+  <Report Id="rpt40" Index="41" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="40" Name="Sales Return Register" Path="\Reports\SalesReturnRegister.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidateSalesReturnRegister" DataSourceFunction="SalesReturnRegister" Subreport="" IsPosVisible ="false">
+    <Parameter Name="dtFrom" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtTo" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation ="False"/>
+  </Report>
+
+  <Report Id="rpt41" Index="42" ReportCategory="RCAT01" LocationTypeId="1" SortOrder="41" Name="Payment Status Summary" Path="\Reports\PaymentStatusSummary.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.FinanceReports" ValidatorFunction="ValidatePaymentStatusSummary" DataSourceFunction="PaymentStatusSummary" Subreport="" IsPosVisible ="false">
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="DistributorId" MaxLength="0" Caption="DistributorId" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="chequenumber" MaxLength="0" Caption="chequenumber" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="DISTPAYMODE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+
+  <Report Id="rpt42" Index="43" ReportCategory="RCAT02" LocationTypeId="1" SortOrder="42" Name="Director Group Bonus Cheque" Path="\Reports\DirectorGroupBonusCheque.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDirectorGroupBonusCheque" DataSourceFunction="DirectorGroupBonusCheque" Subreport="" IsPosVisible ="false">
+    <Parameter Name="DistributorId" MaxLength="0" Caption="Distributor Id" ControlType="Text" DataSourceFunction="Test" />
+    <Parameter Name="dtfrom" MaxLength="0" Caption="Downlines From" ControlType="Date" DataSourceFunction="Test" />
+    <Parameter Name="dtto" MaxLength="0" Caption="Downlines To" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="period" MaxLength="0" Caption="Period*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="MONTHSELECTION" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Report Type*" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="BUSINESSREPORTTYPE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="chequenumber" MaxLength="0" Caption="chequenumber" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="Parameter" ParameterCode="DISTPAYMODE" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>-->
+  <Report Id="rpt47" Index="47" ReportCategory="RCAT04" LocationTypeId="1,2,3" SortOrder="21" Name="Distributor Bank and PAN Edit History Report" Path="\Reports\DistributorEditHistory.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorHistory" DataSourceFunction="SearchDistributorHistory" Subreport="" IsPosVisible ="false">
+    <Parameter Name="DistributorId" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="fromDate" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="toDate" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    
+  </Report>
+  <Report Id="rpt48" Index="48" ReportCategory="RCAT04" LocationTypeId="1,2,3,4" SortOrder="22" Name="Distributor Bank and Pan Status Report" Path="\Reports\DistributorPanBankAcceptReject.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorAcceptReject" DataSourceFunction="SearchDistributorAcceptReject" Subreport="" IsPosVisible ="false">
+    <Parameter Name="DistributorId" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="fromDate" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="toDate" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="ReportType" MaxLength="0" Caption="Type" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RPTDISTACCEPTREJECT" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation="True" />
+  </Report>
+  <Report Id="rpt49" Index="49" ReportCategory="RCAT04" LocationTypeId="1,2" SortOrder="23" Name="Distributor Bank and PAN Monthly Payout Info" Path="\Reports\DistPanBankInfoForMonthlyPayout.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateDistributorPanBankInforForMonthlyPayout" DataSourceFunction="SearchDistributorPanBankInfoForMonthlyPayout" Subreport="" IsPosVisible ="false">
+    <Parameter Name="DistributorId" MaxLength="20" Caption="Distributor ID" ControlType="Text" DataSourceFunction="Test"/>
+    <Parameter Name="month" MaxLength="0" Caption="Month" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="AllMonths" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+    <Parameter Name="year" MaxLength="0" Caption="Year" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="YearsForInvoice" ParameterCode="" Key1="0" Key2="0" Key3="0" ShowBaseLocation ="True"/>
+  </Report>
+  <Report Id="rpt50" Index="50" ReportCategory="RCAT04" LocationTypeId="1,2,3" SortOrder="24" Name="Locationwise List of Modified Distributor" Path="\Reports\LocWiseModifiedDistributor.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Distributor" ValidatorFunction="ValidateLocationwiseModifiedDist" DataSourceFunction="SearchLocwiseDistributors" Subreport="" IsPosVisible ="false">
+    <Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation="True" />
+    <Parameter Name="fromDate" MaxLength="0" Caption="From Date" ControlType="Date" DataSourceFunction="Test"/>
+    <Parameter Name="toDate" MaxLength="0" Caption="To Date" ControlType="Date" DataSourceFunction="Test"/>
+  </Report>
+  <Report Id="rpt51" Index="51" ReportCategory="RCAT03" LocationTypeId="1" SortOrder="25" Name="Locationwise Sale and Stock position" Path="\Reports\BOWiseStockInTransit_new.rdlc" Assembly="CoreComponent" Class="CoreComponent.BusinessObjects.Reports.Inventory" ValidatorFunction="ValidateSaleStock" DataSourceFunction="BoWiseSaleStock" Subreport="" IsPosVisible ="false">
+	<Parameter Name="BOlocation" MaxLength="0" Caption="BO Location" ControlType="DropDown" AssemblyName="CoreComponent.Core" ClassName="CoreComponent.Core.BusinessObjects.Common" DataSourceFunction="ParameterLookupXML" ParameterType="RptDynamicLocationByType" ParameterCode="" Key1="3" Key2="0" Key3="0" ShowBaseLocation="True" />
+  </Report>	
+</Reports>

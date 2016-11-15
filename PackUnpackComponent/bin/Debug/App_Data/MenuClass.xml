@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu>
+  <MenuItem ID="MDM01" AssemblyName="CoreComponent" ClassName="CoreComponent.Hierarchies.UI.frmOrganizationNew"></MenuItem>
+  <MenuItem ID="MDM02" AssemblyName="CoreComponent" ClassName="CoreComponent.Hierarchies.UI.frmLocation"></MenuItem>
+  <MenuItem ID="MDM03" AssemblyName="CoreComponent" ClassName="CoreComponent.Hierarchies.UI.frmMerchandiseNew"></MenuItem>
+  <MenuItem ID="MDM04" AssemblyName="CoreComponent" ClassName="CoreComponent.MasterData.UI.frmVendor"></MenuItem>
+  <MenuItem ID="MDM05" AssemblyName="CoreComponent" ClassName="CoreComponent.MasterData.UI.frmItemMaster"></MenuItem>
+  <MenuItem ID="MDM06" AssemblyName="TaxComponent" ClassName="TaxComponent.UI.frmTaxApplication"></MenuItem>
+  <MenuItem ID="MDM07" AssemblyName="PromotionsComponent" ClassName="PromotionsComponent.UI.frmPromotion"></MenuItem>
+  <MenuItem ID="MDM08" AssemblyName="PromotionsComponent" ClassName="PromotionsComponent.UI.frmGiftVoucher"></MenuItem>
+  <MenuItem ID="MDM09" AssemblyName="TaxComponent" ClassName="TaxComponent.UI.frmTaxCode"></MenuItem>
+  <MenuItem ID="PUR01" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmIndent">
+    <MenuItemParameter ID="IndentType" Value="1" />
+  </MenuItem>
+  <MenuItem ID="PUR04" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmIndentConsolidation"></MenuItem>
+  <MenuItem ID="PUR02" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmIndent">
+    <MenuItemParameter ID="IndentType" Value="0" />
+  </MenuItem>
+  <MenuItem ID="PUR03" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmPurchaseOrder">
+    <MenuItemParameter ID="POType" Value="0" />
+  </MenuItem>
+  <MenuItem ID="PUR05" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmPurchaseOrder">
+    <MenuItemParameter ID="POType" Value="1" />
+  </MenuItem>
+  <MenuItem ID="RCV01" AssemblyName="PurchaseComponent" ClassName="PurchaseComponent.UI.frmGRN"></MenuItem>
+  <MenuItem ID="INV02" AssemblyName="InventoryComponent" ClassName="InventoryComponent.UI.frmStockCount"></MenuItem>
+  <MenuItem ID="INV03" AssemblyName="InventoryComponent" ClassName="InventoryComponent.UI.frmInventoryAdjustment"></MenuItem>
+  
+  <MenuItem ID="TSF01" AssemblyName="TransfersComponent" ClassName="TransfersComponent.UI.frmTOI"></MenuItem>
+  <MenuItem ID="TSF02" AssemblyName="TransfersComponent" ClassName="TransfersComponent.UI.frmTO"></MenuItem>
+  <MenuItem ID="TSF03" AssemblyName="TransfersComponent" ClassName="TransfersComponent.UI.frmTI"></MenuItem>
+  <MenuItem ID="ADM02" AssemblyName="AuthenticationComponent" ClassName="AuthenticationComponent.UI.frmUserRegistration"></MenuItem>
+  <MenuItem ID="ADM01" AssemblyName="AuthenticationComponent" ClassName="AuthenticationComponent.UI.frmRoleManagement"></MenuItem>
+  <MenuItem ID="LGN01" AssemblyName="AuthenticationComponent" ClassName="AuthenticationComponent.UI.frmLogin"></MenuItem>
+  <MenuItem ID="LGN03" AssemblyName="AuthenticationComponent" ClassName="AuthenticationComponent.UI.frmChangePassword"></MenuItem>
+  <MenuItem ID="PUN01" AssemblyName="PackUnpackComponent" ClassName="PackUnpackComponent.UI.frmPackUnpack"></MenuItem>
+  <MenuItem ID="MNU01" AssemblyName="CoreComponent" ClassName="CoreComponent.UI.frmAppLocModLink"></MenuItem>
+  <MenuItem ID="RET01" AssemblyName="ReturnsComponent" ClassName="ReturnsComponent.UI.frmVendorReturn"></MenuItem>
+  <MenuItem ID="RET02" AssemblyName="ReturnsComponent" ClassName="ReturnsComponent.UI.frmCustomerReturn"></MenuItem>  
+  <MenuItem ID="RPT01" AssemblyName="CoreComponent" ClassName="CoreComponent.UI.ReportViewer"></MenuItem>
+  <MenuItem ID="RPT02" AssemblyName="CoreComponent" ClassName="CoreComponent.UI.frmDistributorEditInfo"></MenuItem>
+  
+</Menu>

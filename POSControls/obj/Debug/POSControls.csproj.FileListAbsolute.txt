@@ -1,0 +1,54 @@
+E:\Bikram\Dev\POSControls\bin\Debug\Plaza.POS.Controls.dll
+E:\Bikram\Dev\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+E:\Bikram\Dev\POSControls\obj\Debug\ResolveAssemblyReference.cache
+E:\Bikram\Dev\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+E:\Bikram\Dev\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+E:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+E:\Bikram\Dev\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+E:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.dll
+E:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.pdb
+D:\Dev\POSControls\bin\Debug\Plaza.POS.Controls.dll
+D:\Dev\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+D:\Dev\POSControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+D:\Dev\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+D:\Dev\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+D:\Dev\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+D:\Dev\POSControls\obj\Debug\Plaza.POS.Controls.dll
+D:\Dev\POSControls\obj\Debug\Plaza.POS.Controls.pdb
+D:\Bikram\Dev\POSControls\bin\Debug\Plaza.POS.Controls.dll
+D:\Bikram\Dev\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+D:\Bikram\Dev\POSControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+D:\Bikram\Dev\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+D:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+D:\Bikram\Dev\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+D:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.dll
+D:\Bikram\Dev\POSControls\obj\Debug\Plaza.POS.Controls.pdb
+D:\Bikram\Dev - Copy\POSControls\bin\Debug\Plaza.POS.Controls.dll
+D:\Bikram\Dev - Copy\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.dll
+D:\Bikram\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.pdb
+D:\Dev - Copy\POSControls\bin\Debug\Plaza.POS.Controls.dll
+D:\Dev - Copy\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+D:\Dev - Copy\POSControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev - Copy\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+D:\Dev - Copy\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+D:\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+D:\Dev - Copy\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+D:\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.dll
+D:\Dev - Copy\POSControls\obj\Debug\Plaza.POS.Controls.pdb
+F:\vestige_20161110\Dev - Copy2\POSControls\bin\Debug\Plaza.POS.Controls.dll
+F:\vestige_20161110\Dev - Copy2\POSControls\bin\Debug\Plaza.POS.Controls.pdb
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\ResolveAssemblyReference.cache
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\POSClient.UI.Controls.ItemSelector.resources
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\POSClient.UI.Controls.OnScreenKeyBoard.resources
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\Plaza.POS.Controls.Properties.Resources.resources
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\POSControls.csproj.GenerateResource.Cache
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\Plaza.POS.Controls.dll
+F:\vestige_20161110\Dev - Copy2\POSControls\obj\Debug\Plaza.POS.Controls.pdb

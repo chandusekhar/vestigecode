@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D20C96B-5365-4B50-B944-5AEF78513A1B}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>Vinculum.Framework</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Configuration.Design, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Security">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Security.Cryptography">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.ExceptionHandling">
+      <HintPath>..\Vinculum .Net Framework\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.OracleClient" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="Vinculum\Framework\Caching\CachingManager.cs" />
+    <Compile Include="Vinculum\Framework\Cryptography\CryptographyManager.cs" />
+    <Compile Include="Vinculum\Framework\Cryptography\CryptographyProviderType.cs" />
+    <Compile Include="Vinculum\Framework\Cryptography\CryptographyUtility.cs" />
+    <Compile Include="Vinculum\Framework\DataTypes\Constants.cs" />
+    <Compile Include="Vinculum\Framework\DataTypes\DBParameter.cs" />
+    <Compile Include="Vinculum\Framework\DataTypes\DBParameterList.cs" />
+    <Compile Include="Vinculum\Framework\DataTypes\XMLMessages.cs" />
+    <Compile Include="Vinculum\Framework\Data\DataTaskManager.cs" />
+    <Compile Include="Vinculum\Framework\ErrorHandling\ExceptionManager.cs" />
+    <Compile Include="Vinculum\Framework\Globalization\ResourceManager.cs" />
+    <Compile Include="Vinculum\Framework\Logging\LogManager.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\CellWidthUnit.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintElement.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintPrimitiveRule.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintPrimitiveText.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintRow.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\EntityPrintTable.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\IPrintPrimitive.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\IPrintPrimitiveRow.cs" />
+    <Compile Include="Vinculum\Framework\Printing\Entity\IPrintPrimitiveTable.cs" />
+    <Compile Include="Vinculum\Framework\Security\SecurityManager.cs" />
+    <Compile Include="Vinculum\Framework\Utility\UtilityManager.cs" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+</Project>

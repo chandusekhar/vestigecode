@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BE2085E9-BA26-4F83-9528-96F0011F30D7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TaxComponent</RootNamespace>
+    <AssemblyName>TaxComponent</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Tax.cs" />
+    <Compile Include="BusinessObjects\ITax.cs" />
+    <Compile Include="BusinessObjects\TaxApplication.cs" />
+    <Compile Include="BusinessObjects\TaxCategory.cs" />
+    <Compile Include="BusinessObjects\TaxCode.cs">
+    </Compile>
+    <Compile Include="BusinessObjects\TaxDetail.cs" />
+    <Compile Include="BusinessObjects\TaxGroup.cs" />
+    <Compile Include="BusinessObjects\TaxJurisdiction.cs" />
+    <Compile Include="BusinessObjects\TaxType.cs" />
+    <Compile Include="UI\frmTaxApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTaxApplication.Designer.cs">
+      <DependentUpon>frmTaxApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTaxApplication.resx">
+      <DependentUpon>frmTaxApplication.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTaxCode.resx">
+      <DependentUpon>frmTaxCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\frmTaxCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTaxCode.Designer.cs">
+      <DependentUpon>frmTaxCode.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationComponent\AuthenticationComponent.csproj">
+      <Project>{0C25BB40-65F8-4CDE-9462-83A7307DEA02}</Project>
+      <Name>AuthenticationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent.Core\CoreComponent.Core.csproj">
+      <Project>{362E7B29-F0F8-49A9-96F4-F092BE066A63}</Project>
+      <Name>CoreComponent.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vinculum Framework\Vinculum.Framework.csproj">
+      <Project>{2D20C96B-5365-4B50-B944-5AEF78513A1B}</Project>
+      <Name>Vinculum.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\TaxGrid.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\bg.gif" />
+    <Content Include="Resources\bg1.gif" />
+    <Content Include="Resources\creatheader_bg.gif" />
+    <Content Include="Resources\creatheader_bg1.gif" />
+    <Content Include="Resources\exit.png" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\winback.png" />
+    <None Include="Resources\view1.jpg" />
+    <None Include="Resources\view.jpg" />
+    <None Include="Resources\update.jpg" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\search.jpg" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\save.jpg" />
+    <None Include="Resources\reset.jpg" />
+    <None Include="Resources\orange-stripe.gif" />
+    <None Include="Resources\module.png" />
+    <None Include="Resources\glassy.png" />
+    <None Include="Resources\exit.jpg" />
+    <None Include="Resources\edit.jpg" />
+    <None Include="Resources\delete.jpg" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\close.jpg" />
+    <None Include="Resources\clear.jpg" />
+    <None Include="Resources\cancel.jpg" />
+    <None Include="Resources\btnview1.jpg" />
+    <None Include="Resources\btnview.jpg" />
+    <None Include="Resources\btnupdate.jpg" />
+    <None Include="Resources\btnsearch.jpg" />
+    <None Include="Resources\btnsave.jpg" />
+    <None Include="Resources\btnreset.jpg" />
+    <None Include="Resources\btnexit.jpg" />
+    <None Include="Resources\btnedit.jpg" />
+    <None Include="Resources\btndelete.jpg" />
+    <None Include="Resources\btnclose.jpg" />
+    <None Include="Resources\btnclear.jpg" />
+    <None Include="Resources\btncancel.jpg" />
+    <None Include="Resources\btnadd.jpg" />
+    <None Include="Resources\blyestripe.gif" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\Images.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

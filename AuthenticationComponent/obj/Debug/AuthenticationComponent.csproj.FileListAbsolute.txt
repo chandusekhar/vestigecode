@@ -1,0 +1,210 @@
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+E:\Bikram\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+E:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb
+D:\Dev\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+D:\Dev\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+D:\Dev\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+D:\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+D:\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+D:\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev - Copy\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Dev - Copy\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+D:\Dev - Copy\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Resources\login2.jpg
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Resources\login1.jpg
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Resources\login3.jpg
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll.config
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\AuthenticationComponent.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\AuthenticationComponent.pdb
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\CoreComponent.Core.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Vinculum.Framework.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Vinculum.Framework.pdb
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\bin\Debug\CoreComponent.Core.pdb
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\ResolveAssemblyReference.cache
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.Properties.Resources.resources
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmChangePassword.resources
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmLogin.resources
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmRoleManagement.resources
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.UI.frmUserRegistration.resources
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.csproj.GenerateResource.Cache
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.dll
+F:\vestige_20161110\Dev - Copy2\AuthenticationComponent\obj\Debug\AuthenticationComponent.pdb

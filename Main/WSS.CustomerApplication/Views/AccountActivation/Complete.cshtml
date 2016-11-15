@@ -1,0 +1,99 @@
+﻿@using WSS.CustomerApplication.Properties
+@model WSS.CustomerApplication.Models.AccountActivationViewModel
+
+
+<style>
+    #toast-container {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+
+<section id="activate-account" class="col-sm-9">
+    <div>
+        <div class="row">
+            <h3>@Resources.AccountActivationView_Complete_activateaccount_Complete_Your_Registration</h3>
+            <p>@Resources.AccountActivationView_Complete_activateaccount_Please_answer_these_questions_to_complete_your_activation</p>
+        </div>
+
+        <div class="row">
+            <form id="activateAccountForm" method="post" action="@Url.Action("Activate")">
+                @*<form id="activateAccountForm">*@
+                    @Html.HiddenFor(model => model.Token)
+                    <div class="row top-buffer">
+                        <div class="col-sm-6">
+                            @Html.EditorFor(model => model.Password1, new { htmlAttributes = new { @class = "form-control", placeholder = Resources.Complete_cshtml_Execute_Enter_your_password, data_toggle = "popover", data_content = Resources.Complete_cshtml_Execute__7_to_15_characters_in_length__letters_and_numbers_only, data_trigger = "focus", data_placement = "auto top" } })
+                        </div>
+                        <div class="visible-sm visible-xs col-sm-5 top-buffer"></div>
+                        <div class="col-sm-6">
+                            @Html.EditorFor(model => model.Password2, new { htmlAttributes = new { @class = "form-control", placeholder = Resources.Complete_cshtml_Execute_Re_enter_your_password,  data_toggle = "popover", data_content = Resources.Complete_cshtml_Execute__7_to_15_characters_in_length__letters_and_numbers_only, data_trigger = "focus", data_placement = "auto top" } })
+                        </div>
+                    </div>
+
+                    <div class="row top-buffer">
+                        <div class="col-sm-6">
+                            @Html.DropDownListFor(model => model.SecurityQuestion, new SelectList(ViewBag.Questions, "Key", "Value", Model.SecurityQuestion), Resources.Complete_cshtml_Execute_Select_a_Security_Question_, new { @class = "form-control col-sm-6" })
+                        </div>
+                        <div class="visible-sm visible-xs col-sm-5 top-buffer"></div>
+                        <div class="col-sm-6">
+                            @Html.TextBoxFor(model => model.SecurityQuestionAnswer, null, new { @class = "form-control col-sm-6", placeholder = Resources.Complete_cshtml_Execute_Your_security_question_answer, data_toggle = "popover", data_content = Resources.Complete_cshtml_Execute_Letters__numbers_and_punctuation_only, data_trigger = "focus", data_placement = "auto top" })
+                        </div>
+                    </div>
+
+                    <div class="row top-buffer">
+                        <div class="col-xs-12">
+                            @Html.CheckBoxFor(model => model.AgreeToTermsAndConditions, new { onclick = "IsActivateAccountFormValid();" })&nbsp;&nbsp;&nbsp;@Resources.AccountActivationView_Complete_activateaccount_I_agree_to_the<a href="javascript:(0);" id="terms_conditions_link" onclick="$('#terms_and_conditions').toggle('slow'); return false;">@Resources.AccountActivationView_Complete_activateaccount_Terms_and_Conditions</a>
+                            @Resources.AccountActivationView_Complete_activateaccount_and_understand_that_by_completing_this_registration_I_will_no_longer_receive_my_utility_bill
+                        </div>
+                    </div>
+
+                    <div class="row top-buffer">
+                        <div class="col-sm-12  field-validation-error">
+                            @Html.ValidationMessageFor(model => model.Password1)
+                            @Html.ValidationMessageFor(model => model.Password2)
+                            @Html.ValidationMessageFor(model => model.SecurityQuestion)
+                            @Html.ValidationMessageFor(model => model.SecurityQuestionAnswer)
+                            @Html.ValidationMessageFor(model => model.AgreeToTermsAndConditions)
+                        </div>
+                        <div class="col-sm-12 field-validation-error" id="error-message"></div>
+                    </div>
+
+                    <div class="row top-buffer">
+                        <div class="col-sm-5">
+                            <button class="btn btn-primary" value="activateAccount" title="@Resources.AccountActivationView_Complete_activateaccount_Activate_the_account" id="btnActivateAccount" ><i class="fa fa-check-circle"></i> &nbsp;@Resources.AccountActivationView_Complete_activateaccount_Activate_Account</button>
+                        </div>
+                    </div>
+
+
+                </form>
+        </div>
+
+    </div>
+    <div id="terms_and_conditions" class="row top-buffer" style="display: none; border-top: 1px solid #666; border-bottom: 1px solid #666; background:#e6e6fa">
+        @Html.Partial("TermsAndConditiond")
+    </div>
+</section>
+
+<div id="banner" class="col-sm-3 top-buffer text-center">
+    @if (!string.IsNullOrEmpty((string)ViewBag.BannerFileName))
+    {
+        <img src="~/Content/images/Banners/@ViewBag.BannerFileName" alt="Winnipeg City banner" style="max-width: 100%; padding: 0 5%;" />
+    }
+</div>
+
+<script type="text/javascript">
+    $(document)
+        .ready(function() {
+
+            $("#activateAccountForm")
+                .submit(function(e) {
+                    if (!IsActivateAccountFormValid()) {
+                           e.preventDefault();
+                    }
+                });
+
+            RedefineLinks("activateAccountForm", "terms_conditions_link");
+
+        });
+
+</script>

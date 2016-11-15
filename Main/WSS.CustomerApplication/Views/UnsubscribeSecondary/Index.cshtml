@@ -1,0 +1,28 @@
+﻿@using WSS.CustomerApplication.Properties
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using WSS.CustomerApplication.Models
+@model UnsubscribeViewModel
+<h2>Index</h2>
+<div>
+    @using (Html.BeginForm("Index", "UnsubscribeSecondory"))
+    {
+        @Html.HiddenFor(m=>m.ActionToken)
+        @Html.HiddenFor(m=>m.WssAccountId)
+        <div>
+            <div>
+                <div>Enter Email Id</div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        @Html.TextBoxFor(m => m.EmailAddress)
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-link pull-left" type="submit" value="Cancel" title="@Resources.UnsubscribeSecondaryView_Index_Unsubscribe"><i class="fa fa-times-circle"></i> &nbsp;@Resources.UnsubscribeSecondaryView_Index_Unsubscribe</button>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,44 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WSS.InternalApplication.Controllers;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Moq;
+using AutoMapper;
+
+namespace WSS.InternalApplication.Controllers.Tests
+{
+    [TestClass()]
+    public class AdminControllerTests : ControllerTestBase
+    {
+        #region Test Setup
+
+        private AdminController _controller;
+
+        [TestInitialize]
+        public void MyTestInitialize()
+        {
+            BaseTestInitialize();
+
+            _controller = new AdminController();
+        }
+
+
+        [TestCleanup]
+        public void MyTestCleanup()
+        {
+            _controller = null;
+            BaseTestCleanUp(); // Base Cleanup
+        }
+
+        #endregion
+
+        [TestMethod()]
+        public void IndexTest()
+        {
+
+        }
+    }
+}

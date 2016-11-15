@@ -1,0 +1,93 @@
+﻿@using PagedList.Mvc
+@using WSS.InternalApplication.Models
+@model PagedList.IPagedList<AuditRecordsViewModel>
+<section id="auditRecords">
+    <div class="row">
+        @*blank row*@
+        &nbsp;
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr class="account-bill-table">
+                    <th class="event-type" title="Sort by EventType" style="width: 150px; min-width: 100px" data-sortorder="EventType" data-sortdir="Change" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                        <a href='javascript:void(0);' onclick='SortAuditRecords("@Url.Action("_audit", new {sortOrder = "EventType", sortDir = "Change", id =  @Model[0].WssAccountId})"); return false;'>
+                            @Html.DisplayNameFor(x => x.FirstOrDefault().EventType) <i class="@ViewBag.EventType"></i>
+                        </a>
+                    </th>
+                    <th class="date" title="Sort by Date" data-sortorder="Date/Time" data-sortdir="Change" style="width: 200px; min-width: 100px" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                        <a href='javascript:void(0);' onclick='SortAuditRecords("@Url.Action("_audit", new {sortOrder = "DateTime", sortDir = "Change", id =  @Model[0].WssAccountId})"); return false;'>
+                            @Html.DisplayNameFor(x => x.FirstOrDefault().DateTime) <i class="@ViewBag.DateTime"></i>
+                        </a>
+                    </th>
+                    <th class="user-id" title="Sort by UserId" data-sortorder="UserId" data-sortdir="Change" style=" width 150px; min-width 100px" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                        <a href='javascript:void(0);' onclick='SortAuditRecords("@Url.Action("_audit", new {sortOrder = "User", sortDir = "Change", id =  @Model[0].WssAccountId})"); return false;'>
+                            @Html.DisplayNameFor(x => x.FirstOrDefault().UserId) <i class="@ViewBag.UserId"></i>
+                        </a>
+                    </th>
+                    <th class="description" title="Sort by Description" data-sortorder="Description" data-sortdir="Change" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                        <span style="color:#007cb7;">@Html.DisplayNameFor(x => x.FirstOrDefault().Description) </span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td hidden="hidden">@item.id</td>
+                        <td class="event-type">@item.EventType</td>
+                        <td class="date-time">@item.DateTime</td>
+                        <td class="customer-name">@item.UserId</td>
+                        <td class="Description">@item.Description</td>
+
+                        @*<td class="time">@item.Time</td>*@
+                        @*<td class="account-number">@item.UtilityAccount</td>*@
+                        @*<td class="field-name">@item.FieldName</td>
+                            <td class="old-value">@item.OldValue</td>
+                            <td class="new-value">@item.NewValue</td>*@
+                    </tr>
+
+                }
+            </tbody>
+        </table>
+    }
+    @*}*@
+    <section id="pager">
+        @if (Model != null && Model.Any())
+        {
+
+            <input type="hidden" id="hdnPageNumber" value="@ViewBag.PageNumber" />
+                <input type="hidden" id="hdnPageSize" value="@ViewBag.PageSize" />
+                <input type="hidden" id="hdnCurrentSort" value="@ViewBag.CurrentSort" />
+                <input type="hidden" id="hdnCurrentDir" value="@ViewBag.CurrentDir" />
+
+                <div class="row">
+                    <div class="form-group">
+                        <div class="col-md-offset-3 col-md-6" style="cursor:pointer;">
+                            @Html.PagedListPager(Model,
+                                page => Url.Action("_audit", "Account", new { page, sortOrder = @Session["AuditRecordsSortOrder"], sortDir = @Session["AuditRecordsSortDirection"], id = Model[0].WssAccountId }),
+                                new PagedListRenderOptions { DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded, DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded, DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded, DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded, MaximumPageNumbersToDisplay = 6 })
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-1 control-label text-right small">Show:</label>
+                        <div class="col-md-1">
+                            @Html.DropDownList("rowsPerPage", (IEnumerable<SelectListItem>)ViewBag.RowsPerPageSelectList, new Dictionary<string, object> { { "onchange", "GetAuditRecordsPageWise(this)" }, { "data-pagesize", ViewBag.PageSize }, { "data-page", ViewBag.PageNumber } })
+                        </div>
+                        <label class="control-label text-left small">Rows per Page.</label>
+                    </div>
+                </div>
+        }
+    </section>
+</section>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('div.pagination-container li:not(".active") >a').each(function(i,ele){
+            var aPath=ele.getAttribute('href');
+            ele.onclick=function(){SortAuditRecords(aPath); };
+        });
+        $('div.pagination-container a').removeAttr('href');
+    });
+</script>

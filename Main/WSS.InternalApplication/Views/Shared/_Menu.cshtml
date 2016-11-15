@@ -1,0 +1,44 @@
+﻿@using WSS.InternalApplication.Authorization
+<div class="navbar navbar-static-top">
+    <div class="header">
+        <div class="container-fluid">
+
+            <a href="~/">
+                <img id="logo-horizontal" alt="City of Winnipeg Logo" src="@Url.Content("~/Content/Images/logo-hor_1.png")" />
+                <img id="logo-horizontal-text" alt="Water and Waste Online Billing" src="@Url.Content("~/Content/Images/logo-hor_2.png")" />
+            </a>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <ul class="nav navbar-nav @ViewBag.isMenuHidden">
+                    @if ((WSSPrincipal.IsUserInRole(@User.Identity.Name, "CSR")) || WSSPrincipal.IsUserInRole(@User.Identity.Name, "CSR-Admin App"))
+                    {
+                        <li class="nav-item small">
+                            <a class="nav-item nav-link" href=@Url.Action("Index", "Search")><i class="fa fa-search"></i>CSR Search</a>
+                        </li>
+                    }
+
+                    @if ((WSSPrincipal.IsUserInRole(@User.Identity.Name, "Customer Account Staff")) || WSSPrincipal.IsUserInRole(@User.Identity.Name, "Bill Administrator"))
+                    {
+
+                    <li class="nav-item small">
+                        <a class="nav-item nav-link" href=@Url.Action("Index", "DocumentSearch")><i class="fa fa-search"></i>Document Search</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-item nav-link" href=@Url.Action("Index", "Intercept")><i class="fa fa-search"></i>Intercept Activity Search</a>
+                    </li>
+                    <li class="nav-item small">
+                        <a class="nav-item nav-link" href=@Url.Action("Index", "Dashboard")><i class="fa fa-cog"></i>Dashboard</a>
+                    </li>
+
+                    }
+                </ul>
+
+                <ul class="nav navbar-right">
+                    <li>
+                        <span class="small label">Logged in as: @User.Identity.Name </span>
+                    </li>
+                </ul>
+            }
+        </div>
+    </div>
+</div>

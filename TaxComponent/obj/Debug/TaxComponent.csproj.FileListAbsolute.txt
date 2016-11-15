@@ -1,0 +1,184 @@
+E:\Bikram\Dev\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+E:\Bikram\Dev\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+E:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login2.jpg
+E:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login1.jpg
+E:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login3.jpg
+E:\Bikram\Dev\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+E:\Bikram\Dev\TaxComponent\bin\Debug\TaxComponent.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\TaxComponent.pdb
+E:\Bikram\Dev\TaxComponent\bin\Debug\AuthenticationComponent.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\CoreComponent.Core.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+E:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.dll
+E:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.pdb
+E:\Bikram\Dev\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+E:\Bikram\Dev\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev\TaxComponent\bin\Debug\Resources\login2.jpg
+D:\Dev\TaxComponent\bin\Debug\Resources\login1.jpg
+D:\Dev\TaxComponent\bin\Debug\Resources\login3.jpg
+D:\Dev\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+D:\Dev\TaxComponent\bin\Debug\TaxComponent.dll
+D:\Dev\TaxComponent\bin\Debug\TaxComponent.pdb
+D:\Dev\TaxComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev\TaxComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.dll
+D:\Dev\TaxComponent\obj\Debug\TaxComponent.pdb
+D:\Bikram\Dev\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev\TaxComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\TaxComponent.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\TaxComponent.pdb
+D:\Bikram\Dev\TaxComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.dll
+D:\Bikram\Dev\TaxComponent\obj\Debug\TaxComponent.pdb
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\TaxComponent.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\TaxComponent.pdb
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Vinculum.Framework.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev - Copy\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.dll
+D:\Bikram\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.pdb
+D:\Dev - Copy\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Resources\login2.jpg
+D:\Dev - Copy\TaxComponent\bin\Debug\Resources\login3.jpg
+D:\Dev - Copy\TaxComponent\bin\Debug\Resources\login1.jpg
+D:\Dev - Copy\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\TaxComponent.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\TaxComponent.pdb
+D:\Dev - Copy\TaxComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Vinculum.Framework.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Dev - Copy\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev - Copy\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.dll
+D:\Dev - Copy\TaxComponent\obj\Debug\TaxComponent.pdb
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Resources\login1.jpg
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Resources\login3.jpg
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Resources\login2.jpg
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\App_Data\TaxGrid.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\TaxComponent.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\TaxComponent.pdb
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\AuthenticationComponent.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\CoreComponent.Core.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Vinculum.Framework.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Vinculum.Framework.pdb
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\AuthenticationComponent.pdb
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+F:\vestige_20161110\Dev - Copy2\TaxComponent\bin\Debug\CoreComponent.Core.pdb
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\ResolveAssemblyReference.cache
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.Properties.Resources.resources
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxApplication.resources
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.UI.frmTaxCode.resources
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.csproj.GenerateResource.Cache
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.dll
+F:\vestige_20161110\Dev - Copy2\TaxComponent\obj\Debug\TaxComponent.pdb

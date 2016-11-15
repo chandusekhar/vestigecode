@@ -1,0 +1,38 @@
+﻿@using WSS.InternalApplication.Models
+@using PagedList.Mvc
+@model PagedList.IPagedList<DocumentListViewModel>
+
+<section id="Dashboard-Held-Documents-List">
+    <br />
+
+    @*Show Alert on no documents*@
+    @if (Model.Count == 0)
+    {
+        <br />
+        <div class="alert alert-info" role="alert">No documents are available in this state.</div>
+    }
+    <input type="hidden" value="@ViewBag.BillsQuery" id="hdnBillsUtilityAccountId" />
+    @*Results Table*@
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-hover table-striped">
+            <thead class="dasboard-held-documents-table">
+                <tr>
+                    <th class="InerceptCode">@Html.DisplayNameFor(x => x[0].InterceptCode)</th>
+                    <th class="LastTenDays">@Html.DisplayNameFor(x => x[0].Last10Days)</th>
+                    <th class="GreaterThanTenDays">@Html.DisplayNameFor(x => x[0].GreaterThan10Days)</th>                    
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="account-bill-table document-link" style="cursor: pointer;">                        
+                        <td class="InerceptCode">@item.InterceptCode</td>
+                        <td class="LastTenDays">@item.Last10Days</td>
+                        <td class="GreaterThanTenDays">@item.GreaterThan10Days</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }       
+</section>

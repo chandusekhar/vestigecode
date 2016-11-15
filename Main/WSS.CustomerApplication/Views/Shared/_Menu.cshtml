@@ -1,0 +1,26 @@
+﻿@using WSS.CustomerApplication.Properties
+@using Microsoft.AspNet.Identity
+<div class="navbar navbar-static-top">
+    <div class="header row">
+        <a href="~/">
+            @*<img id="logo-horizontal" alt="City of Winnipeg Logo" class="img-fluid" style="max-width: 100%;" src="Content/Images/logo-hor_1.png">
+                <img id="logo-horizontal-text" alt="Water and Waste Online Billing" class="img-fluid" style="max-width: 100%; height: auto;" src="Content/Images/logo-hor_2.png">*@
+            <img id="" alt="Water and Waste Online Billing" class="img-fluid" style="max-width: 100%; height: auto;" src="~/Content/Images/WSSlogo.png">
+        </a>
+@if (Request.IsAuthenticated)
+{
+        using (Html.BeginForm("Logoff", "Login", FormMethod.Post, new {id = "logoutForm", @class = "navbar-right"}))
+        {
+            @Html.AntiForgeryToken()
+            <ul class="nav navbar-right">
+                <li>
+                    <div class="small label">@Resources.SharedView_Menu_Hi @User.Identity.GetUserName() </div>
+                </li>
+                <li>
+                    <div class="small label"><a href="javascript:document.getElementById('logoutForm').submit()">@Resources.SharedView_Menu_Log_off</a></div>
+                </li>
+            </ul>
+        }
+}
+    </div>
+</div>

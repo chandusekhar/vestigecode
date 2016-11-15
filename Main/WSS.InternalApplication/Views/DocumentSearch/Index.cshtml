@@ -1,0 +1,123 @@
+﻿@model WSS.InternalApplication.Models.DocumentSearchViewModel
+
+@{
+    ViewBag.Title = "Document Search";
+}
+
+<div class="container top-buffer">
+    <div class="body-content-wide">
+
+        <h2>
+            @ViewBag.Title
+        </h2>
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#intercept-search-panel" aria-controls="intercept-search-panel" role="tab" data-toggle="tab"> By Route/Status/Code</a></li>
+            <li role="presentation"><a href="#account-search-panel" aria-controls="account-search-panel" role="tab" data-toggle="tab">By Account/Customer</a></li>
+            <li role="presentation"><a href="#document-id-search-panel" aria-controls="document-id-search-panel" role="tab" data-toggle="tab">By Document Id</a></li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="intercept-search-panel">
+                <br />
+                @*@using (Html.BeginForm("Index", "DocumentSearch", FormMethod.Post, new {role = "form", id="account-search-form"}))*@
+                @using (Ajax.BeginForm("PerformSearch", new AjaxOptions() { UpdateTargetId = "search-results-container", LoadingElementId = "loading-spinner" }))
+                {
+                    <div class="row"  style="margin-left:15px">
+                        <div class="form-group">
+                            <div class="row margin-bottom">
+                                <div class="form-inline">
+                                    @Html.DropDownListFor(m => m.InterceptCode, new SelectList(ViewBag.InterceptCodes), "--All Intercept Codes--", new { @class = "form-control"})
+                                    @Html.DropDownListFor(m => m.StatusCode, new SelectList(ViewBag.DocumentStatuses, "DocumentStatusCode", "DocumentStatusValue"), "--All Statuses--", new { @class = "form-control" })
+                                    @Html.DropDownListFor(m => m.RouteTypeCode, new SelectList(ViewBag.RouteTypeCodes), "--All Route Types--", new { @class = "form-control" })
+                                </div>
+                            </div>
+                            <div class="row margin-bottom">
+                                <div class="form-inline">
+                                    <div class="input-group date">
+                                        @Html.TextBoxFor(m => m.StartDate, new { @class = "form-control", placeholder = "Start Date", style = "width: 120px !important;" })
+                                        <div class="input-group-addon datepicker">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                    </div>
+                                    &nbsp;To&nbsp;
+                                    <div class="input-group date">
+                                        @Html.TextBoxFor(m => m.EndDate, new { @class = "form-control", placeholder = "End Date", style = "width: 120px !important;" })
+                                        <div class="input-group-addon datepicker">
+                                            <i class="fa fa-calendar"></i>
+                                        </div>
+                                    </div>
+                                    &nbsp;&nbsp;<button class="btn btn-primary" title="Run Search" style="padding: 5px;"><i class="fa fa-search"></i> &nbsp;Search</button>
+                                </div>
+                            </div>
+                            <div class="row margin-bottom">
+                                @Html.ValidationMessageFor(m => m.InterceptCode)
+                                @Html.ValidationMessageFor(m => m.StartDate)
+                                @Html.ValidationMessageFor(m => m.EndDate)
+                            </div>
+                           
+                        </div>
+
+                    </div>
+                }
+            </div>
+            <div role="tabpanel" class="tab-pane" id="account-search-panel">
+                <br />
+                @using (Ajax.BeginForm("PerformSearch", new AjaxOptions() { UpdateTargetId = "search-results-container", LoadingElementId = "loading-spinner" }))
+                {
+                    <div class="form-group form-inline" >
+                        <div class="row" style="margin-left:15px">
+                            @Html.TextBoxFor(m => m.AccountNumber, new { @class = "form-control", placeholder = "Account Number" })
+                            @Html.TextBoxFor(m => m.CustomerName, new { @class = "form-control", placeholder = "Customer Name" })
+                            <div class="input-group date">
+                                @Html.TextBoxFor(m => m.StartDate, new { @class = "form-control", placeholder = "Start Date", style = "width: 120px !important;" })
+                                <div class="input-group-addon datepicker"><i class="fa fa-calendar"></i></div>
+                            </div>
+                            &nbsp;To&nbsp;
+                            <div class="input-group date">
+                                @Html.TextBoxFor(m => m.EndDate, new { @class = "form-control", placeholder = "End Date", style = "width: 120px !important;" })
+                                <div class="input-group-addon datepicker"><i class="fa fa-calendar"></i></div>
+                            </div>
+                            <button class="btn btn-primary" title="Run Search" style="padding: 5px;"><i class="fa fa-search"></i> &nbsp;Search</button>
+                        </div>
+                        <div class="row">
+                            @Html.ValidationMessageFor(m => m.AccountNumber)
+                            @Html.ValidationMessageFor(m => m.CustomerName)
+                        </div>
+                    </div>
+                }
+            </div>
+            <div role="tabpanel" class="tab-pane" id="document-id-search-panel">
+                <br />
+
+                @using (Ajax.BeginForm("PerformSearch", new AjaxOptions() { UpdateTargetId = "search-results-container", LoadingElementId = "loading-spinner" }))
+                {
+                    <div class="form-group form-inline">
+                        <div class="row" style="margin-left:15px">
+                            @Html.TextBoxFor(m => m.DocumentId, new { @class = "form-control", placeholder = "Document ID" })
+                            <button class="btn btn-primary" title="Run Search" style="padding: 5px;"><i class="fa fa-search"></i> &nbsp;Search</button>
+                        </div>
+                        <div class="row">
+                            @Html.ValidationMessageFor(m => m.DocumentId)
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <section>
+            <div id="loading-spinner" class="load" style="display: none;">
+                <h4><i class="fa fa-spinner fa-spin"></i>&nbsp;Loading Results...</h4>
+            </div>
+            <div id="search-results-container">
+                @Html.Partial("_DocumentSearchResults", Model?.SearchResults)
+            </div>
+        </section>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $('.input-group.date').datepicker();
+    });
+</script>

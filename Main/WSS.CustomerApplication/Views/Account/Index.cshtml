@@ -1,0 +1,111 @@
+﻿@using WSS.CustomerApplication.Properties
+@model WSS.CustomerApplication.Models.AccountViewModel
+<style>
+    #toast-container {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+<section id="account-edit" class="col-sm-8">
+    <div class="top-buffer">
+        <div class="row">
+            @*Nav Tabs*@
+            <ul id="account-tab-list" class="nav nav-tabs" role="tablist">
+                <li class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 1) ? "active" : "")'>
+                    <a href="#Profile" role="tab" data-toggle="tab">
+                        <span class="hidden-sm hidden-xs"><i class="fa fa-user"></i>&nbsp;@Resources.AccountView_Index_Profile</span>
+                        <span class="visible-sm visible-xs"><i class="fa fa-user"></i></span>
+                    </a>
+                </li>
+                <li class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 2) ? "active" : "")'>
+                    <a href="#Bills" role="tab" data-toggle="tab">
+                        <span class="hidden-sm hidden-xs"><i class="fa fa-tint"></i>&nbsp;@Resources.AccountView_Index_Bills</span>
+                        <span class="visible-sm visible-xs"><i class="fa fa-tint"></i></span>
+                    </a>
+                </li>
+                <li class="@(Model.StatusId == 1 ? "disabled" : ((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 3) ? "active enabled" : "enabled"))">
+                    <a href="#ManageAccounts" role="tab" @(Model.StatusId == 1 ? "" : "data-toggle=tab")>
+                        <span class="hidden-sm hidden-xs"><i class="fa fa-wrench"></i>&nbsp;@Resources.AccountView_Index_Manage_Utility_Accounts</span>
+                        <span class="visible-sm visible-xs"><i class="fa fa-wrench"></i></span>
+                    </a>
+                </li>
+                <li class="enabled">
+                    <a href="#Questions2" role="tab" data-toggle="tab">
+                        <span class="hidden-sm hidden-xs"><i class="fa fa-question-circle"></i>&nbsp;@Resources.AccountView_Index_Questions</span>
+                        <span class="visible-sm visible-xs"><i class="fa fa-question-circle"></i></span>
+                    </a>
+                </li>
+            </ul>
+
+            @*Tab Panes*@
+            <div class="tab-content">
+
+                <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 1) ? "tab-pane fade active in" : "tab-pane fade")' id="Profile">
+                    @Html.Partial("_profileRegistered")
+                </div>
+                <div class='@((ViewBag.ActiveTabId == null || ViewBag.ActiveTabId == 2) ? "tab-pane fade active in" : "tab-pane fade")' id="Bills">
+                    <div id="bills_records"></div>
+                </div>
+                <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 3) ? "tab-pane fade active in" : "tab-pane fade")' id="ManageAccounts">
+                    <div id="divManageRecords"></div>
+                </div>
+                <div class='@((ViewBag.ActiveTabId != null && ViewBag.ActiveTabId == 4) ? "tab-pane fade active in" : "tab-pane fade")' id="Questions2">
+                    @Html.Partial("_questions")
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div id="banner" class="col-sm-4 top-buffer text-center">
+    @if (!string.IsNullOrEmpty((string)ViewBag.BannerFileName))
+    {
+        <img src="~/Content/images/Banners/@ViewBag.BannerFileName" alt="Winnipeg City banner" style="max-width: 100%; padding: 0 5%;" />
+    }
+</div>
+
+
+
+@section Scripts
+{
+    <script type="text/javascript">
+
+        function GetBillsRecordPageWise(ctrl) {
+            var page = ctrl.dataset.page;
+            var pageSize = $('select#noRowsPerPage').val(); //ctrl.dataset.pagesize;
+            var sortDir = ctrl.dataset.sortdir;
+            var sortOrder = ctrl.dataset.sortorder;
+            var utilityAccountId = $('#hdnBillsUtilityAccountId').val();
+            var url = '@Url.Action("_bills", "Account")';
+            $.get(url,
+                { id: utilityAccountId, page: page, noRowsPerPage: pageSize, sortOrder: sortOrder, sortDir: sortDir },
+                function(result) {
+                    if (result != undefined && result != null) {
+                        $('#Account-Bill-List').html(result);
+                    }
+                });
+        }
+
+        $(document)
+           .ready(function () {
+               showBillRecords('@Url.Action("_bills", new {sortOrder = "Date", sortDir = "Desc", id =  @Model.DefaultUtilityAccountId })');
+
+               LoadLinkedAccounts('@Url.Action("Manage", "Account")');
+
+               $('#account-tab-list a').click(function (e) {
+                   e.preventDefault();
+                   $(this).tab('show');
+               });
+
+               // store the currently selected tab in the hash value
+               $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
+                   var id = $(e.target).attr("href").substr(1);
+                   window.location.hash = id;
+               });
+
+               // on load of the page: switch to the currently selected tab
+               var hash = window.location.hash;
+               $('#account-tab-list a[href="' + hash + '"]').tab('show');
+           });
+    </script>
+}

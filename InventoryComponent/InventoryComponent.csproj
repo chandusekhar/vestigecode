@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3214E98E-CBA2-4750-AF92-5B19E0845A78}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>InventoryComponent</RootNamespace>
+    <AssemblyName>InventoryComponent</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Inventory.cs" />
+    <Compile Include="BusinessObjects\InventoryAdjust.cs" />
+    <Compile Include="BusinessObjects\ItemDetail.cs" />
+    <Compile Include="BusinessObjects\ItemInventory.cs" />
+    <Compile Include="BusinessObjects\StockCount.cs" />
+    <Compile Include="BusinessObjects\ItemStockCount.cs" />
+    <Compile Include="BusinessObjects\ItemStockBatch.cs" />
+    <Compile Include="UI\frmInventoryAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmInventoryAdjustment.Designer.cs">
+      <DependentUpon>frmInventoryAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmInventoryAdjustment.resx">
+      <DependentUpon>frmInventoryAdjustment.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmStockCount.resx">
+      <DependentUpon>frmStockCount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmStockAdjustmentBatch.resx">
+      <DependentUpon>frmStockAdjustmentBatch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\frmStockCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmStockCount.Designer.cs">
+      <DependentUpon>frmStockCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmStockAdjustmentBatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmStockAdjustmentBatch.Designer.cs">
+      <DependentUpon>frmStockAdjustmentBatch.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationComponent\AuthenticationComponent.csproj">
+      <Project>{0C25BB40-65F8-4CDE-9462-83A7307DEA02}</Project>
+      <Name>AuthenticationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent.Core\CoreComponent.Core.csproj">
+      <Project>{362E7B29-F0F8-49A9-96F4-F092BE066A63}</Project>
+      <Name>CoreComponent.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent\CoreComponent.csproj">
+      <Project>{69F2682A-96A8-4FC6-8510-781DD42FC33D}</Project>
+      <Name>CoreComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PurchaseComponent\PurchaseComponent.csproj">
+      <Project>{A3B7FFFC-F1C6-4947-BE5D-F3D800B5FD5E}</Project>
+      <Name>PurchaseComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vinculum Framework\Vinculum.Framework.csproj">
+      <Project>{2D20C96B-5365-4B50-B944-5AEF78513A1B}</Project>
+      <Name>Vinculum.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\Inventory.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\find.png" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\btnadd.jpg" />
+    <None Include="Resources\btnclear.jpg" />
+    <None Include="Resources\btncancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

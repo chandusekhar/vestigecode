@@ -1,0 +1,63 @@
+﻿@model List<WSS.InternalApplication.Models.DocumentSearchResultViewModel>
+<div class="row">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().InterceptCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().RouteTypeCode)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().AccountNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().DateIssued)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().CustomerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().BillId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().StatusDescription)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().ProcessedBy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(m => m.FirstOrDefault().ProcessedDate)
+                </th>
+                <th>
+                    Details
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.InterceptCode</td>
+                    <td>@item.RouteTypeCode</td>
+                    <td>@item.AccountNumber</td>
+                    <td>@item.DateIssued</td>
+                    <td>@item.CustomerName</td>
+                    <td>@item.BillId</td>
+                    <td>@item.StatusDescription</td>
+                    <td>@item.ProcessedBy</td>
+                    <td>@item.ProcessedDate</td>
+                    <td class="text-center"><a href="@Url.Action("Index", "DocumentDetails", new {id = item.BillId})"><i class="fa fa-file-text"></i></a></td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <h4>There are no results to display</h4>
+    }
+</div>

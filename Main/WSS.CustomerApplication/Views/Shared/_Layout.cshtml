@@ -1,0 +1,52 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Self service" />
+    <title>@Resources.SharedView_Layout_City_of_Winnipeg_Waste_and_Water_Department @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+   
+    @* <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    @RenderSection("styles", false) Extra styles in a script section on the page*@
+</head>
+
+<body>
+    @*Script Bundles Defined in BundleConfig*@
+    @Scripts.Render("~/bundles/ISTBaseBundle")
+    @RenderSection("scripts", false)
+
+<div class="body-content container-fluid" style="max-width: 1000px">
+    <div class="body-content-inner clearfix">
+        @Html.Partial("_Menu")
+        @RenderBody()
+    </div>
+   
+    <footer class="text-center">
+        @Html.Partial("_Footer")
+    </footer>
+</div>
+
+    <script>
+        $(function () {
+            {
+                @if (TempData["Notifications"] != null)
+                {
+                    var messages = (List<UserMessageModel>)TempData["Notifications"];
+
+                    foreach (var note in messages)
+                    {
+                        <text>showNotification("@note.Message", "@note.Title", "@note.Type");</text>
+                    }
+                }
+
+                @{
+                    ViewBag.Notifications = string.Empty;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

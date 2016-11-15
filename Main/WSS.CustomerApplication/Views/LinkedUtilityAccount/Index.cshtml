@@ -1,0 +1,65 @@
+﻿@using System.Web.Mvc.Html
+@using WSS.CustomerApplication.Models
+@using WSS.CustomerApplication.Properties
+@model LinkedUtilityAccountViewModel
+
+<div class="container">
+    <div class="form-group">
+        <div class="row">
+            <br />
+            <header style="font-size: 2em; margin-bottom: 10px;">
+                @Resources.LinkedUtilityAccountView_Index_Link_Utility_Account
+            </header>
+        </div>
+        <div class="col-sm-12 col-md-10 col-lg-8 ">
+            @using (Html.BeginForm("Next", "LinkedUtilityAccount", FormMethod.Post))
+            {
+                <div class="form-inline form-group">
+                    <div class="row top-buffer">
+                        @*@Html.LabelFor(m => m.AccountHolderRelationship)*@
+                        @Html.DropDownListFor(m => m.AccountHolderRelationship, new SelectList(ViewBag.AccountHolderRelationshipQuestions, "Value", "Text"), Resources.LinkedUtilityAccountViewModel_AccountHolderRelationship_DisplayName, new { @class = "form-control in" })
+                        <div>@Html.ValidationMessageFor(m => m.AccountHolderRelationship)</div>
+                    </div>
+                    <br />
+                    <div class="row top-buffer">
+                        <input type="hidden" id="hidAccountId" name="hidAccountId" value="" />
+                        @*@Html.LabelFor(m => m.CcbAccountNumber)*@
+                        @Html.TextBoxFor(m => m.CcbAccountNumber, new { @class = "form-control", placeholder = Resources.Index_cshtml_Execute_Utility_Account_Number, title = Resources.Index_cshtml_Execute_My_Utility_Account_Number_, @style = "width:260px", maxlength = "11", data_toggle = "popover", data_content = Resources.Index_cshtml_Execute__11_digits, data_trigger = "focus", data_placement = "auto top" })
+                        <a class="btn btn-primary btn-xs" href="javascript:(0);" onclick="$('#utility_account_number_explanation').toggle('slow'); return false;" title="Where can I find my Utility Account number?"><i class="fa fa-question"></i><span class="sr-only">Where can I find my Utility account number?</span></a><br />
+                        <div> @Html.ValidationMessageFor(m => m.CcbAccountNumber)</div>
+                    </div>
+                    <div class="row  top-buffer" id="utility_account_number_explanation" style="display: none;">
+                        <br/>
+                        <div class="row" style="padding: 0 20px;">
+                            <img src="~/Content/Images/account_number_sample.png" style="border: 1px solid #666" />
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row top-buffer">
+                        @*@Html.LabelFor(m => m.MeterNumberForAccount)*@
+                        @Html.TextBoxFor(m => m.MeterNumberForAccount, new {@class = "form-control", placeholder = Resources.Index_cshtml_Execute_Account_Meter_Number, title = Resources.Index_cshtml_Execute_Meter_Number_for_the_Account, @style = "width:260px", data_toggle = "popover", data_content = Resources.Index_cshtml_Execute__6_digits_or______, data_trigger = "focus", data_placement = "auto top"})
+                        <a class="btn btn-primary btn-xs" href="javascript:void(0);" onclick="$('#meter_number_explanation').toggle('slow'); return false;"  title="@Resources.LinkedUtilityAccountView_Index_Where_can_I_find_my_Meter_number"><i class="fa fa-question"></i><span class="sr-only">@Resources.LinkedUtilityAccountView_Index_Where_can_I_find_my_Meter_number</span></a><br/>
+                        <div>&nbsp;</div>
+                        @*<p>@Html.CheckBoxFor(m => m.IsUnmetered)&nbsp;@Html.LabelFor(m => m.IsUnmetered)</p>*@
+                        <p>@Html.CheckBoxFor(m => m.IsUnmetered) @Resources.LinkedUtilityAccountView_Index_My_account_is_unmetered</p>
+                    </div>
+
+                    <div class="row  top-buffer" id="meter_number_explanation" style="display: none;">
+                        <br/>
+                        <div class="row" style="padding: 0 20px;">
+                            <img src="~/Content/Images/meter_number_sample.png"  style="border: 1px solid #666" />
+                        </div>
+                    </div>
+
+                    <div class="row top-buffer">
+                        <a class="btn btn-link pull-left" title="@Resources.LinkedUtilityAccountView_Index_Cancel" href=@Url.Action("Index", "Account", new {id = Model.UtilityAccountNumber, TabId = "Manage Utility Accounts"})><i class="fa fa-times-circle"></i>&nbsp;@Resources.LinkedUtilityAccountView_Index_Cancel</a>
+                        <div class="col-sm-1"></div>
+                        <button class="btn btn-primary" type="submit" value="changeemail" title="@Resources.LinkedUtilityAccountView_Index_Link_Account" id="btnChangeEmail"><i class=""></i>@Resources.LinkedUtilityAccountView_Index_Link_Account &nbsp; <i class="fa fa-link"></i></button>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

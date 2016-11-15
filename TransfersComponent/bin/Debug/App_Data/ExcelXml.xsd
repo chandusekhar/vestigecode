@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio Developer Edition (Trial) 9.0.7.3003 (http://www.liquid-technologies.com) -->
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ArrayOfExecuteInOut">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" name="ExecuteInOut">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="ChequeNo">
+                <xs:simpleType >
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="5"/>
+                    <!--<xs:maxLength value="8"/>-->
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element minOccurs="0" name="PcCode">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:minLength value="5"/>
+                  <!--<xs:maxLength value="8"/>-->
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+              <xs:element minOccurs="0" name="BussinessMonth" type="xs:gYearMonth" >
+                 <!--<xs:simpleType>
+                  <xs:restriction base="xs:gYearMonth">
+                    <xs:minLength value="6"/>
+                    <xs:pattern  value="((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))?"></xs:pattern>
+                  </xs:restriction>
+                </xs:simpleType>--> 
+                </xs:element>
+              <xs:element minOccurs="0" name="Header1" type="xs:string" fixed="Bussiness Month"/>
+              <xs:element minOccurs="0" name="Header2" type="xs:string" fixed="PC Code"/>
+              <xs:element minOccurs="0" name="Header3" type="xs:string" fixed="Cheque No"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

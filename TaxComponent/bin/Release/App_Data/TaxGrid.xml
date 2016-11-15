@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Grids>
+  <!-- Organization Hierarchy -->
+  <GridView Name="dgvTax" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+	<Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+	<Column Name="TaxId" HeaderText="Tax Id" Font="" Visible ="false" Width="70" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxCategory" HeaderText="Tax Category" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="0" ColumnType="TextBox" DataPropertyName="TaxCategoryName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="GoodsDirection" HeaderText="Goods Direction" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GoodsDirectionValue" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxType" HeaderText="Tax Type" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxTypeName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxGroup" HeaderText="Tax Group" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxGroupCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="StateName" HeaderText="State Name" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StateName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="StartDate" HeaderText="Start Date" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="DisplayStartDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusValue" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxAuthority" HeaderText="Tax Authority" Font="" Visible ="true" Width="130" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxAuthority" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- GridView Definition for TaxCode DataGrid-->
+  <GridView Name="dgvTaxCodeSearch" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+	<Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+	<Column Name="TaxCode" HeaderText="Tax Code" Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxCodeVal" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="StartDate" HeaderText="Start Date" Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StartDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxPercent" HeaderText="Tax Percent" Font="" Visible="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxPercent" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Description" HeaderText="Description" Font="" Visible="true" Width="275" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="Description" DataSource="" DisplayMember="" ValueMember=""/>
+    <!--<Column Name="IsFormCApplicable" HeaderText="Is Form C Applicable" Font="" Visible="true" Width="160" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="isFormCApplicableText" DataSource="" DisplayMember="" ValueMember=""/>-->
+    <Column Name="Status" HeaderText="Status" Font="" Visible="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusText" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <!-- GridView Definition for TaxGroup DataGrid-->
+  <GridView Name="dgvTaxGroupSearch" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+	<Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>
+	<Column Name="TaxGroupId" HeaderText="TaxGroupId" Font="" Visible="false" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxGroupId" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="TaxGroupCode" HeaderText="Tax Group Code" Font="" Visible="true" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxGroupCode" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="AppliedOn" HeaderText="AppliedOn" Font="" Visible="true" Width="170" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="AppliedOnText" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="StartDate" HeaderText="Start Date" Font="" Visible="true" Width="150" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StartDateVal" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TaxCode" HeaderText="Tax Code" Font="" Visible="false" Width="215" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="GroupOrder" HeaderText="GroupOrder" Font="" Visible="false" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GroupOrder" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Status" HeaderText="Status" Font="" Visible="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="StatusName" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+  <GridView Name="dgvTaxGroupDetail" RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+	<!--<Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="edit"/>-->
+	<Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+	<Column Name="TaxGroupId" HeaderText="TaxGroupId" Font="" Visible="false" Width="200" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxGroupId" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="TaxCode" HeaderText="Tax Code" Font="" Visible="true" Width="215" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="TaxCode" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="GroupOrder" HeaderText="GroupOrder" Font="" Visible="true" Width="100" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="GroupOrder" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+</Grids>

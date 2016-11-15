@@ -1,0 +1,88 @@
+﻿@using UtilityBilling.Data.Migrations
+@model WSS.InternalApplication.Models.DocumentListViewModel
+
+@{
+    ViewBag.Title = "Intercept Dashboard";
+}
+
+<section id="account-edit">
+    <div class="container top-buffer">
+        <div class="body-content-wide">
+
+            <style type="text/css">
+                .nav-tabs li a {
+                    font-size: 16px;
+                }
+            </style>
+
+            <div class="row">
+                <h2>
+                    @ViewBag.Title
+                </h2>              
+                <div class="row">
+                    @*Nav Tabs*@
+                    <ul id="dashboard-tab-list" class="nav nav-tabs wss-Dashboard-Documents" role="tablist">
+                        <li role="presentation" id="AllHeldDocumentsTab" class="active">
+                            <a href="#AllHeldDocuments" aria-controls="AllHeldDocuments" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs">&nbsp; All Held Documents</span>
+                            </a>
+                        </li>
+                        <li role="presentation" id="WSSHeldNoPrintTab">
+                            <a href="#WSSHeldNoPrint" aria-controls="WSSHeldNoPrint" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs"> &nbsp; WSS Held NOPRINT</span>
+                            </a>
+                        </li>
+                        <li role="presentation" id="AllWSSHeldDocumentsTab">
+                            <a href="#AllWSSHeldDocuments" aria-controls="AllWSSHeldDocuments" role="tab" data-toggle="tab">
+                                <span class="hidden-sm hidden-xs">&nbsp; All WSS Held Documents</span>
+                            </a>
+                        </li>
+                    </ul>
+                    @*Tab Panes*@
+                    @if (Model?.Status != null)
+                    {
+                        <div class="tab-content">
+                            @if (Model.Status == "HLD")
+                            {
+                                <div class="tab-pane active" id="AllHeldDocuments">
+                                    @Html.Action("AllHeldDocuments", "Dashboard", new { status = Model.Status })
+                                </div>
+                            }
+                           
+                            @if (Model.RouteTypeCode == "NOPRINT")
+                            {
+                                <div class="tab-pane" id="WSSHeldNoPrint">
+                                    @Html.Action("WssHeldNoPrint", "Dashboard", new { routeType = Model.RouteTypeCode })
+                                </div>
+                            }
+                            
+                            @if (Model.Status == "HLD" && Model.RouteTypeCode=="NOPRINT")
+                            {
+                                 <div class="tab-pane" id="AllWSSHeldDocuments">
+                                @Html.Action("AllWssHeldDocuments", "Dashboard", new {status = Model.Status @*&& routeType = Model.RouteTypeCode*@})
+                            </div>
+                            }
+                           
+                        </div>
+                    }
+                    else
+                    {
+                        <h4>There are no results to display</h4>
+                    }
+                </div>
+                <div class="row top-buffer">
+                    <div class="col-md-3">
+                        <a class="btn btn-link" type="reset" value="backtoSearch" title="Back to Search" href=@Url.Action("Index", "Search")><i class="fa fa-reply"></i> &nbsp;Back to Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    <script type="text/javascript">                    
+    </script>
+}
+

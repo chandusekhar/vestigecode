@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RegionWiseSales" targetNamespace="http://tempuri.org/RegionWiseSales.xsd" xmlns:mstns="http://tempuri.org/RegionWiseSales.xsd" xmlns="http://tempuri.org/RegionWiseSales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RegionWiseSales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="RegionWiseSales" msprop:Generator_DataSetName="RegionWiseSales" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NorthSales" msprop:Generator_UserTableName="NorthSales" msprop:Generator_RowDeletedName="NorthSalesRowDeleted" msprop:Generator_RowChangedName="NorthSalesRowChanged" msprop:Generator_RowClassName="NorthSalesRow" msprop:Generator_RowChangingName="NorthSalesRowChanging" msprop:Generator_RowEvArgName="NorthSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="NorthSalesRowChangeEventHandler" msprop:Generator_TableClassName="NorthSalesDataTable" msprop:Generator_TableVarName="tableNorthSales" msprop:Generator_RowDeletingName="NorthSalesRowDeleting" msprop:Generator_TablePropName="NorthSales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UPSales" msprop:Generator_UserTableName="UPSales" msprop:Generator_RowDeletedName="UPSalesRowDeleted" msprop:Generator_TableClassName="UPSalesDataTable" msprop:Generator_RowChangedName="UPSalesRowChanged" msprop:Generator_RowClassName="UPSalesRow" msprop:Generator_RowChangingName="UPSalesRowChanging" msprop:Generator_RowEvArgName="UPSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="UPSalesRowChangeEventHandler" msprop:Generator_TablePropName="UPSales" msprop:Generator_TableVarName="tableUPSales" msprop:Generator_RowDeletingName="UPSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SouthSales" msprop:Generator_UserTableName="SouthSales" msprop:Generator_RowDeletedName="SouthSalesRowDeleted" msprop:Generator_TableClassName="SouthSalesDataTable" msprop:Generator_RowChangedName="SouthSalesRowChanged" msprop:Generator_RowClassName="SouthSalesRow" msprop:Generator_RowChangingName="SouthSalesRowChanging" msprop:Generator_RowEvArgName="SouthSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="SouthSalesRowChangeEventHandler" msprop:Generator_TablePropName="SouthSales" msprop:Generator_TableVarName="tableSouthSales" msprop:Generator_RowDeletingName="SouthSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EastSales" msprop:Generator_UserTableName="EastSales" msprop:Generator_RowDeletedName="EastSalesRowDeleted" msprop:Generator_TableClassName="EastSalesDataTable" msprop:Generator_RowChangedName="EastSalesRowChanged" msprop:Generator_RowClassName="EastSalesRow" msprop:Generator_RowChangingName="EastSalesRowChanging" msprop:Generator_RowEvArgName="EastSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="EastSalesRowChangeEventHandler" msprop:Generator_TablePropName="EastSales" msprop:Generator_TableVarName="tableEastSales" msprop:Generator_RowDeletingName="EastSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CenteralSales" msprop:Generator_UserTableName="CenteralSales" msprop:Generator_RowDeletedName="CenteralSalesRowDeleted" msprop:Generator_TableClassName="CenteralSalesDataTable" msprop:Generator_RowChangedName="CenteralSalesRowChanged" msprop:Generator_RowClassName="CenteralSalesRow" msprop:Generator_RowChangingName="CenteralSalesRowChanging" msprop:Generator_RowEvArgName="CenteralSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="CenteralSalesRowChangeEventHandler" msprop:Generator_TablePropName="CenteralSales" msprop:Generator_TableVarName="tableCenteralSales" msprop:Generator_RowDeletingName="CenteralSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Todate" msprop:Generator_UserColumnName="Todate" msprop:Generator_ColumnPropNameInRow="Todate" msprop:Generator_ColumnVarNameInTable="columnTodate" msprop:Generator_ColumnPropNameInTable="TodateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WestSales" msprop:Generator_UserTableName="WestSales" msprop:Generator_RowDeletedName="WestSalesRowDeleted" msprop:Generator_TableClassName="WestSalesDataTable" msprop:Generator_RowChangedName="WestSalesRowChanged" msprop:Generator_RowClassName="WestSalesRow" msprop:Generator_RowChangingName="WestSalesRowChanging" msprop:Generator_RowEvArgName="WestSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="WestSalesRowChangeEventHandler" msprop:Generator_TablePropName="WestSales" msprop:Generator_TableVarName="tableWestSales" msprop:Generator_RowDeletingName="WestSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NorthEastSales" msprop:Generator_UserTableName="NorthEastSales" msprop:Generator_RowDeletedName="NorthEastSalesRowDeleted" msprop:Generator_TableClassName="NorthEastSalesDataTable" msprop:Generator_RowChangedName="NorthEastSalesRowChanged" msprop:Generator_RowClassName="NorthEastSalesRow" msprop:Generator_RowChangingName="NorthEastSalesRowChanging" msprop:Generator_RowEvArgName="NorthEastSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="NorthEastSalesRowChangeEventHandler" msprop:Generator_TablePropName="NorthEastSales" msprop:Generator_TableVarName="tableNorthEastSales" msprop:Generator_RowDeletingName="NorthEastSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Todate" msprop:Generator_UserColumnName="Todate" msprop:Generator_ColumnPropNameInRow="Todate" msprop:Generator_ColumnVarNameInTable="columnTodate" msprop:Generator_ColumnPropNameInTable="TodateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NepalSales" msprop:Generator_UserTableName="NepalSales" msprop:Generator_RowDeletedName="NepalSalesRowDeleted" msprop:Generator_TableClassName="NepalSalesDataTable" msprop:Generator_RowChangedName="NepalSalesRowChanged" msprop:Generator_RowClassName="NepalSalesRow" msprop:Generator_RowChangingName="NepalSalesRowChanging" msprop:Generator_RowEvArgName="NepalSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="NepalSalesRowChangeEventHandler" msprop:Generator_TablePropName="NepalSales" msprop:Generator_TableVarName="tableNepalSales" msprop:Generator_RowDeletingName="NepalSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Totalsales" msprop:Generator_UserColumnName="Totalsales" msprop:Generator_ColumnPropNameInRow="Totalsales" msprop:Generator_ColumnVarNameInTable="columnTotalsales" msprop:Generator_ColumnPropNameInTable="TotalsalesColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_NorthSales" msprop:Generator_UserTableName="L_NorthSales" msprop:Generator_RowDeletedName="L_NorthSalesRowDeleted" msprop:Generator_TableClassName="L_NorthSalesDataTable" msprop:Generator_RowChangedName="L_NorthSalesRowChanged" msprop:Generator_RowClassName="L_NorthSalesRow" msprop:Generator_RowChangingName="L_NorthSalesRowChanging" msprop:Generator_RowEvArgName="L_NorthSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_NorthSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_NorthSales" msprop:Generator_TableVarName="tableL_NorthSales" msprop:Generator_RowDeletingName="L_NorthSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_UPSales" msprop:Generator_UserTableName="L_UPSales" msprop:Generator_RowDeletedName="L_UPSalesRowDeleted" msprop:Generator_TableClassName="L_UPSalesDataTable" msprop:Generator_RowChangedName="L_UPSalesRowChanged" msprop:Generator_RowClassName="L_UPSalesRow" msprop:Generator_RowChangingName="L_UPSalesRowChanging" msprop:Generator_RowEvArgName="L_UPSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_UPSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_UPSales" msprop:Generator_TableVarName="tableL_UPSales" msprop:Generator_RowDeletingName="L_UPSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_SouthSales" msprop:Generator_UserTableName="L_SouthSales" msprop:Generator_RowDeletedName="L_SouthSalesRowDeleted" msprop:Generator_TableClassName="L_SouthSalesDataTable" msprop:Generator_RowChangedName="L_SouthSalesRowChanged" msprop:Generator_RowClassName="L_SouthSalesRow" msprop:Generator_RowChangingName="L_SouthSalesRowChanging" msprop:Generator_RowEvArgName="L_SouthSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_SouthSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_SouthSales" msprop:Generator_TableVarName="tableL_SouthSales" msprop:Generator_RowDeletingName="L_SouthSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_EastSales" msprop:Generator_UserTableName="L_EastSales" msprop:Generator_RowDeletedName="L_EastSalesRowDeleted" msprop:Generator_TableClassName="L_EastSalesDataTable" msprop:Generator_RowChangedName="L_EastSalesRowChanged" msprop:Generator_RowClassName="L_EastSalesRow" msprop:Generator_RowChangingName="L_EastSalesRowChanging" msprop:Generator_RowEvArgName="L_EastSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_EastSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_EastSales" msprop:Generator_TableVarName="tableL_EastSales" msprop:Generator_RowDeletingName="L_EastSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_CenteralSales" msprop:Generator_UserTableName="L_CenteralSales" msprop:Generator_RowDeletedName="L_CenteralSalesRowDeleted" msprop:Generator_TableClassName="L_CenteralSalesDataTable" msprop:Generator_RowChangedName="L_CenteralSalesRowChanged" msprop:Generator_RowClassName="L_CenteralSalesRow" msprop:Generator_RowChangingName="L_CenteralSalesRowChanging" msprop:Generator_RowEvArgName="L_CenteralSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_CenteralSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_CenteralSales" msprop:Generator_TableVarName="tableL_CenteralSales" msprop:Generator_RowDeletingName="L_CenteralSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Todate" msprop:Generator_UserColumnName="Todate" msprop:Generator_ColumnPropNameInRow="Todate" msprop:Generator_ColumnVarNameInTable="columnTodate" msprop:Generator_ColumnPropNameInTable="TodateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_WestSales" msprop:Generator_UserTableName="L_WestSales" msprop:Generator_RowDeletedName="L_WestSalesRowDeleted" msprop:Generator_TableClassName="L_WestSalesDataTable" msprop:Generator_RowChangedName="L_WestSalesRowChanged" msprop:Generator_RowClassName="L_WestSalesRow" msprop:Generator_RowChangingName="L_WestSalesRowChanging" msprop:Generator_RowEvArgName="L_WestSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_WestSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_WestSales" msprop:Generator_TableVarName="tableL_WestSales" msprop:Generator_RowDeletingName="L_WestSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_NorthEastSales" msprop:Generator_UserTableName="L_NorthEastSales" msprop:Generator_RowDeletedName="L_NorthEastSalesRowDeleted" msprop:Generator_TableClassName="L_NorthEastSalesDataTable" msprop:Generator_RowChangedName="L_NorthEastSalesRowChanged" msprop:Generator_RowClassName="L_NorthEastSalesRow" msprop:Generator_RowChangingName="L_NorthEastSalesRowChanging" msprop:Generator_RowEvArgName="L_NorthEastSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_NorthEastSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_NorthEastSales" msprop:Generator_TableVarName="tableL_NorthEastSales" msprop:Generator_RowDeletingName="L_NorthEastSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Todate" msprop:Generator_UserColumnName="Todate" msprop:Generator_ColumnPropNameInRow="Todate" msprop:Generator_ColumnVarNameInTable="columnTodate" msprop:Generator_ColumnPropNameInTable="TodateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_NepalSales" msprop:Generator_UserTableName="L_NepalSales" msprop:Generator_RowDeletedName="L_NepalSalesRowDeleted" msprop:Generator_TableClassName="L_NepalSalesDataTable" msprop:Generator_RowChangedName="L_NepalSalesRowChanged" msprop:Generator_RowClassName="L_NepalSalesRow" msprop:Generator_RowChangingName="L_NepalSalesRowChanging" msprop:Generator_RowEvArgName="L_NepalSalesRowChangeEvent" msprop:Generator_RowEvHandlerName="L_NepalSalesRowChangeEventHandler" msprop:Generator_TablePropName="L_NepalSales" msprop:Generator_TableVarName="tableL_NepalSales" msprop:Generator_RowDeletingName="L_NepalSalesRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Boid" msprop:Generator_UserColumnName="Boid" msprop:Generator_ColumnPropNameInRow="Boid" msprop:Generator_ColumnVarNameInTable="columnBoid" msprop:Generator_ColumnPropNameInTable="BoidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Totalsales" msprop:Generator_UserColumnName="Totalsales" msprop:Generator_ColumnPropNameInRow="Totalsales" msprop:Generator_ColumnVarNameInTable="columnTotalsales" msprop:Generator_ColumnPropNameInTable="TotalsalesColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

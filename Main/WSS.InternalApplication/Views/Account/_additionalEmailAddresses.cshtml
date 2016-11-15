@@ -1,0 +1,83 @@
+﻿@using Microsoft.Ajax.Utilities
+@using WSS.InternalApplication.Models
+@model PagedList.IPagedList<AdditionalEmailAddressViewModel>
+@*Additional Email*@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <a data-toggle="collapse" data-target="#additionalEmailPanelBody" data-parent="#profilePanelGroup" href="javascript:void(0);">Additional E-mail Addresses</a>
+        </h3>
+    </div>
+    <div class="panel-body panel-collapse collapse" id="additionalEmailPanelBody">
+
+        <div class="form-inline">
+            @if (Model.Count >= 0)
+            {
+                <table class="table table-hover table-striped" style="width: 60%">
+                    <thead>
+                        @if (Model.Count > 0)
+                        {
+                            <tr>
+
+                                <th class="event-type" title="Additional E-mail Address" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                                    <label for="tbladditionalEmail" id="tbladditionalEmail" name="tbladditionalEmail">E-mail Address</label>
+                                </th>
+                                <th class="date" style="text-align: center" title="Remove Additional E-mail Address" data-page="@ViewBag.PageNumber" data-pagesize="@ViewBag.PageSize">
+                                    <label for="tblremove" id="tblremove" name="tblremove">Remove</label>
+                                </th>
+                            </tr>
+                        }
+                    </thead>
+                    <tbody id="additionalEmailTableBody">
+                        @foreach (var item in Model)
+                        {
+                            <tr data-EmailId="@item.AdditionalEmailAddressId">
+                                <td class="email-address">@item.EmailAddress</td>
+                                <td style="text-align: center">
+                                    <a href="#" id="@item.AdditionalEmailAddressId" data-EmailId="@item.AdditionalEmailAddressId" onclick="deleteAdditionaleEmailAddress(@item.AdditionalEmailAddressId, @item.WssAccountId);"><i class='fa fa-trash'></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            <div class="row top-buffer">
+                <div class="col-lg-5">
+                    <input type="text" id="additionalEmail" name="additionalEmail" class="form-control" placeholder="Enter additional E-mail address" title="Enter additional e-mail address" value="@ViewBag.AdditionalEmail" />
+                    <label id="lbladditionalEmailErrorMsg" class="has-error" style="color: red"></label>
+                </div>
+                <div class="col-lg-5">
+                    <button class="btn btn-primary" type="submit" value="additionalEmail" title="Additional E-mail" id="btnAdditionalEmail"><i class="fa fa-check-circle"></i> &nbsp;Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    function deleteAdditionaleEmailAddress(id, wssAccountId) {
+        var isDelete = confirm('Are you sure you want to delete this additional email');
+        if (isDelete == true) {
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("DeleteAdditionalEmailAddresses", "Account")',
+                data: { additionalEmailAddressID: id, wssAccountId: wssAccountId },
+                success: function (data) {
+                    if (data.IsDeleted == true) {
+                        $('tr[data-EmailId="' + data.additionalEmailAddressID + '"]').remove();
+                        showNotification("Additional Email address was deleted successfully", "Success!", "Success");
+                        if (data.Message != '') {
+                            showNotification(data.Message, "Error!", "Error");
+                        }
+                    }                  
+                },
+                error: function (data) {
+                    debugger;
+                }
+
+            });
+        }
+    };
+
+
+</script>

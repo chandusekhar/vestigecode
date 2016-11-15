@@ -1,0 +1,10 @@
+D:\Bikram\Dev - Copy\VestigePOS.Config\bin\Release\VestigePOS.Config.dll
+D:\Bikram\Dev - Copy\VestigePOS.Config\bin\Release\VestigePOS.Config.pdb
+D:\Bikram\Dev - Copy\VestigePOS.Config\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\VestigePOS.Config\obj\Release\VestigePOS.Config.dll
+D:\Bikram\Dev - Copy\VestigePOS.Config\obj\Release\VestigePOS.Config.pdb
+D:\Dev - Copy\VestigePOS.Config\bin\Release\VestigePOS.Config.dll
+D:\Dev - Copy\VestigePOS.Config\bin\Release\VestigePOS.Config.pdb
+D:\Dev - Copy\VestigePOS.Config\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\VestigePOS.Config\obj\Release\VestigePOS.Config.dll
+D:\Dev - Copy\VestigePOS.Config\obj\Release\VestigePOS.Config.pdb

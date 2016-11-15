@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02899069-C547-4CBF-A29B-EBABD8E80189}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PromotionsComponent</RootNamespace>
+    <AssemblyName>PromotionsComponent</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\BillBusterPromotion.cs" />
+    <Compile Include="BusinessLayer\GiftVoucher.cs" />
+    <Compile Include="BusinessLayer\GiftVoucherItemDetail.cs" />
+    <Compile Include="BusinessLayer\IPromotion.cs" />
+    <Compile Include="BusinessLayer\Price.cs" />
+    <Compile Include="BusinessLayer\PromotionCondition.cs" />
+    <Compile Include="BusinessLayer\PromotionEngine.cs" />
+    <Compile Include="BusinessLayer\PromotionLocation.cs" />
+    <Compile Include="BusinessLayer\PromotionMaster.cs" />
+    <Compile Include="BusinessLayer\PromotionTier.cs" />
+    <Compile Include="BusinessLayer\QuantityPromotion.cs" />
+    <Compile Include="BusinessLayer\RangePromotion.cs" />
+    <Compile Include="BusinessLayer\VolumePromotion.cs" />
+    <Compile Include="BusinessLayer\Promotion.cs" />
+    <Compile Include="BusinessLayer\GiftVoucherDetail.cs">
+    </Compile>
+    <Compile Include="BusinessLayer\GiftVoucherDistributor.cs" />
+    <Compile Include="UI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmConditionTier.resx">
+      <DependentUpon>frmConditionTier.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmGiftVoucher.resx">
+      <DependentUpon>frmGiftVoucher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmPromotion.resx">
+      <DependentUpon>frmPromotion.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UI\frmConditionTier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmConditionTier.Designer.cs">
+      <DependentUpon>frmConditionTier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmGiftVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmGiftVoucher.Designer.cs">
+      <DependentUpon>frmGiftVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmPromotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmPromotion.Designer.cs">
+      <DependentUpon>frmPromotion.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationComponent\AuthenticationComponent.csproj">
+      <Project>{0C25BB40-65F8-4CDE-9462-83A7307DEA02}</Project>
+      <Name>AuthenticationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent.Core\CoreComponent.Core.csproj">
+      <Project>{362E7B29-F0F8-49A9-96F4-F092BE066A63}</Project>
+      <Name>CoreComponent.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent\CoreComponent.csproj">
+      <Project>{69F2682A-96A8-4FC6-8510-781DD42FC33D}</Project>
+      <Name>CoreComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vinculum Framework\Vinculum.Framework.csproj">
+      <Project>{2D20C96B-5365-4B50-B944-5AEF78513A1B}</Project>
+      <Name>Vinculum.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winback.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\orange-stripe.gif" />
+    <None Include="Resources\module.png" />
+    <None Include="Resources\glassy.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\blyestripe.gif" />
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnadd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btncancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnclear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnclose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btndelete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnedit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnexit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnreset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsearch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnupdate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.gif" />
+    <None Include="Resources\bg.gif" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\creatheader_bg1.gif" />
+    <None Include="Resources\creatheader_bg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

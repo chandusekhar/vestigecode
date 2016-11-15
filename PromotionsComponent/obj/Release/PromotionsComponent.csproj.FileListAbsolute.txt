@@ -1,0 +1,12 @@
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmConditionTier.resources
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmGiftVoucher.resources
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmPromotion.resources
+D:\Bikram\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\PromotionsComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.Properties.Resources.resources
+D:\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmConditionTier.resources
+D:\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmGiftVoucher.resources
+D:\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.UI.frmPromotion.resources
+D:\Dev - Copy\PromotionsComponent\obj\Release\PromotionsComponent.csproj.GenerateResource.Cache

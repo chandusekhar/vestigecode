@@ -1,0 +1,123 @@
+﻿@model WSS.InternalApplication.Models.RegisterViewModel
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 page-header">
+            Register New WSS Profile
+        </div>
+    </div>
+    @if (ViewBag.WizardId != null && ViewBag.WizardId == "First")
+    {
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 wizard-header">
+                Step 1 - Enter WSS E-mail (User ID)
+                @if (string.IsNullOrEmpty(Model.CustomerName))
+                {
+                    @:and Customer Name
+                }
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-2">
+                @Html.LabelFor(model => model.CcbAccountNumber)
+            </div>
+            <div class="col-sm-8 col-md-7 col-lg-6">
+                @Model.CcbAccountNumber
+            </div>
+        </div>
+        using (Html.BeginForm("Register", "Register"))
+        {
+            @Html.HiddenFor(model => model.CcbAccountNumber)
+
+            if (string.IsNullOrEmpty(Model.CustomerName))
+            {
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-2">
+                        @Html.LabelFor(model => model.CustomerName, new { @class = "control-label form-label" })
+                    </div>
+                    <div class="col-sm-8 col-md-7 col-lg-6">
+                        @Html.TextBoxFor(model => model.CustomerName, new { @class = "form-control", @placeholder = "Enter temporary customer name" })
+                        @Html.HiddenFor(model => model.NewOrExistingCcdAccount)
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 col-lg-6 col-sm-offset-4">
+                        @Html.ValidationMessageFor(model => model.CustomerName)
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    <div class="col-sm-4 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-2">
+                        @Html.LabelFor(model => model.CustomerName, new { @class = "control-label form-label" })
+                    </div>
+                    <div class="col-sm-8 col-md-7 col-lg-6">
+                        @Model.CustomerName
+                        @Html.HiddenFor(model => model.CustomerName)
+                    </div>
+                </div>
+            }
+
+
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-2">
+                    @Html.LabelFor(model => model.EmailAddress, new { @class = "control-label form-label" })
+                </div>
+                <div class="col-sm-8 col-md-7 col-lg-6">
+                    @Html.TextBoxFor(model => model.EmailAddress, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 col-md-7 col-lg-6 col-sm-offset-4">
+                    @Html.ValidationMessageFor(model => model.EmailAddress)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 form-group form-inline">
+                    <a class="btn btn-link" href=@Url.Action("Index", "Search")>Cancel</a>
+                    <button type="submit" id="Next" name="Next" class="btn btn-primary pull-right">Next <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        using (Html.BeginForm("Confirm", "Register"))
+        {
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 wizard-header">
+                    Step 2 -Confirm WSS Profile Details
+                </div>
+            </div>
+            @Html.HiddenFor(model => model.CcbAccountNumber)
+            @Html.HiddenFor(model => model.EmailAddress)
+
+            @*Please, leave the line below the way it is, otherwithe the stars will be lost due to sanitarization
+                done by @Html.HiddenFor *@
+            <input type="hidden" name="CustomerName" id="CustomerName" value="@Model.CustomerName"/>
+
+            <div class="row">
+                <div class="form-inline col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                    A new web self service profile will be created for:
+                    <div style="padding: 10px 20px 10px 20px;"><b>Utility Account</b> : @Model.CcbAccountNumber</div>
+                    <div style="padding: 10px 20px 10px 20px;">
+                        <b>Customer Name: </b>@Model.CustomerName
+                        <br />
+                        <span>@ViewBag.DoubleStarMessage</span>
+                    </div>
+                    <div style="padding: 10px 20px 10px 20px;"><b>Email Address : </b> @Model.EmailAddress</div>
+                </div>
+            </div>
+            <div class="row">&nbsp;</div>
+            <div class="row">
+                <div class="col-sm-6 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-2">
+                    <a href="javascript:void(0);" onclick="javascript:history.go(-1);"><i title="Back to List" class="pull-left fa fa-reply"></i>&nbsp;Back</a>
+                </div>
+                <div class="form-group col-sm-6 col-md-5 col-lg-4">
+                    <button type="submit" class="btn btn-primary"> Register </button><a href=@Url.Action("Index", "Account")></a>
+                </div>
+            </div>
+        }
+    }
+</div>

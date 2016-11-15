@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- All the grids used in  AuthenticationComponent, their structure should be defined here only-->
+<Grids>
+  <!-- 'Pack/Unpack' grid on  frmPackUnpack's Create mode-->
+  <GridView Name="dgvConstituentPack"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="ItemId" HeaderText="ItemId" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemCode" HeaderText="ItemCode" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Shortname" HeaderText="Short Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="Shortname" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty." Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="5" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Quantity" HeaderText="Qty/Case Pack" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="DisplayQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalQty" HeaderText="Total Qty." Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="7" ColumnType="TextBox" DataPropertyName="TotalQty" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+  <GridView Name="dgvConstituentUnpack"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="ItemId" HeaderText="ItemId" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemCode" HeaderText="ItemCode" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Shortname" HeaderText="Short Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="Shortname" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Quantity" HeaderText="Qty/Case Pack" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="DisplayQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="TotalQty" HeaderText="Total Qty." Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="7" ColumnType="TextBox" DataPropertyName="DisplayTotalQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Edit" HeaderText="Edit"  Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="8" ColumnType="Button" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+
+
+  <!-- 'Search Result' grid on  frmPackUnpack's Search mode-->
+	
+  <GridView Name="dgvPUHeader"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+	<Column Name="Print" HeaderText="Print" Font="" Visible ="true" Width="50" Readonly="false" Sortable="" Index="1" ColumnType="Button" DataSource="" DisplayMember="" ValueMember=""/>
+	<Column Name="PUNo" HeaderText="PUNo" Font="" Visible ="True" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="PUNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="PUDate" HeaderText="Date" Font="" Visible ="true" Width="75" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="DisplayPUDate" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="DisplayIsPackVoucher" HeaderText="Pack/UnPack" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="4" ColumnType="TextBox" DataPropertyName="DisplayIsPackVoucher" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Quantity" HeaderText="Quantity" Font="" Visible ="true" Width="75" Readonly="true" Sortable="" Index="5" ColumnType="TextBox" DataPropertyName="DisplayQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="Remarks" HeaderText="Remarks" Font="" Visible ="true" Width="200" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="Remarks" DataSource="" DisplayMember="" ValueMember=""/>
+  </GridView>
+  <GridView Name="dgvPUDetail"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="PUNo" HeaderText="PUNo" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="PUNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemCode" HeaderText="Item Code" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemName" HeaderText="Item Name" Font="" Visible ="true" Width="150" Readonly="true" Sortable="" Index="3" ColumnType="TextBox" DataPropertyName="ItemName" DataSource="" DisplayMember="" ValueMember=""/>
+    
+    <Column Name="Quantity" HeaderText="Quantity" Font="" Visible ="true" Width="100" Readonly="true" Sortable="" Index="5" ColumnType="TextBox" DataPropertyName="DisplayQuantity" DataSource="" DisplayMember="" ValueMember=""/>
+    
+  </GridView>
+
+  <GridView Name="dgvBatchDetails"  RowHeadersVisible ="false" SelectionMode ="FullRowSelect" AllowUserToResizeColumns="false" AllowUserToResizeRows="false" AutoGenerateColumns="false">
+    <Column Name="Remove" HeaderText=" X " Font="" Visible ="true" Width="30" Readonly="false" Sortable="" Index="1" ColumnType="Image" DataSource="" DisplayMember="" ValueMember="delete"/>
+    <Column Name="ItemId" HeaderText="ItemId" Font="" Visible ="false" Width="90" Readonly="true" Sortable="" Index="1" ColumnType="TextBox" DataPropertyName="ItemId" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="BatchNo" HeaderText="BatchNo" Font="" Visible ="false" Width="80" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="BatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="ItemCode" HeaderText="ItemCode" Font="" Visible ="true" Width="80" Readonly="true" Sortable="" Index="2" ColumnType="TextBox" DataPropertyName="ItemCode" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="AvailableQty" HeaderText="Available Qty." Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="5" ColumnType="TextBox" DataPropertyName="DisplayAvailableQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="RequestedQty" HeaderText="Requested Qty." Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="DisplayRequestedQty" DataSource="" DisplayMember="" ValueMember=""/>
+    <Column Name="MfgBatchNo" HeaderText="Mfg. BatchNo" Font="" Visible ="true" Width="120" Readonly="true" Sortable="" Index="6" ColumnType="TextBox" DataPropertyName="MfgBatchNo" DataSource="" DisplayMember="" ValueMember=""/>
+      
+  </GridView>
+</Grids>

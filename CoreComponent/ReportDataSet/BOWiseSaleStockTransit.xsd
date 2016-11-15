@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BOWiseSaleStockTransit" targetNamespace="http://tempuri.org/BOWiseSaleStockTransit.xsd" xmlns:mstns="http://tempuri.org/BOWiseSaleStockTransit.xsd" xmlns="http://tempuri.org/BOWiseSaleStockTransit.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BOWiseSaleStockTransit" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="BOWiseSaleStockTransit" msprop:Generator_DataSetName="BOWiseSaleStockTransit" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BOWiseSaleStock" msprop:Generator_UserTableName="BOWiseSaleStock" msprop:Generator_RowDeletedName="BOWiseSaleStockRowDeleted" msprop:Generator_RowChangedName="BOWiseSaleStockRowChanged" msprop:Generator_RowClassName="BOWiseSaleStockRow" msprop:Generator_RowChangingName="BOWiseSaleStockRowChanging" msprop:Generator_RowEvArgName="BOWiseSaleStockRowChangeEvent" msprop:Generator_RowEvHandlerName="BOWiseSaleStockRowChangeEventHandler" msprop:Generator_TableClassName="BOWiseSaleStockDataTable" msprop:Generator_TableVarName="tableBOWiseSaleStock" msprop:Generator_RowDeletingName="BOWiseSaleStockRowDeleting" msprop:Generator_TablePropName="BOWiseSaleStock">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LocationCode" msprop:Generator_UserColumnName="LocationCode" msprop:Generator_ColumnVarNameInTable="columnLocationCode" msprop:Generator_ColumnPropNameInRow="LocationCode" msprop:Generator_ColumnPropNameInTable="LocationCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocationName" msprop:Generator_UserColumnName="LocationName" msprop:Generator_ColumnVarNameInTable="columnLocationName" msprop:Generator_ColumnPropNameInRow="LocationName" msprop:Generator_ColumnPropNameInTable="LocationNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemCode" msprop:Generator_UserColumnName="ItemCode" msprop:Generator_ColumnVarNameInTable="columnItemCode" msprop:Generator_ColumnPropNameInRow="ItemCode" msprop:Generator_ColumnPropNameInTable="ItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ItemName" msprop:Generator_UserColumnName="ItemName" msprop:Generator_ColumnVarNameInTable="columnItemName" msprop:Generator_ColumnPropNameInRow="ItemName" msprop:Generator_ColumnPropNameInTable="ItemNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrevMonthSale" msprop:Generator_UserColumnName="PrevMonthSale" msprop:Generator_ColumnVarNameInTable="columnPrevMonthSale" msprop:Generator_ColumnPropNameInRow="PrevMonthSale" msprop:Generator_ColumnPropNameInTable="PrevMonthSaleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentMonthSale" msprop:Generator_UserColumnName="CurrentMonthSale" msprop:Generator_ColumnVarNameInTable="columnCurrentMonthSale" msprop:Generator_ColumnPropNameInRow="CurrentMonthSale" msprop:Generator_ColumnPropNameInTable="CurrentMonthSaleColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StockTOIInTransit" msprop:Generator_UserColumnName="StockTOIInTransit" msprop:Generator_ColumnVarNameInTable="columnStockTOIInTransit" msprop:Generator_ColumnPropNameInRow="StockTOIInTransit" msprop:Generator_ColumnPropNameInTable="StockTOIInTransitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="StockTOInTransit" msprop:Generator_UserColumnName="StockTOInTransit" msprop:Generator_ColumnVarNameInTable="columnStockTOInTransit" msprop:Generator_ColumnPropNameInRow="StockTOInTransit" msprop:Generator_ColumnPropNameInTable="StockTOInTransitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CurrentStock" msprop:Generator_UserColumnName="CurrentStock" msprop:Generator_ColumnVarNameInTable="columnCurrentStock" msprop:Generator_ColumnPropNameInRow="CurrentStock" msprop:Generator_ColumnPropNameInTable="CurrentStockColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HeaderAddress" msprop:Generator_UserColumnName="HeaderAddress" msprop:Generator_ColumnPropNameInRow="HeaderAddress" msprop:Generator_ColumnVarNameInTable="columnHeaderAddress" msprop:Generator_ColumnPropNameInTable="HeaderAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressText" msprop:Generator_UserColumnName="AddressText" msprop:Generator_ColumnPropNameInRow="AddressText" msprop:Generator_ColumnVarNameInTable="columnAddressText" msprop:Generator_ColumnPropNameInTable="AddressTextColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

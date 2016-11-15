@@ -1,0 +1,10 @@
+D:\Bikram\Dev - Copy\PackUnpackComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.UI.frmPackUnpack.resources
+D:\Bikram\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.UI.frmBatchDetails.resources
+D:\Bikram\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\PackUnpackComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.Properties.Resources.resources
+D:\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.UI.frmPackUnpack.resources
+D:\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.UI.frmBatchDetails.resources
+D:\Dev - Copy\PackUnpackComponent\obj\Release\PackUnpackComponent.csproj.GenerateResource.Cache

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{362E7B29-F0F8-49A9-96F4-F092BE066A63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoreComponent.Core</RootNamespace>
+    <AssemblyName>CoreComponent.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessObjects\Common.cs" />
+    <Compile Include="BusinessObjects\Contact.cs" />
+    <Compile Include="BusinessObjects\GenericComparer.cs" />
+    <Compile Include="BusinessObjects\Validators.cs" />
+    <Compile Include="BusinessObjects\VisitControls.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BlankTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BlankTemplate.designer.cs">
+      <DependentUpon>BlankTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DoubleBufferedTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Hierarchy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Hierarchy.designer.cs">
+      <DependentUpon>Hierarchy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HierarchyTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HierarchyTemplate.designer.cs">
+      <DependentUpon>HierarchyTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Transaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Transaction.designer.cs">
+      <DependentUpon>Transaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TransactionProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TransactionProcess.designer.cs">
+      <DependentUpon>TransactionProcess.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BlankTemplate.resx">
+      <DependentUpon>BlankTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Hierarchy.resx">
+      <DependentUpon>Hierarchy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HierarchyTemplate.resx">
+      <DependentUpon>HierarchyTemplate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Transaction.resx">
+      <DependentUpon>Transaction.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TransactionProcess.resx">
+      <DependentUpon>TransactionProcess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\blyestripe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\glassy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\module.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\orange-stripe.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\winback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnadd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btncancel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnclear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnclose.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btndelete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnedit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnexit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnreset.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnsave.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnsearch.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnupdate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\btnview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\bg.gif" />
+    <None Include="Resources\downarrow.PNG" />
+    <Content Include="Resources\edit.png" />
+    <None Include="Resources\uparrow.png" />
+    <None Include="Resources\edit1.png" />
+    <None Include="Resources\view.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\creatheader_bg1.gif" />
+    <None Include="Resources\bg1.gif" />
+    <None Include="Resources\button.png" />
+    <None Include="Resources\creatheader_bg.gif" />
+    <None Include="Resources\bg.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Vinculum Framework\Vinculum.Framework.csproj">
+      <Project>{2D20C96B-5365-4B50-B944-5AEF78513A1B}</Project>
+      <Name>Vinculum.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

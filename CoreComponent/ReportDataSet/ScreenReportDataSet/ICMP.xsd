@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ICMP" targetNamespace="http://tempuri.org/ICMP.xsd" xmlns:mstns="http://tempuri.org/ICMP.xsd" xmlns="http://tempuri.org/ICMP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ICMP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ICMP" msprop:Generator_DataSetName="ICMP" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ICMPDataTable" msprop:Generator_UserTableName="ICMPDataTable" msprop:Generator_RowDeletedName="ICMPDataTableRowDeleted" msprop:Generator_RowChangedName="ICMPDataTableRowChanged" msprop:Generator_RowClassName="ICMPDataTableRow" msprop:Generator_RowChangingName="ICMPDataTableRowChanging" msprop:Generator_RowEvArgName="ICMPDataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="ICMPDataTableRowChangeEventHandler" msprop:Generator_TableClassName="ICMPDataTableDataTable" msprop:Generator_TableVarName="tableICMPDataTable" msprop:Generator_RowDeletingName="ICMPDataTableRowDeleting" msprop:Generator_TablePropName="ICMPDataTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FromItemCode" msprop:Generator_UserColumnName="FromItemCode" msprop:Generator_ColumnVarNameInTable="columnFromItemCode" msprop:Generator_ColumnPropNameInRow="FromItemCode" msprop:Generator_ColumnPropNameInTable="FromItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToItemCode" msprop:Generator_UserColumnName="ToItemCode" msprop:Generator_ColumnVarNameInTable="columnToItemCode" msprop:Generator_ColumnPropNameInRow="ToItemCode" msprop:Generator_ColumnPropNameInTable="ToItemCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromItemName" msprop:Generator_UserColumnName="FromItemName" msprop:Generator_ColumnVarNameInTable="columnFromItemName" msprop:Generator_ColumnPropNameInRow="FromItemName" msprop:Generator_ColumnPropNameInTable="FromItemNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToItemName" msprop:Generator_UserColumnName="ToItemName" msprop:Generator_ColumnVarNameInTable="columnToItemName" msprop:Generator_ColumnPropNameInRow="ToItemName" msprop:Generator_ColumnPropNameInTable="ToItemNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,6 @@
+D:\Bikram\Dev - Copy\UOMComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\UOMComponent\obj\Release\UOMComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\UOMComponent\obj\Release\UOMComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\UOMComponent\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\UOMComponent\obj\Release\UOMComponent.Properties.Resources.resources
+D:\Dev - Copy\UOMComponent\obj\Release\UOMComponent.csproj.GenerateResource.Cache

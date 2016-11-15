@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "_Footer";
+}
+
+@using WSS.CustomerApplication.Properties
+<div class="row">
+    <h5>@Resources.SharedView_Footer_City_of_Winnipeg_Water_and_Waste</h5>
+</div>
+
+<div class="row">
+    @Resources.SharedView_Footer_Utility_Billing_Centre
+</div>
+
+<div class="row">
+    @Resources.SharedView_Footer_Phone &nbsp;@Resources.SharedView_Footer_204_986_2455_204_986_BILL
+    <div class="clearfix visible-xs-block"></div>
+    <span class="hidden-xs-inline">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    @Resources.SharedView_Footer_TTY &nbsp;@Resources.SharedView_Footer_204_986_2149
+</div>
+
+<div class="row">
+    &nbsp;&nbsp;<a href="http://winnipeg.ca/waterandwaste/dept/contactus.stm">@Resources.SharedView_Footer_Contact_Us</a>&nbsp;&nbsp;
+    &nbsp;&nbsp;<a href="http://www.winnipeg.ca/waterandwaste/billing/centre.stm">@Resources.SharedView_Footer_Hours</a>&nbsp;&nbsp;
+    <div class="clearfix visible-xs-block"></div>
+    &nbsp;&nbsp;<a href="http://www.winnipeg.ca/">@Resources.SharedView_Footer_Winnipeg_ca</a>&nbsp;&nbsp;
+    &nbsp;&nbsp;<a href="http://www.winnipeg.ca/interhom/conditions_of_use/PrivacyStatement.stm">@Resources.SharedView_Footer_Privacy_Policy</a>&nbsp;&nbsp;
+</div>
+&copy;@Resources.SharedView_Footer_1995_2015_City_of_Winnipeg
+<div>@Resources.SharedView_Footer_Build @typeof(MvcApplication).Assembly.GetName().Version</div>
+<div>@Resources.SharedView_Footer_Build_Date @Resources.BuildDate</div>

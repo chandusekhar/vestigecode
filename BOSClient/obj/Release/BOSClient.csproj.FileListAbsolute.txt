@@ -1,0 +1,10 @@
+D:\Bikram\Dev - Copy\BOSClient\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\BOSClient\obj\Release\BOSClient.Form1.resources
+D:\Bikram\Dev - Copy\BOSClient\obj\Release\BOSClient.frmMDIMain.resources
+D:\Bikram\Dev - Copy\BOSClient\obj\Release\BOSClient.Properties.Resources.resources
+D:\Bikram\Dev - Copy\BOSClient\obj\Release\BOSClient.csproj.GenerateResource.Cache
+D:\Dev - Copy\BOSClient\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\BOSClient\obj\Release\BOSClient.Form1.resources
+D:\Dev - Copy\BOSClient\obj\Release\BOSClient.frmMDIMain.resources
+D:\Dev - Copy\BOSClient\obj\Release\BOSClient.Properties.Resources.resources
+D:\Dev - Copy\BOSClient\obj\Release\BOSClient.csproj.GenerateResource.Cache

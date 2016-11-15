@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+      1	- 2000	: Validation messages
+   2001 - 5000  : Error messages
+   5001 - 8000  : Confirmation Message
+   8001 - 9000  : Information message 
+   10000        : Message box Header
+-->
+
+<messages>
+  <!--Message box Header -->
+	<message id="10000" text="HnG BOS" />
+	<message id="10001" text="A unexpected error has ocurred.Please contact your system administrator for support" />
+
+  <!--Validation messages -->
+	<message id="1" text="Please provide pickup denomination details (F4)." />
+	<message id="2" text="Food coupons can be used for food product only."/>
+	<message id="3" text="Please provide coupon denomination."/>
+	<message id="4" text="Please provide denomination count."/>
+	<message id="5" text="Authorization code should be six characters long."/>
+	<message id="6" text=""/>
+	<message id="7" text=""/>
+	<message id="8" text=""/>
+	<message id="9" text=""/>
+	<message id="10" text=""/>
+	<message id="11" text=""/>
+	<message id="12" text=""/>
+	<message id="13" text=""/>
+	<message id="14" text=""/>			
+
+  <!--Error Messages -->
+	<message id="2001" text="Invalid user ID." />
+	<message id="2002" text="Invalid user password." />
+	<message id="2003" text="User status is inactive." />
+	<message id="2004" text="Please provide" />
+	<message id="2005" text="Invalid Product Code" />
+	<message id="2006" text="SKU not linked to Vendor" />
+	<message id="2007" text="Invalid Product Type." />
+	<message id="2008" text="At least one filter criteria should be entered." />
+	<message id="2009" text="Quantity can't be greater then 999999.000" />
+	<message id="2010" text="Cannot be less than " />
+	<message id="2011" text="Invalid "/>
+	<message id="2012" text="Quantity can't be 0.000"/>
+	<message id="2013" text="Products on PO cannot be deleted."/>
+	<message id="2014" text="Damaged quantity can not be greater than physical quantity "/>
+	<message id="2015" text="Product status is not active."/>
+	<message id="2016" text="Do You Want to Update Tax Pct for all lines of this product?"/>
+	<message id="2017" text="Invoice Quantity can't be greater then 9999999999.99"/>
+	<message id="2018" text="Total amount should be equal to previous total amount."/>
+	<message id="2019" text="CC amount can't be less than minimum cc amount."/>
+	<message id="2020" text="Invoiced Quantity cannot be greater than Ordered Quantity."/>
+	<message id="2021" text="MRN Quantity cannot be less than Zero."/>
+	<message id="2022" text="No records found."/>
+	<message id="2023" text="New MRP can't be greater then 999999.99" />
+	<message id="2024" text="Total amount cannot be greater than previous total amount."/>
+	<message id="2025" text="Invoice Date cannot be greater than Today's Date."/>
+	<message id="2026" text="Total Invoiced Quantity cannot be greater than Ordered Quantity."/>
+	<message id="2027" text="Please enter Invoiced Quantity for atleast one Product."/>
+	<message id="2028" text="Product Code and Batch No should be unique."/>
+	<message id="2029" text="File Copy Path length can't be more than 500."/>
+	<message id="2030" text="Control File Path length can't be more than 500."/>
+	<message id="2031" text="Do you want to save this record?"/>
+	<message id="2032" text="Expiry date should be greater than current date"/>
+	<message id="2033" text="Please Provide valid expiry date in ddmmyyyy format, greater than current date"/>
+	<message id="2034" text="cannot be more than "/>
+	<message id="2035" text="Multiple Batch exists for the product, Please select Batch No."/>
+	<message id="2038" text="Please enter Return Quantity for atleast one Product."/>
+	<message id="2039" text="{0} {1} exists in {2} status. Cannot proceed with MRN." />
+	<message id="2040" text="Product UOM is UNITS. Quantity cannot be in decimals."/>
+	<message id="2041" text="Indent can not be confirmed with total quantity 0.0."/>
+	<message id="2042" text="should be between "/>
+	<message id="2043" text="Invalid Transfer Out Indent Number "/>
+	<message id="2044" text="Invalid Receiving Store Code "/>
+	<message id="2045" text="Invalid Reason Code"/>
+	
+	<!--Ajay, 10/Mar/2009, Barcode Scanner-->
+	<message id="2046" text="SKU not found."/>
+	<message id="2047" text="None of the SKUs linked to this EAN code."/>	
+	<message id="2048" text="Invalid manager ID." />
+	<message id="2049" text="Incorrect manager password." />
+	<message id="2050" text="Manager status is inactive." />
+	<message id="2051" text="Manager doesn't have privilege to perform this operation."/>
+	<message id="2052" text="SKU not found in this PO."/>
+	<message id="2053" text="Please select appropriate SKU to create new EAN SKU Link."/>
+	<!--Ajay, 23/Mar/2009, Barcode Scanner-->
+	<message id="2054" text="Scanning is not allowed."/>
+	<message id="2055" text="Scanning is not allowed for this SKU."/>
+	<message id="2056" text="You have to provide input through Scanner."/>
+	<message id="2057" text="Do you want to provide input through keyboard?"/>
+	<message id="2058" text="Please provide valid input for EAN Code."/>
+	<!--Ajay, 31/Mar/2009, Barcode Scanner-->
+  
+	<!--Confirmation Messages -->
+	<message id="5001" text="Do you want to confirm this transaction?" />
+	<message id="5002" text="Do you want to cancel this transaction?"/>
+	<message id="5003" text="Do you want to clear screen?"/>
+	<message id="5004" text="Do you want to initiate new stock check?"/>
+	<message id="5005" text="Do you want to exit?"/>
+	<message id="5006" text="Do you want to delete this row?"/>
+	<message id="5007" text="Do you want to unlock user?"/>
+	<message id="5008" text="MRN Qty in some of the rows is zero.Do you want to continue?"/>
+	<message id="5009" text="Some of the line(s) in PO does not pass tolerance check.Do you want to send this PO to MMS for approval?"/>
+	<message id="5011" text="Some of the line(s) in PO does not pass tolerance check."/>
+	<message id="5010" text="Do you want to approve this transaction?"/>
+	<message id="5012" text="Do you want to save data?" />
+
+  <!--Information Messages -->
+	<message id="8001" text="You can't close this form via ALT+F4."/>
+	<message id="8002" text="No result found."/>
+	<message id="8003" text="Record(s) saved sucessfully."/>
+	<message id="8004" text="Transaction confirmed sucessfully."/>
+	<message id="8005" text="Transaction cancelled sucessfully."/>
+	<message id="8006" text="Cancelled transactions can not be viewed."/>
+	<message id="8007" text="Please provide a valid tax code."/>
+	<message id="8008" text="Please provide a valid pin code."/>
+	<message id="8009" text="Please provide customer name."/>
+	<message id="8010" text="Please provide a valid transfer number."/>
+	<message id="8011" text="There are no products for stock check."/>
+	<message id="8012" text="The current action would close the open window. Would you like to continue?"/>
+	<message id="8013" text="Accessories products can not be returned to vendor."/>
+	<message id="8014" text="PO Type is not Accessory."/>
+	<message id="8015" text="At least one row in detail is mandatory."/>
+	<message id="8016" text="Quantity should be greater than zero."/>
+	<message id="8017" text="Please provide bill no."/>
+	<message id="8018" text="Please enter valid email address."/>
+	<message id="8019" text="Please enter valid"/>
+	<message id="8020" text="Selected vendor is not the preferred vendor for this product."/>
+	<message id="8021" text="No stock exist for this product.It can't be returned."/>
+	<message id="8022" text="Multiple batch exist for this product.Please select a valid product batch."/>
+	<message id="8023" text="This Till No already exists."/>
+	<message id="8024" text="No purchase/Transfer history exist for this product.It can't be returned."/>
+	<message id="8025" text="The difference between MRN amount and Invoice amount exceeds Tolerance Limit of {0}%."/>
+	<message id="8026" text="Tax In Type is not CST. So Tax Out Rate must be same as Tax In Rate."/>
+	<message id="8027" text="Current Margin is less than standard Margin."/>
+	<message id="8028" text="At least one row should be selected."/>
+	<message id="8029" text="The difference between MRN Tax In amount and Invoice Tax In amount exceeds Tolerance Limit of {0}%."/>
+	<message id="8030" text="System will round the value to "/>
+	<message id="8031" text="New Standard margin crosses system limit(-999.99 % to 999.99%).Can not save data."/>
+
+	<!--Code by:Ajay-09/Sep/2008-(CR-23, 25)- Category Shrink Report, Stock Check Report ExcelExport-->	
+	<message id="8032" text="File is already open. Kindly close the file and save again."/>
+	<!--Code by:Ajay-12/Sep/2008-(CR-23, 25)- Category Shrink Report, Stock Check Report ExcelExport-->
+
+	<message id="8033" text="Entered Invoice No. already exists for this vendor."/>
+	<message id="8034" text="Transaction approved sucessfully."/>
+	<message id="8035" text="Transaction confirmed sucessfully.Please wait to get approval from MMS to perform MRN."/>
+
+	<!--Code by:Ajay-09/Sep/2008-(CR-23, 25)- Category Shrink Report, Stock Check Report ExcelExport-->
+	<message id="8036" text="File saved successfully."/>	
+	<!--Code by:Ajay-12/Sep/2008-(CR-23, 25)- Category Shrink Report, Stock Check Report ExcelExport-->
+	
+  <!-- Login Messages -->
+	<message id ="INF0001" text="The user account has been deleted. Please contact system administrator." />
+	<message id ="INF0002" text="The user account is currently inactive. Please contact system administrator." />
+	<message id ="INF0003" text="The user account is locked. Please contact system administrator." />
+	<message id ="INF0004" text="The user account has expired. Please contact system administrator." />
+	<message id ="INF0005" text="The password has expired. Please change your password now to continue." />
+	<message id ="INF0006" text="Login Successful." />
+	<message id ="INF0007" text="User Authentication failed. Please check username and password." />
+	<message id ="INF0008" text="Password Expired." />
+	<message id ="INF0009" text="UserName cannot be blank." />
+	<message id ="INF0010" text="Password cannot be blank." />
+	<message id ="INF0011" text="Old Password cannot be blank." />
+	<message id ="INF0012" text="New Password cannot be blank." />
+	<message id ="INF0013" text="Confirm Password cannot be blank." />
+	<message id ="INF0014" text="Old Password is incorrect." />
+	<message id ="INF0015" text="New Password and Confirm Password do not match." />
+	<message id ="INF0016" text="Password Changed Successfully." />
+	<message id ="INF0017" text="Username/Old Password is incorrect." />
+	<message id ="INF0018" text="The new password does not confirm to security guidelines." />
+	<message id ="INF0019" text="The new password cannot be the same as old password." />
+	<message id ="INF0020" text="The new password cannot be the same as Password history." />
+	<message id ="INF0021" text="Username can only contain numbers." />
+	<message id ="INF0022" text="Required Field missing." />
+	<message id ="INF0023" text="No results found." />
+	<message id ="INF0024" text="Please enter indent no." />
+	<message id ="INF0025" text="Please enter Vendor Code/Vendor Name." />
+	<message id ="INF0026" text="Indent Saved successfully." />
+	<message id ="INF0027" text="Success." />
+	<message id ="INF0028" text="Failed to save Indent." />
+	<message id ="INF0029" text="Failure." />
+	<message id ="INF0030" text="Atleast one product should have quantity greater than 0." />
+	<message id ="INF0031" text="Indent Confirm Successful." />
+	<message id ="INF0032" text="Indent Confirm Failed." />
+	<message id ="INF0033" text="Indent Cancel Successful." />
+	<message id ="INF0034" text="Indent Cancel Failed." />
+	<message id ="INF0035" text="Quantity must be numeric and less than 999999.000" />
+	<message id ="INF0036" text="Quantity must be in multiples of {0}." />
+	<message id ="INF0037" text="Please supply mandatory criteria." />
+	<message id ="INF0038" text="Incorrect report xml configuration." />
+	<message id ="INF0039" text="{0} must be {1} {2}." />
+	<message id ="INF0040" text="{0} and {1} should belong to the same month and year." />
+  <message id ="INF0041" text="Item does not exists at current location" />
+  <message id ="INF0042" text="Item is not mapped to current location" />
+</messages> 

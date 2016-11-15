@@ -1,0 +1,27 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+@model RegisterViewModel
+
+<div class="form-inline">
+    <div class="row">
+        <h4>@Resources.RegistrationView_RegisterInformation_Step_2_of_2_My_Sign_in_Information</h4>
+    </div>
+    <form class="form-inline" role="form">
+        @Html.HiddenFor(m => m.CcbAccountNumber)
+        @Html.HiddenFor(m => m.AboutAccount)
+        <div class="row top-buffer">
+            @Html.TextBoxFor(m => m.EmailAddress, new { id = "Email", @class = "form-control", placeholder = Resources._RegisterInformation_cshtml_Execute_Email_Address, @style = "width:260px", title = "Email Address", data_toggle = "popover", data_content = Resources._RegisterInformation_cshtml_Execute_The_email_address_you_are_registering_with, data_trigger = "focus", data_placement = "auto top" })
+            <a class="btn btn-primary btn-xs" href="javascript:void(0);" title="@Resources.RegistrationView_RegisterInformation_What_my_email_address_will_be_used_for"><i class="fa fa-question"></i><span class="sr-only">@Resources.RegistrationView_RegisterInformation_What_my_email_address_will_be_used_for</span></a><br />
+            <div>@Html.ValidationMessageFor(m => m.EmailAddress)</div>
+        </div>
+        <br />
+        <div class="row top-buffer">
+            @Html.TextBoxFor(m => m.ReenterEmail, new { @class = "form-control fa-align-right", placeholder = Resources._RegisterInformation_cshtml_Execute_Re_enter_Email_Address, @style = "width:260px", data_toggle = "popover", data_content = Resources._RegisterInformation_cshtml_Execute_Confirm_the_email_address_you_are_registering_with__Make_sure_the_addresses_match_, data_trigger = "focus", data_placement = "auto top" })
+            <div>@Html.ValidationMessageFor(m => m.ReenterEmail)</div>
+        </div>
+
+        <div class="row top-buffer">
+            <button class="btn btn-primary" type="submit" value="Register" title="Register" id="btnRegister">@Resources.RegistrationView_RegisterInformation_Register &nbsp; <i class="fa fa-check-circle"></i></button>
+        </div>
+    </form>
+</div>

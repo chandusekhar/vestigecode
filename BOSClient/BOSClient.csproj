@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{120B632B-343D-4432-A830-6C7A6D10194E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOSClient</RootNamespace>
+    <AssemblyName>BOSClient</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>Images\VestigeLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOSController.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMDIMain.Designer.cs">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMDIMain.resx">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationComponent\AuthenticationComponent.csproj">
+      <Project>{0C25BB40-65F8-4CDE-9462-83A7307DEA02}</Project>
+      <Name>AuthenticationComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent.Core\CoreComponent.Core.csproj">
+      <Project>{362E7B29-F0F8-49A9-96F4-F092BE066A63}</Project>
+      <Name>CoreComponent.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoreComponent\CoreComponent.csproj">
+      <Project>{69F2682A-96A8-4FC6-8510-781DD42FC33D}</Project>
+      <Name>CoreComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\InventoryComponent\InventoryComponent.csproj">
+      <Project>{3214E98E-CBA2-4750-AF92-5B19E0845A78}</Project>
+      <Name>InventoryComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PackUnpackComponent\PackUnpackComponent.csproj">
+      <Project>{D97E3E26-23E7-46A1-B9E0-A3A9F52F329B}</Project>
+      <Name>PackUnpackComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PromotionsComponent\PromotionsComponent.csproj">
+      <Project>{02899069-C547-4CBF-A29B-EBABD8E80189}</Project>
+      <Name>PromotionsComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PurchaseComponent\PurchaseComponent.csproj">
+      <Project>{A3B7FFFC-F1C6-4947-BE5D-F3D800B5FD5E}</Project>
+      <Name>PurchaseComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReturnsComponent\ReturnsComponent.csproj">
+      <Project>{9F15105F-5A11-4E6B-85EE-6CF9D1343ACA}</Project>
+      <Name>ReturnsComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TaxComponent\TaxComponent.csproj">
+      <Project>{BE2085E9-BA26-4F83-9528-96F0011F30D7}</Project>
+      <Name>TaxComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TransfersComponent\TransfersComponent.csproj">
+      <Project>{F8EDE911-68A5-45BD-BFA8-B86E0E6F33F4}</Project>
+      <Name>TransfersComponent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UOMComponent\UOMComponent.csproj">
+      <Project>{21864330-9291-4190-821C-913CEBF0CDF7}</Project>
+      <Name>UOMComponent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\add.png" />
+    <Content Include="Images\blyestripe.gif" />
+    <None Include="Images\close.png" />
+    <None Include="Images\glassy.png" />
+    <None Include="Images\module.png" />
+    <Content Include="Images\orange-stripe.gif" />
+    <Content Include="Images\VestigeLogo.ico" />
+    <None Include="Resources\welcome screen.jpg" />
+    <None Include="Images\winback.png" />
+    <None Include="Images\welcome screen .jpg" />
+    <None Include="Images\undo.png" />
+    <None Include="Images\search.png" />
+    <None Include="Images\save.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,821 @@
+E:\Bikram\Dev\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login2.jpg
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login1.jpg
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login3.jpg
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Message.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Reports.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Images\POSignature.JPG
+E:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+E:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\InventoryComponent.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\InventoryComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\PurchaseComponent.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\XLGenerator.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\TaxComponent.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\TaxComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.dll
+E:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.pdb
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\PdfSharp.dll
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+E:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+D:\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev\InventoryComponent\bin\Debug\Resources\login2.jpg
+D:\Dev\InventoryComponent\bin\Debug\Resources\login1.jpg
+D:\Dev\InventoryComponent\bin\Debug\Resources\login3.jpg
+D:\Dev\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\Message.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\Reports.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+D:\Dev\InventoryComponent\bin\Debug\Images\POSignature.JPG
+D:\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+D:\Dev\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+D:\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+D:\Dev\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+D:\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+D:\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+D:\Dev\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+D:\Dev\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+D:\Dev\InventoryComponent\bin\Debug\InventoryComponent.dll
+D:\Dev\InventoryComponent\bin\Debug\InventoryComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev\InventoryComponent\bin\Debug\CoreComponent.dll
+D:\Dev\InventoryComponent\bin\Debug\PurchaseComponent.dll
+D:\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Dev\InventoryComponent\bin\Debug\PdfSharp.dll
+D:\Dev\InventoryComponent\bin\Debug\office.dll
+D:\Dev\InventoryComponent\bin\Debug\XLGenerator.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev\InventoryComponent\bin\Debug\TaxComponent.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Dev\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Dev\InventoryComponent\bin\Debug\CoreComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Dev\InventoryComponent\bin\Debug\TaxComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Dev\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.dll
+D:\Dev\InventoryComponent\obj\Debug\InventoryComponent.pdb
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistPanBankInfoForMonthlyPayout.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorEditHistory.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorPanBankAcceptReject.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\DistributorPanBankDetail.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\LocWiseModifiedDistributor.rdlc
+D:\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Message.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Reports.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Images\POSignature.JPG
+D:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistPanBankInfoForMonthlyPayout.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorEditHistory.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorPanBankAcceptReject.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\DistributorPanBankDetail.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\LocWiseModifiedDistributor.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+D:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+D:\Bikram\Dev\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\InventoryComponent.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\InventoryComponent.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\PurchaseComponent.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\PdfSharp.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\office.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\XLGenerator.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\TaxComponent.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\CoreComponent.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\TaxComponent.pdb
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.dll
+D:\Bikram\Dev\InventoryComponent\obj\Debug\InventoryComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Resources\login2.jpg
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Resources\login1.jpg
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Resources\login3.jpg
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Message.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Reports.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Images\POSignature.JPG
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistPanBankInfoForMonthlyPayout.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorEditHistory.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorPanBankAcceptReject.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorPanBankDetail.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\LocWiseModifiedDistributor.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\InventoryComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\InventoryComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\PurchaseComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\PdfSharp.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\office.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\XLGenerator.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\TaxComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\TaxComponent.pdb
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Bikram\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.dll
+D:\Bikram\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Resources\login2.jpg
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Reports.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorPanBankAcceptReject.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Resources\login1.jpg
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorEditHistory.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\LocWiseModifiedDistributor.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistPanBankInfoForMonthlyPayout.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Message.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorPanBankDetail.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Images\POSignature.JPG
+D:\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+D:\Dev - Copy\InventoryComponent\bin\Debug\Resources\login3.jpg
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+D:\Dev - Copy\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\InventoryComponent.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\InventoryComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\PurchaseComponent.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\PdfSharp.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\office.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\XLGenerator.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\TaxComponent.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\Dev - Copy\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\CoreComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\TaxComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Dev - Copy\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\Dev - Copy\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.dll
+D:\Dev - Copy\InventoryComponent\obj\Debug\InventoryComponent.pdb
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\ConsolidatedSalesCollection.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseSaleStockTransit.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseStockInTransit.rdlc
+D:\Dev - Copy\InventoryComponent\bin\Debug\Reports\BOWiseStockInTransit_new.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\ResolveAssemblyReference.cache
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.Properties.Resources.resources
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.UI.frmInventoryAdjustment.resources
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockCount.resources
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.UI.frmStockAdjustmentBatch.resources
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.csproj.GenerateResource.Cache
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\Reports.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\POScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\STNItemWise.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\GridViewDefinition.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\TIScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportInvoice.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BOWiseSaleStockTransit.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\EOIScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\InventoryAdjScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\TaxRegister.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BOWiseSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Resources\login1.jpg
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\SearchControl.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CRScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\StockistLogReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PaymentStatusSummary.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\TOScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ProductWiseSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorPanBankDetail.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\TravelFundReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\CashBookReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorPanBankAcceptReject.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\CreditTaxRegister.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\StateZoneWiseSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\GRNScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ReceivedItemWise.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\StockSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ItemBatchAdjustment.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\WHWiseStockPosition.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\MenuClass.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\GridViewDefinition_Auth.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BOWiseStockPosition.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen_Dubai.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xss
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlf.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PUCDeposit.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PickupCentre.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenHlfN.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Resources\login3.jpg
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\GRNRegisterProductwise.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorAddressLabel.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\PackUnpackScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CRCreditNoteScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DccBoReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\ICMP.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\StockSummary.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\Form16.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorAddressReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\RegionWiseSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorBusinessCheque.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\ERNCustomerInvoiceScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\FreeItemsSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BankBookReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ChequeReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\Purchase.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\IndentScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorSingleAddressLabel.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\OrderCollection.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\CarBonusReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\Message.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BOWiseStockInTransit.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\MonthwiseItemSales.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\StockCountScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\VendorItemwise.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\STNFinance.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\TOExportPackingList.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\VATCST.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\ExcelXml.xsd
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\GoodsinTransit1.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BonusStatementDirectors.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistPanBankInfoForMonthlyPayout.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PUCAccounts.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.Designer.cs
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerOrderScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ConsolidatedSalesCollection.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenN.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorBusiness.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\POItemwise.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\LocWiseModifiedDistributor.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\POSReports.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVDebitNoteScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DistributorEditHistory.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Resources\login2.jpg
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PurchaseAgtFormC.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\SalesCollection.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\ReportDataSet\RegionWiseSales.xsd
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\PaymentChequeCreditCard.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\SalesTax.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\SuggestedIndentScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\RTVScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Images\POSignature.JPG
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\DirectorGroupBonusCheque.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\TOIScreen.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\SalesReturnRegister.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\BOWiseStockInTransit_new.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\CreditCardReport.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Reports\ScreenReports\CustomerInvoiceScreenDemo.rdlc
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\App_Data\Inventory.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\InventoryComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\InventoryComponent.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\AuthenticationComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\CoreComponent.Core.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\CoreComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\PurchaseComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Vinculum.Framework.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\PdfSharp.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\XLGenerator.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\TaxComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\PurchaseComponent.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\AuthenticationComponent.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\CoreComponent.Core.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\CoreComponent.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Vinculum.Framework.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\TaxComponent.pdb
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.dll
+F:\vestige_20161110\Dev - Copy2\InventoryComponent\obj\Debug\InventoryComponent.pdb

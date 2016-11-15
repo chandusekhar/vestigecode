@@ -1,0 +1,98 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+@model ForgotPassowrdViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #toast-container {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+
+@*Redirected from Sign-in page*@
+
+<div class="container">
+
+    @if (ViewBag.WizardId != null && ViewBag.WizardId == "First")
+    {
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 page-header">
+                @Resources.PasswordView_Index_Forgot_Password
+            </div>
+        </div>
+        if (Model.IsForgotPasswordMailSent)
+        {
+            <div class="row">
+                <div class="col-sm-10 col-md-7 col-lg-6 col-md-offset-1 col-lg-offset-2 wizard-header" style="color: grey">
+                    @Resources.PasswordView_Index_Success_A_link_to_reset_your_password_has_been_sent_to_your_email_address @Model.EmailAddress
+                </div>
+            </div>
+            if (Model.AttemptsLeft < 3)
+            {
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8 col-md-offset-8 col-lg-offset-2">
+                        <b> @Html.ValidationMessageFor(model => model.AttemptsLeft)</b>
+                    </div>
+                </div>
+            }
+
+            <div class="row">
+                <div class="col-sm-8 col-md-7 col-lg-6 col-sm-offset-2" style="text-align: justify">
+                    <h5>
+                        @Resources.PasswordView_Index_Please_check_your_email_The_new_link_will_expire_in_2_hours_Email_filters_may_identify_the_email_as_junk_spam
+                    </h5>
+                </div>
+            </div>
+
+            //<div class="row">
+               // <br /><br />
+               // <div class="col-sm-12 col-md-10 col-lg-1 col-md-offset-1 col-lg-offset-2  form-group form-inline">
+                  //  <button type="submit" id="OK" name="OK" class="btn btn-primary pull-right">OK</button>
+                  //  @*<a href=@Url.Action("Index", "Home")>Home</a>*@
+                //</div>
+           // </div>
+        }
+        else
+        {
+            using (Html.BeginForm("ForgotPassword", "Password"))
+            {
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 wizard-header" style="color: grey">
+                        @Resources.PasswordView_Index_Step_1_Enter_your_Credentials
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8 col-md-offset-8 col-lg-offset-2">
+                        <b> @Html.ValidationMessageFor(model => model.EmailAddress)</b>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-md-8 col-lg-8 col-md-offset-8 col-lg-offset-2">
+                        @Html.LabelFor(model => model.EmailAddress, new { @class = "control-label form-label" })
+                    </div>
+
+                    <div class="col-sm-8 col-md-7 col-lg-6 col-sm-offset-2">
+                        @Html.TextBoxFor(model => model.EmailAddress, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="row">
+                    <br /><br />
+                    <div class="col-sm-12 col-md-10 col-lg-1 col-md-offset-1 col-lg-offset-2 form-group form-inline">
+                        <button type="submit" id="ForgotPasswordNext" name="Next" class="btn btn-primary pull-right">@Resources.PasswordView_Index_Next<i class="fa fa-arrow-right"></i></button>
+                        <a href=@Url.Action("ForgotPassword", "Password")>
+                        </a>
+                    </div>
+                </div>
+            }
+        }
+    }
+    else
+    {
+        @Html.Partial("_resetPassword", Model)
+    }
+
+</div>

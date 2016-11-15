@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Form16" targetNamespace="http://tempuri.org/Form16.xsd" xmlns:mstns="http://tempuri.org/Form16.xsd" xmlns="http://tempuri.org/Form16.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Form16" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="Form16" msprop:Generator_UserDSName="Form16" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Form16_DataTable" msprop:Generator_UserTableName="Form16_DataTable" msprop:Generator_RowDeletedName="Form16_DataTableRowDeleted" msprop:Generator_TableClassName="Form16_DataTableDataTable" msprop:Generator_RowChangedName="Form16_DataTableRowChanged" msprop:Generator_RowClassName="Form16_DataTableRow" msprop:Generator_RowChangingName="Form16_DataTableRowChanging" msprop:Generator_RowEvArgName="Form16_DataTableRowChangeEvent" msprop:Generator_RowEvHandlerName="Form16_DataTableRowChangeEventHandler" msprop:Generator_TablePropName="Form16_DataTable" msprop:Generator_TableVarName="tableForm16_DataTable" msprop:Generator_RowDeletingName="Form16_DataTableRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AmountPaid" msprop:Generator_UserColumnName="AmountPaid" msprop:Generator_ColumnPropNameInRow="AmountPaid" msprop:Generator_ColumnVarNameInTable="columnAmountPaid" msprop:Generator_ColumnPropNameInTable="AmountPaidColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn2" msprop:Generator_UserColumnName="DataColumn2" msprop:Generator_ColumnPropNameInRow="DataColumn2" msprop:Generator_ColumnVarNameInTable="columnDataColumn2" msprop:Generator_ColumnPropNameInTable="DataColumn2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn3" msprop:Generator_UserColumnName="DataColumn3" msprop:Generator_ColumnPropNameInRow="DataColumn3" msprop:Generator_ColumnVarNameInTable="columnDataColumn3" msprop:Generator_ColumnPropNameInTable="DataColumn3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn4" msprop:Generator_UserColumnName="DataColumn4" msprop:Generator_ColumnPropNameInRow="DataColumn4" msprop:Generator_ColumnVarNameInTable="columnDataColumn4" msprop:Generator_ColumnPropNameInTable="DataColumn4Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn5" msprop:Generator_UserColumnName="DataColumn5" msprop:Generator_ColumnPropNameInRow="DataColumn5" msprop:Generator_ColumnVarNameInTable="columnDataColumn5" msprop:Generator_ColumnPropNameInTable="DataColumn5Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn6" msprop:Generator_UserColumnName="DataColumn6" msprop:Generator_ColumnPropNameInRow="DataColumn6" msprop:Generator_ColumnVarNameInTable="columnDataColumn6" msprop:Generator_ColumnPropNameInTable="DataColumn6Column" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn7" msprop:Generator_UserColumnName="DataColumn7" msprop:Generator_ColumnPropNameInRow="DataColumn7" msprop:Generator_ColumnVarNameInTable="columnDataColumn7" msprop:Generator_ColumnPropNameInTable="DataColumn7Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

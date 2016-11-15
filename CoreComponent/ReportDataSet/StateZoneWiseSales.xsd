@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StateZoneWiseSales" targetNamespace="http://tempuri.org/StateZoneWiseSales.xsd" xmlns:mstns="http://tempuri.org/StateZoneWiseSales.xsd" xmlns="http://tempuri.org/StateZoneWiseSales.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="StateZoneWiseSales" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="StateZoneWiseSales" msprop:Generator_UserDSName="StateZoneWiseSales" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NorthSales_State" msprop:Generator_UserTableName="NorthSales_State" msprop:Generator_RowDeletedName="NorthSales_StateRowDeleted" msprop:Generator_TableClassName="NorthSales_StateDataTable" msprop:Generator_RowChangedName="NorthSales_StateRowChanged" msprop:Generator_RowClassName="NorthSales_StateRow" msprop:Generator_RowChangingName="NorthSales_StateRowChanging" msprop:Generator_RowEvArgName="NorthSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="NorthSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="NorthSales_State" msprop:Generator_TableVarName="tableNorthSales_State" msprop:Generator_RowDeletingName="NorthSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SouthSales_State" msprop:Generator_UserTableName="SouthSales_State" msprop:Generator_RowDeletedName="SouthSales_StateRowDeleted" msprop:Generator_TableClassName="SouthSales_StateDataTable" msprop:Generator_RowChangedName="SouthSales_StateRowChanged" msprop:Generator_RowClassName="SouthSales_StateRow" msprop:Generator_RowChangingName="SouthSales_StateRowChanging" msprop:Generator_RowEvArgName="SouthSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="SouthSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="SouthSales_State" msprop:Generator_TableVarName="tableSouthSales_State" msprop:Generator_RowDeletingName="SouthSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EastSales_State" msprop:Generator_UserTableName="EastSales_State" msprop:Generator_RowDeletedName="EastSales_StateRowDeleted" msprop:Generator_TableClassName="EastSales_StateDataTable" msprop:Generator_RowChangedName="EastSales_StateRowChanged" msprop:Generator_RowClassName="EastSales_StateRow" msprop:Generator_RowChangingName="EastSales_StateRowChanging" msprop:Generator_RowEvArgName="EastSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="EastSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="EastSales_State" msprop:Generator_TableVarName="tableEastSales_State" msprop:Generator_RowDeletingName="EastSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WestSales_State" msprop:Generator_UserTableName="WestSales_State" msprop:Generator_RowDeletedName="WestSales_StateRowDeleted" msprop:Generator_TableClassName="WestSales_StateDataTable" msprop:Generator_RowChangedName="WestSales_StateRowChanged" msprop:Generator_RowClassName="WestSales_StateRow" msprop:Generator_RowChangingName="WestSales_StateRowChanging" msprop:Generator_RowEvArgName="WestSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="WestSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="WestSales_State" msprop:Generator_TableVarName="tableWestSales_State" msprop:Generator_RowDeletingName="WestSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="NepalSales_State" msprop:Generator_UserTableName="NepalSales_State" msprop:Generator_RowDeletedName="NepalSales_StateRowDeleted" msprop:Generator_TableClassName="NepalSales_StateDataTable" msprop:Generator_RowChangedName="NepalSales_StateRowChanged" msprop:Generator_RowClassName="NepalSales_StateRow" msprop:Generator_RowChangingName="NepalSales_StateRowChanging" msprop:Generator_RowEvArgName="NepalSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="NepalSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="NepalSales_State" msprop:Generator_TableVarName="tableNepalSales_State" msprop:Generator_RowDeletingName="NepalSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Totalsales" msprop:Generator_UserColumnName="Totalsales" msprop:Generator_ColumnPropNameInRow="Totalsales" msprop:Generator_ColumnVarNameInTable="columnTotalsales" msprop:Generator_ColumnPropNameInTable="TotalsalesColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_NorthSales_State" msprop:Generator_UserTableName="L_NorthSales_State" msprop:Generator_RowDeletedName="L_NorthSales_StateRowDeleted" msprop:Generator_TableClassName="L_NorthSales_StateDataTable" msprop:Generator_RowChangedName="L_NorthSales_StateRowChanged" msprop:Generator_RowClassName="L_NorthSales_StateRow" msprop:Generator_RowChangingName="L_NorthSales_StateRowChanging" msprop:Generator_RowEvArgName="L_NorthSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="L_NorthSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="L_NorthSales_State" msprop:Generator_TableVarName="tableL_NorthSales_State" msprop:Generator_RowDeletingName="L_NorthSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_SouthSales_State" msprop:Generator_UserTableName="L_SouthSales_State" msprop:Generator_RowDeletedName="L_SouthSales_StateRowDeleted" msprop:Generator_TableClassName="L_SouthSales_StateDataTable" msprop:Generator_RowChangedName="L_SouthSales_StateRowChanged" msprop:Generator_RowClassName="L_SouthSales_StateRow" msprop:Generator_RowChangingName="L_SouthSales_StateRowChanging" msprop:Generator_RowEvArgName="L_SouthSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="L_SouthSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="L_SouthSales_State" msprop:Generator_TableVarName="tableL_SouthSales_State" msprop:Generator_RowDeletingName="L_SouthSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_EastSales_State" msprop:Generator_UserTableName="L_EastSales_State" msprop:Generator_RowDeletedName="L_EastSales_StateRowDeleted" msprop:Generator_TableClassName="L_EastSales_StateDataTable" msprop:Generator_RowChangedName="L_EastSales_StateRowChanged" msprop:Generator_RowClassName="L_EastSales_StateRow" msprop:Generator_RowChangingName="L_EastSales_StateRowChanging" msprop:Generator_RowEvArgName="L_EastSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="L_EastSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="L_EastSales_State" msprop:Generator_TableVarName="tableL_EastSales_State" msprop:Generator_RowDeletingName="L_EastSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_WestSales_State" msprop:Generator_UserTableName="L_WestSales_State" msprop:Generator_RowDeletedName="L_WestSales_StateRowDeleted" msprop:Generator_TableClassName="L_WestSales_StateDataTable" msprop:Generator_RowChangedName="L_WestSales_StateRowChanged" msprop:Generator_RowClassName="L_WestSales_StateRow" msprop:Generator_RowChangingName="L_WestSales_StateRowChanging" msprop:Generator_RowEvArgName="L_WestSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="L_WestSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="L_WestSales_State" msprop:Generator_TableVarName="tableL_WestSales_State" msprop:Generator_RowDeletingName="L_WestSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="L_NepalSales_State" msprop:Generator_UserTableName="L_NepalSales_State" msprop:Generator_RowDeletedName="L_NepalSales_StateRowDeleted" msprop:Generator_TableClassName="L_NepalSales_StateDataTable" msprop:Generator_RowChangedName="L_NepalSales_StateRowChanged" msprop:Generator_RowClassName="L_NepalSales_StateRow" msprop:Generator_RowChangingName="L_NepalSales_StateRowChanging" msprop:Generator_RowEvArgName="L_NepalSales_StateRowChangeEvent" msprop:Generator_RowEvHandlerName="L_NepalSales_StateRowChangeEventHandler" msprop:Generator_TablePropName="L_NepalSales_State" msprop:Generator_TableVarName="tableL_NepalSales_State" msprop:Generator_RowDeletingName="L_NepalSales_StateRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StateId" msdata:Caption="Boid" msprop:Generator_UserColumnName="StateId" msprop:Generator_ColumnPropNameInRow="StateId" msprop:Generator_ColumnVarNameInTable="columnStateId" msprop:Generator_ColumnPropNameInTable="StateIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Region" msprop:Generator_UserColumnName="Region" msprop:Generator_ColumnPropNameInRow="Region" msprop:Generator_ColumnVarNameInTable="columnRegion" msprop:Generator_ColumnPropNameInTable="RegionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sales" msprop:Generator_UserColumnName="Sales" msprop:Generator_ColumnPropNameInRow="Sales" msprop:Generator_ColumnVarNameInTable="columnSales" msprop:Generator_ColumnPropNameInTable="SalesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ToDate" msprop:Generator_UserColumnName="ToDate" msprop:Generator_ColumnPropNameInRow="ToDate" msprop:Generator_ColumnVarNameInTable="columnToDate" msprop:Generator_ColumnPropNameInTable="ToDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FromDate" msprop:Generator_UserColumnName="FromDate" msprop:Generator_ColumnPropNameInRow="FromDate" msprop:Generator_ColumnVarNameInTable="columnFromDate" msprop:Generator_ColumnPropNameInTable="FromDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Totalsales" msprop:Generator_UserColumnName="Totalsales" msprop:Generator_ColumnPropNameInRow="Totalsales" msprop:Generator_ColumnVarNameInTable="columnTotalsales" msprop:Generator_ColumnPropNameInTable="TotalsalesColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

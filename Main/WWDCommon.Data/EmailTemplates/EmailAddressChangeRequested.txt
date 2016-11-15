@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+<title>MyUtilityBill</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0; text-align:left;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+     /* MOBILE STYLES */
+    @media screen and (max-width: 645px) {
+		
+		 /* ALLOWS FOR FLUID TABLES */
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 0px 0 10px 0 !important;
+		  
+        }
+		
+        td[class="logo"] img{
+          /*margin:0 auto!important;*/
+		  border:none !important;
+		  width:124px !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          width: 100% !important;
+          height:auto !important;
+        }
+
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="padding-copy"]{
+          padding: 5px 5% 5px 5% !important;
+        }
+
+        td[class="section-padding"]{
+          padding: 0px 15px 20px 15px !important;
+        } 
+		
+		td[class="footer-section-padding"]{
+          padding: 20px 15px 20px 15px !important;
+        }      
+
+    }
+</style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:Doc_x0020_Status msdt:dt="string">Under Review</mso:Doc_x0020_Status>
+<mso:Person_x0020_List msdt:dt="string"></mso:Person_x0020_List>
+<mso:Project_x0020_Phase msdt:dt="string">Executing</mso:Project_x0020_Phase>
+<mso:Project_x0020_Name msdt:dt="string">221 WSS</mso:Project_x0020_Name>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+<body style="margin: 0; padding: 0;">
+
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+    <tr>
+        <td>
+            <!-- HIDDEN PREHEADER TEXT -->
+            <div align="center" style="padding: 30px 15px 0px 15px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table"> <tr>
+                                            <td align="center" style="font-size: 12px; line-height: 20px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">Please do not reply to this email. <br>This email was sent from a notification-only  address and replies are not monitored.<br>La version fran&ccedil;aise suit l'anglais dans ce courriel / French version follows the English in this email.<br></td>
+                          </tr>
+                           <tr><td>
+                <table border="0" cellpadding="0"  bgcolor="#c3d7eb" cellspacing="0" width="600" class="wrapper" style="background:url(http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png) no-repeat">
+                    <!-- LOGO/PREHEADER TEXT -->
+                    <tr>
+                        <td background="http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png" bgcolor="#c3d7eb" width="600" valign="top" class="logo">
+                          <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:130px;">
+                            <v:fill type="tile" src="http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png" color="#c3d7eb" />
+                            <v:textbox inset="0,0,0,0">
+                          <![endif]-->
+                          <div>
+                           <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="100" align="left" style="padding:25px 0 0 30px;">
+                                        <a href="#" target="_blank">
+                                            <img alt="City of Winnipeg Logo" src="http://winnipeg.ca/waterandwaste/images/logo_vertical.png" width="124" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;">
+                                        </a>
+                                    </td>                                    
+                                </tr>
+                                <tr>
+                                            <td align="left" style="font-size: 92%; font-family: Helvetica, Arial, sans-serif; color: #000000; padding: 10px 10px 10px 30px;" class="padding-copy"><h1 style="margin:0">MyUtilityBill</h1></td>
+                              </tr>
+                                
+                            </table>
+                            </tr></td></table>
+                          </div>
+                          <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 0px 15px 30px 30px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- Header IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td>
+
+                            <tr>
+                                <td>
+                                  <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="left" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #1E4EA0; padding: 20px 0;" class="padding-copy"><h1 style="margin:0">Welcome to MyUtilityBill!</h1></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 14px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy"><strong>Your MyUtilityBill profile Email has been successfully changed to .<br><br>
+You will no longer receive your City of Winnipeg Water and Waste Department Utility Bills or Past Due Reminder notices by postal mail.
+                                            </strong>Notification of these items will be sent electronically and you can view these items anytime by signing into MyUtilityBill. You may also add additional utility accounts to your profile.
+<br><br>To review our Terms and Conditions of Use, <a href="http://winnipeg.ca" >click here</a>.
+</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left"  style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #1E4EA0; padding: 20px 0;" class="padding-copy"><h2 style="margin:0">Questions about your bill or online profile?</h2></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 14px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">Sign into <a href="http://winnipeg.ca/waterandwaste/dept/contactus.stm">MyUtilityBill</a> to view our FAQ section or <a href="http://winnipeg.ca/waterandwaste/dept/contactus.stm">Contact Us</a>.</td>
+                                        </tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- TWO COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#F4F4F4" align="center" style="padding: 20px 15px 30px 15px;" class="footer-section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- TITLE SECTION AND COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" style="padding: 20px 0 20px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                <a href="http://winnipeg.ca" >Winnipeg.ca</a>  |
+                                                          <a href="http://winnipeg.ca/waterandwaste/" >Water and Waste</a> |
+                                                          <a href="http://winnipeg.ca/waterandwaste/billing/" >Billing</a>  |
+                                                          <a href="http://winnipeg.ca/waterandwaste/water" >Water</a>  |
+                                                        <a href="http://winnipeg.ca/waterandwaste/recycle" >Recycling</a>   | <a href="http://winnipeg.ca/waterandwaste/garbage" >Garbage</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td class="padding-copy">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="left"  style="padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #1E4EA0; font-size: 20px;" bgcolor="#F4F4F4">Unsubscribe</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left"  style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 12px; line-height: 20px;" bgcolor="#F4F4F4">If you do  not want to receive your utility bill electronically anymore, <a href=""<SecondaryEmailUnsubscribeUrl>"  target="_blank" >unsubscribe</a>.
+                                                          <p>Please <strong>do not reply to  this email</strong>. This email was sent from a notification-only  address and replies are not monitored.</p>
+Mailing  address: City of Winnipeg, 510 Main Street, Winnipeg, Manitoba, Canada, R3B 1B9</td>
+                                                    </tr>                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td class="padding-copy">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" style="padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #1E4EA0; font-size: 20px;" bgcolor="#F4F4F4">Privacy Statement</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 12px; line-height: 20px;" bgcolor="#F4F4F4">The City of Winnipeg values your privacy. We do not sell  or share your personal information with third parties. You are receiving this  email as a result of your registration with the Water and Waste Department&rsquo;s  MyUtilityBill service. You may view our <a href="<SecondaryEmailUnsubscribeUrl>" >Terms and Conditions  of Use</a> or <a href="#">unsubscribe</a> from  the service at any time.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<br />
+<br />
+<hr />
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td>
+            <!-- HIDDEN PREHEADER TEXT -->
+            <div align="center" style="padding: 30px 15px 0px 15px;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table"> <tr>
+                                            <td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">S'il vous plait ne r&eacute;pondez pas &agrave; ce courriel. <br>Ce courriel a &eacute;t&eacute; envoy&eacute; &agrave; partir d'une adresse de notification uniquement et les r&eacute;ponses ne sont pas surveill&eacute;s.</td>
+                          </tr>
+                           <tr><td>
+                <table border="0" cellpadding="0"  bgcolor="#c3d7eb" cellspacing="0" width="600" class="wrapper" style="background:url(http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png) no-repeat">
+                    <!-- LOGO/PREHEADER TEXT -->
+                    <tr>
+                        <td background="http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png" bgcolor="#c3d7eb" width="600" valign="top" class="logo">
+                          <!--[if gte mso 9]>
+                          <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:600px;height:130px;">
+                            <v:fill type="tile" src="http://winnipeg.ca/waterandwaste/images/wss_email_banner_bg.png" color="#c3d7eb" />
+                            <v:textbox inset="0,0,0,0">
+                          <![endif]-->
+                          <div>
+                           <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                    <td width="100" align="left" style="padding:25px 0 0 30px;">
+                                        <a href="#" target="_blank">
+                                            <img alt="City of Winnipeg Logo" src="http://winnipeg.ca/waterandwaste/images/logo_vertical.png" width="124" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;">
+                                        </a>
+                                    </td>                                    
+                                </tr>
+                                <tr>
+                                            <td align="left" style="font-size: 92%; font-family: Helvetica, Arial, sans-serif; color: #000000; padding: 10px 10px 10px 30px;" class="padding-copy"><h1 style="margin:0">MyUtillityBill</h1></td>
+                              </tr>
+                                
+                            </table>
+                             </tr></td></table>
+                          </div>
+                          <!--[if gte mso 9]>
+                            </v:textbox>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#ffffff" align="center" style="padding: 0px 15px 30px 30px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- Header IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                               
+                            <tr>
+                                <td>
+                                <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td align="left" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #1E4EA0; padding: 20px 0;" class="padding-copy"><h1 style="margin:0">Votre facture est maintenant disponible</h1></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 14px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy"><strong>Montant exigible: 123,45 $<br>
+Date d'&eacute;ch&eacute;ance: 31 d&eacute;cembre 2015<br>
+<br>
+                                            </strong>Date de facturation: 1 d&eacute;cembre 2015<br>
+Num&eacute;ro de compte/Sobriquet: 123XXXX891X - Ma maison<br>
+<br>
+Pour voir votre facture compl&egrave;te, se connecter &agrave;  <a href="http://myutilitybill.winnipeg.ca/">MyUtilityBill</a>.</td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left"  style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #1E4EA0; padding: 20px 0;" class="padding-copy"><h2 style="margin:0">Questions sur votre facture ou votre profil en ligne?</h2></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="font-size: 14px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #000000;" class="padding-copy">Se connecter &agrave; <a href="http://myutilitybill.winnipeg.ca/">MyUtilityBill</a> ou <a href="http://winnipeg.ca/waterandwaste/dept/contactus.stm">contactez nous</a>.<br><br></td>
+                                        </tr>
+
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!-- TWO COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#F4F4F4" align="center" style="padding: 20px 15px 30px 15px;" class="footer-section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" class="responsive-table">
+                <tr>
+                    <td>
+                        <!-- TITLE SECTION AND COPY -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td align="center" style="padding: 20px 0 20px 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                <a href="http://winnipeg.ca" >Winnipeg.ca</a>  |
+                                                          <a href="http://winnipeg.ca/waterandwaste/" >Eaux et des d&eacute;chets</a> |
+                                                          <a href="http://winnipeg.ca/waterandwaste/billing/" >Facturation</a>  |
+                                                          <a href="http://winnipeg.ca/waterandwaste/water" >Eau</a>  |
+                                                        <a href="http://winnipeg.ca/waterandwaste/recycle" >Recyclage</a>   | <a href="http://winnipeg.ca/waterandwaste/garbage" >Des d&eacute;chets</a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- TWO COLUMNS -->
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" style="padding: 0;" class="mobile-wrapper">
+                                    
+                                    <!-- LEFT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="left" class="responsive-table">
+                                        <tr>
+                                            <td class="padding-copy">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="left"  style="padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #1E4EA0; font-size: 20px;" bgcolor="#F4F4F4">Se d&eacute;sabonner</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left"  style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 12px; line-height: 20px;" bgcolor="#F4F4F4">Si vous ne souhaitez pas recevoir votre facture par voie &eacute;lectronique plus, <a href=""<SecondaryEmailUnsubscribeUrl>"  target="_blank" >se d&eacute;sabonner</a>.
+                                                          <p>S'il vous plait ne r&eacute;pondez pas &agrave; ce courriel. Ce courriel a &eacute;t&eacute; envoy&eacute; &agrave; partir d'une adresse de notification uniquement et les r&eacute;ponses ne sont pas surveill&eacute;s.</p>
+Adresse postale: Ville de Winnipeg, 510, rue Main, Winnipeg, Manitoba, Canada, R3B 1B9</td>
+                                                    </tr>                                                    
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- RIGHT COLUMN -->
+                                    <table cellpadding="0" cellspacing="0" border="0" width="47%" align="right" class="responsive-table">
+                                        <tr>
+                                            <td class="padding-copy">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                    <tr>
+                                                        <td align="left" style="padding: 15px 0 0 0; font-family: Arial, sans-serif; color: #1E4EA0; font-size: 20px;" bgcolor="#F4F4F4">D&eacute;claration de confidentialit&eacute; </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="left" style="padding: 5px 0 0 0; font-family: Arial, sans-serif; color: #666666; font-size: 12px; line-height: 20px;" bgcolor="#F4F4F4">La Ville de Winnipeg respecte votre vie priv&eacute;e. Nous ne vendons ni ne partageons vos renseignements personnels avec des tiers. Vous recevez ce courriel &agrave; la suite de votre inscription au service de MyUtilityBill. Vous pouvez consulter nos <a href="<SecondaryEmailUnsubscribeUrl>" >conditions g&eacute;n&eacute;rales d'utilisation</a> ou <a href="#">vous d&eacute;sabonner</a> du service &agrave; tout moment.</td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+</body>
+</html>

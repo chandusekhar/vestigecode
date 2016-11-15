@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PackUnpackComponent.BusinessObjects.CompositeItem" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="ListBatchDetails" Type="PackUnpackComponent.BusinessObjects.BatchDetails" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.219" Y="1.009" />
+        <Point X="5.219" Y="2.125" />
+        <Point X="3.688" Y="2.125" />
+        <Point X="3.688" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="CompositeDetail" Type="PackUnpackComponent.BusinessObjects.CompositeBOM" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.609" Y="1.009" />
+        <Point X="5.609" Y="2.125" />
+        <Point X="6.625" Y="2.125" />
+        <Point X="6.625" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAgEAAABEAAAAAACgAAAAAAAAIA0IIgAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessObjects\CompositeItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListBatchDetails" />
+      <Property Name="CompositeDetail" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PackUnpackComponent.BusinessObjects.CompositeBOM">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAAgAAAgAAAAAAAIIAAAAAAgAAACAA=</HashCode>
+      <FileName>BusinessObjects\CompositeBOM.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ListSelectedBatchDetails" />
+      <Property Name="ListAllBatchDetails" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="PackUnpackComponent.BusinessObjects.BatchDetails">
+    <Position X="2.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQABAAAAAAACgAAAgAAAAAAgIIgAAAAgAAAAAAA=</HashCode>
+      <FileName>BusinessObjects\BatchDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PackUnpackComponent.BusinessObjects.PUCommon">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAQKEAIxICRAggCAgQFwAAAQAAABABQAARAEBIABAIo=</HashCode>
+      <FileName>BusinessObjects\PUCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

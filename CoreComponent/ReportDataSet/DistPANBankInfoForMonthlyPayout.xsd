@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DistPANBankInfoForMonthlyPayout" targetNamespace="http://tempuri.org/DistPANBankInfoForMonthlyPayout.xsd" xmlns:mstns="http://tempuri.org/DistPANBankInfoForMonthlyPayout.xsd" xmlns="http://tempuri.org/DistPANBankInfoForMonthlyPayout.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DistPANBankInfoForMonthlyPayout" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DistPANBankInfoForMonthlyPayout" msprop:Generator_DataSetName="DistPANBankInfoForMonthlyPayout" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RptDistListInfoPanBankMonthlyPayout" msprop:Generator_UserTableName="RptDistListInfoPanBankMonthlyPayout" msprop:Generator_RowDeletedName="RptDistListInfoPanBankMonthlyPayoutRowDeleted" msprop:Generator_TableClassName="RptDistListInfoPanBankMonthlyPayoutDataTable" msprop:Generator_RowChangedName="RptDistListInfoPanBankMonthlyPayoutRowChanged" msprop:Generator_RowClassName="RptDistListInfoPanBankMonthlyPayoutRow" msprop:Generator_RowChangingName="RptDistListInfoPanBankMonthlyPayoutRowChanging" msprop:Generator_RowEvArgName="RptDistListInfoPanBankMonthlyPayoutRowChangeEvent" msprop:Generator_RowEvHandlerName="RptDistListInfoPanBankMonthlyPayoutRowChangeEventHandler" msprop:Generator_TablePropName="RptDistListInfoPanBankMonthlyPayout" msprop:Generator_TableVarName="tableRptDistListInfoPanBankMonthlyPayout" msprop:Generator_RowDeletingName="RptDistListInfoPanBankMonthlyPayoutRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorFullName" msprop:Generator_UserColumnName="DistributorFullName" msprop:Generator_ColumnPropNameInRow="DistributorFullName" msprop:Generator_ColumnVarNameInTable="columnDistributorFullName" msprop:Generator_ColumnPropNameInTable="DistributorFullNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorPANNumber" msprop:Generator_UserColumnName="DistributorPANNumber" msprop:Generator_ColumnPropNameInRow="DistributorPANNumber" msprop:Generator_ColumnVarNameInTable="columnDistributorPANNumber" msprop:Generator_ColumnPropNameInTable="DistributorPANNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorBankName" msprop:Generator_UserColumnName="DistributorBankName" msprop:Generator_ColumnPropNameInRow="DistributorBankName" msprop:Generator_ColumnVarNameInTable="columnDistributorBankName" msprop:Generator_ColumnPropNameInTable="DistributorBankNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorBankAccNumber" msprop:Generator_UserColumnName="DistributorBankAccNumber" msprop:Generator_ColumnPropNameInRow="DistributorBankAccNumber" msprop:Generator_ColumnVarNameInTable="columnDistributorBankAccNumber" msprop:Generator_ColumnPropNameInTable="DistributorBankAccNumberColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorBankBranch" msprop:Generator_UserColumnName="DistributorBankBranch" msprop:Generator_ColumnPropNameInRow="DistributorBankBranch" msprop:Generator_ColumnVarNameInTable="columnDistributorBankBranch" msprop:Generator_ColumnPropNameInTable="DistributorBankBranchColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TDSAmount" msprop:Generator_UserColumnName="TDSAmount" msprop:Generator_ColumnPropNameInRow="TDSAmount" msprop:Generator_ColumnVarNameInTable="columnTDSAmount" msprop:Generator_ColumnPropNameInTable="TDSAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HeaderAddress" msprop:Generator_UserColumnName="HeaderAddress" msprop:Generator_ColumnPropNameInRow="HeaderAddress" msprop:Generator_ColumnVarNameInTable="columnHeaderAddress" msprop:Generator_ColumnPropNameInTable="HeaderAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressText" msprop:Generator_UserColumnName="AddressText" msprop:Generator_ColumnPropNameInRow="AddressText" msprop:Generator_ColumnVarNameInTable="columnAddressText" msprop:Generator_ColumnPropNameInTable="AddressTextColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NetPayable" msprop:Generator_UserColumnName="NetPayable" msprop:Generator_ColumnPropNameInRow="NetPayable" msprop:Generator_ColumnVarNameInTable="columnNetPayable" msprop:Generator_ColumnPropNameInTable="NetPayableColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

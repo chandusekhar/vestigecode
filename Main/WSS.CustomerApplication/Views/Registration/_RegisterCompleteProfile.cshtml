@@ -1,0 +1,55 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+@model RegisterViewModel
+
+<div class="container top-buffer">
+    <div class="form-inline">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>@Resources.RegistrationView_RegisterCompleteProfile_Complete_Your_Registration</h4>
+                <p>@Resources.RegistrationView_RegisterCompleteProfile_Answer_these_questions_to_complete_your_activation</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <label for="changeEmail1">@Resources.RegistrationView_RegisterCompleteProfile_Password</label>
+                        <input type="pwd" id="myUtility" name="myUtility" class="form-control" title="@Resources.RegistrationView_RegisterCompleteProfile_My_Utility_Account_Number" value="" />
+
+                    </div>
+                    <div class="col-sm-6 ">
+                        <label for="changeEmail1">@Resources.RegistrationView_RegisterCompleteProfile_Reenter_Password</label>
+                        <input type="pwd" id="myUtility" name="myUtility" class="form-control" title="@Resources.RegistrationView_RegisterCompleteProfile_My_Utility_Account_Number" value="" />
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 ">
+                        <label for="changeEmail1">@Resources.RegistrationView_RegisterCompleteProfile_Select_a_security_Question</label>
+                        <select>
+                            <option>@Resources.RegistrationView_RegisterCompleteProfile_what_was_the_name_of_your_favorite_childhood_friend</option>
+                            <option>@Resources.RegistrationView_RegisterCompleteProfile_what_was_the_name_of_your_elementary_school </option>
+                            <option>Item 3</option>
+                            <option>Item 4</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <label for="changeEmail1">@Resources.RegistrationView_RegisterCompleteProfile_Your_security_question_answer</label>                        
+                        <input type="text" id="myUtility" name="myUtility" class="form-control" title="@Resources.RegistrationView_RegisterCompleteProfile_My_Utility_Account_Number" value="" />
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <h4>@Resources.RegistrationView_RegisterCompleteProfile_List_of_security_Questions</h4>
+
+
+            </div>
+
+        </div>
+    </div>
+
+</div>

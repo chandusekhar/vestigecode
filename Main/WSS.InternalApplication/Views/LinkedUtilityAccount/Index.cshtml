@@ -1,0 +1,94 @@
+﻿@using WSS.Common.Utilities
+@using WSS.InternalApplication.Infrastructure
+@model WSS.InternalApplication.Models.LinkedUtilityAccountViewModel
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+            <br />
+            <header style="font-size: 2em; margin-bottom: 10px;">
+                Link Utility Account
+            </header>
+        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+    @if (ViewBag.WizardId != null && ViewBag.WizardId == "First")
+    {
+        <div class="row>">
+            <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                <header style="font-size: 1.5em; margin-bottom: 7px;">
+                    Step 1 - Seach for Utility Account
+                </header>
+            </div>
+        </div>
+
+        using (Html.BeginForm("Next", "LinkedUtilityAccount"))
+        {
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                    @Html.LabelFor(model => model.SearchUtilityAccountNumber) &nbsp; @Model.SearchUtilityAccountNumber
+                    @Html.TextBoxFor(model => model.SearchUtilityAccountNumber, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.SearchUtilityAccountNumber)
+                </div>
+            </div>
+            @*@Html.HiddenFor(m => m.CcbAccountNumber)*@
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 form-group form-inline">
+                    <a class="btn btn-link" href=@Url.Action("Index", "Account", new { id= Session["LinkedUtilityAccountId"], from=Constants.AddLinkedUtilityAccount })>Cancel</a>
+                    <button type="submit" id="Next" name="Next" class="btn btn-primary pull-right">Next <i class="fa fa-arrow-right"></i></button>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+            using (Html.BeginForm("Confirm", "LinkedUtilityAccount"))
+            {
+                @Html.HiddenFor(m => m.UtilityAccountNumber)
+                <div class="row>">
+                    <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 ">
+                        <header style="font-size: 1.5em; margin-bottom: 7px;">
+                            Step 2 -Confirm Search Reuslts
+                        </header>
+                    </div>
+                </div>
+                <div class="form-inline col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                    <b> Utility Account Found: </b>
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div>
+                    &nbsp;
+                </div>
+                <div class="form-inline col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                    <b> @Html.LabelFor(model => model.CcbAccountNumber) </b> : @Model.CcbAccountNumber
+                </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div class="form-inline col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+                        <b> @Html.LabelFor(model => model.CustomerName) </b> : @Model.CustomerName
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div>
+                        &nbsp;
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5 col-lg-4 col-md-offset-1 col-lg-offset-2 ">
+                            <a href=@Url.Action("Index")><i title="Back to List" class="pull-left fa fa-reply"></i>&nbsp;Back to Search</a>
+                        </div>
+                        <div class="form-group col-sm-7 col-md-6 col-lg-5">
+                            <button type="submit" class="btn btn-primary"> Link Account </button><a href=@Url.Action("Index" ,"Account")></a>
+                        </div>
+                    </div>
+            }
+        }
+</div>

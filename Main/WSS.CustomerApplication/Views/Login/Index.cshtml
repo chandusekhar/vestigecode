@@ -1,0 +1,54 @@
+﻿@using WSS.CustomerApplication.Properties
+@model WSS.CustomerApplication.Models.LoginViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #toast-container {
+        width: 500px;
+        text-align: center;
+    }
+</style>
+
+@*Login page*@
+
+<section id="login">
+    <div class="container col-sm-12 col-md-8 col-md-offset-2">
+
+        <div class="row top-buffer"><h3>Sign in</h3></div>
+
+        <div class="row">
+            <a href="@Url.Action("Index", "Registration")"> @Resources.LoginView_Index_Dont_have_any_account_Register_now</a>
+        </div>
+
+        <div class="row">
+            <a href="@Url.Action("Index", "ResendActivation")">@Resources.LoginView_Index_Registered_but_havent_recieved_your_activation_email_Resend</a><br /><br />
+        </div>
+
+
+        @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+        {
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="row top-buffer">
+                @*@Html.LabelFor(m => m.Email, new {@class = "control-label"})*@
+                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = Resources.Index_cshtml_Execute_Email })
+                @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="row top-buffer">
+                @*@Html.LabelFor(m => m.Password, new {@class = "control-label"})*@
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = Resources.Index_cshtml_Execute_Password })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="row top-buffer">
+                <input type="submit" value="Sign in" class="btn btn-primary pull-left" />
+                <div class="col-xs-1 col-sm-1 col-md-1"></div>
+                <div style="white-space: nowrap;"><a href="@Url.Action("Index", "Password")" class="">@Resources.LoginView_Index_Forgot_Password</a></div>
+            </div>
+        }
+
+    </div>
+</section>

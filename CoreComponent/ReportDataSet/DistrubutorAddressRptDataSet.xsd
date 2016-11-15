@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DistrubutorAddressRptDataSet" targetNamespace="http://tempuri.org/DistrubutorAddressRptDataSet.xsd" xmlns:mstns="http://tempuri.org/DistrubutorAddressRptDataSet.xsd" xmlns="http://tempuri.org/DistrubutorAddressRptDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DistrubutorAddressRptDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DistrubutorAddressRptDataSet" msprop:Generator_DataSetName="DistrubutorAddressRptDataSet" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DistributorAddressRptTable" msprop:Generator_UserTableName="DistributorAddressRptTable" msprop:Generator_RowDeletedName="DistributorAddressRptTableRowDeleted" msprop:Generator_RowChangedName="DistributorAddressRptTableRowChanged" msprop:Generator_RowClassName="DistributorAddressRptTableRow" msprop:Generator_RowChangingName="DistributorAddressRptTableRowChanging" msprop:Generator_RowEvArgName="DistributorAddressRptTableRowChangeEvent" msprop:Generator_RowEvHandlerName="DistributorAddressRptTableRowChangeEventHandler" msprop:Generator_TableClassName="DistributorAddressRptTableDataTable" msprop:Generator_TableVarName="tableDistributorAddressRptTable" msprop:Generator_RowDeletingName="DistributorAddressRptTableRowDeleting" msprop:Generator_TablePropName="DistributorAddressRptTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SerialNo" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="SerialNo" msprop:Generator_ColumnVarNameInTable="columnSerialNo" msprop:Generator_ColumnPropNameInRow="SerialNo" msprop:Generator_ColumnPropNameInTable="SerialNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorId" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistributorLevel" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="DistributorLevel" msprop:Generator_ColumnPropNameInRow="DistributorLevel" msprop:Generator_ColumnVarNameInTable="columnDistributorLevel" msprop:Generator_ColumnPropNameInTable="DistributorLevelColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UplineDistributorId" msprop:Generator_UserColumnName="UplineDistributorId" msprop:Generator_ColumnPropNameInRow="UplineDistributorId" msprop:Generator_ColumnVarNameInTable="columnUplineDistributorId" msprop:Generator_ColumnPropNameInTable="UplineDistributorIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DistributorName" msprop:Generator_UserColumnName="DistributorName" msprop:Generator_ColumnPropNameInRow="DistributorName" msprop:Generator_ColumnVarNameInTable="columnDistributorName" msprop:Generator_ColumnPropNameInTable="DistributorNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HeaderAddress" msprop:Generator_UserColumnName="HeaderAddress" msprop:Generator_ColumnVarNameInTable="columnHeaderAddress" msprop:Generator_ColumnPropNameInRow="HeaderAddress" msprop:Generator_ColumnPropNameInTable="HeaderAddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AddressText" msprop:Generator_UserColumnName="AddressText" msprop:Generator_ColumnVarNameInTable="columnAddressText" msprop:Generator_ColumnPropNameInRow="AddressText" msprop:Generator_ColumnPropNameInTable="AddressTextColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

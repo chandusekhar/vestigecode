@@ -1,0 +1,1439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BuildDate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BuildDate.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="AccountActivationController_VerifyCheckboxes_You_have_to_accept_the_terms_and_conditions" xml:space="preserve">
+    <value>You have to accept the terms and conditions</value>
+  </data>
+  <data name="AccountActivationController_VerifyCheckboxes_You_have_to_enter_security_question_answer_" xml:space="preserve">
+    <value>You have to enter security question answer.</value>
+  </data>
+  <data name="LoginController_Login_Invalid_login_attempt_title" xml:space="preserve">
+    <value>Login Failed</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_Email_address_is_not_found" xml:space="preserve">
+    <value>Email address is not found</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_Attempts_count_Exceeded_Session_Locked" xml:space="preserve">
+    <value>Attempts count Exceeded,Session Locked</value>
+  </data>
+  <data name="AccountController_ChangePassword_Failed_to_Change_Password" xml:space="preserve">
+    <value>Failed to Change Password</value>
+  </data>
+  <data name="AccountController_ChangePassword_Popover_Text" xml:space="preserve">
+    <value>Letters and numbers only, 7 to 15 charaters long</value>
+  </data>
+  <data name="AccountController_ChangeSecurityQuestion_Text" xml:space="preserve">
+    <value>Invalid input into security answer field</value>
+  </data>
+  <data name="LoginController_Login_Invalid_login_attempt_message" xml:space="preserve">
+    <value>Please check your credentials and try again</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Attempts_count_Exceeded_Session_Locked" xml:space="preserve">
+    <value>Attempts count Exceeded,Session Locked</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Email_address_is_not_found" xml:space="preserve">
+    <value>Email address is not found</value>
+  </data>
+  <data name="PasswordController_ResetPasswordNext_Account_Locked" xml:space="preserve">
+    <value>Account Locked</value>
+  </data>
+  <data name="PasswordController_Confirm_Confirm_password_does_not_match_new_password_" xml:space="preserve">
+    <value>Confirm password does not match new password </value>
+  </data>
+  <data name="LinkedUtilityAccountController_AboutAccountSelectListItems_PropertyOwner" xml:space="preserve">
+    <value>I am a residential property owner / tenant responsible for paying quarterly bills for this account.</value>
+  </data>
+  <data name="LinkedUtilityAccountController_AboutAccountSelectListItems_PropertyManager" xml:space="preserve">
+    <value>I am a property manager responsible for paying quarterly bills for this account.</value>
+  </data>
+  <data name="LinkedUtilityAccountController_AboutAccountSelectListItems_CompanyAccount" xml:space="preserve">
+    <value>I am responsible for paying quarterly bills for this company account.</value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_EmailAddress_RequiredMessage" xml:space="preserve">
+    <value>Please enter e-mail address</value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_EmailAddress_InvalidFormatMessage" xml:space="preserve">
+    <value>Invalid Email address</value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_AccountHolderRelationship_DisplayName" xml:space="preserve">
+    <value>Select the correct answer: </value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_AccountHolderRelationship_RequiredMessage" xml:space="preserve">
+    <value>You must select an answer for this question</value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_CcbAccountNumber_DisplayName" xml:space="preserve">
+    <value>My Utility Account Number: </value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_CustomerName_DisplayName" xml:space="preserve">
+    <value>Customer Name : </value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_EmailAddress_DisplayName" xml:space="preserve">
+    <value>Email Address: </value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_IsUnmetered_DisplayName" xml:space="preserve">
+    <value>My account is unmetered</value>
+  </data>
+  <data name="LinkedUtilityAccountViewModel_MeterNumberForAccount_DisplayName" xml:space="preserve">
+    <value>Meter Number for the Account</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Email_Already_Exists" xml:space="preserve">
+    <value>Email Already Exists</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Email_count_exceed" xml:space="preserve">
+    <value>Email count exceeded</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_wssAccount_doesnot_exist" xml:space="preserve">
+    <value>wssAccount doesnot exist</value>
+  </data>
+  <data name="AccountController_ChangeEmail_Email_Already_Exists" xml:space="preserve">
+    <value>Email already exists</value>
+  </data>
+  <data name="AccountController_ChangeEmail_Failed_to_retrieve_WSS_Account" xml:space="preserve">
+    <value>Failed to retrieve WSS Account</value>
+  </data>
+  <data name="AccountController_ChangeSecuritySettings_Account_with_this_Email_Address_is_not_found" xml:space="preserve">
+    <value>Account with this Email Address is not found</value>
+  </data>
+  <data name="AccountController_ChangeSecuritySettings_Failed_to_Change_Security_Question" xml:space="preserve">
+    <value>Failed to Change Security Question</value>
+  </data>
+  <data name="AccountController_DeleteLinkedUtilityAccount_You_can_not_delete_a_default_account" xml:space="preserve">
+    <value>You can not delete a default account</value>
+  </data>
+  <data name="AccountController_DeleteLinkedUtilityAccount_You_have_no_rights_to_change_the_account" xml:space="preserve">
+    <value>You have no rights to change the account</value>
+  </data>
+  <data name="AccountController_Unsubscribe_There_is_an_error_occured_while_unsubscribing" xml:space="preserve">
+    <value>There is an error occured while unsubscribing</value>
+  </data>
+  <data name="AccountController_Unsubscribe_You_are_not_autenticated_to_unsubscribe_the_account" xml:space="preserve">
+    <value>You are not autenticated to unsubscribe the account</value>
+  </data>
+  <data name="AccountActivationViewModel_Password1_Password_Has_to_be_7_to_15_characters_long_and_contain_at_least_one_letter_and_one_digit" xml:space="preserve">
+    <value>Password Has to be 7 to 15 characters long and contain at least one letter and one digit</value>
+  </data>
+  <data name="AccountActivationViewModel_Password1_A_Password_is_required" xml:space="preserve">
+    <value>A Password is required</value>
+  </data>
+  <data name="AccountActivationViewModel_Password2_Confirm_Password_does_not_match__Type_again_" xml:space="preserve">
+    <value>Confirm Password does not match, Type again!</value>
+  </data>
+  <data name="AccountActivationViewModel_Password2_Confirm_Password_is_required" xml:space="preserve">
+    <value>Confirm Password is required</value>
+  </data>
+  <data name="AccountActivationViewModel_SecurityQuestion_Security_question_is_required" xml:space="preserve">
+    <value>Security question is required</value>
+  </data>
+  <data name="AccountActivationViewModel_SecurityQuestion_Question_is_incorrect" xml:space="preserve">
+    <value>Question is incorrect</value>
+  </data>
+  <data name="AccountActivationViewModel_SecurityQuestionAnswer_Answer_to_security_question_is_required" xml:space="preserve">
+    <value>Answer to security question is required</value>
+  </data>
+  <data name="AccountActivationViewModel_SecurityQuestionAnswer_Answer_is_incorrect" xml:space="preserve">
+    <value>Answer is incorrect</value>
+  </data>
+  <data name="AccountViewModel_PrimaryEmailAddress_A_Primary_Email_Address_is_Required_" xml:space="preserve">
+    <value>A Primary Email Address is Required.</value>
+  </data>
+  <data name="AccountViewModel_ChangeEmailAddress1_Invalid_Email_Address" xml:space="preserve">
+    <value>Invalid Email Address</value>
+  </data>
+  <data name="AccountViewModel_ChangeEmailAddress2_Confirm_Email_Address_does_not_match__Type_again__" xml:space="preserve">
+    <value>Confirm Email Address does not match, Type again !</value>
+  </data>
+  <data name="AccountViewModel_currentPassword_Current_Password_is_required" xml:space="preserve">
+    <value>Current Password is required</value>
+  </data>
+  <data name="AccountViewModel_newPassword1_New_Password_is_required" xml:space="preserve">
+    <value>New Password is required</value>
+  </data>
+  <data name="AccountViewModel_newPassword1_Invalid_Password" xml:space="preserve">
+    <value>Invalid Password input</value>
+  </data>
+  <data name="AccountViewModel_newPassword2_Confirm_Password_is_required" xml:space="preserve">
+    <value>Confirm Password is required</value>
+  </data>
+  <data name="AccountViewModel_newPassword2_Confirm_Password_does_not_match__Type_again__" xml:space="preserve">
+    <value>Confirm Password does not match, Type again !</value>
+  </data>
+  <data name="AccountViewModel_SecurityQuestion_Security_question_is_required" xml:space="preserve">
+    <value>Security question is required</value>
+  </data>
+  <data name="AccountViewModel_SecurityQuestion_Question_is_incorrect" xml:space="preserve">
+    <value>Question is incorrect</value>
+  </data>
+  <data name="AccountViewModel_SecurityQuestionAnswer_Answer_to_security_question_is_required" xml:space="preserve">
+    <value>Answer to security question is required</value>
+  </data>
+  <data name="AccountViewModel_SecurityQuestionAnswer_Letters_and_numbers_only__less_then_250_characters" xml:space="preserve">
+    <value>Letters and numbers only, less then 250 characters</value>
+  </data>
+  <data name="AccountViewModel_UnsubscribeReasonSelected_A_reason_is_required" xml:space="preserve">
+    <value>A reason is required</value>
+  </data>
+  <data name="AccountViewModel_UnsubscribeReasonOtherText_Invalid_input_into_reason_field__Use_alphanumeric_input_only" xml:space="preserve">
+    <value>Invalid input into reason field. Use alphanumeric input only</value>
+  </data>
+  <data name="AccountViewModel_UnsubscribeReasonOtherText_Specify_reason_length_is_up_to_100_characters" xml:space="preserve">
+    <value>Specify reason length is up to 100 characters</value>
+  </data>
+  <data name="AccountViewModel_UnsubscribeComments_Invalid_input_into_comment_field__Use_alphanumeric_input_only" xml:space="preserve">
+    <value>Invalid input into comment field. Use alphanumeric input only</value>
+  </data>
+  <data name="AccountViewModel_UnsubscribeComments_Comment_length_should_be_less_than_250_characters" xml:space="preserve">
+    <value>Comment length should be less than 250 characters</value>
+  </data>
+  <data name="AccountViewModel_ChangeEmailAddress1_Email_Address_is_required" xml:space="preserve">
+    <value>Email Address is required</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_Password_Password_has_to_be_7_to_15_characters_long_and_contain_at_least_one_letter_and_one_digit" xml:space="preserve">
+    <value>Password has to be 7 to 15 characters long and contain at least one letter and one digit</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_ConfirmPassword_Confirm_password_is_required" xml:space="preserve">
+    <value>Confirm password is required</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_ConfirmPassword_Confirm_Password_does_not_match__Type_again_" xml:space="preserve">
+    <value>Confirm Password does not match, Type again!</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_EmailAddress_E_mail_address_is_required" xml:space="preserve">
+    <value>E-mail address is required</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_EmailAddress_Email_address_format_is_not_valid" xml:space="preserve">
+    <value>Email address format is not valid</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_SecurityAnswer_Answer_to_security_question_is_required" xml:space="preserve">
+    <value>Answer to security question is required</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_SecurityAnswer_Answer_is_incorrect" xml:space="preserve">
+    <value>Answer is incorrect</value>
+  </data>
+  <data name="ForgotPassowrdViewModel_Password_Password_is_required" xml:space="preserve">
+    <value>Password is required</value>
+  </data>
+  <data name="RegisterViewModel_ReenterEmail_Email_addresses_do_not_match" xml:space="preserve">
+    <value>Email addresses do not match</value>
+  </data>
+  <data name="RegisterViewModel_EmailAddress_Invalid_Email_address" xml:space="preserve">
+    <value>Invalid Email address</value>
+  </data>
+  <data name="RegisterViewModel_EmailAddress_Please_enter_email_address" xml:space="preserve">
+    <value>Please enter e-mail address</value>
+  </data>
+  <data name="RegisterViewModel_ReenterEmail_Invalid_Email_address" xml:space="preserve">
+    <value>Invalid Email address</value>
+  </data>
+  <data name="RegisterViewModel_ReenterEmail_Please_enter_email_address" xml:space="preserve">
+    <value>Please enter e-mail address</value>
+  </data>
+  <data name="ResendActivationEmailViewModel_EmailAddress_Email_address_format_is_not_valid" xml:space="preserve">
+    <value>Email address format is not valid</value>
+  </data>
+  <data name="ResendActivationEmailViewModel_EmailAddress_E_mail_address_is_required" xml:space="preserve">
+    <value>E-mail address is required</value>
+  </data>
+  <data name="AccountController_ChangeEmail_An_unexpected_error_ocurred_when_changing_the_email_address" xml:space="preserve">
+    <value>An unexpected error ocurred when changing the email address</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeEmailPanelBody_Confirm_new_email_address" xml:space="preserve">
+    <value>Confirm new email address</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeEmailPanelBody_Enter_new_email_address" xml:space="preserve">
+    <value>Enter new email address</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_Success__A_link_to_activate_your_account__has_been_sent_to_your_E_mail_address___0_" xml:space="preserve">
+    <value>Success! A link to activate your account  has been sent to your E-mail address: {0}</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_The_attempt_to_resend_your_account_activation_link_failed_for_E_mail_address___0___Please_try_again_" xml:space="preserve">
+    <value>The attempt to resend your account activation link failed for E-mail address: {0}. Please try again.</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_Could_not_find_the_Web_Self_service_account_for_E_mail_address___0___Please_check_the_e_mail_address_you_entered_and_try_again__If_the_problem_persists__please_try_to_complete_a_new_registration_" xml:space="preserve">
+    <value>Could not find the Web Self-service account for E-mail address: {0}. Please check the e-mail address you entered and try again. If the problem persists, please try to complete a new registration.</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_Failed_to_find_the_Web_Self_Service_profile_for_E_mail_address___0__" xml:space="preserve">
+    <value>Failed to find the Web Self-Service profile for E-mail address: {0} </value>
+  </data>
+  <data name="AccountActivationController_Activate_An_exception_occurred_during_activation_of_the_account___Please_try_again___If_the_problem_persists__please_try_to_resend_your_activation_e_mail__or_try_to_register_again_" xml:space="preserve">
+    <value>An exception occurred during activation of the account.  Please try again.  If the problem persists, please try to resend your activation e-mail, or try to register again.</value>
+  </data>
+  <data name="AccountActivationController_Activate_Registration_Unsuccessful" xml:space="preserve">
+    <value>Registration Unsuccessful</value>
+  </data>
+  <data name="AccountActivationController_Activate_There_was_a_problem_processing_the_activation_of_your_account___Please_check_the_information_you_entered_and_try_again_" xml:space="preserve">
+    <value>There was a problem processing the activation of your account.  Please check the information you entered and try again.</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_was_the_name_of_your_favorite_childhood_friend_" xml:space="preserve">
+    <value>What was the name of your favorite childhood friend?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_was_the_name_of_your_elementary_school_" xml:space="preserve">
+    <value>What was the name of your elementary school?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_Who_is_your_favorite_fictional_character_" xml:space="preserve">
+    <value>Who is your favorite fictional character?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_is_your_mother_s_maiden_name_" xml:space="preserve">
+    <value>What is your mother's maiden name?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_is_the_name_of_your_first_pet_" xml:space="preserve">
+    <value>What is the name of your first pet?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_Who_is_your_favorite_actor_or_actress_" xml:space="preserve">
+    <value>Who is your favorite actor or actress?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_is_your_father_s_middle_name_" xml:space="preserve">
+    <value>What is your father's middle name?</value>
+  </data>
+  <data name="AccountActivationController_GetQuestions_What_is_your_favorite_flavor_of_ice_cream_" xml:space="preserve">
+    <value>What is your favorite flavor of ice cream?</value>
+  </data>
+  <data name="AccountActivationController_Activate_The_web_self_service_account_could_not_be_found___Please_try_again___If_the_problem_persists__try_to_resend_your_activation_link__or_try_to_register_again_" xml:space="preserve">
+    <value>The web self-service account could not be found.  Please try again.  If the problem persists, try to resend your activation link, or try to register again.</value>
+  </data>
+  <data name="AccountActivationController_Activate_Unable_to_create_the_username_and_password_for_your_Web_Self_service_account___Please_try_again___If_the_problem_persists__try_to_resend_your_activation_link__or_try_to_register_again_" xml:space="preserve">
+    <value>Unable to create the username and password for your Web Self-service account.  Please try again.  If the problem persists, try to resend your activation link, or try to register again.</value>
+  </data>
+  <data name="AccountActivationController_Activate_Web_Self_Serv_account_has_been_successfully_registered" xml:space="preserve">
+    <value>Web Self-Serv account has been successfully registered</value>
+  </data>
+  <data name="AccountActivationController_Activate_Activation_Failed" xml:space="preserve">
+    <value>Activation Failed</value>
+  </data>
+  <data name="AccountController_GetDocumentDetailFile_We_re_sorry__but_the_document_you_selected_could_not_be_found_on_the_server_" xml:space="preserve">
+    <value>We're sorry, but the document you selected could not be found on the server.</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next_Utility_account_has_been_linked_successfully" xml:space="preserve">
+    <value>Utility account has been linked successfully</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next_Linked_Account" xml:space="preserve">
+    <value>Linked Account</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next_Utility_account_" xml:space="preserve">
+    <value>Utility account </value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next__does_not_exists_" xml:space="preserve">
+    <value> does not exists.</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next_Invalid_Utility_account_" xml:space="preserve">
+    <value>Invalid Utility account </value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next__or_Meter_Number" xml:space="preserve">
+    <value> or Meter Number</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Next__already_registered_" xml:space="preserve">
+    <value> already registered.</value>
+  </data>
+  <data name="LinkedUtilityAccountController_Invalid_fild_input" xml:space="preserve">
+    <value>Invalid input. Please correct and try again.</value>
+  </data>
+  <data name="LoginController_Login_Invalid_Username_" xml:space="preserve">
+    <value>Invalid Username </value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Failed_to_find_the_Web_Self_Service_profile_for_E_mail_address__" xml:space="preserve">
+    <value>Failed to find the Web Self-Service profile for E-mail address: </value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Success__A_link_to_reset_your_password__has_been_sent_to_your_E_mail_address___0_" xml:space="preserve">
+    <value>Success! A link to reset your password  has been sent to your E-mail address: {0}</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_You_have__0__attempts_remaining" xml:space="preserve">
+    <value>You have {0} attempts remaining</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Web_Self_service_profile_for_E_mail_address___0__has_not_been_activated_" xml:space="preserve">
+    <value>Web Self service profile for E-mail address: {0} has not been activated.</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Failed_to_find_Web_self_service_profile_for_E_mail_address___0__" xml:space="preserve">
+    <value>Failed to find Web self service profile for E-mail address: {0}.</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Failed_to_send_a_link_to_reset_your_password_for_E_mail_address___0____Please_attempt_to_resend_the_Forgot_Password_Link_again_" xml:space="preserve">
+    <value>Failed to send a link to reset your password for E-mail address: {0}.  Please attempt to resend the Forgot Password Link again.</value>
+  </data>
+  <data name="PasswordController_ResetPassword_Failed_to_reset_password_of_the_Web_Self_Service_profile_for_E_mail_address___0_" xml:space="preserve">
+    <value>Failed to reset password of the Web Self-Service profile for E-mail address: {0}</value>
+  </data>
+  <data name="PasswordController_ResetPasswordNext_Failed_to_reset_password_of_the_Web_Self_Service_profile_for_E_mail_address___0_" xml:space="preserve">
+    <value>Failed to reset password of the Web Self-Service profile for E-mail address: {0}</value>
+  </data>
+  <data name="PasswordController_Confirm_Unable_to_change_password_for_your_Web_Self_service_account___Please_try_again___If_the_problem_persists__try_to_resend_your_Forgot_password_link__or_try_to_register_again_" xml:space="preserve">
+    <value>Unable to change password for your Web Self-service account.  Please try again.  If the problem persists, try to resend your Forgot password link, or try to register again.</value>
+  </data>
+  <data name="PasswordController_Confirm_Success__Password_is_reset_for_the_Web_Self_Service_account_with_the_E_mail_address___0_" xml:space="preserve">
+    <value>Success! Password is reset for the Web Self Service account with the E-mail address: {0}</value>
+  </data>
+  <data name="PasswordController_ForgotPassword_The_account_is_not_been_activated_" xml:space="preserve">
+    <value>The account is not been activated </value>
+  </data>
+  <data name="PasswordController_ForgotPassword_Email_address_not_found" xml:space="preserve">
+    <value>Email address not found</value>
+  </data>
+  <data name="PasswordController_ResetPasswordNext_You_have__0__attempts_remaining" xml:space="preserve">
+    <value>You have {0} attempts remaining</value>
+  </data>
+  <data name="RegistrationController_RegisterMyProfile__already_registered_" xml:space="preserve">
+    <value> already registered.</value>
+  </data>
+  <data name="RegistrationController_RegisterMyProfile_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="RegistrationController_RegisterMyProfile_Utility_account_" xml:space="preserve">
+    <value>Utility account </value>
+  </data>
+  <data name="RegistrationController_RegisterMyProfile_Invalid_Utility_account_" xml:space="preserve">
+    <value>Invalid Utility account </value>
+  </data>
+  <data name="RegistrationController_RegisterMyProfile__or_Meter_Number" xml:space="preserve">
+    <value> or Meter Number</value>
+  </data>
+  <data name="RegistrationController_Register_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="RegistrationController_Register__already_registered" xml:space="preserve">
+    <value> already registered</value>
+  </data>
+  <data name="RegistrationController_Register_Utility_account_" xml:space="preserve">
+    <value>Utility account </value>
+  </data>
+  <data name="RegistrationController_Register_Failed_to_register_the_Web_Self_Service_profile_for_Account_Number__" xml:space="preserve">
+    <value>Failed to register the Web Self-Service profile for Account Number: </value>
+  </data>
+  <data name="RegistrationController_Register___Invalid_utility_account_number" xml:space="preserve">
+    <value>. Invalid utility account number</value>
+  </data>
+  <data name="RegistrationController_Register___E_mail_address__" xml:space="preserve">
+    <value>, E-mail address: </value>
+  </data>
+  <data name="RegistrationController_Register_Registration_of_the_Web_Self_Service_profile_failed_for_Account_Number___0___Customer_Name___1___E_mail_address___2____Please_verify_the_information_that_was_entered_and_try_again_" xml:space="preserve">
+    <value>Registration of the Web Self-Service profile failed for Account Number: {0}, Customer Name: {1}, E-mail address: {2}.  Please verify the information that was entered and try again.</value>
+  </data>
+  <data name="RegistrationController_Register_Successfully_registered_the_Web_Self_Service_profile_for_Account_Number___0____E_mail_address___1_" xml:space="preserve">
+    <value>Successfully registered the Web Self-Service profile for Account Number: {0},  E-mail address: {1}</value>
+  </data>
+  <data name="RegistrationController_Register_Successfully_registered_the_Web_Self_Service_profile__but_the_Activation_e_mail_message_failed_to_send___Account_Number___0____E_mail_address___1____Please_attempt_to_resend_the_activation_e_mail_from_the_Web_Self_Service_Profile_page_" xml:space="preserve">
+    <value>Successfully registered the Web Self-Service profile, but the Activation e-mail message failed to send.  Account Number: {0},  E-mail address: {1}.  Please attempt to resend the activation e-mail from the Web Self-Service Profile page.</value>
+  </data>
+  <data name="RegistrationController_Register___There_is_an_error_occured_while_registering_wss_account" xml:space="preserve">
+    <value>. There is an error occured while registering wss account</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_The_account_is_not_in_a_state_which_can_be_registered" xml:space="preserve">
+    <value>The account is not in a state which can be registered</value>
+  </data>
+  <data name="LoginController_Login_You_have__0__attempts_remaining" xml:space="preserve">
+    <value>You have {0} attempts remaining</value>
+  </data>
+  <data name="ResendActivationController_ActivationEmail_You_have__0__attempts_remaining" xml:space="preserve">
+    <value>You have {0} attempts remaining</value>
+  </data>
+  <data name="AccountController_ChangeEmail_The_action_was_completed_successfully__A_notification_e_mail_will_be_sent_to__0__and__1__shortly" xml:space="preserve">
+    <value>The action was completed successfully. A notification e-mail will be sent to {0} and {1} shortly</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeEmailPanelBody_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeEmailPanelBody_Send_Change_Email_form" xml:space="preserve">
+    <value>Send Change E-mail form</value>
+  </data>
+  <data name="_profileRegistered_cshtml_Execute_Your_security_question_answer" xml:space="preserve">
+    <value>Your security question answer</value>
+  </data>
+  <data name="_profileRegistered_cshtml_Execute_Select_a_Security_Question_" xml:space="preserve">
+    <value>Select a Security Question:</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeEmailPanelBody_Change_Email" xml:space="preserve">
+    <value>Change E-mail</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Change_Password" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Confirm_your_new_password" xml:space="preserve">
+    <value>Confirm your new password</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Enter_your_current_password" xml:space="preserve">
+    <value>Enter your current password</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Enter_your_new_password" xml:space="preserve">
+    <value>Enter your new password</value>
+  </data>
+  <data name="AccountView_profileRegistered_changePasswordPanelBody_Send_Change_Password_form" xml:space="preserve">
+    <value>Send Change Password form</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeSecuritySettingsPanelBody_Change_Security_Question" xml:space="preserve">
+    <value>Change Security Question</value>
+  </data>
+  <data name="AccountView_profileRegistered_changeSecuritySettingsPanelBody_Send_Change_Security_Settings_form" xml:space="preserve">
+    <value>Send Change Security Settings form</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_Are_you_moving" xml:space="preserve">
+    <value>Are you moving?</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_If_you_are_moving_within_Winnipeg_your_utility_account_may_be_the_same_after_you_move" xml:space="preserve">
+    <value>If you are moving within Winnipeg, your utility account may be the same after you move. If so, your account will automatically update. If your utility account changes you can add it to your account.</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_No_longer_responsible_for_utility_billing" xml:space="preserve">
+    <value>No longer responsible for utility billing</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_Prefer_not_to_say" xml:space="preserve">
+    <value>Prefer not to say</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_This_will_prevent_you_from_being_able_to_access_selfservice_until_you_reregister_for_the_service" xml:space="preserve">
+    <value>This will prevent you from being able to access self-service until you re-register for the service.</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_Unhappy_with_online_services" xml:space="preserve">
+    <value>Unhappy with online services</value>
+  </data>
+  <data name="_profileRegistered_cshtml_Execute_Please_specify" xml:space="preserve">
+    <value>Please specify</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AccountView_profileRegistered_unsubscribePanelBody_Unsubscribe" xml:space="preserve">
+    <value>Unsubscribe</value>
+  </data>
+  <data name="_profileRegistered_cshtml_Execute_Letters__numbers_and_punctuation_only" xml:space="preserve">
+    <value>Letters, numbers and punctuation only</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Additional_Email_Address" xml:space="preserve">
+    <value>Additional E-mail Address</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Email_Address" xml:space="preserve">
+    <value>E-mail Address</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Enter_additional_Email_address" xml:space="preserve">
+    <value>Enter additional e-mail address</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="AccountView_additionalEmailAddresses_additionalEmailPanelBody_Remove_Additional_Email_Address" xml:space="preserve">
+    <value>Remove Additional E-mail Address</value>
+  </data>
+  <data name="AccountView_bills_AccountBillList_Documents_for_account" xml:space="preserve">
+    <value>Selected Linked Account :</value>
+  </data>
+  <data name="AccountView_bills_AccountBillList_No_documents_are_available_for_this_account" xml:space="preserve">
+    <value>No documents are available for this account.</value>
+  </data>
+  <data name="AccountView_bills__pager_Rows_per_Page" xml:space="preserve">
+    <value>Rows per Page.</value>
+  </data>
+  <data name="AccountView_bills__pager_Show" xml:space="preserve">
+    <value>Show:</value>
+  </data>
+  <data name="_manage_cshtml_Execute_Edit_Nickname" xml:space="preserve">
+    <value>Edit Nickname</value>
+  </data>
+  <data name="AccountView_manage_ManageUtilityAccount_Add_Utility_Account" xml:space="preserve">
+    <value>Add Utility Account</value>
+  </data>
+  <data name="AccountView_manage_ManageUtilityAccount_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AccountView_manage_ManageUtilityAccount_Remove_Account" xml:space="preserve">
+    <value>Remove Account</value>
+  </data>
+  <data name="AccountView_manage_ManageUtilityAccount_Save_Changes" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="AccountView_questions_After_I_unsubscribed_can_I_come_back_and_subscribe_again" xml:space="preserve">
+    <value>After I unsubscribed, can I come back and subscribe again?</value>
+  </data>
+  <data name="AccountView_questions_Contact_us" xml:space="preserve">
+    <value>Contact us</value>
+  </data>
+  <data name="AccountView_questions_date_of_possession" xml:space="preserve">
+    <value>date of possession</value>
+  </data>
+  <data name="AccountView_questions_establish_yourself_as_the_new_account_holder_We_will_require" xml:space="preserve">
+    <value>establish yourself as the new account holder. We will require:</value>
+  </data>
+  <data name="AccountView_questions_If_I_unsubscribe_will_my_bills_be_mailed_to_me_again" xml:space="preserve">
+    <value>If I unsubscribe, will my bills be mailed to me again?</value>
+  </data>
+  <data name="AccountView_questions_If_youre_moving_in_and_are_financially_responsible_for_water_at_your_new_address_you_need_to_open_an_account" xml:space="preserve">
+    <value>If you’re moving in, and are financially responsible for water at your new address, you need to open an account</value>
+  </data>
+  <data name="AccountView_questions_If_youre_moving_out_and_need_to_close_an_account_phone_in_your_final" xml:space="preserve">
+    <value>If you're moving out and need to close an account, phone in your final</value>
+  </data>
+  <data name="AccountView_questions_If_you_are_moving_within_the_Province_you_can_give_us_your_new_address" xml:space="preserve">
+    <value>If you are moving within the Province, you can give us your new address at</value>
+  </data>
+  <data name="AccountView_questions_Link_to_a_watermeter_reading_tips_page" xml:space="preserve">
+    <value>Link to a watermeter reading tips page</value>
+  </data>
+  <data name="AccountView_questions_Link_to_Manitoba_Address_Change_page" xml:space="preserve">
+    <value>Link to Manitoba Address Change page</value>
+  </data>
+  <data name="AccountView_questions_Link_to_Winnipeg_City_Water_And_Waste_department_contact_page" xml:space="preserve">
+    <value>Link to Winnipeg City Water And Waste department contact page</value>
+  </data>
+  <data name="AccountView_questions_mailing_address_if_different_than_account_address" xml:space="preserve">
+    <value>mailing address (if different than account address)</value>
+  </data>
+  <data name="AccountView_questions_Manitoba_Health" xml:space="preserve">
+    <value>Manitoba Health</value>
+  </data>
+  <data name="AccountView_questions_Manitoba_Hydro" xml:space="preserve">
+    <value>Manitoba Hydro</value>
+  </data>
+  <data name="AccountView_questions_meter_reading" xml:space="preserve">
+    <value>meter reading</value>
+  </data>
+  <data name="AccountView_questions_Moving_in" xml:space="preserve">
+    <value>Moving in?</value>
+  </data>
+  <data name="AccountView_questions_Moving_out" xml:space="preserve">
+    <value>Moving out?</value>
+  </data>
+  <data name="AccountView_questions_Moving_within_the_Province" xml:space="preserve">
+    <value>Moving within the Province?</value>
+  </data>
+  <data name="AccountView_questions_names_of_anyone_financially_responsible_for_the_water_bill" xml:space="preserve">
+    <value>names of anyone financially responsible for the water bill</value>
+  </data>
+  <data name="AccountView_questions_Opening_or_closing_an_account" xml:space="preserve">
+    <value>Opening or closing an account:</value>
+  </data>
+  <data name="AccountView_questions_phone_numbers" xml:space="preserve">
+    <value>phone number(s)</value>
+  </data>
+  <data name="AccountView_questions_provides_a_simple_way_to_notify_multiple_organizations_of_your_change_of_address" xml:space="preserve">
+    <value>provides a simple way to notify multiple organizations of your change of address. Save time and avoid duplicating your efforts as you update your address for:</value>
+  </data>
+  <data name="AccountView_questions_provides_a_simple_way_to_notify_multiple_organizations_of_your_change_of_address_Save_time" xml:space="preserve">
+    <value>provides a simple way to notify multiple organizations of your change of address. Save time and avoid duplicating your efforts as you update your address for:</value>
+  </data>
+  <data name="AccountView_questions_provide_us_with_your_initial" xml:space="preserve">
+    <value>provide us with your initial</value>
+  </data>
+  <data name="AccountView_questions_service_address" xml:space="preserve">
+    <value>service address</value>
+  </data>
+  <data name="AccountView_questions_Shaw" xml:space="preserve">
+    <value>Shaw</value>
+  </data>
+  <data name="AccountView_questions_Still_looking_for_an_answer_Call_204_555_555_to_talk_to_our_representative" xml:space="preserve">
+    <value>Still looking for an answer? Call 204-555-5555 to talk to our representative.</value>
+  </data>
+  <data name="AccountView_questions_the_address_where_the_meter_reading_was_taken" xml:space="preserve">
+    <value>the address where the meter reading was taken</value>
+  </data>
+  <data name="AccountView_questions_The_City_of_Winnipeg_Water_and_Waste_Department" xml:space="preserve">
+    <value>The City of Winnipeg Water and Waste Department</value>
+  </data>
+  <data name="AccountView_questions_the_data_the_meter_reading_was_taken" xml:space="preserve">
+    <value>the date the meter reading was taken</value>
+  </data>
+  <data name="AccountView_questions_the_water_meter_reading" xml:space="preserve">
+    <value>the water meter reading</value>
+  </data>
+  <data name="AccountView_questions_to_204_986_3212_our_24_hour_moving_in_moving_out_automated_water_meter_reading_system" xml:space="preserve">
+    <value>to 204-986-3212, our 24-hour moving in / moving out automated water meter reading system. Recorded instructions will prompt you to give us:</value>
+  </data>
+  <data name="AccountView_questions_Will_my_username_change_if_I_change_my_email" xml:space="preserve">
+    <value>Will my username change if I change my email?</value>
+  </data>
+  <data name="AccountView_questions_your_full_name_mailing_address_and_telephone_number" xml:space="preserve">
+    <value>your full name, mailing address and telephone number</value>
+  </data>
+  <data name="AccountView_questions_your_landlords_name_mailing_address_and_phone_number_if_you_are_a_tenant" xml:space="preserve">
+    <value>your landlord's name, mailing address and phone number if you are a tenant</value>
+  </data>
+  <data name="AccountView_questions_your_name" xml:space="preserve">
+    <value>your name</value>
+  </data>
+  <data name="AccountView_Thankyou_Registration_page" xml:space="preserve">
+    <value>Registration page</value>
+  </data>
+  <data name="AccountView_Thankyou_Thank_you_for_using_Web_Self_Serve_If_you_ever_decide_to_subscribe_again" xml:space="preserve">
+    <value>Thank you for using Web Self Serve. If you ever decide to subscribe again, please go to</value>
+  </data>
+  <data name="AccountView_Thankyou_Winnipeg_ca" xml:space="preserve">
+    <value>Winnipeg.ca</value>
+  </data>
+  <data name="AccountView_Thankyou_You_successfuly_unsubscribed_from_Web_Self_Serve" xml:space="preserve">
+    <value>You successfuly unsubscribed from Web Self Serve.</value>
+  </data>
+  <data name="Index_cshtml_Execute_active" xml:space="preserve">
+    <value>active</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_Complete_Your_Registration" xml:space="preserve">
+    <value>Complete Your Registration</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_Please_answer_these_questions_to_complete_your_activation" xml:space="preserve">
+    <value>Please, answer these questions to complete your activation</value>
+  </data>
+  <data name="AccountView_Index_Bills" xml:space="preserve">
+    <value>Bills</value>
+  </data>
+  <data name="AccountView_Index_Manage_Utility_Accounts" xml:space="preserve">
+    <value>Manage Utility Accounts</value>
+  </data>
+  <data name="AccountView_Index_Profile" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="AccountView_Index_Questions" xml:space="preserve">
+    <value>Questions</value>
+  </data>
+  <data name="AccountView_sessionTimedOut_Sorry_your_session_has_timed_out" xml:space="preserve">
+    <value>Sorry, your session has timed out</value>
+  </data>
+  <data name="Complete_cshtml_Execute_Enter_your_password" xml:space="preserve">
+    <value>Enter your password</value>
+  </data>
+  <data name="Complete_cshtml_Execute_Re_enter_your_password" xml:space="preserve">
+    <value>Re-enter your password</value>
+  </data>
+  <data name="Complete_cshtml_Execute__7_to_15_characters_in_length__letters_and_numbers_only" xml:space="preserve">
+    <value>7 to 15 characters in length, letters and numbers only</value>
+  </data>
+  <data name="Complete_cshtml_Execute_Select_a_Security_Question_" xml:space="preserve">
+    <value>Select a Security Question:</value>
+  </data>
+  <data name="Complete_cshtml_Execute_Your_security_question_answer" xml:space="preserve">
+    <value>Your security question answer</value>
+  </data>
+  <data name="Complete_cshtml_Execute_Letters__numbers_and_punctuation_only" xml:space="preserve">
+    <value>Letters, numbers and punctuation only</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_Activate_Account" xml:space="preserve">
+    <value>Activate Account</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_Activate_the_account" xml:space="preserve">
+    <value>Activate the account</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_and_understand_that_by_completing_this_registration_I_will_no_longer_receive_my_utility_bill" xml:space="preserve">
+    <value>and understand that by completing this registration I will no longer receive my utility bill or past due reminder notices by postal mail or epost.</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_I_agree_to_the" xml:space="preserve">
+    <value>I agree to the</value>
+  </data>
+  <data name="AccountActivationView_Complete_activateaccount_Terms_and_Conditions" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+  <data name="AccountActivationView_Expired_Account_Registration" xml:space="preserve">
+    <value>Account Registration</value>
+  </data>
+  <data name="AccountActivationView_Expired_here" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="AccountActivationView_Expired_We_are_sorry_but_your_account_activation_link_has_expired" xml:space="preserve">
+    <value>We are sorry, but your account activation link has expired.</value>
+  </data>
+  <data name="AccountActivationView_Expired_You_may_request_an_activation_link_again_To_do_so_please_click" xml:space="preserve">
+    <value>You may request an activation link again. To do so please click</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_10_LIMITED_LICENSE" xml:space="preserve">
+    <value>10. LIMITED LICENSE</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_11_RULES_OF_USE" xml:space="preserve">
+    <value>11. RULES OF USE</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_12_THIRD_PARTY_CONTENT" xml:space="preserve">
+    <value>12. THIRD PARTY CONTENT</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_13_MODIFICATIONS_AND_TERMINATION" xml:space="preserve">
+    <value>13. MODIFICATIONS AND TERMINATION</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_14_GENERAL" xml:space="preserve">
+    <value>14. GENERAL</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_1_AGREEMENT" xml:space="preserve">
+    <value>1. AGREEMENT</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_2_REGISTRATION" xml:space="preserve">
+    <value>2. REGISTRATION</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_3_PRIVACY_AND_SECURITY" xml:space="preserve">
+    <value>3. PRIVACY AND SECURITY</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_4_DISCLAIMER" xml:space="preserve">
+    <value>4. DISCLAIMER</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_5_LIMITATION_OF_LIABILITY" xml:space="preserve">
+    <value>5. LIMITATION OF LIABILITY</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_6_INDEMNITY" xml:space="preserve">
+    <value>6. INDEMNITY</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_7_CONFIDENTIALITY_WARNING" xml:space="preserve">
+    <value>7. CONFIDENTIALITY WARNING</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_8_OWNERSHIP_AND_INTELLECTUAL_PROPERTY" xml:space="preserve">
+    <value>8. OWNERSHIP AND INTELLECTUAL PROPERTY</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_9_TRADEMARKS" xml:space="preserve">
+    <value>9. TRADEMARKS</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_Absent_the_use_of_encryption_the_Internet_is_not_a_secure_medium_and_privacy_cannot_be_ensured_Internet_email_is_vulnerable_to_interception_and_forging" xml:space="preserve">
+    <value>Absent the use of encryption, the Internet is not a secure medium and privacy cannot be ensured. Internet email is vulnerable to interception and forging. In using this website, you agree to assume the risks associated with the transmission or loss of any data or information to or from the City of Winnipeg on this website, including the interception of such confidential data or information by third parties and agree to be liable for any damages occurring as a result thereof.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_accept_and_comply_ith_these_terms_and_conditions_of_use_the_terms_and_conditions" xml:space="preserve">
+    <value>, accept and comply with these terms and conditions of use (the "terms and conditions"). If you do not agree with any of these terms and conditions, you must immediately exit and stop using this website. If you do not agree with the terms and conditions, then you may not read, link to, download or in any other way use information on this website. These terms and conditions may be revised from time to time without notice to you and it is your responsibility to check for updates to the website. Your use of this website after any revisions to these terms and conditions are posted to this website shall constitute your acceptance of such revisions.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_As_a_convenience_to_you_this_website_may_contain_links_to_other_internet_sites_that_are_operated_by_other_parties_that_are_not_under_the_control" xml:space="preserve">
+    <value>As a convenience to you, this website may contain links to other internet sites that are operated by other parties that are not under the control of the City of Winnipeg. Third party links are referenced for information and interest only and you agree that the City of Winnipeg is not an affiliate of and does not represent or endorse any such third party or its site, products or services. The City of Winnipeg is not responsible for the availability or content of such third party internet sites. Your communication or business dealings with any third parties found on, or through the website or any of the services, are solely between you and such third parties at your sole risk. These other sites are independently developed by parties other than the City of Winnipeg, and the City of Winnipeg does not assume any liability or responsibility whatsoever for the operation of or information of any linked resources, nor for any interpretations, comments or opinions expressed therein including damages that may be sustained, or viruses or other destructive items that infect your computer or other property through your access to or use of this site.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_By_registering_for_Web_Self_Service_you_acknowledge_and_agree_that_you_will_no_longer_receive_via_postal_mail_or_via_Canada_Posts_ePost_service_any_further_bills" xml:space="preserve">
+    <value>By registering for Web Self-Service, you acknowledge and agree that you will no longer receive via postal mail or via Canada Post’s ePost service any further bills or reminder notices (notices indicating past-due balances) from the City of Winnipeg Water and Waste Department for your utility accounts billings. All other correspondence including but not limited to service cancellation notices (turn-off notices) and meter reading reminder cards will continue to be sent via postal mail. You will be solely responsible to access and use the website and/or services to check your utility accounts for amounts payable and all other relevant details. In the event that you cannot access or use the website and/or services to check your utility accounts for amounts payable or other relevant details, please immediately contact the City of Winnipeg Utility Billing Centre at 204-986-2455 for assistance.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_Certain_words_phrases_names_designs_or_logos_used_on_the_website_may_constitute_trademarks_service_marks_or_trade_names_of_the_City_of_Winnipeg" xml:space="preserve">
+    <value>Certain words, phrases, names, designs or logos used on the website may constitute trademarks, service marks or trade names of the City of Winnipeg or other entities. The display of any such marks does not imply that a license has been granted by the City of Winnipeg or other entities. For further details, please refer to the following webpage:</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_City_of_Winnipeg_Water_and_Waste_Web_Self_Service_Terms_and_Conditions_of_Use" xml:space="preserve">
+    <value>City of Winnipeg Water and Waste Web Self-Service – Terms and Conditions of Use</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_For_information_regarding_how_the_City_of_Winnipeg_manages_the_privacy_and_security_of_your_information" xml:space="preserve">
+    <value>For information regarding how the City of Winnipeg manages the privacy and security of your information, please refer to the following webpage</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_These_terms_and_conditions_these_terms_and_conditions_form_the_entire_agreement_between_you_and_the_City_of_Winnipeg_with_respect_to_your_use_of_this_website" xml:space="preserve">
+    <value>These terms and conditions, these terms and conditions form the entire agreement between you and the City of Winnipeg with respect to your use of this website, the services and the content. Failure or delay by the City of Winnipeg to enforce the provisions of these terms and conditions or the City of Winnipeg’s rights or remedies at any time will not be construed to be a waiver of the City of Winnipeg’s rights under these terms and conditions and will not prejudice the City of Winnipeg's right to take subsequent action. If any provision in these terms and conditions is illegal, invalid or unenforceable at law, it shall be deemed to be severed from these terms and conditions and the remaining provisions shall continue in full force and effect. These terms and conditions and any disputes or actions arising from this website, the services or the content contained on this website shall be governed by the laws of the province of Manitoba, Canada and you hereby submit to the jurisdiction of the courts of the province of Manitoba, Canada and agree to bring any action exclusively in such courts.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_The_City_of_Winnipeg_reserves_the_right_to_suspend_discontinue_terminate_or_modify_any_aspect_of_the_website_services_or_content" xml:space="preserve">
+    <value>The City of Winnipeg reserves the right to suspend, discontinue, terminate or modify any aspect of the website, services or content and/or your access to or use of the website, services or content at any time for any reason whatsoever with or without notice to you. The City of Winnipeg further reserves the right to refuse to post on the website and the right to remove from the website any information or materials, in whole or in part, that the City of Winnipeg deems, in its sole discretion, to be inappropriate, unlawful or in violation of these terms and conditions. If you are dissatisfied with the website, any of the services, any of the content, or any of the terms and conditions, rules, policies, or practices of the City of Winnipeg in operating the website and the services, your sole and exclusive remedy is to discontinue using the website and the services.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_The_website_the_services_and_any_content_are_provided_solely_on_and_as_is_and_as_available_basis_Reasonable_efforts_have_been_made_to_ensure_the_content" xml:space="preserve">
+    <value>The website, the services and any content are provided solely on an “as is” and “as available” basis. Reasonable efforts have been made to ensure the content provided through the website or any services is accurate and current when posted. However, your use of such content is at your sole risk. No warranty is given that the website or services are or will be error-free, free of viruses or other harmful or destructive properties or components, or uninterrupted. The City of Winnipeg does not make any warranties or representations as to the accuracy, validity, correctness, currency, timeliness, completeness, reliability or adequacy of information or content on the Web site or any links to external sites not maintained by the City of Winnipeg. You assume all responsibility for using the information contained in this website and any information you may access through this website. Do not assume that the website will be error-free or that the website will be operated without interruption. The City of Winnipeg is not responsible for transmission errors in, corruption of, or the security of content carried over telecommunications carriers’ or other providers’ facilities. The City of Winnipeg expressly disclaims any and all warranties, representations and conditions regarding the content and any use of this website or any services, including all implied warranties or conditions of merchantability, third party rights, title, quality, accuracy, completeness, currency, non-infringement or fitness for a particular purpose.
+
+        Please be advised that the information on this website may become out of date, however, the City of Winnipeg disclaims any duty to or liability for failure to update information on this website. Further, the information in this website is subject to change without notice.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_This_website_and_the_services_are_provided_for_your_informational_non_commercial_and_personal_use_only_as_authorized_under_these_terms_and_conditions" xml:space="preserve">
+    <value>This website and the services are provided for your informational, non-commercial and personal use only as authorized under these terms and conditions or as otherwise provided in the website or any services. You are granted a limited license to use, display or print short extracts of the content for your personal non-commercial use only, provided such content is not modified in any way. Any other use of the content is prohibited. You shall not market, commercially exploit, reproduce, copy, download, derivatize, modify or distribute any content, this website or any services, in whole or in part, without the City of Winnipeg’s written permission. You further agree not to adapt, translate, modify, decompile, disassemble, decrypt, reformulate, adapt, alter, adjust, change, frame or reverse engineer any software, applications or programs used in connection with this website or any services. The City of Winnipeg reserves the right to revoke this limited license at any time without notice and for whatever reason and to require you to delete, destroy or otherwise remove any such material.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_This_website_the_services_and_all_contents_thereof_including_but_not_limited_to_all_text_images_data_html_code_multimedia_clips" xml:space="preserve">
+    <value>This website, the services and all contents thereof, including, but not limited to, all text, images, data, html code, multimedia clips, graphics, icons, java code and the section and arrangement of the contents of this site (collectively the "content"), are owned and protected intellectual property of the City of Winnipeg or other third parties with all rights reserved unless otherwise noted (the “intellectual property”). Except as expressly provided, nothing in these terms and conditions or within the website or any of the services shall be construed as granting any license under any of the intellectual property rights, whether by implication, waiver, estoppel or otherwise. You are expressly prohibited from copying, transferring, reproducing, storing, uploading, distributing, publishing or using, in whole or in part, any of the intellectual property appearing on the Web site or through use of any services without the prior written consent of the City of Winnipeg or any third party owner of the intellectual property. The City of Winnipeg will take appropriate legal action necessary to enforce its rights respecting any prohibited use of any intellectual property appearing on this website.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_Welcome_to_Web_Self_Service_the_City_of_Winnipeg_Water_and_Waste_Departments_customer_self_service_website_This_website_is_owned_and_operated_by_the_City_of_Winnipeg_Winnipeg" xml:space="preserve">
+    <value>Welcome to "Web Self-Service", the City of Winnipeg Water and Waste Department’s customer self-service website (the "website"). This website is owned and operated by the City of Winnipeg, Winnipeg, Manitoba, Canada.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_You_agree_that_in_accessing_or_using_the_website_or_any_services_or_submitting_any_information_or_materials_to_the_City_of_Winnipeg_you_shall" xml:space="preserve">
+    <value>You agree that in accessing or using the website or any services or submitting any information or materials to the City of Winnipeg you shall: (i) act in compliance with all applicable laws and regulations; (ii) not attempt to damage, modify, alter or deface any part of this website, any services or any content; (iii) not post, transmit, link to or otherwise distribute any information or software which contains a virus, or other harmful or disruptive property or component that may adversely affect any computer systems or programs, the website or the services; (iv) not post, transmit, link to or otherwise distribute any inappropriate, defamatory, indecent, offensive or unlawful material or information; and (v) not impersonate or falsely represent your association with any person. You also have the sole responsibility for ensuring you receive and review your utility account billings you request to receive via any services and for protection and recovery of your computer system. You must take reasonable and appropriate precautions to ensure that any computer system used to access this website or any service is secure and free of viruses or other harmful or destructive properties or components.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_You_agree_that_the_City_of_Winnipeg_its_affiliates_and_its_subsidiaries_and_their_respective_officers_directors" xml:space="preserve">
+    <value>You agree that the City of Winnipeg, its affiliates and its subsidiaries, and their respective officers, directors, employees and agents are not liable or responsible for any direct, indirect, incidental, consequential, punitive, or special damages, including, without limitation, any loss of use, lost data, lost business profits, business interruption, personal injury, property damage, or any pecuniary loss arising out of or in any way connected with this website, the services or any content, any communications with the City of Winnipeg, or any software, information or documents contained in or accessed through this website or any of the services, even if the City of Winnipeg has been advised of the possibility of such damages, whether based in contract, tort (including negligence), equity, strict liability or otherwise.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_You_agree_to_defend_indemnify_and_hold_harmless_the_City_of_Winnipeg_its_affiliates_and_its_subsidiaries_and_their_respective_officers" xml:space="preserve">
+    <value>You agree to defend, indemnify and hold harmless the City of Winnipeg, its affiliates and its subsidiaries, and their respective officers, directors, employees and agents from and against any and all losses, costs, damages and expenses, including reasonable legal fees, suffered or incurred by the City of Winnipeg from or related to your violation of these terms and conditions or your use of the use of the website, the services or any content contained therein.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions_You_will_be_solely_responsible_to_maintain_the_confidentiality_of_any_personal_identifiers_or_passwords_required_by_you_to_access_this_website" xml:space="preserve">
+    <value>You will be solely responsible to maintain the confidentiality of any personal identifiers or passwords required by you to access this website, or required by you to use any of the services, and for all activities that occur under such personal identifiers or passwords. You agree to immediately notify the City of Winnipeg of any unauthorized use of your personal identifiers or passwords. You will be solely responsible to maintain the confidentiality, to your requirement, of any of your account-related information that you download, access, view or otherwise extract from the website and/or services.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions__Access_to_this_website_and_use_of_certain_services_requires_registration_You_must_be_an_existing_City_of_Winnipeg_Water_and_Waste_Department_customer_to_register" xml:space="preserve">
+    <value>Access to this website and use of certain services requires registration. You must be an existing City of Winnipeg Water and Waste Department customer to register to use this website. You agree to provide accurate and current information as required for such registration and to update your information in a timely manner to ensure it remains accurate and complete.</value>
+  </data>
+  <data name="AccountActivationView_TermsAndConditions__which_outlines_City_of_Winnipeg_privacy_practices_that_are_incorporated_into_and_form_part_of_these_terms_and_conditions" xml:space="preserve">
+    <value>which outlines City of Winnipeg privacy practices that are incorporated into and form part of these terms and conditions.</value>
+  </data>
+  <data name="Index_cshtml_Execute_Utility_Account_Number" xml:space="preserve">
+    <value>Utility Account Number</value>
+  </data>
+  <data name="Index_cshtml_Execute_My_Utility_Account_Number_" xml:space="preserve">
+    <value>My Utility Account Number:</value>
+  </data>
+  <data name="Index_cshtml_Execute__11_digits" xml:space="preserve">
+    <value>11 digits</value>
+  </data>
+  <data name="Index_cshtml_Execute_Account_Meter_Number" xml:space="preserve">
+    <value>Account Meter Number</value>
+  </data>
+  <data name="Index_cshtml_Execute_Meter_Number_for_the_Account" xml:space="preserve">
+    <value>Meter Number for the Account</value>
+  </data>
+  <data name="Index_cshtml_Execute__6_digits_or______" xml:space="preserve">
+    <value>6 digits or .....</value>
+  </data>
+  <data name="LinkedUtilityAccountView_Index_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="LinkedUtilityAccountView_Index_Link_Account" xml:space="preserve">
+    <value>Link Account</value>
+  </data>
+  <data name="LinkedUtilityAccountView_Index_Link_Utility_Account" xml:space="preserve">
+    <value>Link Utility Account</value>
+  </data>
+  <data name="LinkedUtilityAccountView_Index_My_account_is_unmetered" xml:space="preserve">
+    <value>My account is unmetered</value>
+  </data>
+  <data name="LinkedUtilityAccountView_Index_Where_can_I_find_my_Meter_number" xml:space="preserve">
+    <value>Where can I find my Meter number?</value>
+  </data>
+  <data name="Index_cshtml_Execute_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LoginView_Index_Dont_have_any_account_Register_now" xml:space="preserve">
+    <value>Don't have any account? Register now</value>
+  </data>
+  <data name="LoginView_Index_Registered_but_havent_recieved_your_activation_email_Resend" xml:space="preserve">
+    <value>Registered but haven't recieved your activation email? Resend</value>
+  </data>
+  <data name="Index_cshtml_Execute_Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="LoginView_Index_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password?</value>
+  </data>
+  <data name="_resetPassword_cshtml_Execute_Your_security_question_answer" xml:space="preserve">
+    <value>Your security question answer</value>
+  </data>
+  <data name="_resetPassword_cshtml_Execute_Letters__numbers_and_punctuation_only" xml:space="preserve">
+    <value>Letters, numbers and punctuation only</value>
+  </data>
+  <data name="_resetPassword_cshtml_Execute_Enter_your_Password" xml:space="preserve">
+    <value>Enter your Password</value>
+  </data>
+  <data name="_resetPassword_cshtml_Execute__7_to_15_characters_in_length__letters_and_numbers_only" xml:space="preserve">
+    <value>7 to 15 characters in length, letters and numbers only</value>
+  </data>
+  <data name="PasswordView_Index_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="PasswordView_Index_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="PasswordView_Index_Please_check_your_email_The_new_link_will_expire_in_2_hours_Email_filters_may_identify_the_email_as_junk_spam" xml:space="preserve">
+    <value>Please check your email. The new link will expire in 2 hours. Email filters may identify the email as junk/spam.</value>
+  </data>
+  <data name="PasswordView_Index_Step_1_Enter_your_Credentials" xml:space="preserve">
+    <value>Step 1 - Enter your Credentials</value>
+  </data>
+  <data name="PasswordView_Index_Success_A_link_to_reset_your_password_has_been_sent_to_your_email_address" xml:space="preserve">
+    <value>Success! A link to reset your password has been sent to your email address</value>
+  </data>
+  <data name="PasswordView_LinkExpired_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="PasswordView_LinkExpired_here" xml:space="preserve">
+    <value>here</value>
+  </data>
+  <data name="PasswordView_LinkExpired_We_are_sorry_but_your_Forgot_password_link_has_expired" xml:space="preserve">
+    <value>We are sorry, but your Forgot password link has expired.</value>
+  </data>
+  <data name="PasswordView_LinkExpired_You_may_request_another_Forgot_password_link_again_To_do_so_please_click" xml:space="preserve">
+    <value>You may request another Forgot password link again. To do so please click</value>
+  </data>
+  <data name="PasswordView_resetPassword_Answer_your_Security_Question" xml:space="preserve">
+    <value>Answer your Security Question</value>
+  </data>
+  <data name="PasswordView_resetPassword_Enter_the_new_Password_Details" xml:space="preserve">
+    <value>Enter the new Password Details</value>
+  </data>
+  <data name="PasswordView_resetPassword_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="PasswordView_resetPassword_Reset_Password" xml:space="preserve">
+    <value>Reset Password</value>
+  </data>
+  <data name="PasswordView_resetPassword_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="PasswordView_resetPassword_Submit_and_Continue_to_Sign_in" xml:space="preserve">
+    <value>Submit &amp; Continue to Sign in</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Answer_these_questions_to_complete_your_activation" xml:space="preserve">
+    <value>Answer these questions to complete your activation</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Complete_Your_Registration" xml:space="preserve">
+    <value>Complete Your Registration</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_List_of_security_Questions" xml:space="preserve">
+    <value>List of security Questions</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_My_Utility_Account_Number" xml:space="preserve">
+    <value>My Utility Account Number:</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Reenter_Password" xml:space="preserve">
+    <value>Re-enter Password :</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Select_a_security_Question" xml:space="preserve">
+    <value>Select a security Question:</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_what_was_the_name_of_your_elementary_school" xml:space="preserve">
+    <value>what was the name of your elementary school?</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_what_was_the_name_of_your_favorite_childhood_friend" xml:space="preserve">
+    <value>what was the name of your favorite childhood friend?</value>
+  </data>
+  <data name="RegistrationView_RegisterCompleteProfile_Your_security_question_answer" xml:space="preserve">
+    <value>Your security question answer:</value>
+  </data>
+  <data name="RegistrationView_RegisterInformation_Step_2_of_2_My_Sign_in_Information" xml:space="preserve">
+    <value>Step 2 of 2: My Sign in Information</value>
+  </data>
+  <data name="_RegisterInformation_cshtml_Execute_The_email_address_you_are_registering_with" xml:space="preserve">
+    <value>The email address you are registering with</value>
+  </data>
+  <data name="_RegisterInformation_cshtml_Execute_Confirm_the_email_address_you_are_registering_with__Make_sure_the_addresses_match_" xml:space="preserve">
+    <value>Confirm the email address you are registering with. Make sure the addresses match.</value>
+  </data>
+  <data name="_RegisterInformation_cshtml_Execute_Re_enter_Email_Address" xml:space="preserve">
+    <value>Re-enter Email Address</value>
+  </data>
+  <data name="_RegisterInformation_cshtml_Execute_Email_Address" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="RegistrationView_RegisterInformation_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="RegistrationView_RegisterInformation_What_my_email_address_will_be_used_for" xml:space="preserve">
+    <value>What my email address will be used for?</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Havent_received_your_activation_email_Resend" xml:space="preserve">
+    <value>Haven't received your activation email? Resend</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute_Utility_Account_Number" xml:space="preserve">
+    <value>Utility Account Number</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute_My_Utility_Account_Number_" xml:space="preserve">
+    <value>My Utility Account Number:</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute__11_digits" xml:space="preserve">
+    <value>11 digits</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute_Account_Meter_Number" xml:space="preserve">
+    <value>Account Meter Number</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute_Meter_Number_for_the_Account" xml:space="preserve">
+    <value>Meter Number for the Account</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute__6_digits_or______" xml:space="preserve">
+    <value>6 digits or .....</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Step_1_of_2_About_My_Account" xml:space="preserve">
+    <value>Step 1 of 2: About My Account</value>
+  </data>
+  <data name="_RegisterMyProfile_cshtml_Execute_Select_the_correct_answer_" xml:space="preserve">
+    <value>Select the correct answer:</value>
+  </data>
+  <data name="RegistrationView_Index_Register_My_Utility_account_for_Self_Serivce" xml:space="preserve">
+    <value>Register My Utility account for Self Serivce</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_My_account_is_unmetered" xml:space="preserve">
+    <value>My account is unmetered</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Where_can_I_find_my_Meter_number" xml:space="preserve">
+    <value>Where can I find my Meter number?</value>
+  </data>
+  <data name="RegistrationView_RegisterMyProfile_Where_can_I_find_my_Utility_Account_number" xml:space="preserve">
+    <value>Where can I find my Utility Account number?</value>
+  </data>
+  <data name="ResendActivationView_Index_Activation_Email_Resent" xml:space="preserve">
+    <value>Activation Email Re-sent</value>
+  </data>
+  <data name="ResendActivationView_Index_Enter_the_email_you_used_to_register_your_Self_Service_Account" xml:space="preserve">
+    <value>Enter the email you used to register your Self-Service Account</value>
+  </data>
+  <data name="ResendActivationView_Index_Resend_Your_Activation_Email" xml:space="preserve">
+    <value>Resend Your Activation Email</value>
+  </data>
+  <data name="ResendActivationView_Index_Success_An_activation_email_has_been_sent_to_your_email_address" xml:space="preserve">
+    <value>Success! An activation email has been sent to your email address</value>
+  </data>
+  <data name="ResendActivationView_Index__Please_check_your_email_The_new_link_will_expire_in_48_hours" xml:space="preserve">
+    <value>Please check your email. The new link will expire in 48 hours. Email filters may identify the email as junk/spam.
+                            If you do not recieve the password email with in next few minutes, check your junk mail folder or add donotreply-myutilitybill@winnipeg.ca
+                            to your list of safe/allowed senders.</value>
+  </data>
+  <data name="Index_cshtml_Execute_Email_Address" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+  <data name="Index_cshtml_Execute_The_email_address_you_used_to_register_your_Self_Service_Account" xml:space="preserve">
+    <value>The email address you used to register your Self-Service Account</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Additional_Email_address_was_deleted_successfully" xml:space="preserve">
+    <value>Additional Email address was deleted successfully</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Are_you_sure_you_want_to_delete_this_additional_email" xml:space="preserve">
+    <value>Are you sure you want to delete this additional email?</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Error_Message" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Success_Message" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Click_again_to_confirm" xml:space="preserve">
+    <value>&amp;nbsp;&amp;nbsp;Click again to confirm</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_Are_You_Sure_you_Want_To_Continue" xml:space="preserve">
+    <value>&lt;br/&gt;Are you sure you want to continue?</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_Are_you_sure_you_want_to_leave_the_page" xml:space="preserve">
+    <value>&lt;br/&gt;Are you sure you want to leave the page?</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_There_is_some_data_filled_in_and_not_submitted" xml:space="preserve">
+    <value>There is some data filled in and not submitted.</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_DirtyFormToasterStyleWarning_You_have_to_accept_the_terms_and_conditions" xml:space="preserve">
+    <value>You have to accept the terms and conditions&lt;br&gt;</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Email_address_was_changed_successfully" xml:space="preserve">
+    <value>Email address was changed successfully</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Email_Already_Exists" xml:space="preserve">
+    <value>Email Already Exists</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Error_Message" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_New_password_and_Confirm_New_password_do_not_match" xml:space="preserve">
+    <value>New password and Confirm New password do not match</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_New_Password_does_not_fulfill_the_specifications" xml:space="preserve">
+    <value>New Password does not fulfill the specifications</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Please_confirm_your_new_password" xml:space="preserve">
+    <value>Please confirm your new password</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Please_enter_current_password" xml:space="preserve">
+    <value>Please enter current password</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Please_enter_new_password" xml:space="preserve">
+    <value>Please enter new password</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_RemoveLinkedAccount_Deleted_the_account" xml:space="preserve">
+    <value>Deleted the account</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_RemoveLinkedAccount_Sorry_an_error_occured" xml:space="preserve">
+    <value>Sorry, an error occured:</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Additional_Email_address_was_added_successfully" xml:space="preserve">
+    <value>Additional Email address was added successfully</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Please_enter_email_address" xml:space="preserve">
+    <value>Please enter email address</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_sendAdditionalEmail_Please_enter_valid_email_address" xml:space="preserve">
+    <value>please enter valid email address</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_sendUnsubscribe_Please_select_a_reason_to_unsubscribe" xml:space="preserve">
+    <value>Please select a reason to unsubscribe</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_sendUnsubscribe_Please_specify_what_is_the_reason_to_unsubscribe" xml:space="preserve">
+    <value>Please specify what is the reason to unsubscribe</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_setupChangeEmail_Email_address_and_Confirm_Email_address_do_not_match" xml:space="preserve">
+    <value>Email address and Confirm Email address do not match</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_setupChangeEmail_Please_confirm_your_email_address" xml:space="preserve">
+    <value>Please confirm your email address</value>
+  </data>
+  <data name="ChangeEmail_cshtml_Execute_setupChangeEmail_Please_note_you_are_about_to_Logged_out_of_your_Account_Please_note_Upon_successful_change_of_the_email_address_you_will_be_logged_out_On_next_log_in_you_will_need_to_log_in_using_the_new_email_address" xml:space="preserve">
+    <value>Please note:  Upon successful change of the e-mail address, you will be logged out.  Next time logging in, you will need to use the new e-mail address.</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Success_Message" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_UpdateLinkedUtilityAccount_Updated_the_account" xml:space="preserve">
+    <value>Updated the account</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_Your_password_was_changed_successfully" xml:space="preserve">
+    <value>Your password was changed successfully</value>
+  </data>
+  <data name="ErrorView_ErrorPage_ErrorPage" xml:space="preserve">
+    <value>ErrorPage</value>
+  </data>
+  <data name="ErrorView_HttpError400_Requested_page_is_not_found" xml:space="preserve">
+    <value>Requested page is not found</value>
+  </data>
+  <data name="ErrorView_HttpError404_Requested_page_is_not_found" xml:space="preserve">
+    <value>Requested page is not found</value>
+  </data>
+  <data name="ErrorView_HttpError408_HttpError408" xml:space="preserve">
+    <value>HttpError408</value>
+  </data>
+  <data name="ErrorView_HttpError421_HttpError421" xml:space="preserve">
+    <value>HttpError421</value>
+  </data>
+  <data name="ErrorView_HttpError500_There_is_an_error_occured" xml:space="preserve">
+    <value>There is an error occured.</value>
+  </data>
+  <data name="ErrorView_HttpError502_HttpError502" xml:space="preserve">
+    <value>HttpError502</value>
+  </data>
+  <data name="ErrorView_HttpError503_Requested_page_is_not_found" xml:space="preserve">
+    <value>Requested page is not found</value>
+  </data>
+  <data name="ErrorView_HttpError504_Requested_page_is_not_found" xml:space="preserve">
+    <value>Requested page is not found</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_Are_you_sure_you_want_to_change_Security_Question" xml:space="preserve">
+    <value>Are you sure you want to change Security Question?</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_please_enter_answer_for_security_question" xml:space="preserve">
+    <value>please enter answer for security question</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_please_enter_valid_answer" xml:space="preserve">
+    <value>please enter valid answer</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_please_select_question" xml:space="preserve">
+    <value>please select question</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_Security_Question_changed_successfully" xml:space="preserve">
+    <value>Security Question changed successfully</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="profileRegistered_cshtml_Execute_Success_Message" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="ResendActivationView_Index_Click_the_link_in_your_activation_email_within_48_hours_of_registration" xml:space="preserve">
+    <value>Click the link in your activation email within 48 hours of registration.</value>
+  </data>
+  <data name="ResendActivationView_Index_Resend_Activation_Email" xml:space="preserve">
+    <value>Resend Activation Email</value>
+  </data>
+  <data name="SharedView_Error_An_error_occurred_while_processing_your_request" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+  </data>
+  <data name="SharedView_Error_Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SharedView_Footer_1995_2015_City_of_Winnipeg" xml:space="preserve">
+    <value>1995-2015, City of Winnipeg</value>
+  </data>
+  <data name="SharedView_Footer_204_986_2149" xml:space="preserve">
+    <value>204-986-2149</value>
+  </data>
+  <data name="SharedView_Footer_204_986_2455_204_986_BILL" xml:space="preserve">
+    <value>204-986-2455(204-986-BILL)</value>
+  </data>
+  <data name="SharedView_Footer_Build" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="SharedView_Footer_Build_Date" xml:space="preserve">
+    <value>Build Date:</value>
+  </data>
+  <data name="SharedView_Footer_City_of_Winnipeg_Water_and_Waste" xml:space="preserve">
+    <value>City of Winnipeg Water and Waste</value>
+  </data>
+  <data name="SharedView_Footer_Contact_Us" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="SharedView_Footer_Hours" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="SharedView_Footer_Phone" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="SharedView_Footer_Privacy_Policy" xml:space="preserve">
+    <value>Privacy_Policy</value>
+  </data>
+  <data name="SharedView_Footer_TTY" xml:space="preserve">
+    <value>TTY:</value>
+  </data>
+  <data name="SharedView_Footer_Utility_Billing_Centre" xml:space="preserve">
+    <value>Utility Billing Centre</value>
+  </data>
+  <data name="SharedView_Footer_Winnipeg_ca" xml:space="preserve">
+    <value>Winnipeg.ca</value>
+  </data>
+  <data name="SharedView_Layout_City_of_Winnipeg_Waste_and_Water_Department" xml:space="preserve">
+    <value>City of Winnipeg - Waste and Water Department -</value>
+  </data>
+  <data name="SharedView_Menu_Hi" xml:space="preserve">
+    <value>Hi,</value>
+  </data>
+  <data name="SharedView_Menu_Log_off" xml:space="preserve">
+    <value>Log off</value>
+  </data>
+  <data name="UnsubscribeSecondaryView_Index_Unsubscribe" xml:space="preserve">
+    <value>Unsubscribe</value>
+  </data>
+  <data name="CustomerAppScipts_cshtml_Execute_setupRemoveAdditionalEmail_Additional_Email_address_was_deleted_successfully" xml:space="preserve">
+    <value>Additional Email address was deleted successfully</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Failed_to_send_message" xml:space="preserve">
+    <value>Failed to send message</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Failed_to_send_message_to__" xml:space="preserve">
+    <value>Failed to send message to: </value>
+  </data>
+  <data name="AccountController_DeleteAdditionalEmailAddresses_Failed_to_send_mail_to_" xml:space="preserve">
+    <value>Failed to send mail to </value>
+  </data>
+  <data name="AccountController_DeleteAdditionalEmailAddresses_The_account_does_not_exist" xml:space="preserve">
+    <value>The account does not exist</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Sorry__the_email_address_is_not_valid" xml:space="preserve">
+    <value>Sorry, the email address is not valid</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_The_account_does_not_exist" xml:space="preserve">
+    <value>The account does not exist</value>
+  </data>
+  <data name="AccountController_AdditionalEmail_Email_count_exceeded" xml:space="preserve">
+    <value>Email count exceeded</value>
+  </data>
+  <data name="AccountController_ValidateFormInput_No_account_selected" xml:space="preserve">
+    <value>No account selected</value>
+  </data>
+  <data name="AccountController_ValidateFormInput_Specify_unsubscribe_reason" xml:space="preserve">
+    <value>Specify unsubscribe reason</value>
+  </data>
+  <data name="AccountController_ValidateFormInput_Specify_other_unsubscribe_reason" xml:space="preserve">
+    <value>Specify other unsubscribe reason</value>
+  </data>
+  <data name="AccountController_ValidateFormInput_Invalid_input_into_reason_field__Use_alphanumeric_input_only__100_characters_or_less" xml:space="preserve">
+    <value>Invalid input into reason field. Use alphanumeric input only. 100 characters or less</value>
+  </data>
+  <data name="AccountController_ValidateFormInput_Invalid_input_into_comment_field__Use_alphanumeric_input_only__250_charracters_or_less" xml:space="preserve">
+    <value>Invalid input into comment field. Use alphanumeric input only. 250 charracters or less</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_Execute_Warning_Message" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="additionalEmailAddresses_cshtml_You_may_add_up_to_5_additional_email_addresses" xml:space="preserve">
+    <value>You may add up to five (5) additional e-mail addresses</value>
+  </data>
+</root>

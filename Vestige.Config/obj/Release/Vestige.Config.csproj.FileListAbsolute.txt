@@ -1,0 +1,12 @@
+D:\Bikram\Dev - Copy\Vestige.Config\bin\Release\Vestige.Config.dll
+D:\Bikram\Dev - Copy\Vestige.Config\bin\Release\Vestige.Config.pdb
+D:\Bikram\Dev - Copy\Vestige.Config\bin\Release\TaskScheduler.dll
+D:\Bikram\Dev - Copy\Vestige.Config\obj\Release\ResolveAssemblyReference.cache
+D:\Bikram\Dev - Copy\Vestige.Config\obj\Release\Vestige.Config.dll
+D:\Bikram\Dev - Copy\Vestige.Config\obj\Release\Vestige.Config.pdb
+D:\Dev - Copy\Vestige.Config\bin\Release\Vestige.Config.dll
+D:\Dev - Copy\Vestige.Config\bin\Release\Vestige.Config.pdb
+D:\Dev - Copy\Vestige.Config\bin\Release\TaskScheduler.dll
+D:\Dev - Copy\Vestige.Config\obj\Release\ResolveAssemblyReference.cache
+D:\Dev - Copy\Vestige.Config\obj\Release\Vestige.Config.dll
+D:\Dev - Copy\Vestige.Config\obj\Release\Vestige.Config.pdb

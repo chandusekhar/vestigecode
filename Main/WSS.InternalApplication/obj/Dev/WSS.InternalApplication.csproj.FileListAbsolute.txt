@@ -1,0 +1,262 @@
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\csc.exe
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\csc.exe.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\csc.rsp
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\csi.exe
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\csi.rsp
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.AppContext.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.Console.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\vbc.exe
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\vbc.exe.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\vbc.rsp
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill001.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill002.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill003.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill004.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill005.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill006.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill007.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill008.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill009.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill010.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill011.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill012.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill013.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill014.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill015.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill016.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill017.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill018.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill019.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\TestData\Bills\Bill020.pdf
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\log4net.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Web.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.InternalApplication.dll.config
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.InternalApplication.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.InternalApplication.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Antlr3.Runtime.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\AutoMapper.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\EntityFramework.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Newtonsoft.Json.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.Web.Common.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.Web.Mvc.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Owin.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\PagedList.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\PagedList.Mvc.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Helpers.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Mvc.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Optimization.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Razor.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\UtilityBilling.Data.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WebActivatorEx.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WebGrease.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.AuditTransaction.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Common.Utilities.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Data.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Email.Service.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Identity.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Logging.Service.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.User.Service.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WWDCommon.Data.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\log4net.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\UtilityBilling.Data.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.AuditTransaction.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Common.Utilities.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Data.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Email.Service.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Identity.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.Logging.Service.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WSS.User.Service.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\WWDCommon.Data.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Antlr3.Runtime.pdb
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\AutoMapper.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\EntityFramework.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Newtonsoft.Json.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.Web.Common.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\Ninject.Web.Mvc.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\PagedList.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\PagedList.Mvc.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Helpers.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Mvc.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Optimization.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.Razor.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\bin\log4net.xml
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.csprojResolveAssemblyReference.cache
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.Properties.Resources.resources
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.csproj.GenerateResource.Cache
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.dll
+C:\Users\KBS\Desktop\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\csc.exe
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\csc.exe.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\csc.rsp
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\csi.exe
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\csi.rsp
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.AppContext.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.Console.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\vbc.exe
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\vbc.exe.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\vbc.rsp
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill001.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill002.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill003.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill004.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill005.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill006.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill007.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill008.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill009.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill010.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill011.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill012.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill013.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill014.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill015.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill016.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill017.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill018.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill019.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\TestData\Bills\Bill020.pdf
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\log4net.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Web.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.InternalApplication.dll.config
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.InternalApplication.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.InternalApplication.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Antlr3.Runtime.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\AutoMapper.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\EntityFramework.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Newtonsoft.Json.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.Web.Common.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.Web.Mvc.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Owin.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\PagedList.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\PagedList.Mvc.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Helpers.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Mvc.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Optimization.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Razor.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\UtilityBilling.Data.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WebActivatorEx.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WebGrease.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.AuditTransaction.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Common.Utilities.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Data.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Email.Service.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Identity.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Logging.Service.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.User.Service.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WWDCommon.Data.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\log4net.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\UtilityBilling.Data.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.AuditTransaction.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Common.Utilities.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Data.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Email.Service.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Identity.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.Logging.Service.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WSS.User.Service.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\WWDCommon.Data.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Antlr3.Runtime.pdb
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\AutoMapper.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\EntityFramework.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Newtonsoft.Json.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.Web.Common.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\Ninject.Web.Mvc.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\PagedList.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\PagedList.Mvc.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Helpers.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Mvc.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Optimization.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.Razor.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\bin\log4net.xml
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.csprojResolveAssemblyReference.cache
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.Properties.Resources.resources
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.csproj.GenerateResource.Cache
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.dll
+C:\Users\KBS\Desktop\Dev - Copy2\Main\WSS.InternalApplication\obj\Dev\WSS.InternalApplication.pdb

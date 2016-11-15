@@ -1,0 +1,236 @@
+﻿html,
+body {
+    height: 100%;
+    font-family: 'Verdana';
+    line-height: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body-content {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    overflow-x: visible;
+   
+}
+
+    .body-content .body-content-inner {
+        /*min-height: calc(100% - 315px);*/
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 300px;
+    }
+
+
+.hidden {
+    display: none;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists
+   will truncate terms that are too long to fit in the left column
+*/
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.form-label {
+    margin-top: 7px;
+}
+
+.field-validation-error {
+    color: #b94a48;
+    display: block;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+select.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+a.btn.btn-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header {
+    height: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('images/Background.png');
+    background-position: top right;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    font-size: 15px;
+}
+
+    .header a {
+        color: #ffffff;
+        float: left;
+    }
+
+    .header anot:hover {
+        text-decoration: underline !important;
+    }
+
+    .header .navbar-actions {
+        position: absolute;
+        right: 5%;
+        top: 0;
+    }
+
+        .header .navbar-actions li {
+            display: inline-block;
+            list-style: none;
+            padding-left: 45px;
+        }
+
+footer {
+    font-size: 12px;
+    padding: 20px 5%;
+    /*margin-top: 10px;*/
+    background-color: #e8f0f7;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: block;
+    line-height: 2em;
+}
+
+    footer .table-cell {
+        text-align: center;
+    }
+
+    footer li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+        footer li a {
+            text-decoration: underline;
+        }
+
+            footer li a:hover {
+                text-decoration: none;
+            }
+
+    footer a, footer a:hover, footer a:visited, footer a:active {
+        color: #2C689C;
+        padding: 0 15px;
+    }
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.pagination {
+    margin: 0 !important;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+}
+
+.navbar-right {
+    margin-top: 0;
+}
+
+    .navbar-right li .label {
+        line-height: 80px;
+        vertical-align: middle;
+    }
+
+.nav > li {
+    display: inline-block !important;
+}
+
+.back-link {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 5%;
+    padding-right: 10px;
+    background-color: #e8f0f7;
+}
+
+.back-link-arrow {
+    margin-top: -26px;
+    position: relative;
+    top: 17px;
+    left: -5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 22px solid #e8f0f7;
+}
+
+.wss-profile-header-label {
+    font-weight: bold;
+    /*padding-bottom: 15px;*/
+}
+
+.wss-profile-header-data {
+    padding-bottom: 15px;
+}
+
+.page-header {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wizard-header {
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.nav-tabs li a {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 390px) {
+    #sign_out_link {
+        color: #2A6496;
+    }
+}
+
+th {
+    vertical-align: top !important;
+}
+
+
+.header-as-link, .header-as-link:visited {
+    text-decoration: none;
+}
+
+    .header-as-link:hover, .header-as-link:active {
+        text-decoration: underline;
+    }

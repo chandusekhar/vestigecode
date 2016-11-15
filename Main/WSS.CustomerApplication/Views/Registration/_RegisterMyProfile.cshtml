@@ -1,0 +1,54 @@
+﻿@using WSS.CustomerApplication.Properties
+@using WSS.CustomerApplication.Models
+@using System.Data.Entity;
+@model RegisterViewModel
+@{
+//List<SelectListItem> ddlItems = new List<SelectListItem>() {
+//            new SelectListItem() {
+//                Text="I am a residential property owner/tenant reponsible for paying quarterly bills for this account",
+//                Value="residential",
+//                Selected=false
+//            },
+//            new SelectListItem() {
+//                Text="I am a property manager responsible for paying quarterly bills for this account",
+//                Value="manager",
+//                Selected=false
+//            },
+//            new SelectListItem() {
+//                Text="I am a reponsible for paying quarterly bills for this company account",
+//                Value="self",
+//                Selected=false
+//            },
+//        };
+}
+ 
+<div style="padding: 0; margin: 0; font-size: 0.85em;"><a href='@Url.Action("Index", "ResendActivation")'>@Resources.RegistrationView_RegisterMyProfile_Havent_received_your_activation_email_Resend</a></div>
+<div class="form-inline form-group">
+    <div class="row top-buffer">
+        <h4>@Resources.RegistrationView_RegisterMyProfile_Step_1_of_2_About_My_Account</h4>
+    </div>
+    <div class="row top-buffer">
+        @Html.DropDownListFor(m=>m.AboutAccount, new SelectList(ViewBag.AccountQuestions, "Value","Text"), Resources._RegisterMyProfile_cshtml_Execute_Select_the_correct_answer_, new {@class = "form-control col-sm-6" })
+        @*@Html.DropDownList("accountType", ddlItems, "Select the correct answer:", new { @class = "form-control in", form = "carform" })*@
+    </div>
+    <br/>
+    <div class="row top-buffer">
+        <input type="hidden" id="hidAccountId" name="hidAccountId" value=""/>
+        @Html.TextBoxFor(m => m.CcbAccountNumber, new {@class = "form-control", placeholder = Resources._RegisterMyProfile_cshtml_Execute_Utility_Account_Number, title = Resources._RegisterMyProfile_cshtml_Execute_My_Utility_Account_Number_, @style = "width:260px", maxlength = "11", data_toggle = "popover", data_content = Resources._RegisterMyProfile_cshtml_Execute__11_digits, data_trigger = "focus", data_placement = "auto top"})
+        <a class="btn btn-primary btn-xs" href="javascript:void(0);" title="@Resources.RegistrationView_RegisterMyProfile_Where_can_I_find_my_Utility_Account_number"><i class="fa fa-question"></i><span class="sr-only">@Resources.RegistrationView_RegisterMyProfile_Where_can_I_find_my_Utility_Account_number</span></a><br/>
+        <div> @Html.ValidationMessageFor(m => m.CcbAccountNumber)</div>
+    </div>
+    <br/>
+    <div class="row top-buffer">
+        @*@Html.RadioButtonFor(m => m.IsMeter, "true")*@
+        @Html.TextBoxFor(m => m.MeterNumberForAccount, new {@class = "form-control", placeholder = Resources._RegisterMyProfile_cshtml_Execute_Account_Meter_Number, title = Resources._RegisterMyProfile_cshtml_Execute_Meter_Number_for_the_Account, @style = "width:260px", data_toggle = "popover", data_content = Resources._RegisterMyProfile_cshtml_Execute__6_digits_or______, data_trigger = "focus", data_placement = "auto top"})
+        <a class="btn btn-primary btn-xs" href="javascript:void(0);" title="@Resources.RegistrationView_RegisterMyProfile_Where_can_I_find_my_Meter_number"><i class="fa fa-question"></i><span class="sr-only">@Resources.RegistrationView_RegisterMyProfile_Where_can_I_find_my_Meter_number</span></a><br/>
+        <div>&nbsp;</div>
+        <p>@Html.CheckBoxFor(m => m.IsMeter)@Resources.RegistrationView_RegisterMyProfile_My_account_is_unmetered </p>
+    </div>
+    <div class="row top-buffer">
+        <button class="btn btn-link pull-left" type="reset" value="Cancel" title="@Resources.RegistrationView_RegisterMyProfile_Cancel"><i class="fa fa-times-circle"></i>&nbsp;@Resources.RegistrationView_RegisterMyProfile_Cancel</button>
+        <div class="col-sm-1"></div>
+        <button class="btn btn-primary" type="submit" value="changeEmail" title="Change E-mail" id="btnChangeEmail"><i class=""></i>@Resources.RegistrationView_RegisterMyProfile_Next &nbsp; <i class="fa fa-arrow-right"></i></button>
+    </div>
+</div>

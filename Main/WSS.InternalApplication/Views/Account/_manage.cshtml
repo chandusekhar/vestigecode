@@ -1,0 +1,204 @@
+﻿@using WSS.InternalApplication.Models
+@model List<WSS.InternalApplication.Models.ManageUtilityAccountListViewModel>
+<section id="Manage-Utility-Account">
+    <br />
+    @*Results Table*@
+    <div class="panel-heading">
+        @*<h3 class="panel-title pull-right">
+                <a data-toggle="collapse" data-target="#addUtilityAccount" data-parent="#profilePanelGroup" href="@Url.Action("Index","LinkedUtilityAccount")">
+                    <i class="fa fa-plus">&nbsp;Add Utility Account</i>
+                </a>
+            </h3>*@
+    </div>
+    <table class="table table-hover table-striped">
+        <thead class="manage-utility-account">
+            <tr>
+                <th class="NickName" colspan="2">
+                    <div class="row">
+                        <div class="col-md-2">
+                            @Html.DisplayNameFor(x => x[0].DefaultAccount)
+                        </div>
+                        <div id="AccountNumber" class="col-md-3">
+                            @Html.DisplayNameFor(x => x[0].AccountNumber)
+                        </div>
+                        <div id="accordion" class="col-md-4">
+                            @Html.DisplayNameFor(x => x[0].NickName)
+                        </div>
+                        <div id="accordion" class="col-md-offset-0 col-md-1">
+                            @Html.DisplayNameFor(x => x[0].edit)
+                        </div>
+
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr data-target="@item.AccountNumber" id="trfrontRow">
+                    <td colspan="2">
+                        <div class="row">
+                            <div class="col-md-2">
+                                @if (item.DefaultAccount)
+                                {
+                                    @Html.CheckBoxFor(m => item.DefaultAccount, new { @checked = "checked" })
+                                }
+                                else
+                                {
+                                    @Html.CheckBoxFor(m => item.DefaultAccount, new { style = "display:none;" })
+                                }
+                            </div>
+
+                            <div id="AccountNumber" class="col-md-offset-0 col-md-3">
+                                @item.AccountNumber
+                            </div>
+                            <div id="accordion" class="col-md-offset-0 col-md-4">
+                                @item.NickName
+                            </div>
+                            <div class="col-md-offset-0 col-md-1">
+                                @*<img src="" height="15" width="15" class="fa-edit" />*@
+                                <button type="button" class="btn btn-link"><i title ="Edit" class="fa fa-edit"></i></button>
+                            </div>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr data-customId="@item.AccountNumber">
+                    <td colspan="2">
+                        <div style="display:none;" id="@item.AccountNumber" class="divTest">
+                            <div class="row">
+                                <div class="col-md-2">
+                                    @if (item.DefaultAccount)
+                                    {
+                                        @Html.CheckBoxFor(m => item.DefaultAccount, new { @checked = "checked" })
+                                    }
+                                    else
+                                    {
+                                        @Html.CheckBoxFor(m => item.DefaultAccount)
+                                    }
+                                </div>
+
+                                <div id="AccountNumber" class="col-md-offset-0 col-md-1">
+                                    @item.AccountNumber
+                                </div>
+                                <div class="col-md-offset-2 col-md-3">
+
+                                    @Html.TextBoxFor(m => item.EditNickname, new { @class = "form-control", id = "EditNickname-" + item.AccountNumber, placeholder = "Edit Nickname" })
+                                </div>
+                                <div class="form-inline col-md-3 col-md-offset-1 editDiv" style='@((!item.DefaultAccount)?"display:block;":"display:none;")'>
+                                    <a class="btn btn-default btn-delete-account" data-formpath='@Url.Action("DeleteLinkedUtilityAccount", "Account")' data-accId="@item.id" data-accNumber="@item.AccountNumber" title="Click to delete the account"><i class='fa fa-trash'></i>&nbsp;&nbsp;Remove Account</a>
+                                </div>
+                            </div>
+                            <div>&nbsp;</div>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <button type="button" class="btn btn-link" id="btnCancel" onclick="Hide(this);">Cancel</button>
+                                </div>
+
+                                <div class="form-inline col-md-3 col-md-offset-7 pull-right">
+                                    <button type="button" class="btn btn-primary" data-accId="@item.id" data-accNumber="@item.AccountNumber" onclick="UpdateLinkedUtilityAccount(this);"><i class='fa fa-save'></i> &nbsp; Save Changes</button>
+                                </div>
+                                <div class="col-md-2">
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-inline col-md-3 col-md-offset-7 pull-right">
+        @*<a class="btn btn-primary" data-formpath='@Url.Action("Index", "LinkedUtilityAccount")'  title="Add Utility Account">*@
+        <a class="btn btn-primary" data-target="#addUtilityAccount" data-parent="#profilePanelGroup" href="@Url.Action("Index","LinkedUtilityAccount")">
+            <i class="fa fa-plus"></i>&nbsp;Add Utility Account
+        </a>
+    </div>
+</section>
+
+<script>
+    $("[data-toggle=myCollapse]").click(function (ev) {
+        ev.preventDefault();
+        var target;
+        if (this.hasAttribute('data-target')) {
+            target = $(this.getAttribute('data-target'));
+        } else {
+            target = $(this.getAttribute('href'));
+        };
+        target.toggleClass("in");
+    });
+
+    $('tr[data-target]').click(function () {
+        $('div.divTest').hide();
+        $('tr[data-target]').show();
+        var id = this.getAttribute('data-target');
+        $('tr[data-target="' + id + '"]').hide();
+        $('div#' + id).show();
+        //$('div#' + id + ' editDiv').hide();
+    });
+
+    $('i.fa-edit').click(function () {
+        $('div.divTest').hide();
+        $('tr[data-target]').show();
+        var id = this.parentElement.parentElement.parentElement.parentElement.parentElement.getAttribute('data-target');
+        var isDefaults = $('tr[data-customId="' + id + '"] input[type="checkbox"]').prop('checked');
+        $('tr[data-target="' + id + '"]').hide();
+        $('div#' + id).show();
+        if (isDefaults) {
+            $('div#' + id + '> div .editDiv').hide();
+        }
+    });
+
+    function Hide(ctrl) {
+        var id = ctrl.parentElement.parentElement.parentElement.getAttribute('id');
+        $('tr[data-target="' + id + '"]').show();
+        $('div#' + id).hide();
+    }
+
+    function UpdateLinkedUtilityAccount(ctrl) {
+        var accnum=ctrl.getAttribute('data-accNumber');
+        var acId = ctrl.getAttribute('data-accId');
+        var parentId = ctrl.parentElement.parentElement.parentElement.getAttribute('id');
+        var nickname = $('input#EditNickname-' + parentId).val();
+        var isDefaults = $('tr[data-customId="' + parentId + '"] input[type="checkbox"]').prop('checked');
+        $.post('@Url.Action("UpdateLinkedUtilityAccount", "Account")', { accId: acId, nickName: nickname, isDefault: isDefaults },
+               function (result) {
+                   if (result.isUpdated == true) {
+                       if (isDefaults == true) {
+                           $('tr#trfrontRow input[type="checkbox"]').hide();
+                           $('tbody input[type="checkbox"]').prop('checked', false);
+                           $('tr[data-target="' + parentId + '"] input[type="checkbox"]').prop('checked', true);
+                           $('tr[data-customId="' + parentId + '"] input[type="checkbox"]').prop('checked', true);
+                           $('tr[data-target="' + parentId + '"] input[type="checkbox"]').show();
+                           $('div .editDiv').show();
+                           $('div#' + parentId + ' .editDiv').hide();
+                       }
+                       else {
+                           $('tr[data-target="' + parentId + '"] input[type="checkbox"]').prop('checked', false);
+                           $('tr[data-customId="' + parentId + '"] input[type="checkbox"]').prop('checked', false);
+                           $('tr[data-target="' + parentId + '"] input[type="checkbox"]').hide();
+                           $('div#' + parentId + ' .editDiv').show();
+                       }
+                       $('div#' + parentId).hide();
+                       $('tr[data-target="' + parentId + '"] div#accordion').html(nickname);
+
+                       var ddlLinkedAcc = $('#ddlLinkedAccount option:contains("' + accnum + '")');
+
+                       //var ddlLinkedAcc = $('#ddlLinkedAccount option[value="' + utilityAccount + '"]');
+                       var text = ddlLinkedAcc.text();
+                       ind = text.indexOf('(');
+                       if (ind < 0)
+                           ind = text.length + 1;
+                       text = text.substr(0, ind - 1);
+                       if (nickname != '' || nickname.length > 0) {
+                           text = text + ' (' + nickname + ')';
+                       }
+                       ddlLinkedAcc.text(text);
+                       $('tr[data-target="' + parentId + '"]').show();
+                   }
+               });
+
+    }
+
+    AddDeleteAccountFunctionality();
+</script>

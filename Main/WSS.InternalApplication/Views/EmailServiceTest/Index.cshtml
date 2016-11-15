@@ -1,0 +1,35 @@
+﻿@model WSS.InternalApplication.Models.EmailServiceTestViewModel
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="page-header">Email Service Test</div>
+        </div>
+    </div>
+    <div class="row">
+        @*blank row*@
+        &nbsp;
+    </div>
+    <div class="row">
+        @using (Html.BeginForm("SendEmail", "EmailServiceTest"))
+        {
+            <div class="row">
+                <div class="col-sm-4 col-md-3 col-lg-2 col-md-offset-1 col-lg-offset-2">
+                    @Html.LabelFor(model => model.EmailAddress, new {@class = "control-label form-label"})
+                </div>
+                <div class="col-sm-8 col-md-7 col-lg-6">
+                    @Html.TextBoxFor(model => model.EmailAddress, new {@class = "form-control"})
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-md-7 col-lg-6 col-sm-offset-4">
+                    @Html.ValidationMessageFor(model => model.EmailAddress)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2 form-group form-inline">
+                    <button type="submit" id="btnSubmit" name="btnSubmit" class="btn btn-primary"><i class="fa fa-envelope"></i> &nbsp;Send Test Message</button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
